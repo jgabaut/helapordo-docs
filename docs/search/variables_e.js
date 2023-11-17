@@ -10,8 +10,9 @@ var searchData=
   ['permboost_5fdef_7',['permboost_def',['../structFighter.html#a4c3c66045149ed80e75a3e1200bb12f4',1,'Fighter']]],
   ['permboost_5fenr_8',['permboost_enr',['../structFighter.html#a9366441aea0ea8c6f7a4ebb179d134e6',1,'Fighter']]],
   ['permboost_5fvel_9',['permboost_vel',['../structFighter.html#a44a3ea78a19c41200a9459da9428d2e4',1,'Fighter']]],
-  ['player_10',['player',['../structGamestate.html#ab826e1c75d648f02331354d040dd1661',1,'Gamestate']]],
-  ['prize_11',['prize',['../structBoss.html#aeb5ff8d15eee5e73d45e69c4f882225c',1,'Boss::prize'],['../structPath.html#ab52a42738069c33ebc7bdc51c74785a8',1,'Path::prize'],['../structEnemy.html#a8ca45613c1bd846fe16cbccc963e765d',1,'Enemy::prize']]],
-  ['ptr_5fto_5froomindex_12',['ptr_to_roomindex',['../structloadInfo.html#a592cf1bbabc858397c8bf57aa6fa1af8',1,'loadInfo']]],
-  ['ptr_5fto_5froomtotalenemies_13',['ptr_to_roomtotalenemies',['../structloadInfo.html#aa7656b180e6b85f1a77fc2a5738c2d4c',1,'loadInfo']]]
+  ['picked_5fskill_10',['picked_skill',['../structturnOP__args.html#a694bddbfcd30d8f28960f6197d83aae9',1,'turnOP_args']]],
+  ['player_11',['player',['../structGamestate.html#ab826e1c75d648f02331354d040dd1661',1,'Gamestate']]],
+  ['prize_12',['prize',['../structEnemy.html#a8ca45613c1bd846fe16cbccc963e765d',1,'Enemy::prize'],['../structBoss.html#aeb5ff8d15eee5e73d45e69c4f882225c',1,'Boss::prize'],['../structPath.html#ab52a42738069c33ebc7bdc51c74785a8',1,'Path::prize']]],
+  ['ptr_5fto_5froomindex_13',['ptr_to_roomindex',['../structloadInfo.html#a592cf1bbabc858397c8bf57aa6fa1af8',1,'loadInfo']]],
+  ['ptr_5fto_5froomtotalenemies_14',['ptr_to_roomtotalenemies',['../structloadInfo.html#aa7656b180e6b85f1a77fc2a5738c2d4c',1,'loadInfo']]]
 ];

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.3.0</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.3.1</span>
    </div>
   </td>
  </tr>
@@ -115,6 +115,9 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSpecialslot.html">Specialslot</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds state for a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> specials.  <a href="structSpecialslot.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSkillslot.html">Skillslot</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds state for a skillType.  <a href="structSkillslot.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPerk.html">Perk</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents the entity initialised from a perkClass.  <a href="structPerk.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,12 +190,14 @@ Macros</h2></td></tr>
 <tr class="memitem:a1cb68a9343b29c3257266a562fbc26a9" id="r_a1cb68a9343b29c3257266a562fbc26a9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#a1cb68a9343b29c3257266a562fbc26a9">HELAPORDO_MINOR_VERSION</a>&#160;&#160;&#160;3</td></tr>
 <tr class="memdesc:a1cb68a9343b29c3257266a562fbc26a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current minor release.  <br /></td></tr>
 <tr class="separator:a1cb68a9343b29c3257266a562fbc26a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69f950e67bf21741e89f443bdd11c1fa" id="r_a69f950e67bf21741e89f443bdd11c1fa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#a69f950e67bf21741e89f443bdd11c1fa">HELAPORDO_PATCH_VERSION</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memitem:a69f950e67bf21741e89f443bdd11c1fa" id="r_a69f950e67bf21741e89f443bdd11c1fa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#a69f950e67bf21741e89f443bdd11c1fa">HELAPORDO_PATCH_VERSION</a>&#160;&#160;&#160;1</td></tr>
 <tr class="memdesc:a69f950e67bf21741e89f443bdd11c1fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current patch release.  <br /></td></tr>
 <tr class="separator:a69f950e67bf21741e89f443bdd11c1fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c6d5de492ac61ad29aec7aa9a436bbf" id="r_a1c6d5de492ac61ad29aec7aa9a436bbf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#a1c6d5de492ac61ad29aec7aa9a436bbf">VERSION</a>&#160;&#160;&#160;&quot;1.3.0&quot;</td></tr>
+<tr class="memitem:a1c6d5de492ac61ad29aec7aa9a436bbf" id="r_a1c6d5de492ac61ad29aec7aa9a436bbf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#a1c6d5de492ac61ad29aec7aa9a436bbf">VERSION</a>&#160;&#160;&#160;&quot;1.3.1&quot;</td></tr>
 <tr class="memdesc:a1c6d5de492ac61ad29aec7aa9a436bbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current version string identifier, with MAJOR.MINOR.PATCH format.  <br /></td></tr>
 <tr class="separator:a1c6d5de492ac61ad29aec7aa9a436bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4788207d3500e4ada5f19eed487f8313" id="r_a4788207d3500e4ada5f19eed487f8313"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#a4788207d3500e4ada5f19eed487f8313">HELAPORDO_SAVEFILE_VERSION</a>&#160;&#160;&#160;&quot;0.1.7&quot;</td></tr>
+<tr class="separator:a4788207d3500e4ada5f19eed487f8313"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af103b24224742b0324bfacecd4572a96" id="r_af103b24224742b0324bfacecd4572a96"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#af103b24224742b0324bfacecd4572a96">HELAPORDO_SAVEPATH_1</a>&#160;&#160;&#160;&quot;helapordo-save.txt&quot;</td></tr>
 <tr class="memdesc:af103b24224742b0324bfacecd4572a96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default savepath.  <br /></td></tr>
 <tr class="separator:af103b24224742b0324bfacecd4572a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -241,6 +246,14 @@ Macros</h2></td></tr>
 <tr class="memitem:aad0e74b09f122b828a8b8606f45e2843" id="r_aad0e74b09f122b828a8b8606f45e2843"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#aad0e74b09f122b828a8b8606f45e2843">SPECIALSMAX</a>&#160;&#160;&#160;3</td></tr>
 <tr class="memdesc:aad0e74b09f122b828a8b8606f45e2843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum index of specialMove per class, so that the size for each <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> has to add 1 for the 0th index.  <br /></td></tr>
 <tr class="separator:aad0e74b09f122b828a8b8606f45e2843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76d1f093a2446314378dfdfa2010f417" id="r_a76d1f093a2446314378dfdfa2010f417"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#a76d1f093a2446314378dfdfa2010f417">SKILLSTOTAL</a>&#160;&#160;&#160;<a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7a5feed0c435da8245bd60bf128109f0a6">SKILL_TYPE_MAX</a></td></tr>
+<tr class="separator:a76d1f093a2446314378dfdfa2010f417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31137f2e5ddfc873f654745c9a3ccf54" id="r_a31137f2e5ddfc873f654745c9a3ccf54"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#a31137f2e5ddfc873f654745c9a3ccf54">FIGHTER_SKILL_SLOTS</a>&#160;&#160;&#160;<a class="el" href="game__core_8h.html#a76d1f093a2446314378dfdfa2010f417">SKILLSTOTAL</a></td></tr>
+<tr class="separator:a31137f2e5ddfc873f654745c9a3ccf54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8535bb4045c81b9ece2116bc60a0d659" id="r_a8535bb4045c81b9ece2116bc60a0d659"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#a8535bb4045c81b9ece2116bc60a0d659">ENEMY_SKILL_SLOTS</a>&#160;&#160;&#160;<a class="el" href="game__core_8h.html#a76d1f093a2446314378dfdfa2010f417">SKILLSTOTAL</a></td></tr>
+<tr class="separator:a8535bb4045c81b9ece2116bc60a0d659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f87178e55d2ae4b71b528494091b451" id="r_a8f87178e55d2ae4b71b528494091b451"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#a8f87178e55d2ae4b71b528494091b451">BOSS_SKILL_SLOTS</a>&#160;&#160;&#160;<a class="el" href="game__core_8h.html#a76d1f093a2446314378dfdfa2010f417">SKILLSTOTAL</a></td></tr>
+<tr class="separator:a8f87178e55d2ae4b71b528494091b451"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a369e921b7c637e6c0b82834a49c46c" id="r_a8a369e921b7c637e6c0b82834a49c46c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#a8a369e921b7c637e6c0b82834a49c46c">COUNTERSMAX</a>&#160;&#160;&#160;9</td></tr>
 <tr class="memdesc:a8a369e921b7c637e6c0b82834a49c46c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum index of counterIndexes, so that the size has to add 1 for the 0th index.  <br /></td></tr>
 <tr class="separator:a8a369e921b7c637e6c0b82834a49c46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -519,22 +532,23 @@ Enumerations</h2></td></tr>
 , <a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa52a7f36bc71bb823112afa1e3308e19a">HR_Equipslot</a>
 , <a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa6027d7ad952cc0832e5c9934fd824b1f">HR_Specialslot</a>
 , <br />
-&#160;&#160;<a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fadabd5d76295be2eea768b1e90dab0291">HR_Turncounter</a>
+&#160;&#160;<a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa3b78afe6fad337b374d10eac3602973f">HR_Skillslot</a>
+, <a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fadabd5d76295be2eea768b1e90dab0291">HR_Turncounter</a>
 , <a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa26b4d09297e2622fc3a6482005e0557d">HR_Perk</a>
 , <a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa78fc3b360886052d576e078925643b03">HR_Consumable</a>
-, <a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fad6a6720a08ba7480d136d27d09063264">HR_Artifact</a>
 , <br />
-&#160;&#160;<a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4faed2b0918bd5d5429bdf666e05aa5b1ec">HR_Chest</a>
+&#160;&#160;<a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fad6a6720a08ba7480d136d27d09063264">HR_Artifact</a>
+, <a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4faed2b0918bd5d5429bdf666e05aa5b1ec">HR_Chest</a>
 , <a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa2bdbc254f8b33e3feaf34688357d2cfd">HR_Treasure</a>
 , <a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa3c3ae68bc86d0a1be59e175d176a87bb">HR_Shop</a>
-, <a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4faea83c6593f06633124b6875c7cc64706">HR_Roadfork</a>
 , <br />
-&#160;&#160;<a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa31ead7884fb6d9e06916940af21c7e4b">HR_Turncounter_desc</a>
+&#160;&#160;<a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4faea83c6593f06633124b6875c7cc64706">HR_Roadfork</a>
+, <a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa31ead7884fb6d9e06916940af21c7e4b">HR_Turncounter_desc</a>
 , <a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa20262e72dae23b3c1a11628e241b519f">HR_Room_desc</a>
 , <a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa1ba42c6fd47a2dd8337e0d394fdccb52">HR_countStats</a>
-, <a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa40df5b4fa3866baa69304772ac3f263e">HR_Saveslot</a>
 , <br />
-&#160;&#160;<a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4faba62c1b5c1492a0a670f0dbed8d15282">HR_Gamestate</a>
+&#160;&#160;<a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa40df5b4fa3866baa69304772ac3f263e">HR_Saveslot</a>
+, <a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4faba62c1b5c1492a0a670f0dbed8d15282">HR_Gamestate</a>
 , <a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa9dd78b8530b65a7781b54859de460321">HR_loadInfo</a>
 <br />
  }</td></tr>
@@ -646,6 +660,12 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:aadd913abb65c10636504bdb66fc47d69"><td class="mdescLeft">&#160;</td><td class="mdescRight">The different kinds of special moves.  <a href="game__core_8h.html#aadd913abb65c10636504bdb66fc47d69">More...</a><br /></td></tr>
 <tr class="separator:aadd913abb65c10636504bdb66fc47d69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad51cf2250f7b5116df930ba81fa06bc7" id="r_ad51cf2250f7b5116df930ba81fa06bc7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a> { <a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7a420242ab453eec032f76a9b309ce5ba2">SKILL_TYPE_ATKBOOST</a> =0
+, <a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7aaf9d4c63ad65856ae7923b23dead6573">SKILL_TYPE_LAST_UNLOCKABLE</a>
+, <a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7abe10637288553c38114f5631cb0b7a40">SKILL_TYPE_IDLE</a>
+, <a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7a5feed0c435da8245bd60bf128109f0a6">SKILL_TYPE_MAX</a>
+ }</td></tr>
+<tr class="separator:ad51cf2250f7b5116df930ba81fa06bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a404d2f109678e43be0e56cb1db31dd71" id="r_a404d2f109678e43be0e56cb1db31dd71"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71">counterIndexes</a> { <br />
 &#160;&#160;<a class="el" href="game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71a50d1448013c6f17125caee18aa418af7">NORMAL</a> = 0
 , <a class="el" href="game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71aafa82716ce8ad7247f07e61a5d88ba01">POISON</a> = 1
@@ -982,6 +1002,15 @@ Variables</h2></td></tr>
 <tr class="memitem:ae3c33f31889df07e1a00eaa9f75b10c6" id="r_ae3c33f31889df07e1a00eaa9f75b10c6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#ae3c33f31889df07e1a00eaa9f75b10c6">specialscosts</a> [<a class="el" href="game__core_8h.html#a1cfbde6ea139f82fc2985b63f88bd0b1">CLASSESMAX</a>+1][<a class="el" href="game__core_8h.html#aad0e74b09f122b828a8b8606f45e2843">SPECIALSMAX</a>+1]</td></tr>
 <tr class="memdesc:ae3c33f31889df07e1a00eaa9f75b10c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array with the cost integer values for special moves.  <br /></td></tr>
 <tr class="separator:ae3c33f31889df07e1a00eaa9f75b10c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a530d3cc87af6cee1b03b86151b9c821e" id="r_a530d3cc87af6cee1b03b86151b9c821e"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#a530d3cc87af6cee1b03b86151b9c821e">skillsnamestrings</a> [<a class="el" href="game__core_8h.html#a76d1f093a2446314378dfdfa2010f417">SKILLSTOTAL</a>+1]</td></tr>
+<tr class="memdesc:a530d3cc87af6cee1b03b86151b9c821e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array with the name strings for skills.  <br /></td></tr>
+<tr class="separator:a530d3cc87af6cee1b03b86151b9c821e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8628aad1432a38edd741204764662bf" id="r_ab8628aad1432a38edd741204764662bf"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#ab8628aad1432a38edd741204764662bf">skillsdescstrings</a> [<a class="el" href="game__core_8h.html#a76d1f093a2446314378dfdfa2010f417">SKILLSTOTAL</a>+1]</td></tr>
+<tr class="memdesc:ab8628aad1432a38edd741204764662bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array with the desc strings for skills.  <br /></td></tr>
+<tr class="separator:ab8628aad1432a38edd741204764662bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3639e659f16382d7f5a40e4b691fdb3" id="r_af3639e659f16382d7f5a40e4b691fdb3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#af3639e659f16382d7f5a40e4b691fdb3">skillscosts</a> [<a class="el" href="game__core_8h.html#a76d1f093a2446314378dfdfa2010f417">SKILLSTOTAL</a>+1]</td></tr>
+<tr class="memdesc:af3639e659f16382d7f5a40e4b691fdb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array with the cost integer values for skills.  <br /></td></tr>
+<tr class="separator:af3639e659f16382d7f5a40e4b691fdb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8ffbbe7d25996629da674c46e238eb5" id="r_ae8ffbbe7d25996629da674c46e238eb5"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game__core_8h.html#ae8ffbbe7d25996629da674c46e238eb5">equipzonestrings</a> [<a class="el" href="game__core_8h.html#acd1e8ba853565ce076dead3d4776fe38">EQUIPZONES</a>+1]</td></tr>
 <tr class="memdesc:ae8ffbbe7d25996629da674c46e238eb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array with the name strings for equip zones.  <br /></td></tr>
 <tr class="separator:ae8ffbbe7d25996629da674c46e238eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1090,6 +1119,20 @@ Variables</h2></td></tr>
 
 <p>Ratio of beast rooms to normal ones. </p>
 <p>Every Xth room will have a beast. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="helapordo_8c.html#a65c559970baca41ce702e4106081e4e7" title="Takes one Enemy pointer and initialises the enemy fields.">initEnemyStats()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a8f87178e55d2ae4b71b528494091b451" name="a8f87178e55d2ae4b71b528494091b451"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f87178e55d2ae4b71b528494091b451">&#9670;&#160;</a></span>BOSS_SKILL_SLOTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BOSS_SKILL_SLOTS&#160;&#160;&#160;<a class="el" href="game__core_8h.html#a76d1f093a2446314378dfdfa2010f417">SKILLSTOTAL</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1343,6 +1386,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a8535bb4045c81b9ece2116bc60a0d659" name="a8535bb4045c81b9ece2116bc60a0d659"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8535bb4045c81b9ece2116bc60a0d659">&#9670;&#160;</a></span>ENEMY_SKILL_SLOTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ENEMY_SKILL_SLOTS&#160;&#160;&#160;<a class="el" href="game__core_8h.html#a76d1f093a2446314378dfdfa2010f417">SKILLSTOTAL</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af9677baff2a2c3238c2208c7ffbe86ad" name="af9677baff2a2c3238c2208c7ffbe86ad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af9677baff2a2c3238c2208c7ffbe86ad">&#9670;&#160;</a></span>ENEMYCLASSESMAX</h2>
 
@@ -1492,6 +1549,20 @@ Variables</h2></td></tr>
 
 <p>Total number of defined fightResult values. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8h.html#aee2e0d770e29cb4d97b973990d274eb4" title="The different kinds of fightResult.">fightResult</a> </dd></dl>
+
+</div>
+</div>
+<a id="a31137f2e5ddfc873f654745c9a3ccf54" name="a31137f2e5ddfc873f654745c9a3ccf54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31137f2e5ddfc873f654745c9a3ccf54">&#9670;&#160;</a></span>FIGHTER_SKILL_SLOTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FIGHTER_SKILL_SLOTS&#160;&#160;&#160;<a class="el" href="game__core_8h.html#a76d1f093a2446314378dfdfa2010f417">SKILLSTOTAL</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1657,12 +1728,26 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define HELAPORDO_PATCH_VERSION&#160;&#160;&#160;0</td>
+          <td class="memname">#define HELAPORDO_PATCH_VERSION&#160;&#160;&#160;1</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Current patch release. </p>
+
+</div>
+</div>
+<a id="a4788207d3500e4ada5f19eed487f8313" name="a4788207d3500e4ada5f19eed487f8313"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4788207d3500e4ada5f19eed487f8313">&#9670;&#160;</a></span>HELAPORDO_SAVEFILE_VERSION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HELAPORDO_SAVEFILE_VERSION&#160;&#160;&#160;&quot;0.1.7&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2017,6 +2102,20 @@ handleSave() </dd></dl>
 
 </div>
 </div>
+<a id="a76d1f093a2446314378dfdfa2010f417" name="a76d1f093a2446314378dfdfa2010f417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76d1f093a2446314378dfdfa2010f417">&#9670;&#160;</a></span>SKILLSTOTAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SKILLSTOTAL&#160;&#160;&#160;<a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7a5feed0c435da8245bd60bf128109f0a6">SKILL_TYPE_MAX</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a808f33a8d61aa8f4f2b0f5e9302632bb" name="a808f33a8d61aa8f4f2b0f5e9302632bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a808f33a8d61aa8f4f2b0f5e9302632bb">&#9670;&#160;</a></span>SPECIALLVLRATIO</h2>
 
@@ -2128,7 +2227,7 @@ handleSave() </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define VERSION&#160;&#160;&#160;&quot;1.3.0&quot;</td>
+          <td class="memname">#define VERSION&#160;&#160;&#160;&quot;1.3.1&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3458,6 +3557,7 @@ debug() </dd></dl>
 <tr><td class="fieldname"><a id="ada4cc4f5e3d32693155c2f0b86dd1a4fa36b386084cfb34f52a4c8ccc39043bb0" name="ada4cc4f5e3d32693155c2f0b86dd1a4fa36b386084cfb34f52a4c8ccc39043bb0"></a>HR_Equip&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ada4cc4f5e3d32693155c2f0b86dd1a4fa52a7f36bc71bb823112afa1e3308e19a" name="ada4cc4f5e3d32693155c2f0b86dd1a4fa52a7f36bc71bb823112afa1e3308e19a"></a>HR_Equipslot&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ada4cc4f5e3d32693155c2f0b86dd1a4fa6027d7ad952cc0832e5c9934fd824b1f" name="ada4cc4f5e3d32693155c2f0b86dd1a4fa6027d7ad952cc0832e5c9934fd824b1f"></a>HR_Specialslot&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ada4cc4f5e3d32693155c2f0b86dd1a4fa3b78afe6fad337b374d10eac3602973f" name="ada4cc4f5e3d32693155c2f0b86dd1a4fa3b78afe6fad337b374d10eac3602973f"></a>HR_Skillslot&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ada4cc4f5e3d32693155c2f0b86dd1a4fadabd5d76295be2eea768b1e90dab0291" name="ada4cc4f5e3d32693155c2f0b86dd1a4fadabd5d76295be2eea768b1e90dab0291"></a>HR_Turncounter&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ada4cc4f5e3d32693155c2f0b86dd1a4fa26b4d09297e2622fc3a6482005e0557d" name="ada4cc4f5e3d32693155c2f0b86dd1a4fa26b4d09297e2622fc3a6482005e0557d"></a>HR_Perk&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ada4cc4f5e3d32693155c2f0b86dd1a4fa78fc3b360886052d576e078925643b03" name="ada4cc4f5e3d32693155c2f0b86dd1a4fa78fc3b360886052d576e078925643b03"></a>HR_Consumable&#160;</td><td class="fielddoc"></td></tr>
@@ -3632,6 +3732,26 @@ debug() </dd></dl>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4bcff74473009e65583fe3707074fb91a29ef5ac328098c3a155e8adb0127a5f0" name="a4bcff74473009e65583fe3707074fb91a29ef5ac328098c3a155e8adb0127a5f0"></a>HOME_SAVE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a4bcff74473009e65583fe3707074fb91a391dd3877fdf125262c889dfb6969fc1" name="a4bcff74473009e65583fe3707074fb91a391dd3877fdf125262c889dfb6969fc1"></a>ENEMIES_SAVE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ad51cf2250f7b5116df930ba81fa06bc7" name="ad51cf2250f7b5116df930ba81fa06bc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad51cf2250f7b5116df930ba81fa06bc7">&#9670;&#160;</a></span>skillType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad51cf2250f7b5116df930ba81fa06bc7a420242ab453eec032f76a9b309ce5ba2" name="ad51cf2250f7b5116df930ba81fa06bc7a420242ab453eec032f76a9b309ce5ba2"></a>SKILL_TYPE_ATKBOOST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad51cf2250f7b5116df930ba81fa06bc7aaf9d4c63ad65856ae7923b23dead6573" name="ad51cf2250f7b5116df930ba81fa06bc7aaf9d4c63ad65856ae7923b23dead6573"></a>SKILL_TYPE_LAST_UNLOCKABLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad51cf2250f7b5116df930ba81fa06bc7abe10637288553c38114f5631cb0b7a40" name="ad51cf2250f7b5116df930ba81fa06bc7abe10637288553c38114f5631cb0b7a40"></a>SKILL_TYPE_IDLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad51cf2250f7b5116df930ba81fa06bc7a5feed0c435da8245bd60bf128109f0a6" name="ad51cf2250f7b5116df930ba81fa06bc7a5feed0c435da8245bd60bf128109f0a6"></a>SKILL_TYPE_MAX&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -5050,6 +5170,81 @@ stringFromFoeTurnOption() </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8h.html#a4bcff74473009e65583fe3707074fb91" title="The different kinds of saveType.">saveType</a> </dd>
 <dd>
 <a class="el" href="game__utils_8c.html#abddbc99a3c42eb725d90eaccaf4174ef" title="Takes a saveType and returns the corresponding string by the inner array position.">stringFrom_saveType()</a> </dd></dl>
+
+</div>
+</div>
+<a id="af3639e659f16382d7f5a40e4b691fdb3" name="af3639e659f16382d7f5a40e4b691fdb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3639e659f16382d7f5a40e4b691fdb3">&#9670;&#160;</a></span>skillscosts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int skillscosts[<a class="el" href="game__core_8h.html#a76d1f093a2446314378dfdfa2010f417">SKILLSTOTAL</a>+1]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Array with the cost integer values for skills. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a> </dd></dl>
+
+</div>
+</div>
+<a id="ab8628aad1432a38edd741204764662bf" name="ab8628aad1432a38edd741204764662bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8628aad1432a38edd741204764662bf">&#9670;&#160;</a></span>skillsdescstrings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* skillsdescstrings[<a class="el" href="game__core_8h.html#a76d1f093a2446314378dfdfa2010f417">SKILLSTOTAL</a>+1]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Array with the desc strings for skills. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a> </dd></dl>
+
+</div>
+</div>
+<a id="a530d3cc87af6cee1b03b86151b9c821e" name="a530d3cc87af6cee1b03b86151b9c821e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a530d3cc87af6cee1b03b86151b9c821e">&#9670;&#160;</a></span>skillsnamestrings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* skillsnamestrings[<a class="el" href="game__core_8h.html#a76d1f093a2446314378dfdfa2010f417">SKILLSTOTAL</a>+1]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Array with the name strings for skills. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a> </dd></dl>
 
 </div>
 </div>

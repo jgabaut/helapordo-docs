@@ -27,10 +27,11 @@ var searchData=
   ['hr_5froom_5fdesc_24',['HR_Room_desc',['../game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa20262e72dae23b3c1a11628e241b519f',1,'game_core.h']]],
   ['hr_5fsaveslot_25',['HR_Saveslot',['../game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa40df5b4fa3866baa69304772ac3f263e',1,'game_core.h']]],
   ['hr_5fshop_26',['HR_Shop',['../game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa3c3ae68bc86d0a1be59e175d176a87bb',1,'game_core.h']]],
-  ['hr_5fspecialslot_27',['HR_Specialslot',['../game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa6027d7ad952cc0832e5c9934fd824b1f',1,'game_core.h']]],
-  ['hr_5ftreasure_28',['HR_Treasure',['../game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa2bdbc254f8b33e3feaf34688357d2cfd',1,'game_core.h']]],
-  ['hr_5fturncounter_29',['HR_Turncounter',['../game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fadabd5d76295be2eea768b1e90dab0291',1,'game_core.h']]],
-  ['hr_5fturncounter_5fdesc_30',['HR_Turncounter_desc',['../game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa31ead7884fb6d9e06916940af21c7e4b',1,'game_core.h']]],
-  ['hr_5fturnop_5fargs_31',['HR_turnOP_args',['../game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4facf7392b9d16af6c26f355b369c640eab',1,'game_core.h']]],
-  ['hr_5fwincon_32',['HR_Wincon',['../game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa9311c7f617e3d54d34fb886d574a3c86',1,'game_core.h']]]
+  ['hr_5fskillslot_27',['HR_Skillslot',['../game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa3b78afe6fad337b374d10eac3602973f',1,'game_core.h']]],
+  ['hr_5fspecialslot_28',['HR_Specialslot',['../game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa6027d7ad952cc0832e5c9934fd824b1f',1,'game_core.h']]],
+  ['hr_5ftreasure_29',['HR_Treasure',['../game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa2bdbc254f8b33e3feaf34688357d2cfd',1,'game_core.h']]],
+  ['hr_5fturncounter_30',['HR_Turncounter',['../game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fadabd5d76295be2eea768b1e90dab0291',1,'game_core.h']]],
+  ['hr_5fturncounter_5fdesc_31',['HR_Turncounter_desc',['../game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa31ead7884fb6d9e06916940af21c7e4b',1,'game_core.h']]],
+  ['hr_5fturnop_5fargs_32',['HR_turnOP_args',['../game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4facf7392b9d16af6c26f355b369c640eab',1,'game_core.h']]],
+  ['hr_5fwincon_33',['HR_Wincon',['../game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa9311c7f617e3d54d34fb886d574a3c86',1,'game_core.h']]]
 ];

@@ -5,7 +5,7 @@ var searchData=
   ['effect_5fe_5ffun_2',['effect_e_fun',['../structTurncounter.html#ad4839eec0e5eb8dac9464df7ca93167b',1,'Turncounter']]],
   ['effect_5ffp_5ffun_3',['effect_fp_fun',['../structTurncounter.html#a60562c3cf0cddb9f57116a78e18f72d9',1,'Turncounter']]],
   ['effect_5ffun_4',['effect_fun',['../structTurncounter.html#a3e4fe2fb0bb6dad7182a6d612401bf9d',1,'Turncounter']]],
-  ['enabled_5',['enabled',['../structSpecialslot.html#a6dab68ea16a8ef27a6a90fd8f7471c8e',1,'Specialslot']]],
+  ['enabled_5',['enabled',['../structSpecialslot.html#a6dab68ea16a8ef27a6a90fd8f7471c8e',1,'Specialslot::enabled'],['../structSkillslot.html#af32e9d89a12184054f67133dea747c72',1,'Skillslot::enabled']]],
   ['enemies_6',['enemies',['../structRoom.html#a5b5581efb08aee83a6a29d5523793057',1,'Room']]],
   ['enemies_5fsprites_7',['enemies_sprites',['../sprites_8c.html#a00a344aa5d555c897a60235eaef15c1a',1,'enemies_sprites:&#160;sprites.c'],['../sprites_8h.html#a00a344aa5d555c897a60235eaef15c1a',1,'enemies_sprites:&#160;sprites.c']]],
   ['enemieskilled_8',['enemieskilled',['../structcountStats.html#a06f2a985a7df1fdfcfe2c81e46bc4463',1,'countStats']]],
