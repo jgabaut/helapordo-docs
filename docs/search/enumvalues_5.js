@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['fight_0',['FIGHT',['../game__core_8h.html#a12a952e636763b477c873f21d458e4b7a9fdcc0b679e064b5fbc7bc05bd381ac4',1,'game_core.h']]],
+  ['fightres_5fclash_1',['FIGHTRES_CLASH',['../game__core_8h.html#aee2e0d770e29cb4d97b973990d274eb4a7e1752ba452850d07fba0b44cebb6965',1,'game_core.h']]],
+  ['fightres_5fdeath_2',['FIGHTRES_DEATH',['../game__core_8h.html#aee2e0d770e29cb4d97b973990d274eb4a0518e6883592d1aa98767c35a28b81cf',1,'game_core.h']]],
+  ['fightres_5fdmg_5fdealt_3',['FIGHTRES_DMG_DEALT',['../game__core_8h.html#aee2e0d770e29cb4d97b973990d274eb4a26a07959dd841fe8dae4644e255bb04d',1,'game_core.h']]],
+  ['fightres_5fdmg_5ftaken_4',['FIGHTRES_DMG_TAKEN',['../game__core_8h.html#aee2e0d770e29cb4d97b973990d274eb4a4a580a987144b142ff93759a17a61c2e',1,'game_core.h']]],
+  ['fightres_5finvalid_5',['FIGHTRES_INVALID',['../game__core_8h.html#aee2e0d770e29cb4d97b973990d274eb4a1f2786bc0735f29a44438724e093ddd6',1,'game_core.h']]],
+  ['fightres_5fkill_5fdone_6',['FIGHTRES_KILL_DONE',['../game__core_8h.html#aee2e0d770e29cb4d97b973990d274eb4accbba7a54cc0e1652da65a5b98e729f8',1,'game_core.h']]],
+  ['fightres_5fno_5fdmg_7',['FIGHTRES_NO_DMG',['../game__core_8h.html#aee2e0d770e29cb4d97b973990d274eb4a8fb082ffad9d5a5ac6362555bc51d5b0',1,'game_core.h']]],
+  ['foe_5ffight_8',['FOE_FIGHT',['../game__core_8h.html#a50069590115e5ae5089385871b62ab79a8244dcc74201feb1ef748b0fc19d2991',1,'game_core.h']]],
+  ['foe_5fidle_9',['FOE_IDLE',['../game__core_8h.html#a50069590115e5ae5089385871b62ab79a3ebc15a7b225189ffc6b8545574f7868',1,'game_core.h']]],
+  ['foe_5finvalid_10',['FOE_INVALID',['../game__core_8h.html#a50069590115e5ae5089385871b62ab79a7dc2a4a13998a3b800b672af80f42f2c',1,'game_core.h']]],
+  ['foe_5fop_5ffight_11',['FOE_OP_FIGHT',['../game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17a7299515cb6a48162b6b0764f98ab2068',1,'game_core.h']]],
+  ['foe_5fop_5fidle_12',['FOE_OP_IDLE',['../game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17a4b278b8931e3a00663e73126b0d88e83',1,'game_core.h']]],
+  ['foe_5fop_5finvalid_13',['FOE_OP_INVALID',['../game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17a68661bbbe58f700433b46898b64d055b',1,'game_core.h']]],
+  ['foe_5fop_5fspecial_14',['FOE_OP_SPECIAL',['../game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17ae5c45a2dac5004251f243dcd272a686a',1,'game_core.h']]],
+  ['foe_5fspecial_15',['FOE_SPECIAL',['../game__core_8h.html#a50069590115e5ae5089385871b62ab79ab2a24755a60706b0b43a21f8dfa676d8',1,'game_core.h']]],
+  ['frozen_16',['frozen',['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71adb83d199c06e08151be51095ab9f42fe',1,'FROZEN:&#160;game_core.h'],['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a2a246cb2744d3a51000e1d0141e39df1',1,'Frozen:&#160;game_core.h']]],
+  ['full_5fpath_17',['FULL_PATH',['../game__core_8h.html#adf58ec162baa0a9692076eca5591240fa89d06ebc5cb532ed3e2abf4ac71ec454',1,'game_core.h']]]
+];

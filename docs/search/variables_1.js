@@ -1,0 +1,18 @@
+var searchData=
+[
+  ['balance_0',['balance',['../structFighter.html#ad92aa5b097847949526d1e25a2d6ac3c',1,'Fighter']]],
+  ['basebossstats_1',['basebossstats',['../game__core_8h.html#aa06cb259d2313f81e4b22d0f0710db54',1,'basebossstats:&#160;game_core.c'],['../game__core_8c.html#aa06cb259d2313f81e4b22d0f0710db54',1,'basebossstats:&#160;game_core.c']]],
+  ['baseenemystats_2',['baseenemystats',['../game__core_8h.html#aa113fa5aeaac95283db86cae8f646e5b',1,'baseenemystats:&#160;game_core.c'],['../game__core_8c.html#aa113fa5aeaac95283db86cae8f646e5b',1,'baseenemystats:&#160;game_core.c']]],
+  ['basefoepartystats_3',['basefoepartystats',['../game__core_8h.html#a59621fee248f97258221542df901623b',1,'basefoepartystats:&#160;game_core.c'],['../game__core_8c.html#a59621fee248f97258221542df901623b',1,'basefoepartystats:&#160;game_core.c']]],
+  ['basestats_4',['basestats',['../game__core_8c.html#a8b699552b001af493b89afa4b1e7a527',1,'basestats:&#160;game_core.c'],['../game__core_8h.html#a8b699552b001af493b89afa4b1e7a527',1,'basestats:&#160;game_core.c']]],
+  ['beast_5',['beast',['../structEnemyBaseStats.html#a0a28094e4c5fba8afbd959165687ee59',1,'EnemyBaseStats::beast'],['../structBoss.html#a5fa8ea1b3997c37272e160136d9330b6',1,'Boss::beast'],['../structEnemy.html#a88854a439669b2e603a82c1e2e263856',1,'Enemy::beast'],['../structBossBaseStats.html#ae8b7940b6207e02e4d4b6a216495d486',1,'BossBaseStats::beast']]],
+  ['bonus_6',['bonus',['../structEquip.html#ae5e6c56e16e480ab277a933de0fc22a8',1,'Equip']]],
+  ['boost_5fb_5ffun_7',['boost_b_fun',['../structTurncounter.html#af3e8e6944b903d2b140938dff26f6e8d',1,'Turncounter']]],
+  ['boost_5fe_5ffun_8',['boost_e_fun',['../structTurncounter.html#a06e01441529f780724726473051222d1',1,'Turncounter']]],
+  ['boost_5ffp_5ffun_9',['boost_fp_fun',['../structTurncounter.html#a32aaae65623cad9b520a7048eb22098a',1,'Turncounter']]],
+  ['boost_5ffun_10',['boost_fun',['../structTurncounter.html#a961532f40cecc2e4fae109faaee37e20',1,'Turncounter']]],
+  ['boss_11',['boss',['../structRoom.html#a866d5dc6bfb9d0c0241f8e5af3e61c19',1,'Room::boss'],['../structturnOP__args.html#a9316ec5b1c3e4f10d27775f3b28958d5',1,'turnOP_args::boss']]],
+  ['boss_5ffoes_12',['boss_foes',['../structFoeParty.html#adee59ad04e8c474ae974172e0575cfab',1,'FoeParty']]],
+  ['bosses_5fsprites_13',['bosses_sprites',['../sprites_8c.html#aed40a508744715f01cc938dd3bfb9766',1,'bosses_sprites:&#160;sprites.c'],['../sprites_8h.html#aed40a508744715f01cc938dd3bfb9766',1,'bosses_sprites:&#160;sprites.c']]],
+  ['bosseskilled_14',['bosseskilled',['../structcountStats.html#aab58d58e6d31d8dbe054deb7f02cdeb1',1,'countStats']]]
+];
