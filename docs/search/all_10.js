@@ -11,7 +11,7 @@ var searchData=
   ['resetpermboosts_8',['resetPermboosts',['../helapordo_8c.html#aa46bb6118bbe3cf79cd0e9c896b093c2',1,'helapordo.c']]],
   ['resolve_5fstaticpath_9',['resolve_staticpath',['../game__utils_8h.html#a1506cf13fce14807f2b178b71c6dc8e4',1,'resolve_staticPath(char static_path[500]):&#160;game_utils.c'],['../game__utils_8c.html#a1506cf13fce14807f2b178b71c6dc8e4',1,'resolve_staticPath(char static_path[500]):&#160;game_utils.c']]],
   ['retry_10',['retry',['../helapordo_8c.html#a67138cc14ddc06f639c5f3c19ccfc3b7',1,'helapordo.c']]],
-  ['roadfork_11',['roadfork',['../structRoadfork.html',1,'Roadfork'],['../game__core_8h.html#a870609e31696a6a1bf10c625857a4876',1,'Roadfork:&#160;game_core.h'],['../game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a54431df1a612294183edb849f04e271f',1,'ROADFORK:&#160;game_core.h'],['../structRoom.html#ad63341d3a7e8b7f1fefda7de7eec58e3',1,'Room::roadfork']]],
+  ['roadfork_11',['roadfork',['../structRoadfork.html',1,'Roadfork'],['../game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a54431df1a612294183edb849f04e271f',1,'ROADFORK:&#160;game_core.h'],['../game__core_8h.html#a870609e31696a6a1bf10c625857a4876',1,'Roadfork:&#160;game_core.h'],['../structRoom.html#ad63341d3a7e8b7f1fefda7de7eec58e3',1,'Room::roadfork']]],
   ['roadfork_5fboss_12',['ROADFORK_BOSS',['../game__core_8h.html#ab04574905ba11597834cb3d3600b5b2baf6b9e08c6df4bbb609bb4cc55121fe3d',1,'game_core.h']]],
   ['roadfork_5fenemies_13',['ROADFORK_ENEMIES',['../game__core_8h.html#ab04574905ba11597834cb3d3600b5b2bafa7fe7d6bcec1a09b843e741c223d471',1,'game_core.h']]],
   ['roadfork_5foptions_5fmax_14',['ROADFORK_OPTIONS_MAX',['../game__core_8h.html#a787d3c2ef6cd5a7598aee5c2880d42c2',1,'game_core.h']]],

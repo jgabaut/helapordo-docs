@@ -10,7 +10,7 @@ var searchData=
   ['emptyconsumables_7',['emptyConsumables',['../helapordo_8c.html#aed17cd1f50c6cc18f62edea3e13e9fb7',1,'helapordo.c']]],
   ['emptyequips_8',['emptyEquips',['../helapordo_8c.html#aeb61f4980e2776c4c0490f8856a456af',1,'helapordo.c']]],
   ['enabled_9',['enabled',['../structSkillslot.html#af32e9d89a12184054f67133dea747c72',1,'Skillslot::enabled'],['../structSpecialslot.html#a6dab68ea16a8ef27a6a90fd8f7471c8e',1,'Specialslot::enabled']]],
-  ['enemies_10',['enemies',['../game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a34b0b186496be864abe64d22d95f7f22',1,'ENEMIES:&#160;game_core.h'],['../game__core_8h.html#ac7e963d3b7c81d2f265d61e78bc1a5f2aeed9b1948f38017e8565e887079d794d',1,'Enemies:&#160;game_core.h'],['../structRoom.html#a5b5581efb08aee83a6a29d5523793057',1,'Room::enemies']]],
+  ['enemies_10',['enemies',['../game__core_8h.html#ac7e963d3b7c81d2f265d61e78bc1a5f2aeed9b1948f38017e8565e887079d794d',1,'Enemies:&#160;game_core.h'],['../game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a34b0b186496be864abe64d22d95f7f22',1,'ENEMIES:&#160;game_core.h'],['../structRoom.html#a5b5581efb08aee83a6a29d5523793057',1,'Room::enemies']]],
   ['enemies_5fsave_11',['ENEMIES_SAVE',['../game__core_8h.html#a4bcff74473009e65583fe3707074fb91a391dd3877fdf125262c889dfb6969fc1',1,'game_core.h']]],
   ['enemies_5fsprites_12',['enemies_sprites',['../sprites_8h.html#a00a344aa5d555c897a60235eaef15c1a',1,'enemies_sprites:&#160;sprites.c'],['../sprites_8c.html#a00a344aa5d555c897a60235eaef15c1a',1,'enemies_sprites:&#160;sprites.c']]],
   ['enemieskilled_13',['enemieskilled',['../structcountStats.html#a06f2a985a7df1fdfcfe2c81e46bc4463',1,'countStats']]],
