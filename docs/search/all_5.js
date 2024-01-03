@@ -52,6 +52,6 @@ var searchData=
   ['foeturnoption_49',['foeturnoption',['../game__core_8h.html#a50069590115e5ae5089385871b62ab79',1,'foeTurnOption:&#160;game_core.h'],['../game__core_8h.html#a8e3a0a40a12cc2c4909fc47b2b11cea5',1,'foeTurnOption:&#160;game_core.h']]],
   ['foeturnoption_5fop_50',['foeturnoption_op',['../game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17',1,'foeTurnOption_OP:&#160;game_core.h'],['../game__core_8h.html#a6d71406ee8b87b816b699fbd2494f5cd',1,'foeTurnOption_OP:&#160;game_core.h']]],
   ['freeroom_51',['freeroom',['../game__utils_8c.html#a7a2c4831d10846369f34e2a04c37eba5',1,'freeRoom(Room *room):&#160;game_utils.c'],['../game__utils_8h.html#a7a2c4831d10846369f34e2a04c37eba5',1,'freeRoom(Room *room):&#160;game_utils.c']]],
-  ['frozen_52',['frozen',['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71adb83d199c06e08151be51095ab9f42fe',1,'FROZEN:&#160;game_core.h'],['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a2a246cb2744d3a51000e1d0141e39df1',1,'Frozen:&#160;game_core.h']]],
+  ['frozen_52',['frozen',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a2a246cb2744d3a51000e1d0141e39df1',1,'Frozen:&#160;game_core.h'],['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71adb83d199c06e08151be51095ab9f42fe',1,'FROZEN:&#160;game_core.h']]],
   ['full_5fpath_53',['FULL_PATH',['../game__core_8h.html#adf58ec162baa0a9692076eca5591240fa89d06ebc5cb532ed3e2abf4ac71ec454',1,'game_core.h']]]
 ];

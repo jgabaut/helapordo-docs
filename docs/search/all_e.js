@@ -23,7 +23,7 @@ var searchData=
   ['pickname_20',['pickname',['../game__utils_8c.html#a9a98016c1e33137e70686bad3af3a367',1,'pickName(Fighter *player):&#160;game_utils.c'],['../game__utils_8h.html#a9a98016c1e33137e70686bad3af3a367',1,'pickName(Fighter *player):&#160;game_utils.c']]],
   ['pickwincon_21',['pickwincon',['../game__utils_8c.html#a0475267544bf5572a69ea1af95467cdb',1,'pickWincon(Wincon *w):&#160;game_utils.c'],['../game__utils_8h.html#a0475267544bf5572a69ea1af95467cdb',1,'pickWincon(Wincon *w):&#160;game_utils.c']]],
   ['player_22',['player',['../structGamestate.html#ab826e1c75d648f02331354d040dd1661',1,'Gamestate']]],
-  ['poison_23',['poison',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a02b848adda8d7d33a2b25d87dbef1d75',1,'Poison:&#160;game_core.h'],['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71aafa82716ce8ad7247f07e61a5d88ba01',1,'POISON:&#160;game_core.h']]],
+  ['poison_23',['poison',['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71aafa82716ce8ad7247f07e61a5d88ba01',1,'POISON:&#160;game_core.h'],['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a02b848adda8d7d33a2b25d87dbef1d75',1,'Poison:&#160;game_core.h']]],
   ['potion_24',['Potion',['../game__core_8h.html#abc5cb6c6be316361cce824c81a995e40acef364294379999e35c7c779a460d1f7',1,'game_core.h']]],
   ['powergem_25',['Powergem',['../game__core_8h.html#abc5cb6c6be316361cce824c81a995e40ab2c8174a9675e31d73c0be911baafdff',1,'game_core.h']]],
   ['powersyphon_26',['POWERSYPHON',['../game__core_8h.html#a1633bdf36a3d53020d3955aa2ea528a4a13cc87ece84cd8e0581add544cdbfda7',1,'game_core.h']]],
