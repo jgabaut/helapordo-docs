@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zombie_0',['Zombie',['../game__core_8h.html#a11ed656be5525063588efc931101c732a821578dfd99a075b39a13aa8e5355953',1,'game_core.h']]]
+  ['yellow_0',['yellow',['../game__utils_8c.html#a124fb29beb5e67b9821cafed1f7be9a9',1,'yellow(void):&#160;game_utils.c'],['../game__utils_8h.html#a124fb29beb5e67b9821cafed1f7be9a9',1,'yellow(void):&#160;game_utils.c']]]
 ];

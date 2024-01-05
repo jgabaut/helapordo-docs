@@ -1,11 +1,20 @@
 var searchData=
 [
-  ['name_0',['name',['../structConsumable.html#ab3f9a5fe47fd2ae059f442a3fcb938ce',1,'Consumable::name'],['../structArtifact.html#a52bff683765f055aed2b4e1c6a20f28d',1,'Artifact::name'],['../structSpecialslot.html#a0dec87eff3a61b574912115b1a3920bc',1,'Specialslot::name'],['../structSkillslot.html#aeafe8e1dd1ad62dbc6aaa25d1e24bacf',1,'Skillslot::name'],['../structPerk.html#af965a1196ef965fca7ec94d8bffa31d3',1,'Perk::name'],['../structFighter.html#a77f7d5cf2d4f1b1dd7afa4b914691a5d',1,'Fighter::name'],['../structEquip.html#ab755692cdac97e44a7d553e212a9adc9',1,'Equip::name'],['../structSaveslot.html#a3389d1bdaf1096bee2d0cd8a1038f8b7',1,'Saveslot::name']]],
-  ['namestringfromperk_1',['namestringfromperk',['../game__utils_8c.html#a5f5a9ad5e1a4e3c33b054dff4c21300c',1,'nameStringFromPerk(int p):&#160;game_utils.c'],['../game__utils_8h.html#a5f5a9ad5e1a4e3c33b054dff4c21300c',1,'nameStringFromPerk(int p):&#160;game_utils.c']]],
-  ['namestringfromskill_2',['namestringfromskill',['../game__utils_8c.html#a1fc94526f3dbf91d4eea508291ef6503',1,'nameStringFromSkill(skillType class):&#160;game_utils.c'],['../game__utils_8h.html#a1fc94526f3dbf91d4eea508291ef6503',1,'nameStringFromSkill(skillType class):&#160;game_utils.c']]],
-  ['namestringfromspecial_3',['namestringfromspecial',['../game__utils_8c.html#a5c44b38f629121e66c46ea85b08bac59',1,'nameStringFromSpecial(fighterClass class, specialMove move):&#160;game_utils.c'],['../game__utils_8h.html#a5c44b38f629121e66c46ea85b08bac59',1,'nameStringFromSpecial(fighterClass class, specialMove move):&#160;game_utils.c']]],
-  ['new_5fgame_4',['NEW_GAME',['../game__core_8h.html#a12a952e636763b477c873f21d458e4b7ac9e8468c9768465a565bc176a753e261',1,'game_core.h']]],
-  ['no_5fop_5',['NO_OP',['../game__core_8h.html#afe8e046bf5f260d1d9a60aa4d4dfab9cae76c941d2316666913c673a032deb9ba',1,'game_core.h']]],
-  ['normal_6',['normal',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a5ecbcf0afce98b042f35ec71ba03fa4b',1,'Normal:&#160;game_core.h'],['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71a50d1448013c6f17125caee18aa418af7',1,'NORMAL:&#160;game_core.h']]],
-  ['notify_5fwin_7',['notify_win',['../structturnOP__args.html#a9dff1514c7348902746335165e0f6381',1,'turnOP_args']]]
+  ['mage_0',['Mage',['../game__core_8h.html#a8c50861d8f0fe242b6a84014376bf63aade6c51f323040e24a55b72a64f389e86',1,'game_core.h']]],
+  ['magicbean_1',['Magicbean',['../game__core_8h.html#abc5cb6c6be316361cce824c81a995e40a3fca9be9c40dcbe58330c6b174577075',1,'game_core.h']]],
+  ['main_2',['main',['../main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main.c']]],
+  ['main_2ec_3',['main.c',['../main_8c.html',1,'']]],
+  ['max_5frogue_5ffloors_4',['MAX_ROGUE_FLOORS',['../game__core_8h.html#a6adbe72467fc02cdecee4719943bdcb0',1,'game_core.h']]],
+  ['max_5fsaveslots_5',['MAX_SAVESLOTS',['../game__core_8h.html#a1cfde27bc59361009370b89a3f06932a',1,'game_core.h']]],
+  ['maxlength_6',['MAXLENGTH',['../game__core_8h.html#a1dbd686f69551b83691025eaae058539',1,'game_core.h']]],
+  ['maxluck_7',['MAXLUCK',['../game__core_8h.html#add41503d5e79c0edb22ab0c1c33c1112',1,'game_core.h']]],
+  ['maxplayerluck_8',['MAXPLAYERLUCK',['../game__core_8h.html#a91b6c541cf4e4b74cf111d6c776a6050',1,'game_core.h']]],
+  ['mfatewarp_9',['MFatewarp',['../game__core_8h.html#aadd913abb65c10636504bdb66fc47d69af08279ebbbd42d3c69b618e6e1adabfa',1,'game_core.h']]],
+  ['mflamering_10',['MFlamering',['../game__core_8h.html#aadd913abb65c10636504bdb66fc47d69a35cbdee4c029de831408e74979b7facf',1,'game_core.h']]],
+  ['misc_5fsprites_11',['misc_sprites',['../sprites_8c.html#ad24119ac672a3c4b26a8aa217714b462',1,'misc_sprites:&#160;sprites.c'],['../sprites_8h.html#ad24119ac672a3c4b26a8aa217714b462',1,'misc_sprites:&#160;sprites.c']]],
+  ['misc_5fsprites_5fmax_12',['MISC_SPRITES_MAX',['../sprites_8h.html#adced26f82532035f28e40b13f210c8ae',1,'sprites.h']]],
+  ['move_13',['move',['../structSpecialslot.html#a02856e9186d88fe387045a528ac8adea',1,'Specialslot']]],
+  ['mpowerup_14',['MPowerup',['../game__core_8h.html#aadd913abb65c10636504bdb66fc47d69ae149771f7c4d239fb9ce781ccc36cab2',1,'game_core.h']]],
+  ['mspellstrike_15',['MSpellstrike',['../game__core_8h.html#aadd913abb65c10636504bdb66fc47d69acac8cccbb780ea4d1f982fe955143849',1,'game_core.h']]],
+  ['mummy_16',['Mummy',['../game__core_8h.html#a11ed656be5525063588efc931101c732aee7df46747fd70341831b0af5aa0ee04',1,'game_core.h']]]
 ];

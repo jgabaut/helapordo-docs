@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['array_5fsize_0',['ARRAY_SIZE',['../game__core_8h.html#a25f003de16c08a4888b69f619d70f427',1,'game_core.h']]],
-  ['artifactsmax_1',['ARTIFACTSMAX',['../game__core_8h.html#a6986b6f486e6dc41c9e4b83549cbcf4a',1,'game_core.h']]]
+  ['_5fposix_5fc_5fsource_0',['_POSIX_C_SOURCE',['../helapordo__raylib_8h.html#a3024ccd4a9af5109d24e6c57565d74a1',1,'helapordo_raylib.h']]]
 ];

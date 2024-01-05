@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['op_5fres_5fmax_0',['OP_RES_MAX',['../game__core_8h.html#a52408f85a8fb6b01b291520e2b8d4a95',1,'game_core.h']]],
-  ['ops_5flogfile_1',['OPS_LOGFILE',['../game__core_8h.html#a1dccb282e06f4ec6ebadbacf05648d1d',1,'game_core.h']]]
+  ['max_5frogue_5ffloors_0',['MAX_ROGUE_FLOORS',['../game__core_8h.html#a6adbe72467fc02cdecee4719943bdcb0',1,'game_core.h']]],
+  ['max_5fsaveslots_1',['MAX_SAVESLOTS',['../game__core_8h.html#a1cfde27bc59361009370b89a3f06932a',1,'game_core.h']]],
+  ['maxlength_2',['MAXLENGTH',['../game__core_8h.html#a1dbd686f69551b83691025eaae058539',1,'game_core.h']]],
+  ['maxluck_3',['MAXLUCK',['../game__core_8h.html#add41503d5e79c0edb22ab0c1c33c1112',1,'game_core.h']]],
+  ['maxplayerluck_4',['MAXPLAYERLUCK',['../game__core_8h.html#a91b6c541cf4e4b74cf111d6c776a6050',1,'game_core.h']]],
+  ['misc_5fsprites_5fmax_5',['MISC_SPRITES_MAX',['../sprites_8h.html#adced26f82532035f28e40b13f210c8ae',1,'sprites.h']]]
 ];
