@@ -9,6 +9,6 @@ var searchData=
   ['resetenemystatus_6',['resetEnemyStatus',['../helapordo_8c.html#a79e0c53b9b5473d86e32a7025d1328f1',1,'helapordo.c']]],
   ['resetfighterstatus_7',['resetFighterStatus',['../helapordo_8c.html#ac00d68dd1634d97d101d903e3668dfef',1,'helapordo.c']]],
   ['resetpermboosts_8',['resetPermboosts',['../helapordo_8c.html#aa46bb6118bbe3cf79cd0e9c896b093c2',1,'helapordo.c']]],
-  ['resolve_5fstaticpath_9',['resolve_staticpath',['../game__utils_8c.html#a1506cf13fce14807f2b178b71c6dc8e4',1,'resolve_staticPath(char static_path[500]):&#160;game_utils.c'],['../game__utils_8h.html#a1506cf13fce14807f2b178b71c6dc8e4',1,'resolve_staticPath(char static_path[500]):&#160;game_utils.c']]],
+  ['resolve_5fstaticpath_9',['resolve_staticPath',['../game__utils_8c.html#a1506cf13fce14807f2b178b71c6dc8e4',1,'resolve_staticPath(char static_path[500]):&#160;game_utils.c'],['../game__utils_8h.html#a1506cf13fce14807f2b178b71c6dc8e4',1,'resolve_staticPath(char static_path[500]):&#160;game_utils.c']]],
   ['retry_10',['retry',['../helapordo_8c.html#a67138cc14ddc06f639c5f3c19ccfc3b7',1,'helapordo.c']]]
 ];

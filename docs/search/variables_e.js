@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['palette_0',['palette',['../palette_8h.html#a6f9fdaba791b922cebd9883dc64b56d1',1,'palette:&#160;palette.c'],['../palette_8c.html#a6f9fdaba791b922cebd9883dc64b56d1',1,'palette:&#160;palette.c']]],
-  ['path_1',['path',['../structturnOP__args.html#a12917713b62c5d271019ac7c0be1503b',1,'turnOP_args::path'],['../structGamestate.html#a8911b8b512f3a8901c17de219706a752',1,'Gamestate::path']]],
+  ['palette_0',['palette',['../palette_8c.html#a6f9fdaba791b922cebd9883dc64b56d1',1,'palette:&#160;palette.c'],['../palette_8h.html#a6f9fdaba791b922cebd9883dc64b56d1',1,'palette:&#160;palette.c']]],
+  ['path_1',['path',['../structGamestate.html#a8911b8b512f3a8901c17de219706a752',1,'Gamestate::path'],['../structturnOP__args.html#a12917713b62c5d271019ac7c0be1503b',1,'turnOP_args::path']]],
   ['perks_2',['perks',['../structFighter.html#a379a6f4f0f739d8c315d2eb0a224d626',1,'Fighter::perks'],['../structEquip.html#a277c5ae1c87ac6bca563b95e96ce04ad',1,'Equip::perks']]],
-  ['perkscount_3',['perkscount',['../structFighter.html#ae707ffa398fd4fd9c3ab394b53fef80c',1,'Fighter::perksCount'],['../structEquip.html#a8a44e1cb2b4333e5fd4bea2210105533',1,'Equip::perksCount']]],
-  ['perksdescstrings_4',['perksdescstrings',['../game__core_8h.html#a0701d7ee02ba80468dda97669f19040e',1,'perksdescstrings:&#160;game_core.c'],['../game__core_8c.html#a0701d7ee02ba80468dda97669f19040e',1,'perksdescstrings:&#160;game_core.c']]],
-  ['perksnamestrings_5',['perksnamestrings',['../game__core_8h.html#aac2e47cde0c646c765f09c7cef08b12f',1,'perksnamestrings:&#160;game_core.c'],['../game__core_8c.html#aac2e47cde0c646c765f09c7cef08b12f',1,'perksnamestrings:&#160;game_core.c']]],
+  ['perkscount_3',['perksCount',['../structFighter.html#ae707ffa398fd4fd9c3ab394b53fef80c',1,'Fighter::perksCount'],['../structEquip.html#a8a44e1cb2b4333e5fd4bea2210105533',1,'Equip::perksCount']]],
+  ['perksdescstrings_4',['perksdescstrings',['../game__core_8c.html#a0701d7ee02ba80468dda97669f19040e',1,'perksdescstrings:&#160;game_core.c'],['../game__core_8h.html#a0701d7ee02ba80468dda97669f19040e',1,'perksdescstrings:&#160;game_core.c']]],
+  ['perksnamestrings_5',['perksnamestrings',['../game__core_8c.html#aac2e47cde0c646c765f09c7cef08b12f',1,'perksnamestrings:&#160;game_core.c'],['../game__core_8h.html#aac2e47cde0c646c765f09c7cef08b12f',1,'perksnamestrings:&#160;game_core.c']]],
   ['permboost_5fatk_6',['permboost_atk',['../structFighter.html#a708534c28cbfe284aefb7169537e7675',1,'Fighter']]],
   ['permboost_5fdef_7',['permboost_def',['../structFighter.html#a4c3c66045149ed80e75a3e1200bb12f4',1,'Fighter']]],
   ['permboost_5fenr_8',['permboost_enr',['../structFighter.html#a9366441aea0ea8c6f7a4ebb179d134e6',1,'Fighter']]],

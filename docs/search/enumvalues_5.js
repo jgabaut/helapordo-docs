@@ -16,6 +16,7 @@ var searchData=
   ['foe_5fop_5finvalid_13',['FOE_OP_INVALID',['../game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17a68661bbbe58f700433b46898b64d055b',1,'game_core.h']]],
   ['foe_5fop_5fspecial_14',['FOE_OP_SPECIAL',['../game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17ae5c45a2dac5004251f243dcd272a686a',1,'game_core.h']]],
   ['foe_5fspecial_15',['FOE_SPECIAL',['../game__core_8h.html#a50069590115e5ae5089385871b62ab79ab2a24755a60706b0b43a21f8dfa676d8',1,'game_core.h']]],
-  ['frozen_16',['frozen',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a2a246cb2744d3a51000e1d0141e39df1',1,'Frozen:&#160;game_core.h'],['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71adb83d199c06e08151be51095ab9f42fe',1,'FROZEN:&#160;game_core.h']]],
-  ['full_5fpath_17',['FULL_PATH',['../game__core_8h.html#adf58ec162baa0a9692076eca5591240fa89d06ebc5cb532ed3e2abf4ac71ec454',1,'game_core.h']]]
+  ['frozen_16',['FROZEN',['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71adb83d199c06e08151be51095ab9f42fe',1,'game_core.h']]],
+  ['frozen_17',['Frozen',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a2a246cb2744d3a51000e1d0141e39df1',1,'game_core.h']]],
+  ['full_5fpath_18',['FULL_PATH',['../game__core_8h.html#adf58ec162baa0a9692076eca5591240fa89d06ebc5cb532ed3e2abf4ac71ec454',1,'game_core.h']]]
 ];
