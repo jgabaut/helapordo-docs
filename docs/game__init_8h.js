@@ -1,0 +1,27 @@
+var game__init_8h =
+[
+    [ "initArtifactsBag", "game__init_8h.html#a7a296b83209a5b801bbdf8f1dbf68a2b", null ],
+    [ "initBCounters", "game__init_8h.html#af144dde22764aa2a2edd849d630b91f7", null ],
+    [ "initBossStats", "game__init_8h.html#a8f4c10cd9fae95152b93fe7139a19763", null ],
+    [ "initChest", "game__init_8h.html#a60fef1df2365b73fc4bfa4ac7361200c", null ],
+    [ "initConsumableBag", "game__init_8h.html#a879ef849acb47f284b9a7464668b342b", null ],
+    [ "initCounters", "game__init_8h.html#ac28e780484157ee31c374b40b477e4f6", null ],
+    [ "initECounters", "game__init_8h.html#ab34ec73c2f82b849d11e447f0831427c", null ],
+    [ "initEnemyStats", "game__init_8h.html#a65c559970baca41ce702e4106081e4e7", null ],
+    [ "initEquipSlots", "game__init_8h.html#a27b7bb2c8ea2b36685b3d4351d6846a9", null ],
+    [ "initFoePartyCounters", "game__init_8h.html#aa3ae2d0c67e6052fec755ed211b77941", null ],
+    [ "initFoePartyStats", "game__init_8h.html#a947963a0d9fc0cb5ac1cefc5ab5d73dc", null ],
+    [ "initPerks", "game__init_8h.html#aba1428ed5740e0362662f32ef2e23b2a", null ],
+    [ "initPlayerStats", "game__init_8h.html#a5e2cf734de5ba083dbbfc0d5f2c7b8c5", null ],
+    [ "initShop", "game__init_8h.html#abc5b4d00f943980921c104d6fb0a6fe4", null ],
+    [ "initTreasure", "game__init_8h.html#a91cc8575e1b4a93c493ade7d1807cc91", null ],
+    [ "prepareBoss", "game__init_8h.html#a21b96198f60b0baf9b910bd2ab1072ff", null ],
+    [ "prepareChest", "game__init_8h.html#a2d7f3c59240b1fb1c722245bae43c314", null ],
+    [ "prepareFoeParty", "game__init_8h.html#a518f91659cb8fad03f667fb86af7e748", null ],
+    [ "prepareRoadfork", "game__init_8h.html#a88b568c174fe2a17cc9506710c977c23", null ],
+    [ "prepareRoomEnemy", "game__init_8h.html#abeba71c2a6b88a019c2787c42b84418e", null ],
+    [ "prepareTreasure", "game__init_8h.html#af3c58269db3ae31e24a5e02f64b3c6c8", null ],
+    [ "setBossSkills", "game__init_8h.html#a19fc31c35f5e86a55bf9a5ab0245acc0", null ],
+    [ "setEnemySkills", "game__init_8h.html#a517140c042a6b59ceebf06e2b5071dbe", null ],
+    [ "setSkills", "game__init_8h.html#a8f2fc1701bbbcecd45021abdced14e78", null ]
+];

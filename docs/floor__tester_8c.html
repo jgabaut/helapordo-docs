@@ -5,11 +5,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>helapordo: src/floor_tester.c File Reference</title>
+<title>helapordo: src/build-nc-w64/floor_tester.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript" src="cookie.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
@@ -23,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.2</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.3</span>
    </div>
   </td>
  </tr>
@@ -48,6 +52,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('floor__tester_8c.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -69,11 +90,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
@@ -81,7 +97,42 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="floor__tester_8h_source.html">floor_tester.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="floors_8h_source.html">floors.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for floor_tester.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="floor__tester_8c__incl.png" border="0" usemap="#asrc_2build-nc-w64_2floor__tester_8c" alt=""/></div>
+<map name="asrc_2build-nc-w64_2floor__tester_8c" id="asrc_2build-nc-w64_2floor__tester_8c">
+<area shape="rect" title=" " alt="" coords="175,5,320,44"/>
+<area shape="rect" href="floor__tester_8h.html" title=" " alt="" coords="199,92,296,117"/>
+<area shape="poly" title=" " alt="" coords="250,45,250,76,245,76,245,45"/>
+<area shape="rect" href="floors_8h.html" title=" " alt="" coords="195,165,300,189"/>
+<area shape="poly" title=" " alt="" coords="250,117,250,149,245,149,245,117"/>
+<area shape="rect" title=" " alt="" coords="166,237,228,262"/>
+<area shape="poly" title=" " alt="" coords="241,191,216,226,212,223,237,188"/>
+<area shape="rect" href="game__utils_8h.html" title=" " alt="" coords="252,237,347,262"/>
+<area shape="poly" title=" " alt="" coords="258,188,284,223,280,226,254,191"/>
+<area shape="rect" title=" " alt="" coords="5,310,66,335"/>
+<area shape="poly" title=" " alt="" coords="256,265,81,312,80,306,255,260"/>
+<area shape="rect" title=" " alt="" coords="89,310,153,335"/>
+<area shape="poly" title=" " alt="" coords="271,265,166,306,164,301,269,260"/>
+<area shape="rect" title=" " alt="" coords="177,310,244,335"/>
+<area shape="poly" title=" " alt="" coords="286,265,238,303,235,298,283,260"/>
+<area shape="rect" title=" " alt="" coords="267,310,332,335"/>
+<area shape="poly" title=" " alt="" coords="302,263,302,294,297,294,297,263"/>
+<area shape="rect" title=" " alt="" coords="356,310,432,335"/>
+<area shape="poly" title=" " alt="" coords="317,260,369,299,365,303,314,265"/>
+<area shape="rect" title=" " alt="" coords="456,310,514,335"/>
+<area shape="poly" title=" " alt="" coords="331,260,443,302,441,307,329,265"/>
+<area shape="rect" href="game__core_8h.html" title=" " alt="" coords="538,310,675,335"/>
+<area shape="poly" title=" " alt="" coords="348,259,541,303,540,309,347,265"/>
+<area shape="rect" title=" " alt="" coords="452,383,614,407"/>
+<area shape="poly" title=" " alt="" coords="596,337,557,374,554,370,592,333"/>
+<area shape="rect" href="palette_8h.html" title=" " alt="" coords="638,383,721,407"/>
+<area shape="poly" title=" " alt="" coords="620,333,659,370,655,374,616,337"/>
+<area shape="rect" title=" " alt="" coords="607,455,752,494"/>
+<area shape="poly" title=" " alt="" coords="682,408,682,439,677,439,677,408"/>
+</map>
+</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -107,9 +158,13 @@ Functions</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_0fe36c70dd7c152a90bc530baf552f16.html">build-nc-w64</a></li><li class="navelem"><a class="el" href="floor__tester_8c.html">floor_tester.c</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
 </body>
 </html>

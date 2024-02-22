@@ -1,0 +1,9 @@
+<map id="src/core/game_lore.h" name="src/core/game_lore.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="87,5,230,30"/>
+<area shape="rect" id="Node000002" href="$helapordo__raylib_8h.html" title=" " alt="" coords="5,78,147,117"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,42,98,79,94,75,134,39"/>
+<area shape="rect" id="Node000004" href="$game__lore_8c.html" title=" " alt="" coords="171,85,314,110"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="184,38,232,83,228,87,180,42"/>
+<area shape="rect" id="Node000003" href="$helapordo__raylib_8c.html" title=" " alt="" coords="5,165,147,203"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="79,133,79,164,73,164,73,133"/>
+</map>

@@ -10,6 +10,10 @@
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript" src="cookie.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
@@ -23,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.2</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.3</span>
    </div>
   </td>
  </tr>
@@ -48,6 +52,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('palette_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -69,11 +90,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
@@ -82,6 +98,101 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;../sprites4curses/s4c-animate/animate.h&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for palette.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="palette_8h__incl.png" border="0" usemap="#asrc_2palette_8h" alt=""/></div>
+<map name="asrc_2palette_8h" id="asrc_2palette_8h">
+<area shape="rect" title=" " alt="" coords="31,5,124,30"/>
+<area shape="rect" title=" " alt="" coords="5,78,150,117"/>
+<area shape="poly" title=" " alt="" coords="80,30,80,62,75,62,75,30"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="palette_8h__dep__incl.png" border="0" usemap="#asrc_2palette_8hdep" alt=""/></div>
+<map name="asrc_2palette_8hdep" id="asrc_2palette_8hdep">
+<area shape="rect" title=" " alt="" coords="1018,5,1112,30"/>
+<area shape="rect" href="game__core_8h.html" title=" " alt="" coords="919,78,1067,103"/>
+<area shape="poly" title=" " alt="" coords="1044,43,1006,80,1003,76,1040,39"/>
+<area shape="rect" href="palette_8c.html" title=" " alt="" coords="1090,78,1184,103"/>
+<area shape="poly" title=" " alt="" coords="1090,39,1127,76,1123,80,1086,43"/>
+<area shape="rect" href="equips_8h.html" title=" " alt="" coords="48,151,170,175"/>
+<area shape="poly" title=" " alt="" coords="904,101,170,159,170,154,903,96"/>
+<area shape="rect" href="game__core_8c.html" title=" " alt="" coords="1323,151,1471,175"/>
+<area shape="poly" title=" " alt="" coords="1075,103,1330,147,1329,153,1075,109"/>
+<area shape="rect" href="sprites_8h.html" title=" " alt="" coords="1177,151,1299,175"/>
+<area shape="poly" title=" " alt="" coords="1049,105,1198,148,1197,153,1047,110"/>
+<area shape="rect" href="game__utils_8h.html" title=" " alt="" coords="842,151,987,175"/>
+<area shape="poly" title=" " alt="" coords="970,115,929,152,925,148,967,111"/>
+<area shape="rect" href="equips_8c.html" title=" " alt="" coords="48,223,170,248"/>
+<area shape="poly" title=" " alt="" coords="112,191,112,223,106,223,106,191"/>
+<area shape="rect" href="saves_8h.html" title=" " alt="" coords="5,390,122,414"/>
+<area shape="poly" title=" " alt="" coords="74,186,54,203,38,225,31,246,28,269,33,316,46,358,60,388,55,390,41,360,28,317,23,269,25,245,33,222,50,199,71,182"/>
+<area shape="rect" href="saves_8c.html" title=" " alt="" coords="5,469,122,494"/>
+<area shape="poly" title=" " alt="" coords="66,430,66,469,61,469,61,430"/>
+<area shape="rect" href="turn__op_8h.html" title=" " alt="" coords="554,469,680,494"/>
+<area shape="poly" title=" " alt="" coords="121,416,135,419,250,438,365,453,554,473,553,478,365,458,249,443,134,424,120,421"/>
+<area shape="rect" href="game__curses_8h.html" title=" " alt="" coords="614,542,796,567"/>
+<area shape="poly" title=" " alt="" coords="645,502,692,540,689,544,642,506"/>
+<area shape="rect" href="rooms_8h.html" title=" " alt="" coords="1028,542,1147,567"/>
+<area shape="poly" title=" " alt="" coords="695,492,1028,541,1027,547,694,497"/>
+<area shape="rect" href="turn__op_8c.html" title=" " alt="" coords="465,542,590,567"/>
+<area shape="poly" title=" " alt="" coords="592,506,544,544,540,540,589,502"/>
+<area shape="rect" href="game__curses_8c.html" title=" " alt="" coords="614,622,796,646"/>
+<area shape="poly" title=" " alt="" coords="708,582,708,621,702,621,702,582"/>
+<area shape="rect" href="helapordo__raylib_8h.html" title=" " alt="" coords="1197,615,1338,653"/>
+<area shape="poly" title=" " alt="" coords="1129,571,1225,612,1223,616,1127,576"/>
+<area shape="rect" href="rooms_8c.html" title=" " alt="" coords="1028,622,1147,646"/>
+<area shape="poly" title=" " alt="" coords="1090,582,1090,621,1085,621,1085,582"/>
+<area shape="rect" href="helapordo__raylib_8c.html" title=" " alt="" coords="1197,701,1338,740"/>
+<area shape="poly" title=" " alt="" coords="1270,669,1270,701,1265,701,1265,669"/>
+<area shape="rect" href="game__rl_8h.html" title=" " alt="" coords="1254,223,1396,248"/>
+<area shape="poly" title=" " alt="" coords="1266,183,1312,221,1309,225,1263,188"/>
+<area shape="rect" href="sprites_8c.html" title=" " alt="" coords="1420,223,1542,248"/>
+<area shape="poly" title=" " alt="" coords="1293,178,1441,220,1440,225,1292,183"/>
+<area shape="poly" title=" " alt="" coords="1319,263,1304,326,1298,363,1295,401,1295,483,1288,557,1275,615,1270,614,1283,556,1290,483,1290,401,1293,362,1299,325,1314,262"/>
+<area shape="rect" href="game__rl_8c.html" title=" " alt="" coords="1330,303,1472,328"/>
+<area shape="poly" title=" " alt="" coords="1349,257,1391,301,1388,304,1345,261"/>
+<area shape="poly" title=" " alt="" coords="998,176,1257,220,1256,225,997,181"/>
+<area shape="rect" href="artifacts_8h.html" title=" " alt="" coords="930,223,1061,248"/>
+<area shape="poly" title=" " alt="" coords="941,184,984,221,981,225,937,188"/>
+<area shape="rect" href="floors_8h.html" title=" " alt="" coords="590,223,705,248"/>
+<area shape="poly" title=" " alt="" coords="856,182,692,225,691,220,855,177"/>
+<area shape="rect" href="game__fight_8h.html" title=" " alt="" coords="762,223,907,248"/>
+<area shape="poly" title=" " alt="" coords="891,188,849,225,845,221,888,184"/>
+<area shape="rect" href="game__init_8h.html" title=" " alt="" coords="48,303,186,328"/>
+<area shape="poly" title=" " alt="" coords="826,168,681,173,510,183,348,200,283,212,234,226,201,243,172,264,129,305,125,301,168,260,198,238,232,221,282,206,347,195,509,178,681,168,826,163"/>
+<area shape="rect" href="game__utils_8c.html" title=" " alt="" coords="1084,223,1230,248"/>
+<area shape="poly" title=" " alt="" coords="969,178,1117,220,1116,225,968,183"/>
+<area shape="rect" href="specials_8h.html" title=" " alt="" coords="245,223,375,248"/>
+<area shape="poly" title=" " alt="" coords="826,177,376,229,376,224,826,172"/>
+<area shape="poly" title=" " alt="" coords="1029,255,1049,273,1064,295,1079,329,1088,365,1097,436,1096,499,1092,542,1087,541,1091,499,1091,437,1083,366,1074,330,1060,297,1045,276,1026,259"/>
+<area shape="rect" href="artifacts_8c.html" title=" " alt="" coords="1125,303,1255,328"/>
+<area shape="poly" title=" " alt="" coords="1040,252,1162,300,1160,305,1038,257"/>
+<area shape="rect" href="floor__tester_8h.html" title=" " alt="" coords="544,296,690,335"/>
+<area shape="poly" title=" " alt="" coords="640,264,627,296,622,294,635,262"/>
+<area shape="rect" href="floors_8c.html" title=" " alt="" coords="714,303,829,328"/>
+<area shape="poly" title=" " alt="" coords="680,254,754,300,751,305,677,259"/>
+<area shape="rect" href="game__debug_8h.html" title=" " alt="" coords="364,303,520,328"/>
+<area shape="poly" title=" " alt="" coords="604,256,474,305,472,300,602,251"/>
+<area shape="rect" href="floor__tester_8c.html" title=" " alt="" coords="627,383,772,421"/>
+<area shape="poly" title=" " alt="" coords="648,344,683,380,679,384,644,348"/>
+<area shape="poly" title=" " alt="" coords="434,343,426,382,428,402,436,420,460,443,490,459,522,470,554,475,553,481,521,475,488,464,457,447,432,423,423,403,421,382,429,342"/>
+<area shape="rect" href="game__debug_8c.html" title=" " alt="" coords="447,390,603,414"/>
+<area shape="poly" title=" " alt="" coords="466,337,516,388,512,391,462,341"/>
+<area shape="poly" title=" " alt="" coords="843,262,848,297,843,335,834,364,824,385,809,404,786,423,762,440,734,453,680,471,679,466,732,448,759,435,783,419,805,400,819,382,829,362,838,334,842,297,838,263"/>
+<area shape="rect" href="game__fight_8c.html" title=" " alt="" coords="904,303,1050,328"/>
+<area shape="poly" title=" " alt="" coords="870,253,956,300,954,305,867,258"/>
+<area shape="poly" title=" " alt="" coords="104,342,73,391,68,388,99,339"/>
+<area shape="rect" href="game__init_8c.html" title=" " alt="" coords="146,390,283,414"/>
+<area shape="poly" title=" " alt="" coords="143,336,203,387,200,392,140,340"/>
+<area shape="poly" title=" " alt="" coords="268,256,147,305,145,300,266,252"/>
+<area shape="rect" href="specials_8c.html" title=" " alt="" coords="209,303,339,328"/>
+<area shape="poly" title=" " alt="" coords="301,263,282,304,277,301,296,261"/>
+</map>
+</div>
 </div>
 <p><a href="palette_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -153,9 +264,13 @@ Variables</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="palette_8h.html">palette.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
 </body>
 </html>

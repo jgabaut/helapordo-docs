@@ -10,6 +10,10 @@
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript" src="cookie.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
@@ -23,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.2</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.3</span>
    </div>
   </td>
  </tr>
@@ -49,6 +53,22 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('globals_func_g.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -76,41 +96,45 @@ $(function() {
 <h3><a id="index_g" name="index_g"></a>- g -</h3><ul>
 <li>gameloop()&#160;:&#160;<a class="el" href="helapordo_8c.html#a3dc6dacc81423d2e163fe32712082fd9">helapordo.c</a></li>
 <li>gameloop_rl()&#160;:&#160;<a class="el" href="helapordo__raylib_8c.html#ae95aa7f4af7318250b64799b62891e13">helapordo_raylib.c</a>, <a class="el" href="helapordo__raylib_8h.html#ae95aa7f4af7318250b64799b62891e13">helapordo_raylib.h</a></li>
+<li>gameloop_Win()&#160;:&#160;<a class="el" href="helapordo__win_8c.html#a9a2237467408d0aba68c45db53ecde25">helapordo_win.c</a></li>
 <li>get_ANVIL__API__LEVEL__()&#160;:&#160;<a class="el" href="anvil____helapordo_8c.html#a9ff3abd6a84c578896908904e67a93e4">anvil__helapordo.c</a>, <a class="el" href="anvil____helapordo_8h.html#a9ff3abd6a84c578896908904e67a93e4">anvil__helapordo.h</a></li>
+<li>get_ANVIL__HEADER__GENTIME__()&#160;:&#160;<a class="el" href="anvil____helapordo_8c.html#a82ded7c0516b2bd77697a7a2d85b5c9c">anvil__helapordo.c</a>, <a class="el" href="anvil____helapordo_8h.html#a82ded7c0516b2bd77697a7a2d85b5c9c">anvil__helapordo.h</a></li>
 <li>get_ANVIL__VERSION__()&#160;:&#160;<a class="el" href="anvil____helapordo_8c.html#a287d93a805bb3dc640e03e6600441a63">anvil__helapordo.c</a>, <a class="el" href="anvil____helapordo_8h.html#a287d93a805bb3dc640e03e6600441a63">anvil__helapordo.h</a></li>
 <li>get_ANVIL__VERSION__AUTHOR__()&#160;:&#160;<a class="el" href="anvil____helapordo_8c.html#aabca241ccaf15a4decb63f112ab0c47c">anvil__helapordo.c</a>, <a class="el" href="anvil____helapordo_8h.html#aabca241ccaf15a4decb63f112ab0c47c">anvil__helapordo.h</a></li>
 <li>get_ANVIL__VERSION__DATE__()&#160;:&#160;<a class="el" href="anvil____helapordo_8c.html#a30b80759d23d02cc5082eb9a2b114b39">anvil__helapordo.c</a>, <a class="el" href="anvil____helapordo_8h.html#a30b80759d23d02cc5082eb9a2b114b39">anvil__helapordo.h</a></li>
-<li>get_ANVIL__VERSION__DESC__()&#160;:&#160;<a class="el" href="anvil____helapordo_8h.html#af1bbfdc29698298f27a684e0ed0fcc66">anvil__helapordo.h</a>, <a class="el" href="anvil____helapordo_8c.html#af1bbfdc29698298f27a684e0ed0fcc66">anvil__helapordo.c</a></li>
+<li>get_ANVIL__VERSION__DESC__()&#160;:&#160;<a class="el" href="anvil____helapordo_8c.html#af1bbfdc29698298f27a684e0ed0fcc66">anvil__helapordo.c</a>, <a class="el" href="anvil____helapordo_8h.html#af1bbfdc29698298f27a684e0ed0fcc66">anvil__helapordo.h</a></li>
 <li>get_INVIL__API__LEVEL__()&#160;:&#160;<a class="el" href="anvil____helapordo_8c.html#aaea8810d8c4377e1c92012318b3bb726">anvil__helapordo.c</a>, <a class="el" href="anvil____helapordo_8h.html#aaea8810d8c4377e1c92012318b3bb726">anvil__helapordo.h</a></li>
 <li>get_INVIL__COMMIT__DESC__()&#160;:&#160;<a class="el" href="anvil____helapordo_8c.html#af05d29187c9b5aed350a5c465fff132d">anvil__helapordo.c</a>, <a class="el" href="anvil____helapordo_8h.html#af05d29187c9b5aed350a5c465fff132d">anvil__helapordo.h</a></li>
-<li>get_INVIL__HEADERGEN__TIME__()&#160;:&#160;<a class="el" href="anvil____helapordo_8c.html#ae6e843573699706972e130c647ebcf84">anvil__helapordo.c</a>, <a class="el" href="anvil____helapordo_8h.html#ae6e843573699706972e130c647ebcf84">anvil__helapordo.h</a></li>
 <li>get_INVIL__OS__()&#160;:&#160;<a class="el" href="anvil____helapordo_8c.html#aebc78022e585e748df6c0f31af04a654">anvil__helapordo.c</a>, <a class="el" href="anvil____helapordo_8h.html#aebc78022e585e748df6c0f31af04a654">anvil__helapordo.h</a></li>
-<li>get_saveslot_index()&#160;:&#160;<a class="el" href="game__curses_8h.html#a3466cf22a9ebf224e4b9d02051ef42f5">game_curses.h</a>, <a class="el" href="game__curses_8c.html#a3466cf22a9ebf224e4b9d02051ef42f5">game_curses.c</a></li>
-<li>get_StatBoostCounter_FoeParty_Fun()&#160;:&#160;<a class="el" href="helapordo_8c.html#a2677b2ca10e80736be18633898833fcd">helapordo.c</a></li>
-<li>getBoost()&#160;:&#160;<a class="el" href="helapordo_8c.html#ad9882a410485a1c0f3cb908f632df73f">helapordo.c</a></li>
-<li>getBossBoost()&#160;:&#160;<a class="el" href="helapordo_8c.html#aaffb8ce82f08d715c89f53c38e626ac8">helapordo.c</a></li>
-<li>getBossXpGain()&#160;:&#160;<a class="el" href="helapordo_8c.html#afdbfc0a7858163a034f55a21fecd3522">helapordo.c</a></li>
-<li>getConsumableQty()&#160;:&#160;<a class="el" href="helapordo_8c.html#ac8f63d96ab2d731a8bcd599a21abb6d5">helapordo.c</a></li>
+<li>get_saveslot_index()&#160;:&#160;<a class="el" href="game__curses_8c.html#a3466cf22a9ebf224e4b9d02051ef42f5">game_curses.c</a>, <a class="el" href="game__curses_8h.html#a3466cf22a9ebf224e4b9d02051ef42f5">game_curses.h</a></li>
+<li>get_StatBoostCounter_FoeParty_Fun()&#160;:&#160;<a class="el" href="game__utils_8c.html#a2677b2ca10e80736be18633898833fcd">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a2677b2ca10e80736be18633898833fcd">game_utils.h</a></li>
+<li>get_StatusCounter_FoeParty_Fun()&#160;:&#160;<a class="el" href="game__utils_8h.html#af575de3e99729921d5715ed716a9acee">game_utils.h</a></li>
+<li>getBoost()&#160;:&#160;<a class="el" href="game__utils_8c.html#ad9882a410485a1c0f3cb908f632df73f">game_utils.c</a>, <a class="el" href="game__utils_8h.html#ad9882a410485a1c0f3cb908f632df73f">game_utils.h</a></li>
+<li>getBossBoost()&#160;:&#160;<a class="el" href="game__utils_8h.html#aaffb8ce82f08d715c89f53c38e626ac8">game_utils.h</a>, <a class="el" href="game__utils_8c.html#aaffb8ce82f08d715c89f53c38e626ac8">game_utils.c</a></li>
+<li>getBossXpGain()&#160;:&#160;<a class="el" href="game__utils_8c.html#afdbfc0a7858163a034f55a21fecd3522">game_utils.c</a>, <a class="el" href="game__utils_8h.html#afdbfc0a7858163a034f55a21fecd3522">game_utils.h</a></li>
+<li>getConsumableQty()&#160;:&#160;<a class="el" href="game__utils_8c.html#ac8f63d96ab2d731a8bcd599a21abb6d5">game_utils.c</a>, <a class="el" href="game__utils_8h.html#ac8f63d96ab2d731a8bcd599a21abb6d5">game_utils.h</a></li>
 <li>GetDisplayHeigth()&#160;:&#160;<a class="el" href="helapordo__raylib_8c.html#a47f6b238d170c1f6f32b8c550582bd99">helapordo_raylib.c</a></li>
 <li>GetDisplayWidth()&#160;:&#160;<a class="el" href="helapordo__raylib_8c.html#a2f15a04e21ec2c6b9fe11d7bd5a4723b">helapordo_raylib.c</a></li>
-<li>getEnemyBoost()&#160;:&#160;<a class="el" href="helapordo_8c.html#a4d246d5b15ff7742f0265c71a009fee3">helapordo.c</a></li>
-<li>getEnemyXpGain()&#160;:&#160;<a class="el" href="helapordo_8c.html#aa2761927db9f20648c8f6bf8fb8ee22d">helapordo.c</a></li>
-<li>getParams()&#160;:&#160;<a class="el" href="helapordo_8c.html#ae00a249c771c9815aed27d478daaf69b">helapordo.c</a></li>
-<li>getStatBoostCounterBossFun()&#160;:&#160;<a class="el" href="helapordo_8c.html#ad5d0585b8e69619b7e8e50b151fcbaad">helapordo.c</a></li>
-<li>getStatBoostCounterEnemyFun()&#160;:&#160;<a class="el" href="helapordo_8c.html#aba243abfb6afbf0651a2548395a7f78d">helapordo.c</a></li>
-<li>getStatBoostCounterFun()&#160;:&#160;<a class="el" href="helapordo_8c.html#ab404146b3b6faaf00a59b881b109b3eb">helapordo.c</a></li>
-<li>getStatusCounterBossFun()&#160;:&#160;<a class="el" href="helapordo_8c.html#aea988f225575f9db3ac07c4546c88afe">helapordo.c</a></li>
-<li>getStatusCounterEnemyFun()&#160;:&#160;<a class="el" href="helapordo_8c.html#a2886bb5757e3ae98cbc0f7517f09a661">helapordo.c</a></li>
-<li>getStatusCounterFun()&#160;:&#160;<a class="el" href="helapordo_8c.html#a1dfe49cf96cfa1321cd9bba44455264a">helapordo.c</a></li>
-<li>getTurnChoice()&#160;:&#160;<a class="el" href="helapordo_8c.html#ae54e162bba9bfb58797361b63f942c30">helapordo.c</a></li>
-<li>giveXp()&#160;:&#160;<a class="el" href="helapordo_8c.html#a20db8bd79aeaffbdb3d18e55b75bf49f">helapordo.c</a></li>
-<li>giveXp_Boss()&#160;:&#160;<a class="el" href="helapordo_8c.html#a4bb3b25728e7e3979788d82932984d1a">helapordo.c</a></li>
+<li>getEnemyBoost()&#160;:&#160;<a class="el" href="game__utils_8c.html#a4d246d5b15ff7742f0265c71a009fee3">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a4d246d5b15ff7742f0265c71a009fee3">game_utils.h</a></li>
+<li>getEnemyXpGain()&#160;:&#160;<a class="el" href="game__utils_8c.html#aa2761927db9f20648c8f6bf8fb8ee22d">game_utils.c</a>, <a class="el" href="game__utils_8h.html#aa2761927db9f20648c8f6bf8fb8ee22d">game_utils.h</a></li>
+<li>getStatBoostCounterBossFun()&#160;:&#160;<a class="el" href="game__utils_8c.html#ad5d0585b8e69619b7e8e50b151fcbaad">game_utils.c</a>, <a class="el" href="game__utils_8h.html#ad5d0585b8e69619b7e8e50b151fcbaad">game_utils.h</a></li>
+<li>getStatBoostCounterEnemyFun()&#160;:&#160;<a class="el" href="game__utils_8c.html#aba243abfb6afbf0651a2548395a7f78d">game_utils.c</a>, <a class="el" href="game__utils_8h.html#aba243abfb6afbf0651a2548395a7f78d">game_utils.h</a></li>
+<li>getStatBoostCounterFun()&#160;:&#160;<a class="el" href="game__utils_8c.html#ab404146b3b6faaf00a59b881b109b3eb">game_utils.c</a>, <a class="el" href="game__utils_8h.html#ab404146b3b6faaf00a59b881b109b3eb">game_utils.h</a></li>
+<li>getStatusCounterBossFun()&#160;:&#160;<a class="el" href="game__utils_8c.html#aea988f225575f9db3ac07c4546c88afe">game_utils.c</a>, <a class="el" href="game__utils_8h.html#aea988f225575f9db3ac07c4546c88afe">game_utils.h</a></li>
+<li>getStatusCounterEnemyFun()&#160;:&#160;<a class="el" href="game__utils_8c.html#a2886bb5757e3ae98cbc0f7517f09a661">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a2886bb5757e3ae98cbc0f7517f09a661">game_utils.h</a></li>
+<li>getStatusCounterFun()&#160;:&#160;<a class="el" href="game__utils_8c.html#a1dfe49cf96cfa1321cd9bba44455264a">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a1dfe49cf96cfa1321cd9bba44455264a">game_utils.h</a></li>
+<li>getTurnChoice()&#160;:&#160;<a class="el" href="game__utils_8c.html#ae54e162bba9bfb58797361b63f942c30">game_utils.c</a>, <a class="el" href="game__utils_8h.html#ae54e162bba9bfb58797361b63f942c30">game_utils.h</a></li>
+<li>giveXp()&#160;:&#160;<a class="el" href="game__utils_8c.html#a20db8bd79aeaffbdb3d18e55b75bf49f">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a20db8bd79aeaffbdb3d18e55b75bf49f">game_utils.h</a></li>
+<li>giveXp_Boss()&#160;:&#160;<a class="el" href="game__utils_8c.html#a4bb3b25728e7e3979788d82932984d1a">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a4bb3b25728e7e3979788d82932984d1a">game_utils.h</a></li>
 <li>green()&#160;:&#160;<a class="el" href="game__utils_8c.html#ac6e04343a63892e40ca3d132c8aa60dc">game_utils.c</a>, <a class="el" href="game__utils_8h.html#ac6e04343a63892e40ca3d132c8aa60dc">game_utils.h</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
 </body>
 </html>

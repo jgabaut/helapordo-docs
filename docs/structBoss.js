@@ -1,0 +1,26 @@
+var structBoss =
+[
+    [ "atk", "structBoss.html#a177e454cb5d7d3050d499da0618f1305", null ],
+    [ "beast", "structBoss.html#a5fa8ea1b3997c37272e160136d9330b6", null ],
+    [ "class", "structBoss.html#a3169bfe9cd4919723800342a201824e9", null ],
+    [ "counters", "structBoss.html#a21072fad9736e73dcd3c73d3d884f527", null ],
+    [ "def", "structBoss.html#afc9a5494636c20460fc46c78c0785c79", null ],
+    [ "energy", "structBoss.html#a68f20c0fa829cf4ba6e388fab4b1cddf", null ],
+    [ "hp", "structBoss.html#a0517628e5cdd82ee25abae40f0fc3b34", null ],
+    [ "level", "structBoss.html#a296bb1284ddc3915f353fa187b48cdfc", null ],
+    [ "luck", "structBoss.html#aff643243ac523cd235e90ece2b43116e", null ],
+    [ "prize", "structBoss.html#aeb5ff8d15eee5e73d45e69c4f882225c", null ],
+    [ "skills", "structBoss.html#aa5b65aedd61d20ed174b1779e9fa9896", null ],
+    [ "sprite", "structBoss.html#a628c292486f2a5ae084fce30c64bfe9d", null ],
+    [ "stamina", "structBoss.html#a56697ceb169ca4165ca9e921a035ced9", null ],
+    [ "status", "structBoss.html#ac62b2c171bdfd1591900ab94d7e315a5", null ],
+    [ "totalenergy", "structBoss.html#a59edc764da98659cbbfc54c76aa72e2b", null ],
+    [ "totalhp", "structBoss.html#ae644fbcea76f59b234a0c17dfd03ff78", null ],
+    [ "totalstamina", "structBoss.html#a00057e812abf0775cee56cc7646e7102", null ],
+    [ "turnboost_atk", "structBoss.html#aa6a7b211118febcc5fe93973556944e0", null ],
+    [ "turnboost_def", "structBoss.html#adc998fa7d0b3d00b3d653851711aa72a", null ],
+    [ "turnboost_enr", "structBoss.html#abdf583a2bb3010bbe70f3d764a58cba9", null ],
+    [ "turnboost_vel", "structBoss.html#a4e261d28e450151e803026c61ce94bc7", null ],
+    [ "vel", "structBoss.html#a6272c204b48b02213e71668d0505bffc", null ],
+    [ "xp", "structBoss.html#ae6c8197bc505e24466ef70ec9dd9add3", null ]
+];

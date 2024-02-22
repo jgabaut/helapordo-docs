@@ -5,11 +5,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>helapordo: src/game_core.h File Reference</title>
+<title>helapordo: src/core/game_core.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript" src="cookie.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
@@ -23,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.2</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.3</span>
    </div>
   </td>
  </tr>
@@ -48,6 +52,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('game__core_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -69,11 +90,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
@@ -85,8 +101,103 @@ $(function() {
   <div class="headertitle"><div class="title">game_core.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;../koliseo/src/koliseo.h&quot;</code><br />
-<code>#include &quot;../sprites4curses/s4c-animate/animate.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;../../koliseo/src/koliseo.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="palette_8h_source.html">../palette.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for game_core.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="game__core_8h__incl.png" border="0" usemap="#asrc_2core_2game__core_8h" alt=""/></div>
+<map name="asrc_2core_2game__core_8h" id="asrc_2core_2game__core_8h">
+<area shape="rect" title=" " alt="" coords="86,5,234,30"/>
+<area shape="rect" title=" " alt="" coords="5,78,168,103"/>
+<area shape="poly" title=" " alt="" coords="150,32,111,69,107,65,146,29"/>
+<area shape="rect" href="palette_8h.html" title=" " alt="" coords="192,78,275,103"/>
+<area shape="poly" title=" " alt="" coords="174,29,212,65,209,69,170,32"/>
+<area shape="rect" title=" " alt="" coords="161,151,305,189"/>
+<area shape="poly" title=" " alt="" coords="236,103,236,135,231,135,231,103"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="game__core_8h__dep__incl.png" border="0" usemap="#asrc_2core_2game__core_8hdep" alt=""/></div>
+<map name="asrc_2core_2game__core_8hdep" id="asrc_2core_2game__core_8hdep">
+<area shape="rect" title=" " alt="" coords="919,5,1067,30"/>
+<area shape="rect" href="equips_8h.html" title=" " alt="" coords="48,78,170,103"/>
+<area shape="poly" title=" " alt="" coords="904,29,170,87,170,82,903,23"/>
+<area shape="rect" href="game__core_8c.html" title=" " alt="" coords="1323,78,1471,103"/>
+<area shape="poly" title=" " alt="" coords="1075,31,1330,75,1329,80,1075,36"/>
+<area shape="rect" href="sprites_8h.html" title=" " alt="" coords="1177,78,1299,103"/>
+<area shape="poly" title=" " alt="" coords="1049,32,1198,75,1197,80,1047,37"/>
+<area shape="rect" href="game__utils_8h.html" title=" " alt="" coords="842,78,987,103"/>
+<area shape="poly" title=" " alt="" coords="970,42,929,80,925,76,967,38"/>
+<area shape="rect" href="equips_8c.html" title=" " alt="" coords="48,151,170,175"/>
+<area shape="poly" title=" " alt="" coords="112,118,112,150,106,150,106,118"/>
+<area shape="rect" href="saves_8h.html" title=" " alt="" coords="5,317,122,342"/>
+<area shape="poly" title=" " alt="" coords="74,113,54,130,38,152,31,174,28,197,33,244,46,285,60,315,55,318,41,287,28,245,23,197,25,173,33,149,50,127,71,109"/>
+<area shape="rect" href="saves_8c.html" title=" " alt="" coords="5,397,122,421"/>
+<area shape="poly" title=" " alt="" coords="66,357,66,396,61,396,61,357"/>
+<area shape="rect" href="turn__op_8h.html" title=" " alt="" coords="554,397,680,421"/>
+<area shape="poly" title=" " alt="" coords="121,343,135,346,250,365,365,380,554,400,553,405,365,386,249,370,134,351,120,348"/>
+<area shape="rect" href="game__curses_8h.html" title=" " alt="" coords="614,469,796,494"/>
+<area shape="poly" title=" " alt="" coords="645,429,692,467,689,471,642,434"/>
+<area shape="rect" href="rooms_8h.html" title=" " alt="" coords="1028,469,1147,494"/>
+<area shape="poly" title=" " alt="" coords="695,419,1028,469,1027,474,694,425"/>
+<area shape="rect" href="turn__op_8c.html" title=" " alt="" coords="465,469,590,494"/>
+<area shape="poly" title=" " alt="" coords="592,433,544,471,540,467,589,429"/>
+<area shape="rect" href="game__curses_8c.html" title=" " alt="" coords="614,549,796,574"/>
+<area shape="poly" title=" " alt="" coords="708,510,708,549,702,549,702,510"/>
+<area shape="rect" href="helapordo__raylib_8h.html" title=" " alt="" coords="1197,542,1338,581"/>
+<area shape="poly" title=" " alt="" coords="1129,498,1225,539,1223,544,1127,503"/>
+<area shape="rect" href="rooms_8c.html" title=" " alt="" coords="1028,549,1147,574"/>
+<area shape="poly" title=" " alt="" coords="1090,510,1090,549,1085,549,1085,510"/>
+<area shape="rect" href="helapordo__raylib_8c.html" title=" " alt="" coords="1197,629,1338,667"/>
+<area shape="poly" title=" " alt="" coords="1270,597,1270,628,1265,628,1265,597"/>
+<area shape="rect" href="game__rl_8h.html" title=" " alt="" coords="1254,151,1396,175"/>
+<area shape="poly" title=" " alt="" coords="1266,111,1312,148,1309,152,1263,115"/>
+<area shape="rect" href="sprites_8c.html" title=" " alt="" coords="1420,151,1542,175"/>
+<area shape="poly" title=" " alt="" coords="1293,105,1441,148,1440,153,1292,110"/>
+<area shape="poly" title=" " alt="" coords="1319,191,1304,253,1298,290,1295,328,1295,410,1288,484,1275,542,1270,541,1283,483,1290,410,1290,328,1293,290,1299,252,1314,189"/>
+<area shape="rect" href="game__rl_8c.html" title=" " alt="" coords="1330,230,1472,255"/>
+<area shape="poly" title=" " alt="" coords="1349,185,1391,228,1388,232,1345,188"/>
+<area shape="poly" title=" " alt="" coords="998,103,1257,147,1256,153,997,108"/>
+<area shape="rect" href="artifacts_8h.html" title=" " alt="" coords="930,151,1061,175"/>
+<area shape="poly" title=" " alt="" coords="941,111,984,148,981,152,937,115"/>
+<area shape="rect" href="floors_8h.html" title=" " alt="" coords="590,151,705,175"/>
+<area shape="poly" title=" " alt="" coords="856,110,692,153,691,148,855,104"/>
+<area shape="rect" href="game__fight_8h.html" title=" " alt="" coords="762,151,907,175"/>
+<area shape="poly" title=" " alt="" coords="891,115,849,152,845,148,888,111"/>
+<area shape="rect" href="game__init_8h.html" title=" " alt="" coords="48,230,186,255"/>
+<area shape="poly" title=" " alt="" coords="826,96,681,100,510,110,348,127,283,139,234,153,201,170,172,191,129,232,125,228,168,187,198,165,232,148,282,134,347,122,509,105,681,95,826,90"/>
+<area shape="rect" href="game__utils_8c.html" title=" " alt="" coords="1084,151,1230,175"/>
+<area shape="poly" title=" " alt="" coords="969,105,1117,148,1116,153,968,110"/>
+<area shape="rect" href="specials_8h.html" title=" " alt="" coords="245,151,375,175"/>
+<area shape="poly" title=" " alt="" coords="826,105,376,157,376,151,826,99"/>
+<area shape="poly" title=" " alt="" coords="1029,183,1049,200,1064,222,1079,256,1088,292,1097,364,1096,427,1092,469,1087,468,1091,426,1091,364,1083,293,1074,258,1060,225,1045,204,1026,187"/>
+<area shape="rect" href="artifacts_8c.html" title=" " alt="" coords="1125,230,1255,255"/>
+<area shape="poly" title=" " alt="" coords="1040,179,1162,227,1160,232,1038,184"/>
+<area shape="rect" href="floor__tester_8h.html" title=" " alt="" coords="544,223,690,262"/>
+<area shape="poly" title=" " alt="" coords="640,191,627,224,622,222,635,189"/>
+<area shape="rect" href="floors_8c.html" title=" " alt="" coords="714,230,829,255"/>
+<area shape="poly" title=" " alt="" coords="680,181,754,227,751,232,677,186"/>
+<area shape="rect" href="game__debug_8h.html" title=" " alt="" coords="364,230,520,255"/>
+<area shape="poly" title=" " alt="" coords="604,184,474,232,472,227,602,179"/>
+<area shape="rect" href="floor__tester_8c.html" title=" " alt="" coords="627,310,772,349"/>
+<area shape="poly" title=" " alt="" coords="648,272,683,308,679,311,644,275"/>
+<area shape="poly" title=" " alt="" coords="434,270,426,309,428,329,436,347,460,370,490,387,522,397,554,403,553,408,521,402,488,392,457,375,432,350,423,331,421,309,429,269"/>
+<area shape="rect" href="game__debug_8c.html" title=" " alt="" coords="447,317,603,342"/>
+<area shape="poly" title=" " alt="" coords="466,264,516,315,512,319,462,268"/>
+<area shape="poly" title=" " alt="" coords="843,190,848,225,843,263,834,291,824,313,809,331,786,351,762,367,734,381,680,399,679,393,732,376,759,363,783,347,805,327,819,310,829,289,838,261,842,225,838,190"/>
+<area shape="rect" href="game__fight_8c.html" title=" " alt="" coords="904,230,1050,255"/>
+<area shape="poly" title=" " alt="" coords="870,181,956,227,954,232,867,185"/>
+<area shape="poly" title=" " alt="" coords="104,269,73,318,68,315,99,267"/>
+<area shape="rect" href="game__init_8c.html" title=" " alt="" coords="146,317,283,342"/>
+<area shape="poly" title=" " alt="" coords="143,263,203,315,200,319,140,267"/>
+<area shape="poly" title=" " alt="" coords="268,184,147,232,145,227,266,179"/>
+<area shape="rect" href="specials_8c.html" title=" " alt="" coords="209,230,339,255"/>
+<area shape="poly" title=" " alt="" coords="301,191,282,231,277,229,296,188"/>
+</map>
+</div>
 </div>
 <p><a href="game__core_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -191,10 +302,10 @@ Macros</h2></td></tr>
 <tr class="memitem:a1cb68a9343b29c3257266a562fbc26a9" id="r_a1cb68a9343b29c3257266a562fbc26a9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cb68a9343b29c3257266a562fbc26a9">HELAPORDO_MINOR_VERSION</a>&#160;&#160;&#160;4</td></tr>
 <tr class="memdesc:a1cb68a9343b29c3257266a562fbc26a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current minor release.  <br /></td></tr>
 <tr class="separator:a1cb68a9343b29c3257266a562fbc26a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69f950e67bf21741e89f443bdd11c1fa" id="r_a69f950e67bf21741e89f443bdd11c1fa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69f950e67bf21741e89f443bdd11c1fa">HELAPORDO_PATCH_VERSION</a>&#160;&#160;&#160;2</td></tr>
+<tr class="memitem:a69f950e67bf21741e89f443bdd11c1fa" id="r_a69f950e67bf21741e89f443bdd11c1fa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69f950e67bf21741e89f443bdd11c1fa">HELAPORDO_PATCH_VERSION</a>&#160;&#160;&#160;3</td></tr>
 <tr class="memdesc:a69f950e67bf21741e89f443bdd11c1fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current patch release.  <br /></td></tr>
 <tr class="separator:a69f950e67bf21741e89f443bdd11c1fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c6d5de492ac61ad29aec7aa9a436bbf" id="r_a1c6d5de492ac61ad29aec7aa9a436bbf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c6d5de492ac61ad29aec7aa9a436bbf">VERSION</a>&#160;&#160;&#160;&quot;1.4.2&quot;</td></tr>
+<tr class="memitem:a1c6d5de492ac61ad29aec7aa9a436bbf" id="r_a1c6d5de492ac61ad29aec7aa9a436bbf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c6d5de492ac61ad29aec7aa9a436bbf">VERSION</a>&#160;&#160;&#160;&quot;1.4.3&quot;</td></tr>
 <tr class="memdesc:a1c6d5de492ac61ad29aec7aa9a436bbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current version string identifier, with MAJOR.MINOR.PATCH format.  <br /></td></tr>
 <tr class="separator:a1c6d5de492ac61ad29aec7aa9a436bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4788207d3500e4ada5f19eed487f8313" id="r_a4788207d3500e4ada5f19eed487f8313"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4788207d3500e4ada5f19eed487f8313">HELAPORDO_SAVEFILE_VERSION</a>&#160;&#160;&#160;&quot;0.1.7&quot;</td></tr>
@@ -903,7 +1014,7 @@ Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:afdd0453fe6225829f8651c9919bf0ea9" id="r_afdd0453fe6225829f8651c9919bf0ea9"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdd0453fe6225829f8651c9919bf0ea9">helapordo_title_string</a></td></tr>
-<tr class="memdesc:afdd0453fe6225829f8651c9919bf0ea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a formatted string for title output to FILE.  <br /></td></tr>
+<tr class="memdesc:afdd0453fe6225829f8651c9919bf0ea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; Defines the color palette used for the s4c functions, includes animate.h.  <br /></td></tr>
 <tr class="separator:afdd0453fe6225829f8651c9919bf0ea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af427dadff5a8eaf941b674721ebfe003" id="r_af427dadff5a8eaf941b674721ebfe003"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af427dadff5a8eaf941b674721ebfe003">helapordo_build_string</a></td></tr>
 <tr class="separator:af427dadff5a8eaf941b674721ebfe003"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1121,7 +1232,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Ratio of beast rooms to normal ones. </p>
-<p>Every Xth room will have a beast. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="helapordo_8c.html#a65c559970baca41ce702e4106081e4e7" title="Takes one Enemy pointer and initialises the enemy fields.">initEnemyStats()</a> </dd></dl>
+<p>Every Xth room will have a beast. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="game__init_8c.html#a65c559970baca41ce702e4106081e4e7" title="Takes one Enemy pointer and initialises the enemy fields.">initEnemyStats()</a> </dd></dl>
 
 </div>
 </div>
@@ -1186,7 +1297,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Factor for stat boost to beast enemies. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="helapordo_8c.html#a65c559970baca41ce702e4106081e4e7" title="Takes one Enemy pointer and initialises the enemy fields.">initEnemyStats()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__init_8c.html#a65c559970baca41ce702e4106081e4e7" title="Takes one Enemy pointer and initialises the enemy fields.">initEnemyStats()</a> </dd></dl>
 
 </div>
 </div>
@@ -1433,7 +1544,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Ratio of <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> levels to <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> levels. </p>
-<p>Every Xth level up will apply to enemies. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="helapordo_8c.html#a65c559970baca41ce702e4106081e4e7" title="Takes one Enemy pointer and initialises the enemy fields.">initEnemyStats()</a> </dd></dl>
+<p>Every Xth level up will apply to enemies. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="game__init_8c.html#a65c559970baca41ce702e4106081e4e7" title="Takes one Enemy pointer and initialises the enemy fields.">initEnemyStats()</a> </dd></dl>
 
 </div>
 </div>
@@ -1467,7 +1578,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Ratio of <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> levels to <a class="el" href="structEquip.html" title="Represents the entity initialised from a equipClass.">Equip</a> levels. </p>
-<p>Every Xth level up will apply to equips. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="helapordo_8c.html#a96643ff3ebb64ddd66e154ecec8d1ffb" title="Takes a Fighter pointer value and an integer indicating if the drop was from a beast enemy,...">dropEquip()</a> </dd></dl>
+<p>Every Xth level up will apply to equips. </p><dl class="section see"><dt>See also</dt><dd>dropEquip() </dd></dl>
 
 </div>
 </div>
@@ -1652,7 +1763,7 @@ Variables</h2></td></tr>
 <p>Maximum number of bosses when in a <a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a>. </p>
 <p>Can be confusing to name it ROOM_BOSSES_MAX since a <a class="el" href="structRoom.html" title="Represents the entity initialised from a roomClass.">Room</a> only has one boss pointer. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> </dd>
 <dd>
-<a class="el" href="helapordo_8c.html#a21b96198f60b0baf9b910bd2ab1072ff" title="Takes a Boss pointer and initialises all the fields making it ready for use in battle.">prepareBoss()</a><a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> </dd></dl>
+<a class="el" href="game__init_8c.html#a21b96198f60b0baf9b910bd2ab1072ff" title="Takes a Boss pointer and initialises all the fields making it ready for use in battle.">prepareBoss()</a><a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> </dd></dl>
 
 </div>
 </div>
@@ -1731,7 +1842,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define HELAPORDO_PATCH_VERSION&#160;&#160;&#160;2</td>
+          <td class="memname">#define HELAPORDO_PATCH_VERSION&#160;&#160;&#160;3</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1767,9 +1878,9 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Default savepath. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="rooms_8c.html#ae1e0a7bcdf47a001e7b67aeae07044f8" title="Takes an integer for room index and a Fighter and a Path pointers and handles the progression of the ...">handleRoom_Home()</a> </dd>
+<dl class="section see"><dt>See also</dt><dd>handleRoom_Home() </dd>
 <dd>
-<a class="el" href="rooms_8c.html#a013ceb3d84e06e53b9198c51b9534b97" title="Takes an integer for room index and a Fighter and a Path pointers and handles the progression of the ...">handleRoom_Enemies()</a> </dd>
+handleRoom_Enemies() </dd>
 <dd>
 handleRogue_Menu() </dd>
 <dd>
@@ -1946,7 +2057,7 @@ handleSave() </dd></dl>
 <p>Maximum value of OP_res values. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="#afe8e046bf5f260d1d9a60aa4d4dfab9c" title="The different kinds of OP_res.">OP_res</a> </dd>
 <dd>
-<a class="el" href="helapordo_8c.html#a2bdbd23791ec51ae3818691d74326ba7" title="Takes a turnOption_OP and a pointer to a turnOP_args struct.">turnOP()</a> </dd></dl>
+<a class="el" href="turn__op_8c.html#a2bdbd23791ec51ae3818691d74326ba7" title="Takes a turnOption_OP and a pointer to a turnOP_args struct.">turnOP()</a> </dd></dl>
 
 </div>
 </div>
@@ -1963,7 +2074,7 @@ handleSave() </dd></dl>
 </div><div class="memdoc">
 
 <p>Filename for OPS log. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="helapordo_8c.html#a2bdbd23791ec51ae3818691d74326ba7" title="Takes a turnOption_OP and a pointer to a turnOP_args struct.">turnOP()</a> </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="turn__op_8c.html#a2bdbd23791ec51ae3818691d74326ba7" title="Takes a turnOption_OP and a pointer to a turnOP_args struct.">turnOP()</a> </dd>
 <dd>
 <a class="el" href="#abc0ae742eb657b3657d27bc54585b160" title="The different kinds of turnOption_OP.">turnOption_OP</a> </dd></dl>
 
@@ -2132,7 +2243,7 @@ handleSave() </dd></dl>
 </div><div class="memdoc">
 
 <p>Ratio of <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> levels to unlock a new special move. </p>
-<p>Every Xth level up will unlock one. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="helapordo_8c.html#a94a7def8e1282d1fe2beb3b5d619bc60" title="Takes a Fighter pointer and asks the user to select a specialMove to unlock with a formatted text men...">unlockSpecial()</a> </dd></dl>
+<p>Every Xth level up will unlock one. </p><dl class="section see"><dt>See also</dt><dd>unlockSpecial() </dd></dl>
 
 </div>
 </div>
@@ -2230,7 +2341,7 @@ handleSave() </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define VERSION&#160;&#160;&#160;&quot;1.4.2&quot;</td>
+          <td class="memname">#define VERSION&#160;&#160;&#160;&quot;1.4.3&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2388,7 +2499,7 @@ initStats() </dd></dl>
 <dd>
 <a class="el" href="#aaeddacde1fba33d96646183ed28cff36" title="The different kinds of fighterStatus.">fighterStatus</a> </dd>
 <dd>
-<a class="el" href="helapordo_8c.html#a8f4c10cd9fae95152b93fe7139a19763" title="Takes one Boss pointer and initialises the boss fields.">initBossStats()</a> </dd>
+<a class="el" href="game__init_8c.html#a8f4c10cd9fae95152b93fe7139a19763" title="Takes one Boss pointer and initialises the boss fields.">initBossStats()</a> </dd>
 <dd>
 <a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd>
 <dd>
@@ -2413,7 +2524,7 @@ initStats() </dd></dl>
 <dd>
 <a class="el" href="#ad058c5be0a35743bfba3622e849b9faf" title="The different kinds of Boss.">bossClass</a> </dd>
 <dd>
-<a class="el" href="helapordo_8c.html#a8f4c10cd9fae95152b93fe7139a19763" title="Takes one Boss pointer and initialises the boss fields.">initBossStats()</a> </dd></dl>
+<a class="el" href="game__init_8c.html#a8f4c10cd9fae95152b93fe7139a19763" title="Takes one Boss pointer and initialises the boss fields.">initBossStats()</a> </dd></dl>
 
 </div>
 </div>
@@ -2618,7 +2729,7 @@ SpecialSlot Defines a function pointer returning void and taking a <a class="el"
 <dd>
 <a class="el" href="#aaeddacde1fba33d96646183ed28cff36" title="The different kinds of fighterStatus.">fighterStatus</a> </dd>
 <dd>
-<a class="el" href="helapordo_8c.html#a65c559970baca41ce702e4106081e4e7" title="Takes one Enemy pointer and initialises the enemy fields.">initEnemyStats()</a> </dd>
+<a class="el" href="game__init_8c.html#a65c559970baca41ce702e4106081e4e7" title="Takes one Enemy pointer and initialises the enemy fields.">initEnemyStats()</a> </dd>
 <dd>
 <a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd>
 <dd>
@@ -2643,7 +2754,7 @@ SpecialSlot Defines a function pointer returning void and taking a <a class="el"
 <dd>
 <a class="el" href="#a11ed656be5525063588efc931101c732" title="The different kinds of Enemy.">enemyClass</a> </dd>
 <dd>
-<a class="el" href="helapordo_8c.html#a65c559970baca41ce702e4106081e4e7" title="Takes one Enemy pointer and initialises the enemy fields.">initEnemyStats()</a> </dd></dl>
+<a class="el" href="game__init_8c.html#a65c559970baca41ce702e4106081e4e7" title="Takes one Enemy pointer and initialises the enemy fields.">initEnemyStats()</a> </dd></dl>
 
 </div>
 </div>
@@ -2794,7 +2905,7 @@ initStats() </dd>
 <dd>
 <a class="el" href="#ac7e963d3b7c81d2f265d61e78bc1a5f2" title="The different kinds of FoeParty.">foePartyClass</a> </dd>
 <dd>
-<a class="el" href="helapordo_8c.html#a947963a0d9fc0cb5ac1cefc5ab5d73dc" title="Takes one FoeParty pointer and initialises the party fields.">initFoePartyStats()</a> </dd></dl>
+<a class="el" href="game__init_8c.html#a947963a0d9fc0cb5ac1cefc5ab5d73dc" title="Takes one FoeParty pointer and initialises the party fields.">initFoePartyStats()</a> </dd></dl>
 
 </div>
 </div>
@@ -2883,7 +2994,7 @@ handleLoadgame() </dd>
 </div><div class="memdoc">
 
 <p>The different kinds of OP_res. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="helapordo_8c.html#a2bdbd23791ec51ae3818691d74326ba7" title="Takes a turnOption_OP and a pointer to a turnOP_args struct.">turnOP()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="turn__op_8c.html#a2bdbd23791ec51ae3818691d74326ba7" title="Takes a turnOption_OP and a pointer to a turnOP_args struct.">turnOP()</a> </dd></dl>
 
 </div>
 </div>
@@ -3042,11 +3153,11 @@ handleLoadgame() </dd>
 </div><div class="memdoc">
 
 <p>The different kinds of turnOption. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="helapordo_8c.html#ae54e162bba9bfb58797361b63f942c30" title="Returns the chosen option as a turnOption.">getTurnChoice()</a> </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__utils_8c.html#ae54e162bba9bfb58797361b63f942c30" title="Returns the chosen option as a turnOption.">getTurnChoice()</a> </dd>
 <dd>
-<a class="el" href="helapordo_8c.html#ac41f847f2820653bc77d58d8f3885c52" title="Takes a Fighter and a Enemy pointers and compares their stats to determine who gets damaged and retur...">fight()</a> </dd>
+fight() </dd>
 <dd>
-<a class="el" href="helapordo_8c.html#a488d7ec4e28fd221c2fdfb40af5b2ae4" title="Takes a Fighter, a Room and a loadInfo pointers, and prints fighter stats and a quitting message,...">quit()</a> </dd>
+<a class="el" href="game__utils_8c.html#a488d7ec4e28fd221c2fdfb40af5b2ae4" title="Takes a Fighter, a Room and a loadInfo pointers, and prints fighter stats and a quitting message,...">quit()</a> </dd>
 <dd>
 debug() </dd></dl>
 
@@ -3578,7 +3689,7 @@ debug() </dd></dl>
 </div><div class="memdoc">
 
 <p>The different kinds of OP_res. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="helapordo_8c.html#a2bdbd23791ec51ae3818691d74326ba7" title="Takes a turnOption_OP and a pointer to a turnOP_args struct.">turnOP()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="turn__op_8c.html#a2bdbd23791ec51ae3818691d74326ba7" title="Takes a turnOption_OP and a pointer to a turnOP_args struct.">turnOP()</a> </dd></dl>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afe8e046bf5f260d1d9a60aa4d4dfab9cacc156be86a1cb4bfc0e21d8c72e4971c" name="afe8e046bf5f260d1d9a60aa4d4dfab9cacc156be86a1cb4bfc0e21d8c72e4971c"></a>OP_OK&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="afe8e046bf5f260d1d9a60aa4d4dfab9ca59d0a026a25e86afe4d0e936d74d9b31" name="afe8e046bf5f260d1d9a60aa4d4dfab9ca59d0a026a25e86afe4d0e936d74d9b31"></a>INVALID_OP&#160;</td><td class="fielddoc"></td></tr>
@@ -3839,11 +3950,11 @@ debug() </dd></dl>
 </div><div class="memdoc">
 
 <p>The different kinds of turnOption. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="helapordo_8c.html#ae54e162bba9bfb58797361b63f942c30" title="Returns the chosen option as a turnOption.">getTurnChoice()</a> </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__utils_8c.html#ae54e162bba9bfb58797361b63f942c30" title="Returns the chosen option as a turnOption.">getTurnChoice()</a> </dd>
 <dd>
-<a class="el" href="helapordo_8c.html#ac41f847f2820653bc77d58d8f3885c52" title="Takes a Fighter and a Enemy pointers and compares their stats to determine who gets damaged and retur...">fight()</a> </dd>
+fight() </dd>
 <dd>
-<a class="el" href="helapordo_8c.html#a488d7ec4e28fd221c2fdfb40af5b2ae4" title="Takes a Fighter, a Room and a loadInfo pointers, and prints fighter stats and a quitting message,...">quit()</a> </dd>
+<a class="el" href="game__utils_8c.html#a488d7ec4e28fd221c2fdfb40af5b2ae4" title="Takes a Fighter, a Room and a loadInfo pointers, and prints fighter stats and a quitting message,...">quit()</a> </dd>
 <dd>
 debug() </dd></dl>
 <table class="fieldtable">
@@ -4084,7 +4195,7 @@ debug() </dd></dl>
 <dd>
 <a class="el" href="#ad058c5be0a35743bfba3622e849b9faf" title="The different kinds of Boss.">bossClass</a> </dd>
 <dd>
-<a class="el" href="helapordo_8c.html#a8f4c10cd9fae95152b93fe7139a19763" title="Takes one Boss pointer and initialises the boss fields.">initBossStats()</a> </dd></dl>
+<a class="el" href="game__init_8c.html#a8f4c10cd9fae95152b93fe7139a19763" title="Takes one Boss pointer and initialises the boss fields.">initBossStats()</a> </dd></dl>
 
 </div>
 </div>
@@ -4113,7 +4224,7 @@ debug() </dd></dl>
 <dd>
 <a class="el" href="#a11ed656be5525063588efc931101c732" title="The different kinds of Enemy.">enemyClass</a> </dd>
 <dd>
-<a class="el" href="helapordo_8c.html#a65c559970baca41ce702e4106081e4e7" title="Takes one Enemy pointer and initialises the enemy fields.">initEnemyStats()</a> </dd></dl>
+<a class="el" href="game__init_8c.html#a65c559970baca41ce702e4106081e4e7" title="Takes one Enemy pointer and initialises the enemy fields.">initEnemyStats()</a> </dd></dl>
 
 </div>
 </div>
@@ -4142,7 +4253,7 @@ debug() </dd></dl>
 <dd>
 <a class="el" href="#ac7e963d3b7c81d2f265d61e78bc1a5f2" title="The different kinds of FoeParty.">foePartyClass</a> </dd>
 <dd>
-<a class="el" href="helapordo_8c.html#a947963a0d9fc0cb5ac1cefc5ab5d73dc" title="Takes one FoeParty pointer and initialises the party fields.">initFoePartyStats()</a> </dd></dl>
+<a class="el" href="game__init_8c.html#a947963a0d9fc0cb5ac1cefc5ab5d73dc" title="Takes one FoeParty pointer and initialises the party fields.">initFoePartyStats()</a> </dd></dl>
 
 </div>
 </div>
@@ -4995,6 +5106,7 @@ stringFromFoeTurnOption() </dd></dl>
 </table>
 </div><div class="memdoc">
 
+<p>&lt; Defines the color palette used for the s4c functions, includes animate.h. </p>
 <p>Defines a formatted string for title output to FILE. </p>
 
 </div>
@@ -5047,7 +5159,7 @@ stringFromFoeTurnOption() </dd></dl>
 <p>Array with the name strings for OP_res. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="#abc0ae742eb657b3657d27bc54585b160" title="The different kinds of turnOption_OP.">turnOption_OP</a> </dd>
 <dd>
-<a class="el" href="helapordo_8c.html#a2bdbd23791ec51ae3818691d74326ba7" title="Takes a turnOption_OP and a pointer to a turnOP_args struct.">turnOP()</a> </dd>
+<a class="el" href="turn__op_8c.html#a2bdbd23791ec51ae3818691d74326ba7" title="Takes a turnOption_OP and a pointer to a turnOP_args struct.">turnOP()</a> </dd>
 <dd>
 <a class="el" href="game__utils_8c.html#af200d40c5efac9874dd8e1cc0ff34741" title="Takes a OP_res and returns the corresponding string by the inner array position.">stringFrom_OP_res()</a> </dd></dl>
 
@@ -5457,9 +5569,13 @@ stringFromTurnOption() </dd></dl>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li><li class="navelem"><a class="el" href="game__core_8h.html">game_core.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
 </body>
 </html>

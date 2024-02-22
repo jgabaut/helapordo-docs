@@ -1,0 +1,14 @@
+<map id="Treasure" name="Treasure">
+<area shape="rect" id="Node000001" title="Represents the entity initialised from a treasureClass." alt="" coords="121,265,192,290"/>
+<area shape="rect" id="Node000002" href="$structChest.html" title="Represents the entity initialised from a chestClass." alt="" coords="128,179,185,203"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,219,159,265,154,265,154,219"/>
+<area shape="rect" id="Node000003" href="$structConsumable.html" title="Holds a certain qty of a consumableClass." alt="" coords="5,92,100,117"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="45,131,38,167,39,185,45,202,60,223,80,239,123,262,121,267,77,244,56,226,40,205,34,186,33,166,40,130"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="66,129,84,153,106,168,129,178,127,183,103,172,80,157,62,132"/>
+<area shape="rect" id="Node000004" href="$structEquip.html" title="Represents the entity initialised from a equipClass." alt="" coords="159,92,213,117"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="179,132,163,179,158,178,174,130"/>
+<area shape="rect" id="Node000005" href="$structPerk.html" title="Represents the entity initialised from a perkClass." alt="" coords="162,5,210,30"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="189,45,189,92,183,92,183,45"/>
+<area shape="rect" id="Node000006" href="$structArtifact.html" title="Represents the entity initialised from a artifactClass." alt="" coords="208,179,273,203"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="224,217,200,243,173,267,169,263,196,239,220,213"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="src/core/equips.c" name="src/core/equips.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="99,5,221,30"/>
+<area shape="rect" id="Node000002" href="$equips_8h.html" title=" " alt="" coords="125,78,195,103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,31,163,62,157,62,157,31"/>
+<area shape="rect" id="Node000003" href="$game__core_8h.html" title=" " alt="" coords="112,151,208,175"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="163,103,163,135,157,135,157,103"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,223,168,248"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="150,178,111,215,107,211,146,174"/>
+<area shape="rect" id="Node000005" href="$palette_8h.html" title=" " alt="" coords="192,223,275,248"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="174,174,212,211,209,215,170,178"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="161,296,305,335"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="236,248,236,280,231,280,231,248"/>
+</map>

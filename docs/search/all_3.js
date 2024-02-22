@@ -10,7 +10,7 @@ var searchData=
   ['callback_5fvoid_5ft_7',['callback_void_t',['../game__core_8h.html#a1f300c4f7bc3fed5ba98eb8af1178609',1,'game_core.h']]],
   ['cape_8',['Cape',['../game__core_8h.html#aac53a759e5f99a62316843ecff83cbd1ac3119d43264ccd7007c78c06ed594946',1,'game_core.h']]],
   ['chaosorb_9',['CHAOSORB',['../game__core_8h.html#a1633bdf36a3d53020d3955aa2ea528a4a2bb408fed7931038fe62d0d3388a30f2',1,'game_core.h']]],
-  ['checkremainder_10',['checkremainder',['../helapordo_8c.html#ad8b259153e776be32a82e8b991b67f6e',1,'helapordo.c']]],
+  ['checkremainder_10',['checkremainder',['../game__utils_8c.html#ad8b259153e776be32a82e8b991b67f6e',1,'checkremainder(Fighter *player, int xp):&#160;game_utils.c'],['../game__utils_8h.html#ad8b259153e776be32a82e8b991b67f6e',1,'checkremainder(Fighter *player, int xp):&#160;game_utils.c']]],
   ['chest_11',['Chest',['../structChest.html',1,'']]],
   ['chest_12',['chest',['../structTreasure.html#a20a72d19488fe9b102b11b7cc5c76647',1,'Treasure']]],
   ['chest_13',['Chest',['../game__core_8h.html#a99951a149b02119a8332cd26c74aebe1',1,'game_core.h']]],

@@ -5,11 +5,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>helapordo: src/sprites.h File Reference</title>
+<title>helapordo: src/core/sprites.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript" src="cookie.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
@@ -23,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.2</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.3</span>
    </div>
   </td>
  </tr>
@@ -48,6 +52,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('sprites_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -69,11 +90,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
@@ -82,6 +98,40 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="game__core_8h_source.html">game_core.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for sprites.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="sprites_8h__incl.png" border="0" usemap="#asrc_2core_2sprites_8h" alt=""/></div>
+<map name="asrc_2core_2sprites_8h" id="asrc_2core_2sprites_8h">
+<area shape="rect" title=" " alt="" coords="99,5,221,30"/>
+<area shape="rect" href="game__core_8h.html" title=" " alt="" coords="112,78,208,103"/>
+<area shape="poly" title=" " alt="" coords="163,31,163,62,157,62,157,31"/>
+<area shape="rect" title=" " alt="" coords="5,151,168,175"/>
+<area shape="poly" title=" " alt="" coords="150,105,111,142,107,138,146,101"/>
+<area shape="rect" href="palette_8h.html" title=" " alt="" coords="192,151,275,175"/>
+<area shape="poly" title=" " alt="" coords="174,101,212,138,209,142,170,105"/>
+<area shape="rect" title=" " alt="" coords="161,223,305,262"/>
+<area shape="poly" title=" " alt="" coords="236,176,236,207,231,207,231,176"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="sprites_8h__dep__incl.png" border="0" usemap="#asrc_2core_2sprites_8hdep" alt=""/></div>
+<map name="asrc_2core_2sprites_8hdep" id="asrc_2core_2sprites_8hdep">
+<area shape="rect" title=" " alt="" coords="175,5,298,30"/>
+<area shape="rect" href="game__rl_8h.html" title=" " alt="" coords="88,78,230,103"/>
+<area shape="poly" title=" " alt="" coords="214,43,173,80,170,76,211,39"/>
+<area shape="rect" href="sprites_8c.html" title=" " alt="" coords="254,78,376,103"/>
+<area shape="poly" title=" " alt="" coords="262,38,304,76,301,80,259,42"/>
+<area shape="rect" href="game__rl_8c.html" title=" " alt="" coords="5,158,148,182"/>
+<area shape="poly" title=" " alt="" coords="138,115,91,159,87,155,134,111"/>
+<area shape="rect" href="helapordo__raylib_8h.html" title=" " alt="" coords="171,151,313,189"/>
+<area shape="poly" title=" " alt="" coords="184,111,224,148,220,152,180,115"/>
+<area shape="rect" href="helapordo__raylib_8c.html" title=" " alt="" coords="171,237,313,276"/>
+<area shape="poly" title=" " alt="" coords="245,205,245,237,239,237,239,205"/>
+</map>
+</div>
 </div>
 <p><a href="sprites_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -278,9 +328,13 @@ Variables</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li><li class="navelem"><a class="el" href="sprites_8h.html">sprites.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
 </body>
 </html>

@@ -2,7 +2,7 @@ var searchData=
 [
   ['t_5fkls_0',['t_kls',['../structturnOP__args.html#ab86f27dc4f6f719bf8bbc2e361aa2a0b',1,'turnOP_args']]],
   ['target_5fval_1',['target_val',['../structWincon.html#afab91c7acae1fe4cad4edfcab79057a8',1,'Wincon']]],
-  ['temporary_5fkls_2',['temporary_kls',['../game__core_8h.html#ab09873664dfb1d459635b47b70cf4d45',1,'temporary_kls:&#160;main.c'],['../main_8c.html#ab09873664dfb1d459635b47b70cf4d45',1,'temporary_kls:&#160;main.c']]],
+  ['temporary_5fkls_2',['temporary_kls',['../main_8c.html#ab09873664dfb1d459635b47b70cf4d45',1,'temporary_kls:&#160;main.c'],['../game__core_8h.html#ab09873664dfb1d459635b47b70cf4d45',1,'temporary_kls:&#160;main.c']]],
   ['tot_5falive_3',['tot_alive',['../structFoeParty.html#ab8a9ee3952c8cd74de25c7d53c053011',1,'FoeParty']]],
   ['total_5ffoes_4',['total_foes',['../structloadInfo.html#a0773ad2277b6258116837c2d3711f839',1,'loadInfo']]],
   ['totalenergy_5',['totalenergy',['../structBaseStats.html#a8f7e36e20d13ea3f9f049753a27ef51d',1,'BaseStats::totalenergy'],['../structEnemyBaseStats.html#a7cdb7d5d3c7ede081506b61b0a2b3e23',1,'EnemyBaseStats::totalenergy'],['../structBossBaseStats.html#a3a94bf1394d783e67669ca93de6c7ee8',1,'BossBaseStats::totalenergy'],['../structFighter.html#ae4d65efe16d578fab870959774145c74',1,'Fighter::totalenergy'],['../structEnemy.html#a0a92d46bc1015607a1adcb189a312096',1,'Enemy::totalenergy'],['../structBoss.html#a59edc764da98659cbbfc54c76aa72e2b',1,'Boss::totalenergy']]],

@@ -5,11 +5,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>helapordo: src/rooms.c File Reference</title>
+<title>helapordo: src/utils/rooms.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript" src="cookie.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
@@ -23,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.2</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.3</span>
    </div>
   </td>
  </tr>
@@ -48,6 +52,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('rooms_8c.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -69,11 +90,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
@@ -81,27 +97,68 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="rooms_8h_source.html">rooms.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for rooms.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="rooms_8c__incl.png" border="0" usemap="#asrc_2utils_2rooms_8c" alt=""/></div>
+<map name="asrc_2utils_2rooms_8c" id="asrc_2utils_2rooms_8c">
+<area shape="rect" title=" " alt="" coords="179,5,297,30"/>
+<area shape="rect" href="rooms_8h.html" title=" " alt="" coords="204,78,272,103"/>
+<area shape="poly" title=" " alt="" coords="241,31,241,62,236,62,236,31"/>
+<area shape="rect" href="artifacts_8h.html" title=" " alt="" coords="147,151,228,175"/>
+<area shape="poly" title=" " alt="" coords="232,105,207,140,202,137,228,102"/>
+<area shape="rect" href="turn__op_8h.html" title=" " alt="" coords="290,151,365,175"/>
+<area shape="poly" title=" " alt="" coords="255,101,303,139,300,143,251,105"/>
+<area shape="rect" href="game__utils_8h.html" title=" " alt="" coords="268,441,363,466"/>
+<area shape="poly" title=" " alt="" coords="180,177,162,203,142,238,129,278,128,299,130,320,142,360,151,375,167,391,208,419,254,436,252,441,206,423,163,395,147,378,137,362,125,321,122,299,124,277,138,236,157,200,176,174"/>
+<area shape="rect" title=" " alt="" coords="5,514,66,539"/>
+<area shape="poly" title=" " alt="" coords="268,469,82,516,80,510,267,464"/>
+<area shape="rect" title=" " alt="" coords="89,514,153,539"/>
+<area shape="poly" title=" " alt="" coords="284,469,168,511,166,506,282,464"/>
+<area shape="rect" title=" " alt="" coords="177,514,244,539"/>
+<area shape="poly" title=" " alt="" coords="300,469,242,507,239,503,297,464"/>
+<area shape="rect" title=" " alt="" coords="267,514,332,539"/>
+<area shape="poly" title=" " alt="" coords="315,467,308,499,303,498,310,466"/>
+<area shape="rect" title=" " alt="" coords="356,514,432,539"/>
+<area shape="poly" title=" " alt="" coords="330,465,372,502,369,506,327,469"/>
+<area shape="rect" title=" " alt="" coords="456,514,514,539"/>
+<area shape="poly" title=" " alt="" coords="344,464,444,505,442,510,342,469"/>
+<area shape="rect" href="game__core_8h.html" title=" " alt="" coords="538,514,675,539"/>
+<area shape="poly" title=" " alt="" coords="364,464,544,507,543,513,363,469"/>
+<area shape="rect" title=" " alt="" coords="452,587,614,611"/>
+<area shape="poly" title=" " alt="" coords="596,541,557,578,554,574,592,537"/>
+<area shape="rect" href="palette_8h.html" title=" " alt="" coords="638,587,721,611"/>
+<area shape="poly" title=" " alt="" coords="620,537,659,574,655,578,616,541"/>
+<area shape="rect" title=" " alt="" coords="607,659,752,698"/>
+<area shape="poly" title=" " alt="" coords="682,612,682,643,677,643,677,612"/>
+<area shape="rect" href="game__debug_8h.html" title=" " alt="" coords="229,223,335,248"/>
+<area shape="poly" title=" " alt="" coords="322,177,300,212,296,209,318,174"/>
+<area shape="rect" href="game__fight_8h.html" title=" " alt="" coords="276,369,371,393"/>
+<area shape="poly" title=" " alt="" coords="335,175,350,223,353,266,349,321,338,355,333,354,344,320,348,266,345,224,330,177"/>
+<area shape="rect" href="saves_8h.html" title=" " alt="" coords="434,223,501,248"/>
+<area shape="poly" title=" " alt="" coords="352,174,432,214,430,218,349,178"/>
+<area shape="rect" href="floors_8h.html" title=" " alt="" coords="140,296,206,321"/>
+<area shape="poly" title=" " alt="" coords="266,251,205,290,202,285,263,246"/>
+<area shape="rect" title=" " alt="" coords="230,296,335,321"/>
+<area shape="poly" title=" " alt="" coords="285,249,285,280,280,280,280,249"/>
+<area shape="poly" title=" " alt="" coords="173,321,170,356,173,375,180,392,195,408,213,421,254,438,252,443,210,425,192,412,176,395,167,376,164,356,167,321"/>
+<area shape="rect" title=" " alt="" coords="190,369,252,393"/>
+<area shape="poly" title=" " alt="" coords="183,320,207,354,202,357,179,323"/>
+<area shape="poly" title=" " alt="" coords="325,394,321,426,316,425,320,394"/>
+<area shape="rect" href="equips_8h.html" title=" " alt="" coords="545,441,657,466"/>
+<area shape="poly" title=" " alt="" coords="482,246,504,268,526,294,566,364,593,426,589,428,561,367,521,298,500,271,478,250"/>
+<area shape="rect" href="game__init_8h.html" title=" " alt="" coords="424,296,511,321"/>
+<area shape="poly" title=" " alt="" coords="470,249,470,280,465,280,465,249"/>
+<area shape="poly" title=" " alt="" coords="604,466,607,498,601,499,599,467"/>
+<area shape="poly" title=" " alt="" coords="458,323,385,395,342,433,339,429,382,391,454,319"/>
+<area shape="rect" href="specials_8h.html" title=" " alt="" coords="446,369,526,393"/>
+<area shape="poly" title=" " alt="" coords="473,321,482,353,477,354,468,322"/>
+<area shape="poly" title=" " alt="" coords="459,396,359,437,357,433,457,391"/>
+</map>
+</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae1e0a7bcdf47a001e7b67aeae07044f8" id="r_ae1e0a7bcdf47a001e7b67aeae07044f8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1e0a7bcdf47a001e7b67aeae07044f8">handleRoom_Home</a> (<a class="el" href="structGamestate.html">Gamestate</a> *gamestate, <a class="el" href="structRoom.html">Room</a> *room, int index, <a class="el" href="structPath.html">Path</a> *p, <a class="el" href="structFighter.html">Fighter</a> *player, <a class="el" href="structloadInfo.html">loadInfo</a> *load_info, char fighter_sprites[<a class="el" href="game__core_8h.html#a1cfbde6ea139f82fc2985b63f88bd0b1">CLASSESMAX</a>+1][MAXFRAMES][MAXROWS][MAXCOLS], Koliseo *kls, Koliseo_Temp *t_kls)</td></tr>
-<tr class="memdesc:ae1e0a7bcdf47a001e7b67aeae07044f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes an integer for room index and a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and a <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointers and handles the progression of the room.  <br /></td></tr>
-<tr class="separator:ae1e0a7bcdf47a001e7b67aeae07044f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a013ceb3d84e06e53b9198c51b9534b97" id="r_a013ceb3d84e06e53b9198c51b9534b97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a013ceb3d84e06e53b9198c51b9534b97">handleRoom_Enemies</a> (<a class="el" href="structGamestate.html">Gamestate</a> *gamestate, <a class="el" href="structRoom.html">Room</a> *room, int index, <a class="el" href="structPath.html">Path</a> *p, <a class="el" href="structFighter.html">Fighter</a> *player, <a class="el" href="structloadInfo.html">loadInfo</a> *load_info, char enemy_sprites[<a class="el" href="game__core_8h.html#af9677baff2a2c3238c2208c7ffbe86ad">ENEMYCLASSESMAX</a>+1][MAXFRAMES][MAXROWS][MAXCOLS], char fighter_sprites[<a class="el" href="game__core_8h.html#a1cfbde6ea139f82fc2985b63f88bd0b1">CLASSESMAX</a>+1][MAXFRAMES][MAXROWS][MAXCOLS], Koliseo *kls, Koliseo_Temp *t_kls)</td></tr>
-<tr class="memdesc:a013ceb3d84e06e53b9198c51b9534b97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes an integer for room index and a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and a <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointers and handles the progression of the room.  <br /></td></tr>
-<tr class="separator:a013ceb3d84e06e53b9198c51b9534b97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6c3f9c2957f03baed0ade74f07d2544" id="r_af6c3f9c2957f03baed0ade74f07d2544"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6c3f9c2957f03baed0ade74f07d2544">handleRoom_Boss</a> (<a class="el" href="structGamestate.html">Gamestate</a> *gamestate, <a class="el" href="structRoom.html">Room</a> *room, int index, <a class="el" href="structPath.html">Path</a> *p, <a class="el" href="structFighter.html">Fighter</a> *player, <a class="el" href="structloadInfo.html">loadInfo</a> *load_info, char boss_sprites[<a class="el" href="game__core_8h.html#a8dee0cafdd47afa8d18c31e58c10e728">BOSSCLASSESMAX</a>+1][MAXFRAMES][MAXROWS][MAXCOLS], char fighter_sprites[<a class="el" href="game__core_8h.html#a1cfbde6ea139f82fc2985b63f88bd0b1">CLASSESMAX</a>+1][MAXFRAMES][MAXROWS][MAXCOLS], Koliseo *kls, Koliseo_Temp *t_kls)</td></tr>
-<tr class="memdesc:af6c3f9c2957f03baed0ade74f07d2544"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes an integer for room index and a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and a <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointers and handles the progression of the room.  <br /></td></tr>
-<tr class="separator:af6c3f9c2957f03baed0ade74f07d2544"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace06614c7f3065987efd40d6e44531ff" id="r_ace06614c7f3065987efd40d6e44531ff"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace06614c7f3065987efd40d6e44531ff">handleRoom_Shop</a> (<a class="el" href="structRoom.html">Room</a> *room, int roomsDone, <a class="el" href="structPath.html">Path</a> *path, <a class="el" href="structFighter.html">Fighter</a> *f, Koliseo *kls, Koliseo_Temp *t_kls)</td></tr>
-<tr class="memdesc:ace06614c7f3065987efd40d6e44531ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structRoom.html" title="Represents the entity initialised from a roomClass.">Room</a> pointer and a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer, displays items for sale and offers a menu to access all the functions.  <br /></td></tr>
-<tr class="separator:ace06614c7f3065987efd40d6e44531ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abca563490caee183c365a1bd0ea22655" id="r_abca563490caee183c365a1bd0ea22655"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abca563490caee183c365a1bd0ea22655">open_chest</a> (WINDOW *w, <a class="el" href="structChest.html">Chest</a> *c, <a class="el" href="structFighter.html">Fighter</a> *f, Koliseo *kls, Koliseo_Temp *t_kls)</td></tr>
-<tr class="memdesc:abca563490caee183c365a1bd0ea22655"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a WINDOW, a <a class="el" href="structChest.html" title="Represents the entity initialised from a chestClass.">Chest</a> and a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and opens the chest adding the contents to the fighter's bags.  <br /></td></tr>
-<tr class="separator:abca563490caee183c365a1bd0ea22655"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae01ee1312edb6c1784e7790ff7a25a58" id="r_ae01ee1312edb6c1784e7790ff7a25a58"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae01ee1312edb6c1784e7790ff7a25a58">handleRoom_Treasure</a> (<a class="el" href="structRoom.html">Room</a> *room, int roomsDone, <a class="el" href="structPath.html">Path</a> *path, <a class="el" href="structFighter.html">Fighter</a> *f, Koliseo *kls, Koliseo_Temp *t_kls)</td></tr>
-<tr class="memdesc:ae01ee1312edb6c1784e7790ff7a25a58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structRoom.html" title="Represents the entity initialised from a roomClass.">Room</a> pointer and a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer, displays the treasure contents and offers a menu to access all the functions.  <br /></td></tr>
-<tr class="separator:ae01ee1312edb6c1784e7790ff7a25a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c02dd6e27696d27e6307d972b1961b0" id="r_a8c02dd6e27696d27e6307d972b1961b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c02dd6e27696d27e6307d972b1961b0">initRoom_Home</a> (<a class="el" href="structRoom.html">Room</a> *r, int roomIndex, <a class="el" href="structFighter.html">Fighter</a> *f, <a class="el" href="structloadInfo.html">loadInfo</a> *load_info, Koliseo_Temp *t_kls)</td></tr>
 <tr class="memdesc:a8c02dd6e27696d27e6307d972b1961b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes one <a class="el" href="structRoom.html" title="Represents the entity initialised from a roomClass.">Room</a> pointer of class HOME and initialises all the fields.  <br /></td></tr>
 <tr class="separator:a8c02dd6e27696d27e6307d972b1961b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,468 +182,6 @@ Functions</h2></td></tr>
 <tr class="separator:a815da0d9bd00dd28f2eaa74a8df629b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="af6c3f9c2957f03baed0ade74f07d2544" name="af6c3f9c2957f03baed0ade74f07d2544"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6c3f9c2957f03baed0ade74f07d2544">&#9670;&#160;</a></span>handleRoom_Boss()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int handleRoom_Boss </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structGamestate.html">Gamestate</a> *</td>          <td class="paramname"><span class="paramname"><em>gamestate</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structRoom.html">Room</a> *</td>          <td class="paramname"><span class="paramname"><em>room</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structPath.html">Path</a> *</td>          <td class="paramname"><span class="paramname"><em>p</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>player</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structloadInfo.html">loadInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>load_info</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>boss_sprites</em>[BOSSCLASSESMAX+1][MAXFRAMES][MAXROWS][MAXCOLS], </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>fighter_sprites</em>[CLASSESMAX+1][MAXFRAMES][MAXROWS][MAXCOLS], </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Koliseo *</td>          <td class="paramname"><span class="paramname"><em>kls</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Koliseo_Temp *</td>          <td class="paramname"><span class="paramname"><em>t_kls</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Takes an integer for room index and a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and a <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointers and handles the progression of the room. </p>
-<p>For each enemy, their stats are prepared before resetting permboosts and artifacts and applying them again. User is asked for turn choice and according to the input, the corresponding action will be called. Then, status is applied and counters are updated. On enemy death, there's a chance to call dropConsumable, dropEquip or dropArtifact (guaranteed for beast enemies). When the last enemy is dead, the function returns KILL_DONE. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd>
-<dd>
-<a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> </dd>
-<dd>
-<a class="el" href="game__core_8h.html#a9f1dde4e93e2a49240b082e47525960c" title="Ratio of beast rooms to normal ones.">BEASTROOM</a> </dd>
-<dd>
-resetPermBoosts() </dd>
-<dd>
-resetArtifacts() </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#af24e84ffefba4753c814e9920ccc5093" title="Takes a Fighter, a Enemy and a Boss pointer; plus an integer indicating if effects should be applied ...">applyArtifacts()</a> </dd>
-<dd>
-applyPermBoosts() </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a6f1d24f1d5e96bf52336e2a4840eb257" title="Takes a Fighter and a Boss pointers and prints most of their values formatted.">printBossBattleStats()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#ae54e162bba9bfb58797361b63f942c30" title="Returns the chosen option as a turnOption.">getTurnChoice()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#a70f0dfd01928b43175f57a38615fc210" title="Takes a Fighter pointer value and adds a random Consumable to consumablesBag.">dropConsumable()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#a96643ff3ebb64ddd66e154ecec8d1ffb" title="Takes a Fighter pointer value and an integer indicating if the drop was from a beast enemy,...">dropEquip()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#a96acd184f58849b4bb214903d5f999a2" title="Takes a Fighter pointer value and adds a random Artifact to artifactsBag.">dropArtifact()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#a4bb3b25728e7e3979788d82932984d1a" title="Takes a Fighter and a Boss pointers and handles xp gain by fighter.">giveXp_Boss()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#a0b7141be73a381eac29213762fe8e583" title="Takes a Fighter, a Boss and a Path pointers and compares fighters stats to determine who gets damaged...">boss_fight()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#ad28ad216665c8059357ae3dd1f8fbbea" title="Takes a Boss pointer and frees its allocated memory.">b_death()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#aeb1ef833df4c5e7db53d334d33e18ace" title="Takes a Fighter and loadInfo pointers and prints fighter stats and a game over message.">death()</a> </dd>
-<dd>
-fight_Boss() </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a1c38144f730ca1a2a3584147595dc738" title="Takes a Fighter, a Enemy, a Boss and a Path pointers (and integers for current room and enemy indexes...">handleSpecials()</a> </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a223d656d1cf6c6ab4cc952eb0184fff6" title="Takes a Fighter, an Enemy and a Boss pointers and prints content of consumablesBag before asking user...">handleConsumables()</a> </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a514a6f31b1c492837ad8a2aff50971e2" title="Takes a Fighter and a Path pointers and asks user input to manage the Equips in fighter&#39;s equipsBag.">handleEquips()</a> </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a7b0e57e86c3e0ad839597ceb155b523b" title="Takes a Fighter pointer and prints its stats field with all the values, formatted.">handleStats()</a> </dd>
-<dd>
-debug_boss_room() </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a9de17339f6ebb97642aa813d3380f424" title="Takes a Fighter pointer and prints content of artifactsBag.">handleArtifacts()</a> </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a1103085b95923d6e648dcb5f601c4dca" title="Takes a WINDOW pointer to print notifications to, a Fighter pointer value and applies the effect pert...">applyStatus()</a> </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a76cdedf04eacf0339c5aba534a414c29" title="Takes a WINDOW pointer to print notifications to, a Boss pointer value and applies the effect pertain...">applyBStatus()</a> </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">gamestate</td><td>The pointer to <a class="el" href="structGamestate.html" title="Holds arguments for a game.">Gamestate</a>. </td></tr>
-    <tr><td class="paramname">room</td><td>The pointer to current room. </td></tr>
-    <tr><td class="paramname">index</td><td>The index of current room. </td></tr>
-    <tr><td class="paramname">p</td><td>The <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointer. </td></tr>
-    <tr><td class="paramname">player</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
-    <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
-    <tr><td class="paramname">t_kls</td><td>The Koliseo_Temp used for temp allocations. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="helapordo_8c.html#a2bdbd23791ec51ae3818691d74326ba7" title="Takes a turnOption_OP and a pointer to a turnOP_args struct.">turnOP()</a> </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>When room is cleared, should return KILL_DONE. </dd></dl>
-
-</div>
-</div>
-<a id="a013ceb3d84e06e53b9198c51b9534b97" name="a013ceb3d84e06e53b9198c51b9534b97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a013ceb3d84e06e53b9198c51b9534b97">&#9670;&#160;</a></span>handleRoom_Enemies()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int handleRoom_Enemies </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structGamestate.html">Gamestate</a> *</td>          <td class="paramname"><span class="paramname"><em>gamestate</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structRoom.html">Room</a> *</td>          <td class="paramname"><span class="paramname"><em>room</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structPath.html">Path</a> *</td>          <td class="paramname"><span class="paramname"><em>p</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>player</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structloadInfo.html">loadInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>load_info</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>enemy_sprites</em>[ENEMYCLASSESMAX+1][MAXFRAMES][MAXROWS][MAXCOLS], </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>fighter_sprites</em>[CLASSESMAX+1][MAXFRAMES][MAXROWS][MAXCOLS], </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Koliseo *</td>          <td class="paramname"><span class="paramname"><em>kls</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Koliseo_Temp *</td>          <td class="paramname"><span class="paramname"><em>t_kls</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Takes an integer for room index and a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and a <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointers and handles the progression of the room. </p>
-<p>It also takes a <a class="el" href="structloadInfo.html" title="Contains loaded values to pass to initRoom().">loadInfo</a> pointer to a struct used for loading a game, and a 4D char array containing animations for all enemies and fighters, preloaded in the prep section of <a class="el" href="helapordo_8c.html#a3dc6dacc81423d2e163fe32712082fd9" title="Takes a integer and a string array (possibly from main).">gameloop()</a>. The number of enemies in the room is randomised, up to 6. If it's a beast room (index multiple of BEASTROOM), there will be 1 extra enemy. For each enemy, their stats are prepared before resetting permboosts and artifacts and applying them again. User is asked for turn choice and according to the input, the corresponding action will be called. Then, status is applied and counters are updated. On enemy death, there's a chance to call dropConsumable, dropEquip or dropArtifact (guaranteed for beast enemies). When the last enemy is dead, the function returns KILL_DONE. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd>
-<dd>
-<a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> </dd>
-<dd>
-<a class="el" href="game__core_8h.html#a9f1dde4e93e2a49240b082e47525960c" title="Ratio of beast rooms to normal ones.">BEASTROOM</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#abeba71c2a6b88a019c2787c42b84418e" title="Takes a Enemy and three integers denoting current room index, how many enemies are in the room and cu...">prepareRoomEnemy()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#a36606750aa446268fdcd97154cd52c3c" title="Takes a Enemy pointer and two integers for current room index and current enemy index,...">printSpawnMessage()</a> </dd>
-<dd>
-resetPermBoosts() </dd>
-<dd>
-resetArtifacts() </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#af24e84ffefba4753c814e9920ccc5093" title="Takes a Fighter, a Enemy and a Boss pointer; plus an integer indicating if effects should be applied ...">applyArtifacts()</a> </dd>
-<dd>
-applyPermBoosts() </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a5b0e751b7440cd0c548a21eef97231d3" title="Takes a Fighter and a Enemy pointers and prints most of their values formatted.">printBattleStats()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#ae54e162bba9bfb58797361b63f942c30" title="Returns the chosen option as a turnOption.">getTurnChoice()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#a70f0dfd01928b43175f57a38615fc210" title="Takes a Fighter pointer value and adds a random Consumable to consumablesBag.">dropConsumable()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#a96643ff3ebb64ddd66e154ecec8d1ffb" title="Takes a Fighter pointer value and an integer indicating if the drop was from a beast enemy,...">dropEquip()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#a96acd184f58849b4bb214903d5f999a2" title="Takes a Fighter pointer value and adds a random Artifact to artifactsBag.">dropArtifact()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#a20db8bd79aeaffbdb3d18e55b75bf49f" title="Takes a Fighter and a Enemy pointers and handles xp gain by fighter.">giveXp()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#a488f0b0e2bce96722dd6ef8868c68690" title="Takes a Enemy pointer and frees its allocated memory.">e_death()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#aeb1ef833df4c5e7db53d334d33e18ace" title="Takes a Fighter and loadInfo pointers and prints fighter stats and a game over message.">death()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#ac41f847f2820653bc77d58d8f3885c52" title="Takes a Fighter and a Enemy pointers and compares their stats to determine who gets damaged and retur...">fight()</a> </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a1c38144f730ca1a2a3584147595dc738" title="Takes a Fighter, a Enemy, a Boss and a Path pointers (and integers for current room and enemy indexes...">handleSpecials()</a> </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a223d656d1cf6c6ab4cc952eb0184fff6" title="Takes a Fighter, an Enemy and a Boss pointers and prints content of consumablesBag before asking user...">handleConsumables()</a> </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a514a6f31b1c492837ad8a2aff50971e2" title="Takes a Fighter and a Path pointers and asks user input to manage the Equips in fighter&#39;s equipsBag.">handleEquips()</a> </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a7b0e57e86c3e0ad839597ceb155b523b" title="Takes a Fighter pointer and prints its stats field with all the values, formatted.">handleStats()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#aa9f48919d035b0b784f7f426296e3afd" title="Takes a Room, a Fighter, a Enemy and a Path pointers (and integers for current room and enemy indexes...">debug_enemies_room()</a> </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a9de17339f6ebb97642aa813d3380f424" title="Takes a Fighter pointer and prints content of artifactsBag.">handleArtifacts()</a> </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a1103085b95923d6e648dcb5f601c4dca" title="Takes a WINDOW pointer to print notifications to, a Fighter pointer value and applies the effect pert...">applyStatus()</a> </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#abfe4ac59843de6ff30ce13be55ed014d" title="Takes a WINDOW pointer to print notifications to, a Enemy pointer value and applies the effect pertai...">applyEStatus()</a> </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">gamestate</td><td>The pointer to <a class="el" href="structGamestate.html" title="Holds arguments for a game.">Gamestate</a>. </td></tr>
-    <tr><td class="paramname">room</td><td>The pointer to current room. </td></tr>
-    <tr><td class="paramname">index</td><td>The index of current room. </td></tr>
-    <tr><td class="paramname">p</td><td>The <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointer. </td></tr>
-    <tr><td class="paramname">player</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
-    <tr><td class="paramname">load_info</td><td>A pointer to <a class="el" href="structloadInfo.html" title="Contains loaded values to pass to initRoom().">loadInfo</a> struct containing stuff for loading a game. </td></tr>
-    <tr><td class="paramname">enemy_sprites</td><td>The sprites array for all enemies. </td></tr>
-    <tr><td class="paramname">fighter_sprites</td><td>The sprites array for all fighter classes. </td></tr>
-    <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
-    <tr><td class="paramname">t_kls</td><td>The Koliseo_Temp used for temp allocations. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="helapordo_8c.html#a3dc6dacc81423d2e163fe32712082fd9" title="Takes a integer and a string array (possibly from main).">gameloop()</a> </dd>
-<dd>
-<a class="el" href="helapordo_8c.html#a2bdbd23791ec51ae3818691d74326ba7" title="Takes a turnOption_OP and a pointer to a turnOP_args struct.">turnOP()</a> </dd>
-<dd>
-<a class="el" href="game__core_8h.html#a11ed656be5525063588efc931101c732" title="The different kinds of Enemy.">enemyClass</a> </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>When room is cleared, should return KILL_DONE. </dd></dl>
-
-</div>
-</div>
-<a id="ae1e0a7bcdf47a001e7b67aeae07044f8" name="ae1e0a7bcdf47a001e7b67aeae07044f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1e0a7bcdf47a001e7b67aeae07044f8">&#9670;&#160;</a></span>handleRoom_Home()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int handleRoom_Home </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structGamestate.html">Gamestate</a> *</td>          <td class="paramname"><span class="paramname"><em>gamestate</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structRoom.html">Room</a> *</td>          <td class="paramname"><span class="paramname"><em>room</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structPath.html">Path</a> *</td>          <td class="paramname"><span class="paramname"><em>p</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>player</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structloadInfo.html">loadInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>load_info</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>fighter_sprites</em>[CLASSESMAX+1][MAXFRAMES][MAXROWS][MAXCOLS], </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Koliseo *</td>          <td class="paramname"><span class="paramname"><em>kls</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Koliseo_Temp *</td>          <td class="paramname"><span class="paramname"><em>t_kls</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Takes an integer for room index and a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and a <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointers and handles the progression of the room. </p>
-<p>It also takes a <a class="el" href="structloadInfo.html" title="Contains loaded values to pass to initRoom().">loadInfo</a> pointer to a struct used for loading a game, and a 4D char array containing animations for all fighters, preloaded in the prep section of <a class="el" href="helapordo_8c.html#a3dc6dacc81423d2e163fe32712082fd9" title="Takes a integer and a string array (possibly from main).">gameloop()</a>. User is asked for turn choice and according to the input, the corresponding action will be called. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd>
-<dd>
-<a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a223d656d1cf6c6ab4cc952eb0184fff6" title="Takes a Fighter, an Enemy and a Boss pointers and prints content of consumablesBag before asking user...">handleConsumables()</a> </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a514a6f31b1c492837ad8a2aff50971e2" title="Takes a Fighter and a Path pointers and asks user input to manage the Equips in fighter&#39;s equipsBag.">handleEquips()</a> </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a7b0e57e86c3e0ad839597ceb155b523b" title="Takes a Fighter pointer and prints its stats field with all the values, formatted.">handleStats()</a> </dd>
-<dd>
-<a class="el" href="game__curses_8c.html#a9de17339f6ebb97642aa813d3380f424" title="Takes a Fighter pointer and prints content of artifactsBag.">handleArtifacts()</a> </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">gamestate</td><td>The pointer to <a class="el" href="structGamestate.html" title="Holds arguments for a game.">Gamestate</a>. </td></tr>
-    <tr><td class="paramname">room</td><td>The pointer to current room. </td></tr>
-    <tr><td class="paramname">index</td><td>The index of current room. </td></tr>
-    <tr><td class="paramname">p</td><td>The <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointer. </td></tr>
-    <tr><td class="paramname">player</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
-    <tr><td class="paramname">load_info</td><td>A pointer to <a class="el" href="structloadInfo.html" title="Contains loaded values to pass to initRoom().">loadInfo</a> struct containing stuff for loading a game. </td></tr>
-    <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
-    <tr><td class="paramname">t_kls</td><td>The Koliseo_Temp used for temporary allocations. </td></tr>
-    <tr><td class="paramname">fighter_sprites</td><td>The sprites array for all fighter classes. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="helapordo_8c.html#a3dc6dacc81423d2e163fe32712082fd9" title="Takes a integer and a string array (possibly from main).">gameloop()</a> </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>When exiting room, should return NO_DMG. </dd></dl>
-
-</div>
-</div>
-<a id="ace06614c7f3065987efd40d6e44531ff" name="ace06614c7f3065987efd40d6e44531ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace06614c7f3065987efd40d6e44531ff">&#9670;&#160;</a></span>handleRoom_Shop()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int handleRoom_Shop </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structRoom.html">Room</a> *</td>          <td class="paramname"><span class="paramname"><em>room</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>roomsDone</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structPath.html">Path</a> *</td>          <td class="paramname"><span class="paramname"><em>path</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>f</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Koliseo *</td>          <td class="paramname"><span class="paramname"><em>kls</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Koliseo_Temp *</td>          <td class="paramname"><span class="paramname"><em>t_kls</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Takes a <a class="el" href="structRoom.html" title="Represents the entity initialised from a roomClass.">Room</a> pointer and a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer, displays items for sale and offers a menu to access all the functions. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="structShop.html" title="Represents a shop instance.">Shop</a> </dd>
-<dd>
-<a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">room</td><td>The pointer to current room. </td></tr>
-    <tr><td class="paramname">roomsDone</td><td>The total of rooms completed. </td></tr>
-    <tr><td class="paramname">path</td><td>The <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointer. </td></tr>
-    <tr><td class="paramname">f</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
-    <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
-    <tr><td class="paramname">t_kls</td><td>The Koliseo_Temp used for temporary allocations. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>When shop is exited, should return NO_DMG. </dd></dl>
-
-</div>
-</div>
-<a id="ae01ee1312edb6c1784e7790ff7a25a58" name="ae01ee1312edb6c1784e7790ff7a25a58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae01ee1312edb6c1784e7790ff7a25a58">&#9670;&#160;</a></span>handleRoom_Treasure()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int handleRoom_Treasure </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structRoom.html">Room</a> *</td>          <td class="paramname"><span class="paramname"><em>room</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>roomsDone</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structPath.html">Path</a> *</td>          <td class="paramname"><span class="paramname"><em>path</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>f</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Koliseo *</td>          <td class="paramname"><span class="paramname"><em>kls</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Koliseo_Temp *</td>          <td class="paramname"><span class="paramname"><em>t_kls</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Takes a <a class="el" href="structRoom.html" title="Represents the entity initialised from a roomClass.">Room</a> pointer and a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer, displays the treasure contents and offers a menu to access all the functions. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="structTreasure.html" title="Represents the entity initialised from a treasureClass.">Treasure</a> </dd>
-<dd>
-<a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">room</td><td>The pointer to current room. </td></tr>
-    <tr><td class="paramname">roomsDone</td><td>The total of rooms completed. </td></tr>
-    <tr><td class="paramname">path</td><td>The <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointer. </td></tr>
-    <tr><td class="paramname">f</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
-    <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
-    <tr><td class="paramname">t_kls</td><td>The Koliseo_Temp used for temporary allocations. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>When room is exited, should return NO_DMG. </dd></dl>
-
-</div>
-</div>
 <a id="a815da0d9bd00dd28f2eaa74a8df629b9" name="a815da0d9bd00dd28f2eaa74a8df629b9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a815da0d9bd00dd28f2eaa74a8df629b9">&#9670;&#160;</a></span>initRoom()</h2>
 
@@ -937,59 +532,14 @@ applyPermBoosts() </dd>
 
 </div>
 </div>
-<a id="abca563490caee183c365a1bd0ea22655" name="abca563490caee183c365a1bd0ea22655"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abca563490caee183c365a1bd0ea22655">&#9670;&#160;</a></span>open_chest()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void open_chest </td>
-          <td>(</td>
-          <td class="paramtype">WINDOW *</td>          <td class="paramname"><span class="paramname"><em>w</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structChest.html">Chest</a> *</td>          <td class="paramname"><span class="paramname"><em>c</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>f</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Koliseo *</td>          <td class="paramname"><span class="paramname"><em>kls</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Koliseo_Temp *</td>          <td class="paramname"><span class="paramname"><em>t_kls</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Takes a WINDOW, a <a class="el" href="structChest.html" title="Represents the entity initialised from a chestClass.">Chest</a> and a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and opens the chest adding the contents to the fighter's bags. </p>
-<p>Prints result to the passed window. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#ae01ee1312edb6c1784e7790ff7a25a58" title="Takes a Room pointer and a Fighter pointer, displays the treasure contents and offers a menu to acces...">handleRoom_Treasure()</a> </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">w</td><td>The window to print results to. </td></tr>
-    <tr><td class="paramname">c</td><td>The chest to open. </td></tr>
-    <tr><td class="paramname">f</td><td>The fighter holding the bags to add the items to. </td></tr>
-    <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
-    <tr><td class="paramname">t_kls</td><td>The Koliseo_Temp used for temp allocations. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_313caf1132e152dd9b58bea13a4052ca.html">utils</a></li><li class="navelem"><a class="el" href="rooms_8c.html">rooms.c</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
 </body>
 </html>

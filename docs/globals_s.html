@@ -10,6 +10,10 @@
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript" src="cookie.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
@@ -23,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.2</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.3</span>
    </div>
   </td>
  </tr>
@@ -49,6 +53,22 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('globals_s.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -78,44 +98,43 @@ $(function() {
 <li>saveType&#160;:&#160;<a class="el" href="game__core_8h.html#a4bcff74473009e65583fe3707074fb91">game_core.h</a></li>
 <li>SAVETYPE_MAX&#160;:&#160;<a class="el" href="game__core_8h.html#a220b0c8fd9ee30da953c0b041da236d2">game_core.h</a></li>
 <li>saveTypeFrom_string()&#160;:&#160;<a class="el" href="game__utils_8h.html#aa1880e0743083e511dd30944b3338626">game_utils.h</a>, <a class="el" href="game__utils_8c.html#aa1880e0743083e511dd30944b3338626">game_utils.c</a></li>
-<li>savetypestrings&#160;:&#160;<a class="el" href="game__core_8c.html#ae622682dd57187437af8a8a7ad0b126a">game_core.c</a>, <a class="el" href="game__core_8h.html#ae622682dd57187437af8a8a7ad0b126a">game_core.h</a></li>
+<li>savetypestrings&#160;:&#160;<a class="el" href="game__core_8h.html#ae622682dd57187437af8a8a7ad0b126a">game_core.h</a>, <a class="el" href="game__core_8c.html#ae622682dd57187437af8a8a7ad0b126a">game_core.c</a></li>
 <li>scanClass()&#160;:&#160;<a class="el" href="game__utils_8c.html#a0fb3a78e484923dc90d29eb1d40aeb70">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a0fb3a78e484923dc90d29eb1d40aeb70">game_utils.h</a></li>
 <li>scanName()&#160;:&#160;<a class="el" href="game__utils_8c.html#aed2c85cda2f6cdef4f87ff8fcc0477ad">game_utils.c</a>, <a class="el" href="game__utils_8h.html#aed2c85cda2f6cdef4f87ff8fcc0477ad">game_utils.h</a></li>
 <li>scanWincon()&#160;:&#160;<a class="el" href="game__utils_8c.html#a52706f9e984ecca4ab50f2fbffbd4efc">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a52706f9e984ecca4ab50f2fbffbd4efc">game_utils.h</a></li>
-<li>sell_all_equips()&#160;:&#160;<a class="el" href="helapordo_8c.html#a816e411b44fdd89184dc7caff1b1c70e">helapordo.c</a></li>
-<li>set_boss_turnboost_atk()&#160;:&#160;<a class="el" href="helapordo_8c.html#ad22badc942fee387997919731241b23a">helapordo.c</a></li>
-<li>set_boss_turnboost_def()&#160;:&#160;<a class="el" href="helapordo_8c.html#afea01c61153deeea76f7ac6a5db1b163">helapordo.c</a></li>
-<li>set_boss_turnboost_enr()&#160;:&#160;<a class="el" href="helapordo_8c.html#a11a0b622dd1251709dda43b37295eed7">helapordo.c</a></li>
-<li>set_boss_turnboost_vel()&#160;:&#160;<a class="el" href="helapordo_8c.html#af9576adbdd7045ba07ac29366876c10f">helapordo.c</a></li>
-<li>set_enemy_turnboost_atk()&#160;:&#160;<a class="el" href="helapordo_8c.html#a5b5093cffcc393dbebcb5df75b60e5fe">helapordo.c</a></li>
-<li>set_enemy_turnboost_def()&#160;:&#160;<a class="el" href="helapordo_8c.html#a302cd26d59a342661a94a2c4d6c0b220">helapordo.c</a></li>
-<li>set_enemy_turnboost_enr()&#160;:&#160;<a class="el" href="helapordo_8c.html#a3bcfd5db4fe1f1587c4c4236a4c0d734">helapordo.c</a></li>
-<li>set_enemy_turnboost_vel()&#160;:&#160;<a class="el" href="helapordo_8c.html#a3a8b01210c753a0adc5ac53fa6d13bd3">helapordo.c</a></li>
-<li>set_foeparty_turnboost_atk()&#160;:&#160;<a class="el" href="helapordo_8c.html#aa3a02e4a5c86f6334403df6906b524dc">helapordo.c</a></li>
-<li>set_foeparty_turnboost_def()&#160;:&#160;<a class="el" href="helapordo_8c.html#a454aab8e2a0dd08e2e3c6898dbd594b7">helapordo.c</a></li>
-<li>set_foeparty_turnboost_enr()&#160;:&#160;<a class="el" href="helapordo_8c.html#a218c43f163044e198f9a1d6d55e690de">helapordo.c</a></li>
-<li>set_foeparty_turnboost_vel()&#160;:&#160;<a class="el" href="helapordo_8c.html#a027343d689cebde9750a62cb42bd47e8">helapordo.c</a></li>
+<li>sell_all_equips()&#160;:&#160;<a class="el" href="game__utils_8h.html#a816e411b44fdd89184dc7caff1b1c70e">game_utils.h</a>, <a class="el" href="game__utils_8c.html#a816e411b44fdd89184dc7caff1b1c70e">game_utils.c</a></li>
+<li>set_boss_turnboost_atk()&#160;:&#160;<a class="el" href="game__utils_8c.html#ad22badc942fee387997919731241b23a">game_utils.c</a>, <a class="el" href="game__utils_8h.html#ad22badc942fee387997919731241b23a">game_utils.h</a></li>
+<li>set_boss_turnboost_def()&#160;:&#160;<a class="el" href="game__utils_8c.html#afea01c61153deeea76f7ac6a5db1b163">game_utils.c</a>, <a class="el" href="game__utils_8h.html#afea01c61153deeea76f7ac6a5db1b163">game_utils.h</a></li>
+<li>set_boss_turnboost_enr()&#160;:&#160;<a class="el" href="game__utils_8c.html#a11a0b622dd1251709dda43b37295eed7">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a11a0b622dd1251709dda43b37295eed7">game_utils.h</a></li>
+<li>set_boss_turnboost_vel()&#160;:&#160;<a class="el" href="game__utils_8c.html#af9576adbdd7045ba07ac29366876c10f">game_utils.c</a>, <a class="el" href="game__utils_8h.html#af9576adbdd7045ba07ac29366876c10f">game_utils.h</a></li>
+<li>set_enemy_turnboost_atk()&#160;:&#160;<a class="el" href="game__utils_8h.html#a5b5093cffcc393dbebcb5df75b60e5fe">game_utils.h</a>, <a class="el" href="game__utils_8c.html#a5b5093cffcc393dbebcb5df75b60e5fe">game_utils.c</a></li>
+<li>set_enemy_turnboost_def()&#160;:&#160;<a class="el" href="game__utils_8c.html#a302cd26d59a342661a94a2c4d6c0b220">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a302cd26d59a342661a94a2c4d6c0b220">game_utils.h</a></li>
+<li>set_enemy_turnboost_enr()&#160;:&#160;<a class="el" href="game__utils_8c.html#a3bcfd5db4fe1f1587c4c4236a4c0d734">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a3bcfd5db4fe1f1587c4c4236a4c0d734">game_utils.h</a></li>
+<li>set_enemy_turnboost_vel()&#160;:&#160;<a class="el" href="game__utils_8c.html#a3a8b01210c753a0adc5ac53fa6d13bd3">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a3a8b01210c753a0adc5ac53fa6d13bd3">game_utils.h</a></li>
+<li>set_foeparty_turnboost_atk()&#160;:&#160;<a class="el" href="game__utils_8c.html#aa3a02e4a5c86f6334403df6906b524dc">game_utils.c</a>, <a class="el" href="game__utils_8h.html#aa3a02e4a5c86f6334403df6906b524dc">game_utils.h</a></li>
+<li>set_foeparty_turnboost_def()&#160;:&#160;<a class="el" href="game__utils_8h.html#a454aab8e2a0dd08e2e3c6898dbd594b7">game_utils.h</a>, <a class="el" href="game__utils_8c.html#a454aab8e2a0dd08e2e3c6898dbd594b7">game_utils.c</a></li>
+<li>set_foeparty_turnboost_enr()&#160;:&#160;<a class="el" href="game__utils_8c.html#a218c43f163044e198f9a1d6d55e690de">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a218c43f163044e198f9a1d6d55e690de">game_utils.h</a></li>
+<li>set_foeparty_turnboost_vel()&#160;:&#160;<a class="el" href="game__utils_8c.html#a027343d689cebde9750a62cb42bd47e8">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a027343d689cebde9750a62cb42bd47e8">game_utils.h</a></li>
 <li>set_Saveslot_name()&#160;:&#160;<a class="el" href="game__utils_8h.html#a76170a2b2b44e2587d1a93257552bca4">game_utils.h</a></li>
-<li>set_turnboost_atk()&#160;:&#160;<a class="el" href="helapordo_8c.html#aed878c5a6262a9252511215d77acc959">helapordo.c</a></li>
-<li>set_turnboost_def()&#160;:&#160;<a class="el" href="helapordo_8c.html#abb9cca5dd50fe2dc2fbd318f8fd9a620">helapordo.c</a></li>
-<li>set_turnboost_enr()&#160;:&#160;<a class="el" href="helapordo_8c.html#a89d549ba03566afd5940e9c9334b4c44">helapordo.c</a></li>
-<li>set_turnboost_vel()&#160;:&#160;<a class="el" href="helapordo_8c.html#a69e08d68eb0e28406d31193d3b5ddf90">helapordo.c</a></li>
+<li>set_turnboost_atk()&#160;:&#160;<a class="el" href="game__utils_8c.html#aed878c5a6262a9252511215d77acc959">game_utils.c</a>, <a class="el" href="game__utils_8h.html#aed878c5a6262a9252511215d77acc959">game_utils.h</a></li>
+<li>set_turnboost_def()&#160;:&#160;<a class="el" href="game__utils_8c.html#abb9cca5dd50fe2dc2fbd318f8fd9a620">game_utils.c</a>, <a class="el" href="game__utils_8h.html#abb9cca5dd50fe2dc2fbd318f8fd9a620">game_utils.h</a></li>
+<li>set_turnboost_enr()&#160;:&#160;<a class="el" href="game__utils_8c.html#a89d549ba03566afd5940e9c9334b4c44">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a89d549ba03566afd5940e9c9334b4c44">game_utils.h</a></li>
+<li>set_turnboost_vel()&#160;:&#160;<a class="el" href="game__utils_8c.html#a69e08d68eb0e28406d31193d3b5ddf90">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a69e08d68eb0e28406d31193d3b5ddf90">game_utils.h</a></li>
 <li>setArtifactSprite()&#160;:&#160;<a class="el" href="game__curses_8c.html#aacdc495ee6ed789f7e58946715f0fd47">game_curses.c</a>, <a class="el" href="game__curses_8h.html#aacdc495ee6ed789f7e58946715f0fd47">game_curses.h</a></li>
-<li>setBossSkills()&#160;:&#160;<a class="el" href="helapordo_8c.html#a19fc31c35f5e86a55bf9a5ab0245acc0">helapordo.c</a></li>
-<li>setBossSprite()&#160;:&#160;<a class="el" href="game__curses_8c.html#ad530f610f7ff6ffc94e32725a29d73c3">game_curses.c</a>, <a class="el" href="game__curses_8h.html#ad530f610f7ff6ffc94e32725a29d73c3">game_curses.h</a></li>
-<li>setChestSprite()&#160;:&#160;<a class="el" href="game__curses_8c.html#ad2eb3d555e01796d30695d8a236eb1e0">game_curses.c</a>, <a class="el" href="game__curses_8h.html#ad2eb3d555e01796d30695d8a236eb1e0">game_curses.h</a></li>
-<li>setConsumablePrices()&#160;:&#160;<a class="el" href="helapordo_8c.html#ae484ae24ea12775796654faa9174adb4">helapordo.c</a></li>
-<li>setConsumableSprite()&#160;:&#160;<a class="el" href="game__curses_8c.html#a09abae87428cef0401abc6c75065305a">game_curses.c</a>, <a class="el" href="game__curses_8h.html#a09abae87428cef0401abc6c75065305a">game_curses.h</a></li>
-<li>setCounter()&#160;:&#160;<a class="el" href="helapordo_8c.html#aa7e0c7d9d1f183cd86087f8127f00ad2">helapordo.c</a></li>
-<li>setEnemySkills()&#160;:&#160;<a class="el" href="helapordo_8c.html#a517140c042a6b59ceebf06e2b5071dbe">helapordo.c</a></li>
-<li>setEnemySprite()&#160;:&#160;<a class="el" href="game__curses_8c.html#ac2c89ff0da8de202671445190de815d5">game_curses.c</a>, <a class="el" href="game__curses_8h.html#ac2c89ff0da8de202671445190de815d5">game_curses.h</a></li>
-<li>setEquipPrices()&#160;:&#160;<a class="el" href="helapordo_8c.html#a2b9ac7a17b3fd7421cc5397953d8d8fe">helapordo.c</a></li>
-<li>setEquipslotSprite()&#160;:&#160;<a class="el" href="game__curses_8c.html#a0e9d758a4a725bf87202cd3bc7e9084e">game_curses.c</a>, <a class="el" href="game__curses_8h.html#a0e9d758a4a725bf87202cd3bc7e9084e">game_curses.h</a></li>
-<li>setEquipSprite()&#160;:&#160;<a class="el" href="game__curses_8c.html#a5b47d50eb711af1dc3d46af66b9f1493">game_curses.c</a>, <a class="el" href="game__curses_8h.html#a5b47d50eb711af1dc3d46af66b9f1493">game_curses.h</a></li>
-<li>setFighterSprite()&#160;:&#160;<a class="el" href="game__curses_8h.html#a106ccc4d8b832662d79563c14ccf9dff">game_curses.h</a>, <a class="el" href="game__curses_8c.html#a106ccc4d8b832662d79563c14ccf9dff">game_curses.c</a></li>
-<li>setRoomType()&#160;:&#160;<a class="el" href="game__utils_8c.html#ae3138bf4f0ec5bc5989a2c8da73d0626">game_utils.c</a>, <a class="el" href="game__utils_8h.html#ae3138bf4f0ec5bc5989a2c8da73d0626">game_utils.h</a></li>
-<li>setSkills()&#160;:&#160;<a class="el" href="helapordo_8c.html#a8f2fc1701bbbcecd45021abdced14e78">helapordo.c</a></li>
-<li>setSpecials()&#160;:&#160;<a class="el" href="helapordo_8c.html#a6ce43b8eb8e0dd84140f446a276bbb17">helapordo.c</a></li>
+<li>setBossSkills()&#160;:&#160;<a class="el" href="game__init_8c.html#a19fc31c35f5e86a55bf9a5ab0245acc0">game_init.c</a>, <a class="el" href="game__init_8h.html#a19fc31c35f5e86a55bf9a5ab0245acc0">game_init.h</a></li>
+<li>setBossSprite()&#160;:&#160;<a class="el" href="game__curses_8c.html#ad530f610f7ff6ffc94e32725a29d73c3">game_curses.c</a>, <a class="el" href="game__curses_8h.html#ad530f610f7ff6ffc94e32725a29d73c3">game_curses.h</a>, <a class="el" href="game__rl_8c.html#ad530f610f7ff6ffc94e32725a29d73c3">game_rl.c</a>, <a class="el" href="game__rl_8h.html#ad530f610f7ff6ffc94e32725a29d73c3">game_rl.h</a></li>
+<li>setChestSprite()&#160;:&#160;<a class="el" href="game__curses_8h.html#ad2eb3d555e01796d30695d8a236eb1e0">game_curses.h</a>, <a class="el" href="game__rl_8h.html#ad2eb3d555e01796d30695d8a236eb1e0">game_rl.h</a>, <a class="el" href="game__rl_8c.html#ad2eb3d555e01796d30695d8a236eb1e0">game_rl.c</a>, <a class="el" href="game__curses_8c.html#ad2eb3d555e01796d30695d8a236eb1e0">game_curses.c</a></li>
+<li>setConsumablePrices()&#160;:&#160;<a class="el" href="game__utils_8c.html#ae484ae24ea12775796654faa9174adb4">game_utils.c</a>, <a class="el" href="game__utils_8h.html#ae484ae24ea12775796654faa9174adb4">game_utils.h</a></li>
+<li>setConsumableSprite()&#160;:&#160;<a class="el" href="game__curses_8c.html#a09abae87428cef0401abc6c75065305a">game_curses.c</a>, <a class="el" href="game__curses_8h.html#a09abae87428cef0401abc6c75065305a">game_curses.h</a>, <a class="el" href="game__rl_8c.html#a09abae87428cef0401abc6c75065305a">game_rl.c</a>, <a class="el" href="game__rl_8h.html#a09abae87428cef0401abc6c75065305a">game_rl.h</a></li>
+<li>setCounter()&#160;:&#160;<a class="el" href="game__utils_8c.html#aa7e0c7d9d1f183cd86087f8127f00ad2">game_utils.c</a>, <a class="el" href="game__utils_8h.html#aa7e0c7d9d1f183cd86087f8127f00ad2">game_utils.h</a></li>
+<li>setEnemySkills()&#160;:&#160;<a class="el" href="game__init_8c.html#a517140c042a6b59ceebf06e2b5071dbe">game_init.c</a>, <a class="el" href="game__init_8h.html#a517140c042a6b59ceebf06e2b5071dbe">game_init.h</a></li>
+<li>setEnemySprite()&#160;:&#160;<a class="el" href="game__curses_8c.html#ac2c89ff0da8de202671445190de815d5">game_curses.c</a>, <a class="el" href="game__curses_8h.html#ac2c89ff0da8de202671445190de815d5">game_curses.h</a>, <a class="el" href="game__rl_8c.html#ac2c89ff0da8de202671445190de815d5">game_rl.c</a>, <a class="el" href="game__rl_8h.html#ac2c89ff0da8de202671445190de815d5">game_rl.h</a></li>
+<li>setEquipPrices()&#160;:&#160;<a class="el" href="game__utils_8c.html#a2b9ac7a17b3fd7421cc5397953d8d8fe">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a2b9ac7a17b3fd7421cc5397953d8d8fe">game_utils.h</a></li>
+<li>setEquipslotSprite()&#160;:&#160;<a class="el" href="game__curses_8h.html#a0e9d758a4a725bf87202cd3bc7e9084e">game_curses.h</a>, <a class="el" href="game__rl_8h.html#a0e9d758a4a725bf87202cd3bc7e9084e">game_rl.h</a>, <a class="el" href="game__rl_8c.html#a0e9d758a4a725bf87202cd3bc7e9084e">game_rl.c</a>, <a class="el" href="game__curses_8c.html#a0e9d758a4a725bf87202cd3bc7e9084e">game_curses.c</a></li>
+<li>setEquipSprite()&#160;:&#160;<a class="el" href="game__rl_8c.html#a5b47d50eb711af1dc3d46af66b9f1493">game_rl.c</a>, <a class="el" href="game__rl_8h.html#a5b47d50eb711af1dc3d46af66b9f1493">game_rl.h</a></li>
+<li>setFighterSprite()&#160;:&#160;<a class="el" href="game__curses_8c.html#a106ccc4d8b832662d79563c14ccf9dff">game_curses.c</a>, <a class="el" href="game__curses_8h.html#a106ccc4d8b832662d79563c14ccf9dff">game_curses.h</a>, <a class="el" href="game__rl_8c.html#a106ccc4d8b832662d79563c14ccf9dff">game_rl.c</a>, <a class="el" href="game__rl_8h.html#a106ccc4d8b832662d79563c14ccf9dff">game_rl.h</a></li>
+<li>setRoomType()&#160;:&#160;<a class="el" href="game__utils_8h.html#ae3138bf4f0ec5bc5989a2c8da73d0626">game_utils.h</a>, <a class="el" href="game__utils_8c.html#ae3138bf4f0ec5bc5989a2c8da73d0626">game_utils.c</a></li>
+<li>setSkills()&#160;:&#160;<a class="el" href="game__init_8c.html#a8f2fc1701bbbcecd45021abdced14e78">game_init.c</a>, <a class="el" href="game__init_8h.html#a8f2fc1701bbbcecd45021abdced14e78">game_init.h</a></li>
 <li>Shop&#160;:&#160;<a class="el" href="game__core_8h.html#afde985ee406eebd232942d897d03d939">game_core.h</a></li>
 <li>SHOP&#160;:&#160;<a class="el" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a5f3a97f0c8c3605b875c0d9c3e710e38">game_core.h</a></li>
 <li>SHOPROOM&#160;:&#160;<a class="el" href="game__core_8h.html#a171877ac08b958e15474e7589b63d256">game_core.h</a></li>
@@ -126,7 +145,7 @@ $(function() {
 <li>SKILL_TYPE_LAST_UNLOCKABLE&#160;:&#160;<a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7aaf9d4c63ad65856ae7923b23dead6573">game_core.h</a></li>
 <li>SKILL_TYPE_MAX&#160;:&#160;<a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7a5feed0c435da8245bd60bf128109f0a6">game_core.h</a></li>
 <li>skillscosts&#160;:&#160;<a class="el" href="game__core_8c.html#af3639e659f16382d7f5a40e4b691fdb3">game_core.c</a>, <a class="el" href="game__core_8h.html#af3639e659f16382d7f5a40e4b691fdb3">game_core.h</a></li>
-<li>skillsdescstrings&#160;:&#160;<a class="el" href="game__core_8h.html#ab8628aad1432a38edd741204764662bf">game_core.h</a>, <a class="el" href="game__core_8c.html#ab8628aad1432a38edd741204764662bf">game_core.c</a></li>
+<li>skillsdescstrings&#160;:&#160;<a class="el" href="game__core_8c.html#ab8628aad1432a38edd741204764662bf">game_core.c</a>, <a class="el" href="game__core_8h.html#ab8628aad1432a38edd741204764662bf">game_core.h</a></li>
 <li>skillsnamestrings&#160;:&#160;<a class="el" href="game__core_8c.html#a530d3cc87af6cee1b03b86151b9c821e">game_core.c</a>, <a class="el" href="game__core_8h.html#a530d3cc87af6cee1b03b86151b9c821e">game_core.h</a></li>
 <li>SKILLSTOTAL&#160;:&#160;<a class="el" href="game__core_8h.html#a76d1f093a2446314378dfdfa2010f417">game_core.h</a></li>
 <li>skillType&#160;:&#160;<a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">game_core.h</a></li>
@@ -141,9 +160,9 @@ $(function() {
 <li>Standard&#160;:&#160;<a class="el" href="game__core_8h.html#a1c76e2d1f523d33155289c2ea84dd20ea57f9bf199e30a749a03be1dac2f5f624">game_core.h</a></li>
 <li>Stat&#160;:&#160;<a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305">game_core.h</a></li>
 <li>STATMAX&#160;:&#160;<a class="el" href="game__core_8h.html#ad31bff318e157e40c2917a541c3a0860">game_core.h</a></li>
-<li>statReset()&#160;:&#160;<a class="el" href="helapordo_8c.html#a5878d6db912ef82ed4d43c74a808ba7c">helapordo.c</a></li>
-<li>statResetBoss()&#160;:&#160;<a class="el" href="helapordo_8c.html#a5788b5443bb338c4ce8fcae89fb60ee1">helapordo.c</a></li>
-<li>statResetEnemy()&#160;:&#160;<a class="el" href="helapordo_8c.html#a896773eca0482957b1cabdca9c2a4100">helapordo.c</a></li>
+<li>statReset()&#160;:&#160;<a class="el" href="game__utils_8c.html#a5878d6db912ef82ed4d43c74a808ba7c">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a5878d6db912ef82ed4d43c74a808ba7c">game_utils.h</a></li>
+<li>statResetBoss()&#160;:&#160;<a class="el" href="game__utils_8c.html#a5788b5443bb338c4ce8fcae89fb60ee1">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a5788b5443bb338c4ce8fcae89fb60ee1">game_utils.h</a></li>
+<li>statResetEnemy()&#160;:&#160;<a class="el" href="game__utils_8c.html#a896773eca0482957b1cabdca9c2a4100">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a896773eca0482957b1cabdca9c2a4100">game_utils.h</a></li>
 <li>STATS&#160;:&#160;<a class="el" href="game__core_8h.html#a12a952e636763b477c873f21d458e4b7a56417e944da7c3429008202353a7ceba">game_core.h</a></li>
 <li>STATUSMAX&#160;:&#160;<a class="el" href="game__core_8h.html#a48fd0f5bd2db1e09d08a0d129da9e720">game_core.h</a></li>
 <li>STD_FLOOR&#160;:&#160;<a class="el" href="game__core_8h.html#a61f5a375c811d0c5976df8423dbcba10a69d1555d14ef661330c6a4b7549c21ff">game_core.h</a></li>
@@ -152,9 +171,9 @@ $(function() {
 <li>stringFrom_HLP_Region_Type()&#160;:&#160;<a class="el" href="game__utils_8c.html#a64715d5917a171e1c8a57df3fa0d1808">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a64715d5917a171e1c8a57df3fa0d1808">game_utils.h</a></li>
 <li>stringFrom_OP_res()&#160;:&#160;<a class="el" href="game__utils_8c.html#af200d40c5efac9874dd8e1cc0ff34741">game_utils.c</a>, <a class="el" href="game__utils_8h.html#af200d40c5efac9874dd8e1cc0ff34741">game_utils.h</a></li>
 <li>stringFrom_saveType()&#160;:&#160;<a class="el" href="game__utils_8c.html#abddbc99a3c42eb725d90eaccaf4174ef">game_utils.c</a>, <a class="el" href="game__utils_8h.html#abddbc99a3c42eb725d90eaccaf4174ef">game_utils.h</a></li>
-<li>stringFromArtifacts()&#160;:&#160;<a class="el" href="game__utils_8h.html#a2071ec833ceeb26c51b9cabbc36a96ce">game_utils.h</a>, <a class="el" href="game__utils_8c.html#a2071ec833ceeb26c51b9cabbc36a96ce">game_utils.c</a></li>
+<li>stringFromArtifacts()&#160;:&#160;<a class="el" href="game__utils_8c.html#a2071ec833ceeb26c51b9cabbc36a96ce">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a2071ec833ceeb26c51b9cabbc36a96ce">game_utils.h</a></li>
 <li>stringFromBossClass()&#160;:&#160;<a class="el" href="game__utils_8c.html#aa5631be08592697ae76b19a265dacfa5">game_utils.c</a>, <a class="el" href="game__utils_8h.html#aa5631be08592697ae76b19a265dacfa5">game_utils.h</a></li>
-<li>stringFromClass()&#160;:&#160;<a class="el" href="game__utils_8c.html#afa2d92b9a257249e4912e28936e641e9">game_utils.c</a>, <a class="el" href="game__utils_8h.html#afa2d92b9a257249e4912e28936e641e9">game_utils.h</a></li>
+<li>stringFromClass()&#160;:&#160;<a class="el" href="game__utils_8h.html#afa2d92b9a257249e4912e28936e641e9">game_utils.h</a>, <a class="el" href="game__utils_8c.html#afa2d92b9a257249e4912e28936e641e9">game_utils.c</a></li>
 <li>stringFromConsumables()&#160;:&#160;<a class="el" href="game__utils_8c.html#ae88a377e6283da304fbe2996d41bde96">game_utils.c</a>, <a class="el" href="game__utils_8h.html#ae88a377e6283da304fbe2996d41bde96">game_utils.h</a></li>
 <li>stringFromEClass()&#160;:&#160;<a class="el" href="game__utils_8c.html#afab05b3d814222e36db1b7fe1cf7e172">game_utils.c</a>, <a class="el" href="game__utils_8h.html#afab05b3d814222e36db1b7fe1cf7e172">game_utils.h</a></li>
 <li>stringFromEquips()&#160;:&#160;<a class="el" href="game__utils_8c.html#abbfb97240b1f872fd2f22fed92411344">game_utils.c</a>, <a class="el" href="game__utils_8h.html#abbfb97240b1f872fd2f22fed92411344">game_utils.h</a></li>
@@ -164,8 +183,8 @@ $(function() {
 <li>stringFromFoeTurnOP()&#160;:&#160;<a class="el" href="game__utils_8c.html#a7d29e07d1841ab907f6f1dad0efef489">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a7d29e07d1841ab907f6f1dad0efef489">game_utils.h</a></li>
 <li>stringFromGamemode()&#160;:&#160;<a class="el" href="game__utils_8c.html#a7801944834b61f70810e6cf6c2162f02">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a7801944834b61f70810e6cf6c2162f02">game_utils.h</a></li>
 <li>stringFromQuality()&#160;:&#160;<a class="el" href="game__utils_8c.html#a48a1547876bb480a71b902d480b34b48">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a48a1547876bb480a71b902d480b34b48">game_utils.h</a></li>
-<li>stringFromRoom()&#160;:&#160;<a class="el" href="game__utils_8c.html#a7118103a0470f0e4797edb3b40025a81">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a7118103a0470f0e4797edb3b40025a81">game_utils.h</a></li>
-<li>stringFromStatus()&#160;:&#160;<a class="el" href="game__utils_8h.html#a0722de90dfa05e358d3f2551ce629603">game_utils.h</a>, <a class="el" href="game__utils_8c.html#a0722de90dfa05e358d3f2551ce629603">game_utils.c</a></li>
+<li>stringFromRoom()&#160;:&#160;<a class="el" href="game__utils_8h.html#a7118103a0470f0e4797edb3b40025a81">game_utils.h</a>, <a class="el" href="game__utils_8c.html#a7118103a0470f0e4797edb3b40025a81">game_utils.c</a></li>
+<li>stringFromStatus()&#160;:&#160;<a class="el" href="game__utils_8c.html#a0722de90dfa05e358d3f2551ce629603">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a0722de90dfa05e358d3f2551ce629603">game_utils.h</a></li>
 <li>stringFromTurnOP()&#160;:&#160;<a class="el" href="game__utils_8c.html#a126c624bc6686ed2f9e14c9cea3917b0">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a126c624bc6686ed2f9e14c9cea3917b0">game_utils.h</a></li>
 <li>stringFromWinconClass()&#160;:&#160;<a class="el" href="game__utils_8c.html#a7ce8cd56d6ee8f3b2f46ef8fe08f1af5">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a7ce8cd56d6ee8f3b2f46ef8fe08f1af5">game_utils.h</a></li>
 <li>Strong&#160;:&#160;<a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a628442936d0c47e692857732a6f040ff">game_core.h</a></li>
@@ -173,9 +192,12 @@ $(function() {
 <li>strongWhite()&#160;:&#160;<a class="el" href="game__utils_8c.html#a32ec34fd9d77480a2f9c09f7ad2c6411">game_utils.c</a>, <a class="el" href="game__utils_8h.html#a32ec34fd9d77480a2f9c09f7ad2c6411">game_utils.h</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
 </body>
 </html>
