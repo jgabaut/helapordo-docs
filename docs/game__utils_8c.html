@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.3</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.4</span>
    </div>
   </td>
  </tr>
@@ -166,9 +166,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ab325d85923d4797af5525ac57010b31a" id="r_ab325d85923d4797af5525ac57010b31a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab325d85923d4797af5525ac57010b31a">dbg_GameScreen</a> (GameScreen *scr)</td></tr>
 <tr class="memdesc:ab325d85923d4797af5525ac57010b31a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debugs the passed (preallocated) GameScreen with <a class="el" href="#abe95fac4e9951963428137647d905b09" title="Takes a filename string, a string headear and a format string.">log_tag()</a>.  <br /></td></tr>
 <tr class="separator:ab325d85923d4797af5525ac57010b31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5876f89add7c7e4da786c7dc41c7a90a" id="r_a5876f89add7c7e4da786c7dc41c7a90a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5876f89add7c7e4da786c7dc41c7a90a">update_Gamestate</a> (<a class="el" href="structGamestate.html">Gamestate</a> *gmst, int current_fighters, <a class="el" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45">roomClass</a> current_roomtype, int current_room_index, int current_enemy_index, <a class="el" href="structFloor.html">Floor</a> *current_floor)</td></tr>
-<tr class="memdesc:a5876f89add7c7e4da786c7dc41c7a90a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the passed (preallocated) <a class="el" href="structGamestate.html" title="Holds arguments for a game.">Gamestate</a> with the passed int values.  <br /></td></tr>
-<tr class="separator:a5876f89add7c7e4da786c7dc41c7a90a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac9509a309110a7fbddedad44d6e2959" id="r_aac9509a309110a7fbddedad44d6e2959"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac9509a309110a7fbddedad44d6e2959">update_Gamestate</a> (<a class="el" href="structGamestate.html">Gamestate</a> *gmst, int current_fighters, <a class="el" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45">roomClass</a> current_roomtype, int current_room_index, int current_enemy_index, <a class="el" href="structFloor.html">Floor</a> *current_floor, <a class="el" href="structRoom.html">Room</a> *current_room)</td></tr>
+<tr class="memdesc:aac9509a309110a7fbddedad44d6e2959"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the passed (preallocated) <a class="el" href="structGamestate.html" title="Holds arguments for a game.">Gamestate</a> with the passed int values.  <br /></td></tr>
+<tr class="separator:aac9509a309110a7fbddedad44d6e2959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a418e924f83d5f846daaa69e2eaa1ad63" id="r_a418e924f83d5f846daaa69e2eaa1ad63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a418e924f83d5f846daaa69e2eaa1ad63">update_Equipslots</a> (<a class="el" href="structFighter.html">Fighter</a> *f)</td></tr>
+<tr class="memdesc:a418e924f83d5f846daaa69e2eaa1ad63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the passed <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a>'s Equipslots item fields, by reading the equipsBag field and setting the equipped ones.  <br /></td></tr>
+<tr class="separator:a418e924f83d5f846daaa69e2eaa1ad63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1880e0743083e511dd30944b3338626" id="r_aa1880e0743083e511dd30944b3338626"><td class="memItemLeft" align="right" valign="top"><a class="el" href="game__core_8h.html#a4bcff74473009e65583fe3707074fb91">saveType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1880e0743083e511dd30944b3338626">saveTypeFrom_string</a> (char *s)</td></tr>
 <tr class="memdesc:aa1880e0743083e511dd30944b3338626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a string and returns the corresponding saveType.  <br /></td></tr>
 <tr class="separator:aa1880e0743083e511dd30944b3338626"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -833,7 +836,7 @@ Functions</h2></td></tr>
 <p>Debugs the passed (preallocated) <a class="el" href="structcountStats.html" title="Holds the lifetime stats of the player.">countStats</a> with <a class="el" href="#abe95fac4e9951963428137647d905b09" title="Takes a filename string, a string headear and a format string.">log_tag()</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">gmst</td><td>The allocated <a class="el" href="structcountStats.html" title="Holds the lifetime stats of the player.">countStats</a> to debug. </td></tr>
+    <tr><td class="paramname">stats</td><td>The allocated <a class="el" href="structcountStats.html" title="Holds the lifetime stats of the player.">countStats</a> to debug. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1040,7 +1043,7 @@ Functions</h2></td></tr>
 <p>Debugs the passed (preallocated) <a class="el" href="structWincon.html" title="Defines the entity initialised from a winconClass.">Wincon</a> with <a class="el" href="#abe95fac4e9951963428137647d905b09" title="Takes a filename string, a string headear and a format string.">log_tag()</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">gmst</td><td>The allocated <a class="el" href="structcountStats.html" title="Holds the lifetime stats of the player.">countStats</a> to debug. </td></tr>
+    <tr><td class="paramname">wc</td><td>The allocated <a class="el" href="structcountStats.html" title="Holds the lifetime stats of the player.">countStats</a> to debug. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2847,7 +2850,7 @@ unlockSpecial() </dd></dl>
   <table class="params">
     <tr><td class="paramname">seed</td><td>An integer seed. </td></tr>
     <tr><td class="paramname">kls</td><td>The Koliseo used for allocation. </td></tr>
-    <tr><td class="paramname">current_saveslot</td><td>The <a class="el" href="structSaveslot.html" title="Holds arguments for a saveslot.">Saveslot</a> used to init the <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a>. </td></tr>
+    <tr><td class="paramname">path_to_savefile</td><td><a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> to savefile. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3157,6 +3160,7 @@ handleRoom_Shop() </dd>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">f</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">t_kls</td><td>The Koliseo_Temp used for temp allocations. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3830,6 +3834,7 @@ handleRoom_Shop() </dd>
 <p>Takes a path pointer, a roadFork value pointer, a room type pointer, and an integer. </p>
 <p>Depending on GAMEMODE (and eventually roadFork value), sets the room type pointer to a roomClass value. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">path</td><td>Pointer to <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a>. </td></tr>
     <tr><td class="paramname">roadFork_value</td><td>The pointer value of the roadfork that we must use as result. </td></tr>
     <tr><td class="paramname">room_type</td><td>The pointer value of the room type to set. </td></tr>
     <tr><td class="paramname">roomsDone</td><td>The total of rooms completed. </td></tr>
@@ -4295,7 +4300,7 @@ handleRoom_Shop() </dd>
 <p>Correct result is only possible by having the enum values in a consistent order with the string array. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8h.html#ac7e963d3b7c81d2f265d61e78bc1a5f2" title="The different kinds of FoeParty.">foePartyClass</a> </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">c</td><td>The integer/foePartyClass. </td></tr>
+    <tr><td class="paramname">fp</td><td>The integer/foePartyClass. </td></tr>
   </table>
   </dd>
 </dl>
@@ -4511,8 +4516,33 @@ handleRoom_Shop() </dd>
 
 </div>
 </div>
-<a id="a5876f89add7c7e4da786c7dc41c7a90a" name="a5876f89add7c7e4da786c7dc41c7a90a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5876f89add7c7e4da786c7dc41c7a90a">&#9670;&#160;</a></span>update_Gamestate()</h2>
+<a id="a418e924f83d5f846daaa69e2eaa1ad63" name="a418e924f83d5f846daaa69e2eaa1ad63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a418e924f83d5f846daaa69e2eaa1ad63">&#9670;&#160;</a></span>update_Equipslots()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void update_Equipslots </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>f</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Updates the passed <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a>'s Equipslots item fields, by reading the equipsBag field and setting the equipped ones. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> to update. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aac9509a309110a7fbddedad44d6e2959" name="aac9509a309110a7fbddedad44d6e2959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac9509a309110a7fbddedad44d6e2959">&#9670;&#160;</a></span>update_Gamestate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4545,7 +4575,12 @@ handleRoom_Shop() </dd>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structFloor.html">Floor</a> *</td>          <td class="paramname"><span class="paramname"><em>current_floor</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="structFloor.html">Floor</a> *</td>          <td class="paramname"><span class="paramname"><em>current_floor</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structRoom.html">Room</a> *</td>          <td class="paramname"><span class="paramname"><em>current_room</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4559,6 +4594,7 @@ handleRoom_Shop() </dd>
     <tr><td class="paramname">current_room_index</td><td>Index for current <a class="el" href="structRoom.html" title="Represents the entity initialised from a roomClass.">Room</a>. </td></tr>
     <tr><td class="paramname">current_enemy_index</td><td>Index for current <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a>. </td></tr>
     <tr><td class="paramname">current_floor</td><td>Pointer to current <a class="el" href="structFloor.html" title="Represents the entity initialised from a floorClass.">Floor</a>, initialised if gmst-&gt;gamemode == Rogue. </td></tr>
+    <tr><td class="paramname">current_room</td><td>Pointer to current <a class="el" href="structRoom.html" title="Represents the entity initialised from a roomClass.">Room</a>. </td></tr>
   </table>
   </dd>
 </dl>

@@ -1,0 +1,5 @@
+<map id="SerEquip" name="SerEquip">
+<area shape="rect" id="Node000001" title="Serialized Equip." alt="" coords="5,92,80,117"/>
+<area shape="rect" id="Node000002" href="$structSerPerk.html" title="Serialized Perk." alt="" coords="8,5,77,30"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="45,45,45,92,40,92,40,45"/>
+</map>

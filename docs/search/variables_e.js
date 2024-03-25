@@ -1,18 +1,18 @@
 var searchData=
 [
   ['palette_0',['palette',['../palette_8c.html#a6f9fdaba791b922cebd9883dc64b56d1',1,'palette:&#160;palette.c'],['../palette_8h.html#a6f9fdaba791b922cebd9883dc64b56d1',1,'palette:&#160;palette.c']]],
-  ['path_1',['path',['../structGamestate.html#a8911b8b512f3a8901c17de219706a752',1,'Gamestate::path'],['../structturnOP__args.html#a12917713b62c5d271019ac7c0be1503b',1,'turnOP_args::path']]],
-  ['perks_2',['perks',['../structFighter.html#a379a6f4f0f739d8c315d2eb0a224d626',1,'Fighter::perks'],['../structEquip.html#a277c5ae1c87ac6bca563b95e96ce04ad',1,'Equip::perks']]],
-  ['perkscount_3',['perksCount',['../structFighter.html#ae707ffa398fd4fd9c3ab394b53fef80c',1,'Fighter::perksCount'],['../structEquip.html#a8a44e1cb2b4333e5fd4bea2210105533',1,'Equip::perksCount']]],
+  ['path_1',['path',['../structGamestate.html#a8911b8b512f3a8901c17de219706a752',1,'Gamestate::path'],['../structturnOP__args.html#a12917713b62c5d271019ac7c0be1503b',1,'turnOP_args::path'],['../structSerGamestate.html#abf032fafb294e6f8e33f9fa64088bd2c',1,'SerGamestate::path']]],
+  ['perks_2',['perks',['../structFighter.html#a379a6f4f0f739d8c315d2eb0a224d626',1,'Fighter::perks'],['../structEquip.html#a277c5ae1c87ac6bca563b95e96ce04ad',1,'Equip::perks'],['../structSerEquip.html#afeba3427e8b1347ec41cc2a24f54a272',1,'SerEquip::perks'],['../structSerFighter.html#a0612b8b3e3b1d8d7e53aad7820253a84',1,'SerFighter::perks']]],
+  ['perkscount_3',['perksCount',['../structFighter.html#ae707ffa398fd4fd9c3ab394b53fef80c',1,'Fighter::perksCount'],['../structEquip.html#a8a44e1cb2b4333e5fd4bea2210105533',1,'Equip::perksCount'],['../structSerEquip.html#af13eb1dad5f842ea1b8389ff72f7aa9c',1,'SerEquip::perksCount'],['../structSerFighter.html#a3b13d62fc4c9472272726cbdc6721b6d',1,'SerFighter::perksCount']]],
   ['perksdescstrings_4',['perksdescstrings',['../game__core_8c.html#a0701d7ee02ba80468dda97669f19040e',1,'perksdescstrings:&#160;game_core.c'],['../game__core_8h.html#a0701d7ee02ba80468dda97669f19040e',1,'perksdescstrings:&#160;game_core.c']]],
   ['perksnamestrings_5',['perksnamestrings',['../game__core_8c.html#aac2e47cde0c646c765f09c7cef08b12f',1,'perksnamestrings:&#160;game_core.c'],['../game__core_8h.html#aac2e47cde0c646c765f09c7cef08b12f',1,'perksnamestrings:&#160;game_core.c']]],
-  ['permboost_5fatk_6',['permboost_atk',['../structFighter.html#a708534c28cbfe284aefb7169537e7675',1,'Fighter']]],
-  ['permboost_5fdef_7',['permboost_def',['../structFighter.html#a4c3c66045149ed80e75a3e1200bb12f4',1,'Fighter']]],
-  ['permboost_5fenr_8',['permboost_enr',['../structFighter.html#a9366441aea0ea8c6f7a4ebb179d134e6',1,'Fighter']]],
-  ['permboost_5fvel_9',['permboost_vel',['../structFighter.html#a44a3ea78a19c41200a9459da9428d2e4',1,'Fighter']]],
+  ['permboost_5fatk_6',['permboost_atk',['../structFighter.html#a708534c28cbfe284aefb7169537e7675',1,'Fighter::permboost_atk'],['../structSerFighter.html#a55b35d4464aa014e64c03f2ee253ee7f',1,'SerFighter::permboost_atk']]],
+  ['permboost_5fdef_7',['permboost_def',['../structFighter.html#a4c3c66045149ed80e75a3e1200bb12f4',1,'Fighter::permboost_def'],['../structSerFighter.html#aee341147675b0c907a444220c2c6f4c7',1,'SerFighter::permboost_def']]],
+  ['permboost_5fenr_8',['permboost_enr',['../structFighter.html#a9366441aea0ea8c6f7a4ebb179d134e6',1,'Fighter::permboost_enr'],['../structSerFighter.html#a459e0ea4bb76ae54bd56193a87797b19',1,'SerFighter::permboost_enr']]],
+  ['permboost_5fvel_9',['permboost_vel',['../structFighter.html#a44a3ea78a19c41200a9459da9428d2e4',1,'Fighter::permboost_vel'],['../structSerFighter.html#a842a3d4957719ef93f1e55a962358d17',1,'SerFighter::permboost_vel']]],
   ['picked_5fskill_10',['picked_skill',['../structturnOP__args.html#a694bddbfcd30d8f28960f6197d83aae9',1,'turnOP_args']]],
-  ['player_11',['player',['../structGamestate.html#ab826e1c75d648f02331354d040dd1661',1,'Gamestate']]],
-  ['prize_12',['prize',['../structEnemy.html#a8ca45613c1bd846fe16cbccc963e765d',1,'Enemy::prize'],['../structBoss.html#aeb5ff8d15eee5e73d45e69c4f882225c',1,'Boss::prize'],['../structPath.html#ab52a42738069c33ebc7bdc51c74785a8',1,'Path::prize']]],
+  ['player_11',['player',['../structGamestate.html#ab826e1c75d648f02331354d040dd1661',1,'Gamestate::player'],['../structSerGamestate.html#a9a940a0e6d84eaaf41e8f89c20150e81',1,'SerGamestate::player']]],
+  ['prize_12',['prize',['../structEnemy.html#a8ca45613c1bd846fe16cbccc963e765d',1,'Enemy::prize'],['../structBoss.html#aeb5ff8d15eee5e73d45e69c4f882225c',1,'Boss::prize'],['../structPath.html#ab52a42738069c33ebc7bdc51c74785a8',1,'Path::prize'],['../structSerEnemy.html#acaaf768c5f17676cc887636e51dd59d1',1,'SerEnemy::prize'],['../structSerBoss.html#a9e6a3b7b9867e30602251ed0644cd002',1,'SerBoss::prize'],['../structSerPath.html#a9667ee4518b853819947fbc12e063fb9',1,'SerPath::prize']]],
   ['ptr_5fto_5froomindex_13',['ptr_to_roomindex',['../structloadInfo.html#a592cf1bbabc858397c8bf57aa6fa1af8',1,'loadInfo']]],
   ['ptr_5fto_5froomtotalenemies_14',['ptr_to_roomtotalenemies',['../structloadInfo.html#aa7656b180e6b85f1a77fc2a5738c2d4c',1,'loadInfo']]]
 ];

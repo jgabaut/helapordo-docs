@@ -13,9 +13,11 @@ var searchData=
   ['g_5fgodmode_5fon_10',['G_GODMODE_ON',['../main_8c.html#a979381f2a3fa7ca5f61eeef36ec85353',1,'G_GODMODE_ON:&#160;main.c'],['../game__core_8h.html#a979381f2a3fa7ca5f61eeef36ec85353',1,'G_GODMODE_ON:&#160;main.c']]],
   ['g_5flog_5fon_11',['G_LOG_ON',['../main_8c.html#ad02d36f2fab57da8dfe988e2a3024c33',1,'G_LOG_ON:&#160;main.c'],['../game__core_8h.html#ad02d36f2fab57da8dfe988e2a3024c33',1,'G_LOG_ON:&#160;main.c']]],
   ['g_5fpreload_5fanimations_5fon_12',['G_PRELOAD_ANIMATIONS_ON',['../main_8c.html#a7ff38c07cdf83ad87a9e2110d94a2c00',1,'G_PRELOAD_ANIMATIONS_ON:&#160;main.c'],['../game__core_8h.html#a7ff38c07cdf83ad87a9e2110d94a2c00',1,'G_PRELOAD_ANIMATIONS_ON:&#160;main.c']]],
-  ['gamemode_13',['gamemode',['../structGamestate.html#af6a0d8e69e21845c3c87ed745deef3f5',1,'Gamestate']]],
-  ['gamemode_14',['GAMEMODE',['../main_8c.html#ab1e7aa4988e219c35dee29d068aa280a',1,'GAMEMODE:&#160;main.c'],['../game__core_8h.html#ab1e7aa4988e219c35dee29d068aa280a',1,'GAMEMODE:&#160;main.c']]],
-  ['gamemodenamestrings_15',['gamemodenamestrings',['../game__core_8c.html#a6d71a1c0e7552d2540207c0f729fab3c',1,'gamemodenamestrings:&#160;game_core.c'],['../game__core_8h.html#a6d71a1c0e7552d2540207c0f729fab3c',1,'gamemodenamestrings:&#160;game_core.c']]],
-  ['gmst_16',['gmst',['../structturnOP__args.html#aec0bf444e35f85ed8caac29e77e5f083',1,'turnOP_args']]],
-  ['gs_5fautosave_5fon_17',['GS_AUTOSAVE_ON',['../main_8c.html#a02c41f9118fbb6c4ef47fd06e2002918',1,'GS_AUTOSAVE_ON:&#160;main.c'],['../game__core_8h.html#a02c41f9118fbb6c4ef47fd06e2002918',1,'GS_AUTOSAVE_ON:&#160;main.c']]]
+  ['g_5fuse_5fcurrentdir_13',['G_USE_CURRENTDIR',['../main_8c.html#aaba6dfba2fa58ea22f7b8921f54c0ef7',1,'G_USE_CURRENTDIR:&#160;main.c'],['../game__core_8h.html#aaba6dfba2fa58ea22f7b8921f54c0ef7',1,'G_USE_CURRENTDIR:&#160;main.c']]],
+  ['game_5fversion_14',['game_version',['../structSerSaveHeader.html#ad50f4f06853c5b66209b209998082f78',1,'SerSaveHeader::game_version'],['../structSaveHeader.html#a3857429dd750018be2080f8aac852123',1,'SaveHeader::game_version']]],
+  ['gamemode_15',['gamemode',['../structGamestate.html#af6a0d8e69e21845c3c87ed745deef3f5',1,'Gamestate::gamemode'],['../structSerGamestate.html#abcf99ecb06e4a3ed0a68555048aac927',1,'SerGamestate::gamemode']]],
+  ['gamemode_16',['GAMEMODE',['../main_8c.html#ab1e7aa4988e219c35dee29d068aa280a',1,'GAMEMODE:&#160;main.c'],['../game__core_8h.html#ab1e7aa4988e219c35dee29d068aa280a',1,'GAMEMODE:&#160;main.c']]],
+  ['gamemodenamestrings_17',['gamemodenamestrings',['../game__core_8c.html#a6d71a1c0e7552d2540207c0f729fab3c',1,'gamemodenamestrings:&#160;game_core.c'],['../game__core_8h.html#a6d71a1c0e7552d2540207c0f729fab3c',1,'gamemodenamestrings:&#160;game_core.c']]],
+  ['gmst_18',['gmst',['../structturnOP__args.html#aec0bf444e35f85ed8caac29e77e5f083',1,'turnOP_args']]],
+  ['gs_5fautosave_5fon_19',['GS_AUTOSAVE_ON',['../main_8c.html#a02c41f9118fbb6c4ef47fd06e2002918',1,'GS_AUTOSAVE_ON:&#160;main.c'],['../game__core_8h.html#a02c41f9118fbb6c4ef47fd06e2002918',1,'GS_AUTOSAVE_ON:&#160;main.c']]]
 ];

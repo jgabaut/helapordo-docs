@@ -8,6 +8,7 @@ var game__init_8c =
     [ "initCounters", "game__init_8c.html#ac28e780484157ee31c374b40b477e4f6", null ],
     [ "initECounters", "game__init_8c.html#ab34ec73c2f82b849d11e447f0831427c", null ],
     [ "initEnemyStats", "game__init_8c.html#a65c559970baca41ce702e4106081e4e7", null ],
+    [ "initEquipsBag", "game__init_8c.html#a1689be549d9e4caacbdaee9ac18f88d6", null ],
     [ "initEquipSlots", "game__init_8c.html#a27b7bb2c8ea2b36685b3d4351d6846a9", null ],
     [ "initFoePartyCounters", "game__init_8c.html#aa3ae2d0c67e6052fec755ed211b77941", null ],
     [ "initFoePartyStats", "game__init_8c.html#a947963a0d9fc0cb5ac1cefc5ab5d73dc", null ],

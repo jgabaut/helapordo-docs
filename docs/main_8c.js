@@ -15,6 +15,7 @@ var main_8c =
     [ "G_GODMODE_ON", "main_8c.html#a979381f2a3fa7ca5f61eeef36ec85353", null ],
     [ "G_LOG_ON", "main_8c.html#ad02d36f2fab57da8dfe988e2a3024c33", null ],
     [ "G_PRELOAD_ANIMATIONS_ON", "main_8c.html#a7ff38c07cdf83ad87a9e2110d94a2c00", null ],
+    [ "G_USE_CURRENTDIR", "main_8c.html#aaba6dfba2fa58ea22f7b8921f54c0ef7", null ],
     [ "GAMEMODE", "main_8c.html#ab1e7aa4988e219c35dee29d068aa280a", null ],
     [ "GS_AUTOSAVE_ON", "main_8c.html#a02c41f9118fbb6c4ef47fd06e2002918", null ],
     [ "temporary_kls", "main_8c.html#ab09873664dfb1d459635b47b70cf4d45", null ]

@@ -10,5 +10,7 @@ var searchData=
   ['classesmax_7',['CLASSESMAX',['../game__core_8h.html#a1cfbde6ea139f82fc2985b63f88bd0b1',1,'game_core.h']]],
   ['consumable_5fshop_5fmax_8',['CONSUMABLE_SHOP_MAX',['../game__core_8h.html#a3cb564c72a72c74e9daaefb8b00cc221',1,'game_core.h']]],
   ['consumablesmax_9',['CONSUMABLESMAX',['../game__core_8h.html#a2e731f56806b9dc650fcd5df6f04107b',1,'game_core.h']]],
-  ['countersmax_10',['COUNTERSMAX',['../game__core_8h.html#a8a369e921b7c637e6c0b82834a49c46c',1,'game_core.h']]]
+  ['countersmax_10',['COUNTERSMAX',['../game__core_8h.html#a8a369e921b7c637e6c0b82834a49c46c',1,'game_core.h']]],
+  ['curses_5fbinsave_5fname_11',['CURSES_BINSAVE_NAME',['../game__core_8h.html#a48b98d71b86790920bae118089256e1e',1,'game_core.h']]],
+  ['curses_5fgmstsave_5fname_12',['CURSES_GMSTSAVE_NAME',['../game__core_8h.html#a857c8868894bda5e5c02f9a500c01606',1,'game_core.h']]]
 ];

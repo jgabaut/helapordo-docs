@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.3</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.4</span>
    </div>
   </td>
  </tr>
@@ -217,6 +217,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a09abae87428cef0401abc6c75065305a" id="r_a09abae87428cef0401abc6c75065305a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09abae87428cef0401abc6c75065305a">setConsumableSprite</a> (<a class="el" href="structConsumable.html">Consumable</a> *c)</td></tr>
 <tr class="memdesc:a09abae87428cef0401abc6c75065305a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structConsumable.html" title="Holds a certain qty of a consumableClass.">Consumable</a> pointer and prepares its sprite field by copying it line by line from consumables_sprites, defined in <a class="el" href="sprites_8h.html">sprites.h</a> header.  <br /></td></tr>
 <tr class="separator:a09abae87428cef0401abc6c75065305a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacdc495ee6ed789f7e58946715f0fd47" id="r_aacdc495ee6ed789f7e58946715f0fd47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacdc495ee6ed789f7e58946715f0fd47">setArtifactSprite</a> (<a class="el" href="structArtifact.html">Artifact</a> *a)</td></tr>
+<tr class="memdesc:aacdc495ee6ed789f7e58946715f0fd47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structArtifact.html" title="Represents the entity initialised from a artifactClass.">Artifact</a> pointer and prepares its sprite field by copying it line by line from artifacts_sprites, defined in <a class="el" href="sprites_8h.html">sprites.h</a> header.  <br /></td></tr>
+<tr class="separator:aacdc495ee6ed789f7e58946715f0fd47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad530f610f7ff6ffc94e32725a29d73c3" id="r_ad530f610f7ff6ffc94e32725a29d73c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad530f610f7ff6ffc94e32725a29d73c3">setBossSprite</a> (<a class="el" href="structBoss.html">Boss</a> *b)</td></tr>
 <tr class="memdesc:ad530f610f7ff6ffc94e32725a29d73c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer and prepares its sprite field by copying it line by line from bosses_sprites, defined in <a class="el" href="sprites_8h.html">sprites.h</a> header.  <br /></td></tr>
 <tr class="separator:ad530f610f7ff6ffc94e32725a29d73c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -294,6 +297,36 @@ Functions</h2></td></tr>
 
 <p>Shows tutorial info. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="helapordo__raylib_8c.html#ae95aa7f4af7318250b64799b62891e13">gameloop_rl()</a> </dd></dl>
+
+</div>
+</div>
+<a id="aacdc495ee6ed789f7e58946715f0fd47" name="aacdc495ee6ed789f7e58946715f0fd47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacdc495ee6ed789f7e58946715f0fd47">&#9670;&#160;</a></span>setArtifactSprite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setArtifactSprite </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structArtifact.html">Artifact</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structArtifact.html" title="Represents the entity initialised from a artifactClass.">Artifact</a> pointer and prepares its sprite field by copying it line by line from artifacts_sprites, defined in <a class="el" href="sprites_8h.html">sprites.h</a> header. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structArtifact.html" title="Represents the entity initialised from a artifactClass.">Artifact</a> </dd>
+<dd>
+<a class="el" href="helapordo_8c.html#a3dc6dacc81423d2e163fe32712082fd9" title="Takes a integer and a string array (possibly from main).">gameloop()</a> </dd>
+<dd>
+<a class="el" href="sprites_8c.html#a3745ee9cbfb8db4e5a88ecafb50aed82">artifacts_sprites</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>The <a class="el" href="structArtifact.html" title="Represents the entity initialised from a artifactClass.">Artifact</a> pointer whose sprite field will be initialised. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

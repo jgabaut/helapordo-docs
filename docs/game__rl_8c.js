@@ -1,6 +1,7 @@
 var game__rl_8c =
 [
     [ "handleTutorial", "game__rl_8c.html#a5543d652daa003dfabf55e802c1e6202", null ],
+    [ "setArtifactSprite", "game__rl_8c.html#aacdc495ee6ed789f7e58946715f0fd47", null ],
     [ "setBossSprite", "game__rl_8c.html#ad530f610f7ff6ffc94e32725a29d73c3", null ],
     [ "setChestSprite", "game__rl_8c.html#ad2eb3d555e01796d30695d8a236eb1e0", null ],
     [ "setConsumableSprite", "game__rl_8c.html#a09abae87428cef0401abc6c75065305a", null ],

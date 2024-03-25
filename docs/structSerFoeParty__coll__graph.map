@@ -1,0 +1,14 @@
+<map id="SerFoeParty" name="SerFoeParty">
+<area shape="rect" id="Node000001" title="Serialized FoeParty." alt="" coords="83,179,178,203"/>
+<area shape="rect" id="Node000002" href="$structSerTurncounter.html" title="Serialized Turncounter." alt="" coords="5,5,115,30"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="44,44,28,79,25,98,30,116,44,135,63,152,103,176,100,180,60,156,40,139,25,118,20,98,23,78,40,42"/>
+<area shape="rect" id="Node000003" href="$structSerEnemy.html" title="Serialized Enemy." alt="" coords="191,92,273,117"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="92,36,142,66,199,89,197,94,140,70,89,41"/>
+<area shape="rect" id="Node000005" href="$structSerBoss.html" title="Serialized Boss." alt="" coords="95,92,166,117"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="58,45,63,67,77,81,96,91,93,96,74,85,59,69,53,46"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,132,200,157,162,180,159,176,197,153,217,128"/>
+<area shape="rect" id="Node000004" href="$structSerSkillslot.html" title="Serialized Skillslot." alt="" coords="219,5,306,30"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="272,46,269,69,261,83,250,93,246,90,256,79,264,67,267,45"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="240,42,203,70,158,94,156,89,200,66,237,38"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="133,132,133,179,128,179,128,132"/>
+</map>

@@ -1,0 +1,25 @@
+var structSerBoss =
+[
+    [ "atk", "structSerBoss.html#a0cd7e95e01494c5db55b58f5fb8d69c2", null ],
+    [ "beast", "structSerBoss.html#abf22446e7f3d76590ed2899133b89af8", null ],
+    [ "class", "structSerBoss.html#a6f65f687db2380c37814c8535dd866a0", null ],
+    [ "counters", "structSerBoss.html#aea157829b24ec3ef903b55bfae84334b", null ],
+    [ "def", "structSerBoss.html#a60c24ccdfaa6bc05a3537b148f34cad5", null ],
+    [ "energy", "structSerBoss.html#a5c6188e9d23815ee614f01cfac24ac07", null ],
+    [ "hp", "structSerBoss.html#a734d98952b60d220823a1a03d41ffd3d", null ],
+    [ "level", "structSerBoss.html#a0daab5b6ba36a13c339bb6c78b19d9f2", null ],
+    [ "luck", "structSerBoss.html#af7115eb5854a95d21d1ac84c30d77688", null ],
+    [ "prize", "structSerBoss.html#a9e6a3b7b9867e30602251ed0644cd002", null ],
+    [ "skills", "structSerBoss.html#af6f7c3ea1b1dcb9d9fcd52ee703f8231", null ],
+    [ "stamina", "structSerBoss.html#a0b7721dc1c49e560a8ffe667c287df3f", null ],
+    [ "status", "structSerBoss.html#a96daec02b5602ac9cdd59bde55341167", null ],
+    [ "totalenergy", "structSerBoss.html#af06d4e1b70752788074f0530daf86fe2", null ],
+    [ "totalhp", "structSerBoss.html#a2849290e85456df3ed550cc496626335", null ],
+    [ "totalstamina", "structSerBoss.html#a731dda867e49142fdef053487b3e5e26", null ],
+    [ "turnboost_atk", "structSerBoss.html#aeda885c03ebfd208777972b773342420", null ],
+    [ "turnboost_def", "structSerBoss.html#ae19bc668414bf48f46d7fab6664f311b", null ],
+    [ "turnboost_enr", "structSerBoss.html#a686e420e258b2773eeb8e8d88dd4eb78", null ],
+    [ "turnboost_vel", "structSerBoss.html#a949083fe923f541ca37494e0fe6c5288", null ],
+    [ "vel", "structSerBoss.html#a64fe13093a1a2344bfa5e00858f27977", null ],
+    [ "xp", "structSerBoss.html#ae78f9bcdf7af353445a1f2b9f6d83fea", null ]
+];

@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.3</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.4</span>
    </div>
   </td>
  </tr>
@@ -159,6 +159,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a7a296b83209a5b801bbdf8f1dbf68a2b" id="r_a7a296b83209a5b801bbdf8f1dbf68a2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a296b83209a5b801bbdf8f1dbf68a2b">initArtifactsBag</a> (<a class="el" href="structFighter.html">Fighter</a> *f, Koliseo *kls)</td></tr>
 <tr class="memdesc:a7a296b83209a5b801bbdf8f1dbf68a2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and prepares its artifactsBag field by allocating a <a class="el" href="structArtifact.html" title="Represents the entity initialised from a artifactClass.">Artifact</a> for each artifactClass.  <br /></td></tr>
 <tr class="separator:a7a296b83209a5b801bbdf8f1dbf68a2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1689be549d9e4caacbdaee9ac18f88d6" id="r_a1689be549d9e4caacbdaee9ac18f88d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1689be549d9e4caacbdaee9ac18f88d6">initEquipsBag</a> (<a class="el" href="structFighter.html">Fighter</a> *f, Koliseo *kls)</td></tr>
+<tr class="memdesc:a1689be549d9e4caacbdaee9ac18f88d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and prepares its equipsBag field by allocating an <a class="el" href="structEquip.html" title="Represents the entity initialised from a equipClass.">Equip</a> for each array slot.  <br /></td></tr>
+<tr class="separator:a1689be549d9e4caacbdaee9ac18f88d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e2cf734de5ba083dbbfc0d5f2c7b8c5" id="r_a5e2cf734de5ba083dbbfc0d5f2c7b8c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e2cf734de5ba083dbbfc0d5f2c7b8c5">initPlayerStats</a> (<a class="el" href="structFighter.html">Fighter</a> *player, <a class="el" href="structPath.html">Path</a> *path, Koliseo *kls)</td></tr>
 <tr class="memdesc:a5e2cf734de5ba083dbbfc0d5f2c7b8c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes one <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and one <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointers and initialises the fighter fields.  <br /></td></tr>
 <tr class="separator:a5e2cf734de5ba083dbbfc0d5f2c7b8c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -521,6 +524,41 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">e</td><td>The <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> whose fields will be initialised. </td></tr>
     <tr><td class="paramname">t_kls</td><td>The Koliseo_Temp used for allocations. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1689be549d9e4caacbdaee9ac18f88d6" name="a1689be549d9e4caacbdaee9ac18f88d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1689be549d9e4caacbdaee9ac18f88d6">&#9670;&#160;</a></span>initEquipsBag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initEquipsBag </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>f</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Koliseo *</td>          <td class="paramname"><span class="paramname"><em>kls</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and prepares its equipsBag field by allocating an <a class="el" href="structEquip.html" title="Represents the entity initialised from a equipClass.">Equip</a> for each array slot. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd>
+<dd>
+<a class="el" href="structEquip.html" title="Represents the entity initialised from a equipClass.">Equip</a> </dd>
+<dd>
+<a class="el" href="game__core_8h.html#a6986b6f486e6dc41c9e4b83549cbcf4a" title="Maximum index of artifactClass, so that the size has to add 1 for the 0th index.">ARTIFACTSMAX</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
+    <tr><td class="paramname">f</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer whose equipsBag field will be initialised. </td></tr>
   </table>
   </dd>
 </dl>
@@ -928,6 +966,8 @@ initArtifactsFun() </dd>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fp</td><td>The allocated <a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> pointer to initialise. </td></tr>
+    <tr><td class="paramname">partysize</td><td>Size of party. </td></tr>
+    <tr><td class="paramname">roomindex</td><td>Index of current room. </td></tr>
     <tr><td class="paramname">t_kls</td><td>The Koliseo_Temp used for allocations. </td></tr>
   </table>
   </dd>

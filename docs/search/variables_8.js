@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['index_0',['index',['../structEnemy.html#a73c692acbeebb5ca92c88c45edfa3685',1,'Enemy::index'],['../structRoom.html#a4cc98173a280438fc66eb5c9a7f0a66b',1,'Room::index'],['../structFloor.html#aa1ff1f0cebf69a69093024dd2f0c9f62',1,'Floor::index']]],
-  ['innervalue_1',['innerValue',['../structArtifact.html#a794f960c127536401a697524980dac00',1,'Artifact::innerValue'],['../structPerk.html#aa9c09f6829b9b6ff0c2db67f88996c72',1,'Perk::innerValue'],['../structTurncounter.html#ae5dbd1a00ee3454eabdc342acf81469b',1,'Turncounter::innerValue']]],
-  ['is_5flocalexe_2',['is_localexe',['../structGamestate.html#aee4ec0b44cb3eb6386d69a8cd9928a52',1,'Gamestate']]],
+  ['index_0',['index',['../structSaveslot.html#acac1c70ddcdb6527a54a3cafc8de8f15',1,'Saveslot::index'],['../structEnemy.html#a73c692acbeebb5ca92c88c45edfa3685',1,'Enemy::index'],['../structRoom.html#a4cc98173a280438fc66eb5c9a7f0a66b',1,'Room::index'],['../structFloor.html#aa1ff1f0cebf69a69093024dd2f0c9f62',1,'Floor::index'],['../structSerEnemy.html#ab03b1cb90919129e52b273860818f3ee',1,'SerEnemy::index'],['../structSerRoom.html#ad9ee4b16876750524317f0104b823287',1,'SerRoom::index'],['../structSerFloor.html#aa5f7d8e69c410b7bd58bc9120b70f152',1,'SerFloor::index'],['../structSerSaveslot.html#aac580d0ba0e5e909b38a3adfe527facc',1,'SerSaveslot::index']]],
+  ['innervalue_1',['innerValue',['../structArtifact.html#a794f960c127536401a697524980dac00',1,'Artifact::innerValue'],['../structPerk.html#aa9c09f6829b9b6ff0c2db67f88996c72',1,'Perk::innerValue'],['../structTurncounter.html#ae5dbd1a00ee3454eabdc342acf81469b',1,'Turncounter::innerValue'],['../structSerTurncounter.html#a8802bb801cd2e89c35b0b2d54c742a2b',1,'SerTurncounter::innerValue'],['../structSerPerk.html#afe0a9d5d8fbd30af470adcc76da36580',1,'SerPerk::innerValue'],['../structSerArtifact.html#a505fde66c11e8769dbea28f044942b59',1,'SerArtifact::innerValue']]],
+  ['is_5flocalexe_2',['is_localexe',['../structGamestate.html#aee4ec0b44cb3eb6386d69a8cd9928a52',1,'Gamestate::is_localexe'],['../structSerGamestate.html#a98d1c2cfca59d04e331a9ad61e32c228',1,'SerGamestate::is_localexe']]],
   ['is_5fnew_5fgame_3',['is_new_game',['../structloadInfo.html#add43667597a022a8701faa547a545d20',1,'loadInfo']]],
   ['item_4',['item',['../structEquipslot.html#a72d5ac1e89c14df10b3e82e346baa67a',1,'Equipslot']]],
-  ['itemcount_5',['itemCount',['../structShop.html#a6a98243ea4a56955aad8c01764ed8fb7',1,'Shop']]]
+  ['itemcount_5',['itemCount',['../structShop.html#a6a98243ea4a56955aad8c01764ed8fb7',1,'Shop::itemCount'],['../structSerShop.html#a407abe604fe63a766b5045cd3be1e9f9',1,'SerShop::itemCount']]]
 ];

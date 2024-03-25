@@ -1,0 +1,7 @@
+<map id="SerPath" name="SerPath">
+<area shape="rect" id="Node000001" title="Serialized SerPath." alt="" coords="70,92,138,117"/>
+<area shape="rect" id="Node000002" href="$structSerWincon.html" title="Serialized Wincon." alt="" coords="5,5,91,30"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="47,44,51,67,62,80,76,89,73,94,59,83,47,69,41,46"/>
+<area shape="rect" id="Node000003" href="$structSerSaveslot.html" title="Serialized Saveslot." alt="" coords="116,5,207,30"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="150,45,134,70,116,93,112,90,130,66,145,42"/>
+</map>
