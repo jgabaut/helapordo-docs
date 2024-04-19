@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.4</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.5</span>
    </div>
   </td>
  </tr>
@@ -136,9 +136,12 @@ Data Fields</h2></td></tr>
 </blockquote>
  <br /></td></tr>
 <tr class="separator:ad2148b43cfb984ef696401ed319ffa8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70087805af0139dcc3cca22adb4e7bc6" id="r_a70087805af0139dcc3cca22adb4e7bc6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70087805af0139dcc3cca22adb4e7bc6">seed</a></td></tr>
-<tr class="memdesc:a70087805af0139dcc3cca22adb4e7bc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines current <a class="el" href="structSaveslot.html" title="Holds arguments for a saveslot.">Saveslot</a> for the game.  <br /></td></tr>
-<tr class="separator:a70087805af0139dcc3cca22adb4e7bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4909345dfb33410072a30a88589e4378" id="r_a4909345dfb33410072a30a88589e4378"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4909345dfb33410072a30a88589e4378">seed</a> [<a class="el" href="game__core_8h.html#a65e0486a7d98615b739d46552f895216">PATH_SEED_BUFSIZE</a>]</td></tr>
+<tr class="memdesc:a4909345dfb33410072a30a88589e4378"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines current <a class="el" href="structSaveslot.html" title="Holds arguments for a saveslot.">Saveslot</a> for the game.  <br /></td></tr>
+<tr class="separator:a4909345dfb33410072a30a88589e4378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a964dfa1b3cc18ea1b94acfabc63d2203" id="r_a964dfa1b3cc18ea1b94acfabc63d2203"><td class="memItemLeft" align="right" valign="top">int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a964dfa1b3cc18ea1b94acfabc63d2203">rng_advancements</a></td></tr>
+<tr class="memdesc:a964dfa1b3cc18ea1b94acfabc63d2203"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains seed for current run.  <br /></td></tr>
+<tr class="separator:a964dfa1b3cc18ea1b94acfabc63d2203"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Holds the state of game progression. </p>
@@ -229,14 +232,30 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a70087805af0139dcc3cca22adb4e7bc6" name="a70087805af0139dcc3cca22adb4e7bc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70087805af0139dcc3cca22adb4e7bc6">&#9670;&#160;</a></span>seed</h2>
+<a id="a964dfa1b3cc18ea1b94acfabc63d2203" name="a964dfa1b3cc18ea1b94acfabc63d2203"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a964dfa1b3cc18ea1b94acfabc63d2203">&#9670;&#160;</a></span>rng_advancements</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int Path::seed</td>
+          <td class="memname">int64_t* Path::rng_advancements</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Contains seed for current run. </p>
+
+</div>
+</div>
+<a id="a4909345dfb33410072a30a88589e4378" name="a4909345dfb33410072a30a88589e4378"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4909345dfb33410072a30a88589e4378">&#9670;&#160;</a></span>seed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char Path::seed[<a class="el" href="game__core_8h.html#a65e0486a7d98615b739d46552f895216">PATH_SEED_BUFSIZE</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">

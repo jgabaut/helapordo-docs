@@ -52,13 +52,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"game__core_8h.html#a20a483c7ad74cfb95f3bdd51dabc6b29",
-"game__core_8h.html#ac7e963d3b7c81d2f265d61e78bc1a5f2",
-"game__init_8h.html#a8f4c10cd9fae95152b93fe7139a19763",
-"game__utils_8h.html#a5b5093cffcc393dbebcb5df75b60e5fe",
-"saves_8h.html#af86765fbe4071795573c7bd5d66c73a5",
-"structEnemyBaseStats.html",
-"structSerEquip.html#af607784d67932ff120940186f2264754"
+"game__core_8h.html#a2ba03f4024e8f432f139d187c9ce3450",
+"game__core_8h.html#aca00570c9830f21e65f7d8110fb7e547",
+"game__init_8h.html#ab34ec73c2f82b849d11e447f0831427c",
+"game__utils_8h.html#a5788b5443bb338c4ce8fcae89fb60ee1",
+"saves_8c.html#ae93b1b77f3db2a4605754e231d68a548",
+"structConsumable.html#af1929f95c06f02933a89afb955f0c497",
+"structSerEnemy.html#a4d73ce6f6e0d33a00b347edfd3e82bea",
+"structturnOP__args.html#a12917713b62c5d271019ac7c0be1503b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

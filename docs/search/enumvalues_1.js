@@ -10,6 +10,6 @@ var searchData=
   ['boss_7',['BOSS',['../game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45ab26df4373bb31a33c70ffa75477f9875',1,'game_core.h']]],
   ['bosses_8',['Bosses',['../game__core_8h.html#ac7e963d3b7c81d2f265d61e78bc1a5f2a8c8034ee800533b6f2469741b3b5bdc6',1,'game_core.h']]],
   ['bread_9',['Bread',['../game__core_8h.html#abc5cb6c6be316361cce824c81a995e40adccfa4cee9717eff0fa46526a9d23845',1,'game_core.h']]],
-  ['burned_10',['Burned',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a569e3df6d07032a6cc51104f645e851e',1,'game_core.h']]],
-  ['burned_11',['BURNED',['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71ab9741ae774fdf4c1493c65a54b3f548a',1,'game_core.h']]]
+  ['burned_10',['BURNED',['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71ab9741ae774fdf4c1493c65a54b3f548a',1,'game_core.h']]],
+  ['burned_11',['Burned',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a569e3df6d07032a6cc51104f645e851e',1,'game_core.h']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['saveheader_0',['SaveHeader',['../bin__saves_8h.html#a2279e64a424ee61d2c76715b839cbf4d',1,'bin_saves.h']]],
+  ['saveheader_0',['SaveHeader',['../ser__core_8h.html#a2279e64a424ee61d2c76715b839cbf4d',1,'ser_core.h']]],
   ['savetype_1',['saveType',['../game__core_8h.html#a948d4a95170c8878e0ae2ce67d79ec0b',1,'game_core.h']]],
   ['serartifact_2',['SerArtifact',['../ser__core_8h.html#ad3cce66ff22eaba226d2a1dfd75b0758',1,'ser_core.h']]],
   ['serboss_3',['SerBoss',['../ser__core_8h.html#a36388b11214296a3452329b2b2379847',1,'ser_core.h']]],
@@ -18,7 +18,7 @@ var searchData=
   ['serperk_15',['SerPerk',['../ser__core_8h.html#a1248a91cb0160481c40ce9ef59dfa9c3',1,'ser_core.h']]],
   ['serroadfork_16',['SerRoadfork',['../ser__core_8h.html#aa0bdd04069d6968e5af74c9abf0bdcf8',1,'ser_core.h']]],
   ['serroom_17',['SerRoom',['../ser__core_8h.html#ace80fafdd3c5137e9b6f3040949420e7',1,'ser_core.h']]],
-  ['sersaveheader_18',['SerSaveHeader',['../bin__saves_8h.html#a16b757ee7beb8930a25345eda4433f64',1,'bin_saves.h']]],
+  ['sersaveheader_18',['SerSaveHeader',['../ser__core_8h.html#a16b757ee7beb8930a25345eda4433f64',1,'ser_core.h']]],
   ['sersaveslot_19',['SerSaveslot',['../ser__core_8h.html#a7b6908766230e3bdcb259c51dc11b5dd',1,'ser_core.h']]],
   ['sershop_20',['SerShop',['../ser__core_8h.html#a06ace72c9355854e0d1e0113473b21f1',1,'ser_core.h']]],
   ['serskillslot_21',['SerSkillslot',['../ser__core_8h.html#a7e90b910281d7a77ab05c43819d0cfbd',1,'ser_core.h']]],

@@ -2,8 +2,6 @@ var dir_313caf1132e152dd9b58bea13a4052ca =
 [
     [ "artifacts.c", "artifacts_8c.html", "artifacts_8c" ],
     [ "artifacts.h", "artifacts_8h.html", "artifacts_8h" ],
-    [ "bin_saves.c", "bin__saves_8c.html", "bin__saves_8c" ],
-    [ "bin_saves.h", "bin__saves_8h.html", "bin__saves_8h" ],
     [ "floors.c", "floors_8c.html", "floors_8c" ],
     [ "floors.h", "floors_8h.html", "floors_8h" ],
     [ "game_debug.c", "game__debug_8c.html", null ],

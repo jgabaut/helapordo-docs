@@ -1,5 +1,7 @@
 var ser__core_8h =
 [
+    [ "SerSaveHeader", "structSerSaveHeader.html", "structSerSaveHeader" ],
+    [ "SaveHeader", "structSaveHeader.html", "structSaveHeader" ],
     [ "SerTurncounter", "structSerTurncounter.html", "structSerTurncounter" ],
     [ "SerPerk", "structSerPerk.html", "structSerPerk" ],
     [ "SerSkillslot", "structSerSkillslot.html", "structSerSkillslot" ],
@@ -23,7 +25,13 @@ var ser__core_8h =
     [ "SerSaveslot", "structSerSaveslot.html", "structSerSaveslot" ],
     [ "SerPath", "structSerPath.html", "structSerPath" ],
     [ "SerGamestate", "structSerGamestate.html", "structSerGamestate" ],
+    [ "SAVEHEADER_BUFSIZE", "ser__core_8h.html#ae2ff370a1a86cbda2fe032af5596de2e", null ],
     [ "SERFIGHTER_NAME_BUFSIZE", "ser__core_8h.html#add3071102e4119b1bf07606913424834", null ],
+    [ "SERPATH_SEED_BUFSIZE", "ser__core_8h.html#a24030d80be4c76ab748a98dd6e5615a2", null ],
+    [ "SerPerk_Arg", "ser__core_8h.html#a2f96e06daa66a21fba3ff1c0569dd515", null ],
+    [ "SerPerk_Fmt", "ser__core_8h.html#ae73789c8832759e1fb78bd66bd3df785", null ],
+    [ "SERSAVEHEADER_BUFSIZE", "ser__core_8h.html#a36c170f992b06c69885803b817fd66d4", null ],
+    [ "SaveHeader", "ser__core_8h.html#a2279e64a424ee61d2c76715b839cbf4d", null ],
     [ "SerArtifact", "ser__core_8h.html#ad3cce66ff22eaba226d2a1dfd75b0758", null ],
     [ "SerBoss", "ser__core_8h.html#a36388b11214296a3452329b2b2379847", null ],
     [ "SerChest", "ser__core_8h.html#ab0eda0b5d00e311e9b5eeb9a861c8ab3", null ],
@@ -40,6 +48,7 @@ var ser__core_8h =
     [ "SerPerk", "ser__core_8h.html#a1248a91cb0160481c40ce9ef59dfa9c3", null ],
     [ "SerRoadfork", "ser__core_8h.html#aa0bdd04069d6968e5af74c9abf0bdcf8", null ],
     [ "SerRoom", "ser__core_8h.html#ace80fafdd3c5137e9b6f3040949420e7", null ],
+    [ "SerSaveHeader", "ser__core_8h.html#a16b757ee7beb8930a25345eda4433f64", null ],
     [ "SerSaveslot", "ser__core_8h.html#a7b6908766230e3bdcb259c51dc11b5dd", null ],
     [ "SerShop", "ser__core_8h.html#a06ace72c9355854e0d1e0113473b21f1", null ],
     [ "SerSkillslot", "ser__core_8h.html#a7e90b910281d7a77ab05c43819d0cfbd", null ],
@@ -65,6 +74,7 @@ var ser__core_8h =
     [ "deser_Perk", "ser__core_8h.html#a747f8ad1a3b3f9ad5a9592edb841da5e", null ],
     [ "deser_Roadfork", "ser__core_8h.html#a2fc2d4c6228f3157700a0062c03d85f1", null ],
     [ "deser_Room", "ser__core_8h.html#ae233c04d1c31854c56bd2adacfb39047", null ],
+    [ "deser_SaveHeader", "ser__core_8h.html#a4ffa2b6186af94fb41acdb5a7489b95a", null ],
     [ "deser_Saveslot", "ser__core_8h.html#a5a0be36205e2ecc10500f5d6d5e689a0", null ],
     [ "deser_Shop", "ser__core_8h.html#a28d47ec67d30d46ebbf3be3e7fcb8049", null ],
     [ "deser_Skillslot", "ser__core_8h.html#a0a1143cdbf764d92d139e0fd98d14563", null ],
@@ -73,7 +83,10 @@ var ser__core_8h =
     [ "deser_Turncounter", "ser__core_8h.html#a38280d39ad0f8c3508bc888ea28748ab", null ],
     [ "deser_Wincon", "ser__core_8h.html#aa7ecdd928fb974db6cb9dd21684e6715", null ],
     [ "prep_Gamestate", "ser__core_8h.html#a1d4e2a1948b9be70e9dfeaad962aa937", null ],
+    [ "prep_saveHeader", "ser__core_8h.html#ad01fbe61a0c57a947a52e31b0c7cc06f", null ],
+    [ "read_savedir", "ser__core_8h.html#aec6cbb2015d29425fc2cc981abb179e7", null ],
     [ "readSerGamestate", "ser__core_8h.html#af2806c94392e789d30f2643a5739d5b5", null ],
+    [ "readSerSaveHeader", "ser__core_8h.html#affdc7feb3c732c658df22cc4443310c1", null ],
     [ "readSerTurncounter", "ser__core_8h.html#a6737fbbe87ca0ea230510b1382354fb2", null ],
     [ "ser_Artifact", "ser__core_8h.html#a30e54a623a22c0855adf65397c0ed760", null ],
     [ "ser_Boss", "ser__core_8h.html#a9df1bbf89ffd91b6a8828672c6791e75", null ],
@@ -98,5 +111,6 @@ var ser__core_8h =
     [ "ser_Treasure", "ser__core_8h.html#ab8194ecbe9263be8951f26bb65ab12bd", null ],
     [ "ser_Turncounter", "ser__core_8h.html#accf4c4a81fe694c6aa42f30a9fe70d26", null ],
     [ "ser_Wincon", "ser__core_8h.html#abcc00f975444c6102277a25750e6aafd", null ],
-    [ "writeSerGamestate", "ser__core_8h.html#a430819617cd698b918b146ed8ccdaee4", null ]
+    [ "writeSerGamestate", "ser__core_8h.html#a430819617cd698b918b146ed8ccdaee4", null ],
+    [ "writeSerSaveHeader", "ser__core_8h.html#a26c88c408697d9aba61765c6b6806b74", null ]
 ];

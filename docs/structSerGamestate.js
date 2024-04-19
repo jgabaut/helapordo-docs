@@ -7,7 +7,7 @@ var structSerGamestate =
     [ "current_room_index", "structSerGamestate.html#a872cab42076887a8d0c464da318aad7b", null ],
     [ "current_roomtype", "structSerGamestate.html#a23e1bf783d0d0643ee49c2872a9d1dc3", null ],
     [ "gamemode", "structSerGamestate.html#abcf99ecb06e4a3ed0a68555048aac927", null ],
-    [ "is_localexe", "structSerGamestate.html#a98d1c2cfca59d04e331a9ad61e32c228", null ],
+    [ "is_seeded", "structSerGamestate.html#a98532643dd9cb9dd94e1675a83c5b8af", null ],
     [ "path", "structSerGamestate.html#abf032fafb294e6f8e33f9fa64088bd2c", null ],
     [ "player", "structSerGamestate.html#a9a940a0e6d84eaaf41e8f89c20150e81", null ],
     [ "start_time", "structSerGamestate.html#ae8bb94959fd1b559bc8e5d7b16b452a6", null ],

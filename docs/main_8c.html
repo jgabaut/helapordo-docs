@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.4</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.5</span>
    </div>
   </td>
  </tr>
@@ -150,6 +150,15 @@ Variables</h2></td></tr>
 <tr class="memitem:aaba6dfba2fa58ea22f7b8921f54c0ef7" id="r_aaba6dfba2fa58ea22f7b8921f54c0ef7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaba6dfba2fa58ea22f7b8921f54c0ef7">G_USE_CURRENTDIR</a> = 0</td></tr>
 <tr class="memdesc:aaba6dfba2fa58ea22f7b8921f54c0ef7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global variable for using current directory to store game run files.  <br /></td></tr>
 <tr class="separator:aaba6dfba2fa58ea22f7b8921f54c0ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace44c1fb01dae8d2e193f56bf813139e" id="r_ace44c1fb01dae8d2e193f56bf813139e"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace44c1fb01dae8d2e193f56bf813139e">G_RNG_ADVANCEMENTS</a> = 0</td></tr>
+<tr class="memdesc:ace44c1fb01dae8d2e193f56bf813139e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global variable used to count advancements of the rng.  <br /></td></tr>
+<tr class="separator:ace44c1fb01dae8d2e193f56bf813139e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65be74331113c0c6eef435baad387220" id="r_a65be74331113c0c6eef435baad387220"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65be74331113c0c6eef435baad387220">G_SEEDED_RUN_ON</a> = 0</td></tr>
+<tr class="memdesc:a65be74331113c0c6eef435baad387220"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global variable for seeded run flag.  <br /></td></tr>
+<tr class="separator:a65be74331113c0c6eef435baad387220"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4380e824408a17c206bfe780885a6b5e" id="r_a4380e824408a17c206bfe780885a6b5e"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4380e824408a17c206bfe780885a6b5e">G_SEEDED_RUN_ARG</a> = NULL</td></tr>
+<tr class="memdesc:a4380e824408a17c206bfe780885a6b5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global variable for seeded run flag, set to the passed string argument.  <br /></td></tr>
+<tr class="separator:a4380e824408a17c206bfe780885a6b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1e7aa4988e219c35dee29d068aa280a" id="r_ab1e7aa4988e219c35dee29d068aa280a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="game__core_8h.html#a1c76e2d1f523d33155289c2ea84dd20e">Gamemode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1e7aa4988e219c35dee29d068aa280a">GAMEMODE</a> = <a class="el" href="game__core_8h.html#a1c76e2d1f523d33155289c2ea84dd20ea56e00d8d67dff90057a61cca95a21c50">Rogue</a></td></tr>
 <tr class="memdesc:ab1e7aa4988e219c35dee29d068aa280a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global variable for gamemode flag.  <br /></td></tr>
 <tr class="separator:ab1e7aa4988e219c35dee29d068aa280a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -405,6 +414,54 @@ Variables</h2></td></tr>
 
 <p>TODO Remove mentions of this. </p>
 <p>Global variable for load animations flag. Legacy. </p>
+
+</div>
+</div>
+<a id="ace44c1fb01dae8d2e193f56bf813139e" name="ace44c1fb01dae8d2e193f56bf813139e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace44c1fb01dae8d2e193f56bf813139e">&#9670;&#160;</a></span>G_RNG_ADVANCEMENTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t G_RNG_ADVANCEMENTS = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Global variable used to count advancements of the rng. </p>
+
+</div>
+</div>
+<a id="a4380e824408a17c206bfe780885a6b5e" name="a4380e824408a17c206bfe780885a6b5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4380e824408a17c206bfe780885a6b5e">&#9670;&#160;</a></span>G_SEEDED_RUN_ARG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* G_SEEDED_RUN_ARG = NULL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Global variable for seeded run flag, set to the passed string argument. </p>
+
+</div>
+</div>
+<a id="a65be74331113c0c6eef435baad387220" name="a65be74331113c0c6eef435baad387220"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65be74331113c0c6eef435baad387220">&#9670;&#160;</a></span>G_SEEDED_RUN_ON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int G_SEEDED_RUN_ON = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Global variable for seeded run flag. </p>
 
 </div>
 </div>

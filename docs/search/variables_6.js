@@ -13,11 +13,14 @@ var searchData=
   ['g_5fgodmode_5fon_10',['G_GODMODE_ON',['../main_8c.html#a979381f2a3fa7ca5f61eeef36ec85353',1,'G_GODMODE_ON:&#160;main.c'],['../game__core_8h.html#a979381f2a3fa7ca5f61eeef36ec85353',1,'G_GODMODE_ON:&#160;main.c']]],
   ['g_5flog_5fon_11',['G_LOG_ON',['../main_8c.html#ad02d36f2fab57da8dfe988e2a3024c33',1,'G_LOG_ON:&#160;main.c'],['../game__core_8h.html#ad02d36f2fab57da8dfe988e2a3024c33',1,'G_LOG_ON:&#160;main.c']]],
   ['g_5fpreload_5fanimations_5fon_12',['G_PRELOAD_ANIMATIONS_ON',['../main_8c.html#a7ff38c07cdf83ad87a9e2110d94a2c00',1,'G_PRELOAD_ANIMATIONS_ON:&#160;main.c'],['../game__core_8h.html#a7ff38c07cdf83ad87a9e2110d94a2c00',1,'G_PRELOAD_ANIMATIONS_ON:&#160;main.c']]],
-  ['g_5fuse_5fcurrentdir_13',['G_USE_CURRENTDIR',['../main_8c.html#aaba6dfba2fa58ea22f7b8921f54c0ef7',1,'G_USE_CURRENTDIR:&#160;main.c'],['../game__core_8h.html#aaba6dfba2fa58ea22f7b8921f54c0ef7',1,'G_USE_CURRENTDIR:&#160;main.c']]],
-  ['game_5fversion_14',['game_version',['../structSerSaveHeader.html#ad50f4f06853c5b66209b209998082f78',1,'SerSaveHeader::game_version'],['../structSaveHeader.html#a3857429dd750018be2080f8aac852123',1,'SaveHeader::game_version']]],
-  ['gamemode_15',['gamemode',['../structGamestate.html#af6a0d8e69e21845c3c87ed745deef3f5',1,'Gamestate::gamemode'],['../structSerGamestate.html#abcf99ecb06e4a3ed0a68555048aac927',1,'SerGamestate::gamemode']]],
-  ['gamemode_16',['GAMEMODE',['../main_8c.html#ab1e7aa4988e219c35dee29d068aa280a',1,'GAMEMODE:&#160;main.c'],['../game__core_8h.html#ab1e7aa4988e219c35dee29d068aa280a',1,'GAMEMODE:&#160;main.c']]],
-  ['gamemodenamestrings_17',['gamemodenamestrings',['../game__core_8c.html#a6d71a1c0e7552d2540207c0f729fab3c',1,'gamemodenamestrings:&#160;game_core.c'],['../game__core_8h.html#a6d71a1c0e7552d2540207c0f729fab3c',1,'gamemodenamestrings:&#160;game_core.c']]],
-  ['gmst_18',['gmst',['../structturnOP__args.html#aec0bf444e35f85ed8caac29e77e5f083',1,'turnOP_args']]],
-  ['gs_5fautosave_5fon_19',['GS_AUTOSAVE_ON',['../main_8c.html#a02c41f9118fbb6c4ef47fd06e2002918',1,'GS_AUTOSAVE_ON:&#160;main.c'],['../game__core_8h.html#a02c41f9118fbb6c4ef47fd06e2002918',1,'GS_AUTOSAVE_ON:&#160;main.c']]]
+  ['g_5frng_5fadvancements_13',['G_RNG_ADVANCEMENTS',['../main_8c.html#ace44c1fb01dae8d2e193f56bf813139e',1,'G_RNG_ADVANCEMENTS:&#160;main.c'],['../game__core_8h.html#ace44c1fb01dae8d2e193f56bf813139e',1,'G_RNG_ADVANCEMENTS:&#160;main.c']]],
+  ['g_5fseeded_5frun_5farg_14',['G_SEEDED_RUN_ARG',['../main_8c.html#a4380e824408a17c206bfe780885a6b5e',1,'G_SEEDED_RUN_ARG:&#160;main.c'],['../game__core_8h.html#a4380e824408a17c206bfe780885a6b5e',1,'G_SEEDED_RUN_ARG:&#160;main.c']]],
+  ['g_5fseeded_5frun_5fon_15',['G_SEEDED_RUN_ON',['../main_8c.html#a65be74331113c0c6eef435baad387220',1,'G_SEEDED_RUN_ON:&#160;main.c'],['../game__core_8h.html#a65be74331113c0c6eef435baad387220',1,'G_SEEDED_RUN_ON:&#160;main.c']]],
+  ['g_5fuse_5fcurrentdir_16',['G_USE_CURRENTDIR',['../main_8c.html#aaba6dfba2fa58ea22f7b8921f54c0ef7',1,'G_USE_CURRENTDIR:&#160;main.c'],['../game__core_8h.html#aaba6dfba2fa58ea22f7b8921f54c0ef7',1,'G_USE_CURRENTDIR:&#160;main.c']]],
+  ['game_5fversion_17',['game_version',['../structSerSaveHeader.html#ad50f4f06853c5b66209b209998082f78',1,'SerSaveHeader::game_version'],['../structSaveHeader.html#a3857429dd750018be2080f8aac852123',1,'SaveHeader::game_version']]],
+  ['gamemode_18',['gamemode',['../structGamestate.html#af6a0d8e69e21845c3c87ed745deef3f5',1,'Gamestate::gamemode'],['../structSerGamestate.html#abcf99ecb06e4a3ed0a68555048aac927',1,'SerGamestate::gamemode']]],
+  ['gamemode_19',['GAMEMODE',['../main_8c.html#ab1e7aa4988e219c35dee29d068aa280a',1,'GAMEMODE:&#160;main.c'],['../game__core_8h.html#ab1e7aa4988e219c35dee29d068aa280a',1,'GAMEMODE:&#160;main.c']]],
+  ['gamemodenamestrings_20',['gamemodenamestrings',['../game__core_8c.html#a6d71a1c0e7552d2540207c0f729fab3c',1,'gamemodenamestrings:&#160;game_core.c'],['../game__core_8h.html#a6d71a1c0e7552d2540207c0f729fab3c',1,'gamemodenamestrings:&#160;game_core.c']]],
+  ['gmst_21',['gmst',['../structturnOP__args.html#aec0bf444e35f85ed8caac29e77e5f083',1,'turnOP_args']]],
+  ['gs_5fautosave_5fon_22',['GS_AUTOSAVE_ON',['../main_8c.html#a02c41f9118fbb6c4ef47fd06e2002918',1,'GS_AUTOSAVE_ON:&#160;main.c'],['../game__core_8h.html#a02c41f9118fbb6c4ef47fd06e2002918',1,'GS_AUTOSAVE_ON:&#160;main.c']]]
 ];
