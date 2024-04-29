@@ -1,5 +1,8 @@
 var NAVTREEINDEX7 =
 {
+"structSerEnemy.html#a32a0ea0a139637c1ed862cc479c9846c":[1,0,28,6],
+"structSerEnemy.html#a37c8eb9f40696274339e1df295a50f43":[1,0,28,22],
+"structSerEnemy.html#a39d0619f404508df6f22518ed84f200b":[1,0,28,11],
 "structSerEnemy.html#a4d73ce6f6e0d33a00b347edfd3e82bea":[1,0,28,13],
 "structSerEnemy.html#a553e0d17328f2904697e30834db0ab85":[1,0,28,15],
 "structSerEnemy.html#a5739c27b1a2364be60e8263d6b1f8984":[1,0,28,0],
@@ -81,10 +84,11 @@ var NAVTREEINDEX7 =
 "structSerFloor.html":[1,0,32],
 "structSerFloor.html#a0a06823785a2bf2cfe4627ce6945e876":[1,0,32,2],
 "structSerFloor.html#a61a5821e9ea1725f1c9ea6bfd443f529":[1,0,32,3],
+"structSerFloor.html#a837ae4b2dc1a4ce0bf9e1ba52351960a":[1,0,32,5],
 "structSerFloor.html#a9967e65f3c4b0e8e8e9f802c49b05bc2":[1,0,32,1],
-"structSerFloor.html#a9bc9c5e44a9801961f742cb830581df1":[1,0,32,6],
+"structSerFloor.html#a9bc9c5e44a9801961f742cb830581df1":[1,0,32,7],
 "structSerFloor.html#aa170d04e3db91b42b67ae3b49b1e8da7":[1,0,32,4],
-"structSerFloor.html#aa5f7d8e69c410b7bd58bc9120b70f152":[1,0,32,5],
+"structSerFloor.html#aa5f7d8e69c410b7bd58bc9120b70f152":[1,0,32,6],
 "structSerFloor.html#ae462e498bdc701e39e2249279efffadd":[1,0,32,0],
 "structSerFoeParty.html":[1,0,33],
 "structSerFoeParty.html#a03e25baea009fcc61be564132318d831":[1,0,33,1],
@@ -116,11 +120,11 @@ var NAVTREEINDEX7 =
 "structSerGamestate.html#abf032fafb294e6f8e33f9fa64088bd2c":[1,0,34,8],
 "structSerGamestate.html#ae8bb94959fd1b559bc8e5d7b16b452a6":[1,0,34,10],
 "structSerPath.html":[1,0,35],
-"structSerPath.html#a305c168bb972ebc6b3f7f59e56ab9567":[1,0,35,6],
 "structSerPath.html#a3488c8bbdb8684bb41514937ddbaf7e5":[1,0,35,0],
 "structSerPath.html#a4a04602bfea1e28d24ab6cfdf49ecd95":[1,0,35,1],
 "structSerPath.html#a52d25ddd2bde0004eddb8d5b5c57de77":[1,0,35,3],
 "structSerPath.html#a7e882828feec2047478e86d92070b873":[1,0,35,7],
+"structSerPath.html#a8211b51808b9fb4436c65024836832bc":[1,0,35,6],
 "structSerPath.html#a9667ee4518b853819947fbc12e063fb9":[1,0,35,4],
 "structSerPath.html#ac8876c30c4858a33512cb41e41b09946":[1,0,35,2],
 "structSerPath.html#af2b5930b7b9b8b5dcddce7886898a086":[1,0,35,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX7 =
 "structloadInfo.html#a592cf1bbabc858397c8bf57aa6fa1af8":[1,0,16,4],
 "structloadInfo.html#a68e035bd9c4accd4bd47aa991cd9853f":[1,0,16,1],
 "structloadInfo.html#aa7656b180e6b85f1a77fc2a5738c2d4c":[1,0,16,5],
-"structloadInfo.html#add43667597a022a8701faa547a545d20":[1,0,16,2],
-"structturnOP__args.html":[1,0,52],
-"structturnOP__args.html#a033e5a3fd3f4787d5331b0a07b185248":[1,0,52,2],
-"structturnOP__args.html#a035e8002a45bd591bc1d794ce88dbe0e":[1,0,52,3],
-"structturnOP__args.html#a0f27ac523d961a0074084767c1dd704c":[1,0,52,5]
+"structloadInfo.html#add43667597a022a8701faa547a545d20":[1,0,16,2]
 };

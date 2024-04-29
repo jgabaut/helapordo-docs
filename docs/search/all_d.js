@@ -6,6 +6,6 @@ var searchData=
   ['namestringfromspecial_3',['nameStringFromSpecial',['../game__utils_8c.html#a5c44b38f629121e66c46ea85b08bac59',1,'nameStringFromSpecial(fighterClass class, specialMove move):&#160;game_utils.c'],['../game__utils_8h.html#a5c44b38f629121e66c46ea85b08bac59',1,'nameStringFromSpecial(fighterClass class, specialMove move):&#160;game_utils.c']]],
   ['new_5fgame_4',['NEW_GAME',['../game__core_8h.html#a12a952e636763b477c873f21d458e4b7ac9e8468c9768465a565bc176a753e261',1,'game_core.h']]],
   ['no_5fop_5',['NO_OP',['../game__core_8h.html#afe8e046bf5f260d1d9a60aa4d4dfab9cae76c941d2316666913c673a032deb9ba',1,'game_core.h']]],
-  ['normal_6',['NORMAL',['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71a50d1448013c6f17125caee18aa418af7',1,'game_core.h']]],
-  ['normal_7',['Normal',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a5ecbcf0afce98b042f35ec71ba03fa4b',1,'game_core.h']]]
+  ['normal_6',['Normal',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a5ecbcf0afce98b042f35ec71ba03fa4b',1,'game_core.h']]],
+  ['normal_7',['NORMAL',['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71a50d1448013c6f17125caee18aa418af7',1,'game_core.h']]]
 ];

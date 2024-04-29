@@ -55,11 +55,11 @@ var NAVTREEINDEX =
 "game__core_8h.html#a2ba03f4024e8f432f139d187c9ce3450",
 "game__core_8h.html#aca00570c9830f21e65f7d8110fb7e547",
 "game__init_8h.html#ab34ec73c2f82b849d11e447f0831427c",
-"game__utils_8h.html#a5788b5443bb338c4ce8fcae89fb60ee1",
-"saves_8c.html#ae93b1b77f3db2a4605754e231d68a548",
-"structConsumable.html#af1929f95c06f02933a89afb955f0c497",
-"structSerEnemy.html#a4d73ce6f6e0d33a00b347edfd3e82bea",
-"structturnOP__args.html#a12917713b62c5d271019ac7c0be1503b"
+"game__utils_8h.html#a5300bf21a5318da33043d95af9255773",
+"saves_8c.html#aa2b5052ca8b5304e546027c71bd8e2af",
+"structConsumable.html#a7790b766c4874cec33944018c3c5e8da",
+"structSerEnemy.html#a32a0ea0a139637c1ed862cc479c9846c",
+"structturnOP__args.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

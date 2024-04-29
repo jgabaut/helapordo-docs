@@ -6,6 +6,6 @@ var structPath =
     [ "luck", "structPath.html#a81a4bd587173c4c66de8d4d323afd532", null ],
     [ "prize", "structPath.html#ab52a42738069c33ebc7bdc51c74785a8", null ],
     [ "rng_advancements", "structPath.html#a964dfa1b3cc18ea1b94acfabc63d2203", null ],
-    [ "seed", "structPath.html#a4909345dfb33410072a30a88589e4378", null ],
+    [ "seed", "structPath.html#aa4c12dd9ed4c23873bb8ac62b323f21d", null ],
     [ "win_condition", "structPath.html#a7e38149cc05de0f60713f4ce275ba1a6", null ]
 ];

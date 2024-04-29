@@ -9,5 +9,6 @@ var searchData=
   ['foe_5fop_6',['foe_op',['../structturnOP__args.html#a035e8002a45bd591bc1d794ce88dbe0e',1,'turnOP_args']]],
   ['foepartystrings_7',['foepartystrings',['../game__core_8c.html#a7d1bcd827f0b98cbd59c958a312d718b',1,'foepartystrings:&#160;game_core.c'],['../game__core_8h.html#a7d1bcd827f0b98cbd59c958a312d718b',1,'foepartystrings:&#160;game_core.c']]],
   ['foes_8',['foes',['../structRoom.html#ac9ee5eff84d1e820946809c7d2aa9607',1,'Room::foes'],['../structSerRoom.html#a3d5781feea1026eedf292ed0728004fe',1,'SerRoom::foes']]],
-  ['foeturnopstrings_9',['foeturnopstrings',['../game__core_8c.html#a044dd5247bbb9b385678802e256e728c',1,'foeturnopstrings:&#160;game_core.c'],['../game__core_8h.html#a044dd5247bbb9b385678802e256e728c',1,'foeturnopstrings:&#160;game_core.c']]]
+  ['foeturnopstrings_9',['foeturnopstrings',['../game__core_8c.html#a044dd5247bbb9b385678802e256e728c',1,'foeturnopstrings:&#160;game_core.c'],['../game__core_8h.html#a044dd5247bbb9b385678802e256e728c',1,'foeturnopstrings:&#160;game_core.c']]],
+  ['from_5fbsp_10',['from_bsp',['../structFloor.html#ae00cb402299c65e56829a468ad02590d',1,'Floor::from_bsp'],['../structSerFloor.html#a837ae4b2dc1a4ce0bf9e1ba52351960a',1,'SerFloor::from_bsp']]]
 ];

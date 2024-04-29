@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.5</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.7</span>
    </div>
   </td>
  </tr>
@@ -103,35 +103,38 @@ $(function(){initNavTree('game__utils_8h.html',''); initResizable(); });
 <code>#include &lt;sys/stat.h&gt;</code><br />
 <code>#include &lt;time.h&gt;</code><br />
 <code>#include &lt;inttypes.h&gt;</code><br />
+<code>#include &lt;signal.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="game__core_8h_source.html">../core/game_core.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for game_utils.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="game__utils_8h__incl.png" border="0" usemap="#asrc_2utils_2game__utils_8h" alt=""/></div>
 <map name="asrc_2utils_2game__utils_8h" id="asrc_2utils_2game__utils_8h">
-<area shape="rect" title=" " alt="" coords="274,5,419,30"/>
+<area shape="rect" title=" " alt="" coords="322,5,467,30"/>
 <area shape="rect" title=" " alt="" coords="5,78,66,103"/>
-<area shape="poly" title=" " alt="" coords="290,33,81,80,80,75,289,28"/>
+<area shape="poly" title=" " alt="" coords="324,33,81,80,80,75,323,28"/>
 <area shape="rect" title=" " alt="" coords="89,78,153,103"/>
-<area shape="poly" title=" " alt="" coords="310,33,168,77,167,72,308,28"/>
+<area shape="poly" title=" " alt="" coords="350,33,168,80,167,74,348,28"/>
 <area shape="rect" title=" " alt="" coords="177,78,244,103"/>
-<area shape="poly" title=" " alt="" coords="325,33,247,73,245,68,322,28"/>
+<area shape="poly" title=" " alt="" coords="365,33,256,75,254,70,363,28"/>
 <area shape="rect" title=" " alt="" coords="267,78,332,103"/>
-<area shape="poly" title=" " alt="" coords="341,32,318,67,313,64,336,29"/>
+<area shape="poly" title=" " alt="" coords="380,33,328,71,325,67,377,28"/>
 <area shape="rect" title=" " alt="" coords="356,78,432,103"/>
-<area shape="poly" title=" " alt="" coords="356,29,380,64,376,67,352,32"/>
+<area shape="poly" title=" " alt="" coords="397,31,397,62,392,62,392,31"/>
 <area shape="rect" title=" " alt="" coords="456,78,514,103"/>
-<area shape="poly" title=" " alt="" coords="370,28,450,68,447,73,368,33"/>
+<area shape="poly" title=" " alt="" coords="411,28,460,66,457,71,408,33"/>
 <area shape="rect" title=" " alt="" coords="538,78,616,103"/>
-<area shape="poly" title=" " alt="" coords="385,28,525,71,524,76,383,33"/>
-<area shape="rect" href="game__core_8h.html" title=" " alt="" coords="640,78,778,103"/>
-<area shape="poly" title=" " alt="" coords="407,28,634,72,633,77,406,33"/>
-<area shape="rect" title=" " alt="" coords="554,151,717,175"/>
-<area shape="poly" title=" " alt="" coords="699,105,660,142,656,138,695,101"/>
-<area shape="rect" href="palette_8h.html" title=" " alt="" coords="741,151,824,175"/>
-<area shape="poly" title=" " alt="" coords="723,101,761,138,758,142,719,105"/>
-<area shape="rect" title=" " alt="" coords="710,223,854,262"/>
-<area shape="poly" title=" " alt="" coords="785,176,785,207,780,207,780,176"/>
+<area shape="poly" title=" " alt="" coords="425,28,534,70,532,75,423,33"/>
+<area shape="rect" title=" " alt="" coords="640,78,706,103"/>
+<area shape="poly" title=" " alt="" coords="441,28,625,74,624,79,440,33"/>
+<area shape="rect" href="game__core_8h.html" title=" " alt="" coords="730,78,867,103"/>
+<area shape="poly" title=" " alt="" coords="462,28,716,72,715,77,461,33"/>
+<area shape="rect" title=" " alt="" coords="644,151,806,175"/>
+<area shape="poly" title=" " alt="" coords="788,105,749,142,746,138,784,101"/>
+<area shape="rect" href="palette_8h.html" title=" " alt="" coords="830,151,913,175"/>
+<area shape="poly" title=" " alt="" coords="812,101,851,138,847,142,808,105"/>
+<area shape="rect" title=" " alt="" coords="799,223,944,262"/>
+<area shape="poly" title=" " alt="" coords="874,176,874,207,869,207,869,176"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -211,6 +214,9 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a896b526ca7aa18376369129976874088" id="r_a896b526ca7aa18376369129976874088"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a896b526ca7aa18376369129976874088">ctrl_c_handler</a> (int signum)</td></tr>
+<tr class="memdesc:a896b526ca7aa18376369129976874088"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to handle Ctrl+C signal.  <br /></td></tr>
+<tr class="separator:a896b526ca7aa18376369129976874088"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1bfda6e03fc84da8546cee14d877516" id="r_aa1bfda6e03fc84da8546cee14d877516"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1bfda6e03fc84da8546cee14d877516">initWincon</a> (<a class="el" href="structWincon.html">Wincon</a> *w, <a class="el" href="structPath.html">Path</a> *p, <a class="el" href="game__core_8h.html#adf58ec162baa0a9692076eca5591240f">winconClass</a> class)</td></tr>
 <tr class="memdesc:aa1bfda6e03fc84da8546cee14d877516"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structWincon.html" title="Defines the entity initialised from a winconClass.">Wincon</a> and a <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointers and a winconClass and initialises the passed <a class="el" href="structWincon.html" title="Defines the entity initialised from a winconClass.">Wincon</a>.  <br /></td></tr>
 <tr class="separator:aa1bfda6e03fc84da8546cee14d877516"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -662,9 +668,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a4f75367fa22ca693acc4d20a8a24b255" id="r_a4f75367fa22ca693acc4d20a8a24b255"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f75367fa22ca693acc4d20a8a24b255">hlpd_hash</a> (unsigned char *str)</td></tr>
 <tr class="memdesc:a4f75367fa22ca693acc4d20a8a24b255"><td class="mdescLeft">&#160;</td><td class="mdescRight">djb2 by Dan Bernstein.  <br /></td></tr>
 <tr class="separator:a4f75367fa22ca693acc4d20a8a24b255"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae751f34ae9e43f7cb978dec9abe1c00a" id="r_ae751f34ae9e43f7cb978dec9abe1c00a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae751f34ae9e43f7cb978dec9abe1c00a">gen_random_seed</a> (char buffer[<a class="el" href="game__core_8h.html#a65e0486a7d98615b739d46552f895216">PATH_SEED_BUFSIZE</a>])</td></tr>
-<tr class="memdesc:ae751f34ae9e43f7cb978dec9abe1c00a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the passed buffer up to be a random seed.  <br /></td></tr>
-<tr class="separator:ae751f34ae9e43f7cb978dec9abe1c00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eab2e506acd3ccc05f4d28bd3a91bec" id="r_a9eab2e506acd3ccc05f4d28bd3a91bec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9eab2e506acd3ccc05f4d28bd3a91bec">gen_random_seed</a> (char buffer[<a class="el" href="game__core_8h.html#a65e0486a7d98615b739d46552f895216">PATH_SEED_BUFSIZE</a>+1])</td></tr>
+<tr class="memdesc:a9eab2e506acd3ccc05f4d28bd3a91bec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the passed buffer up to be a random seed.  <br /></td></tr>
+<tr class="separator:a9eab2e506acd3ccc05f4d28bd3a91bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5300bf21a5318da33043d95af9255773" id="r_a5300bf21a5318da33043d95af9255773"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5300bf21a5318da33043d95af9255773">check_seed</a> (char buffer[<a class="el" href="game__core_8h.html#a65e0486a7d98615b739d46552f895216">PATH_SEED_BUFSIZE</a>])</td></tr>
 <tr class="memdesc:a5300bf21a5318da33043d95af9255773"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks the passed buffer as a seed.  <br /></td></tr>
 <tr class="separator:a5300bf21a5318da33043d95af9255773"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -922,6 +928,25 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int Cost of the corresponding special move. </dd></dl>
+
+</div>
+</div>
+<a id="a896b526ca7aa18376369129976874088" name="a896b526ca7aa18376369129976874088"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a896b526ca7aa18376369129976874088">&#9670;&#160;</a></span>ctrl_c_handler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ctrl_c_handler </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>signum</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function to handle Ctrl+C signal. </p>
 
 </div>
 </div>
@@ -1600,8 +1625,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae751f34ae9e43f7cb978dec9abe1c00a" name="ae751f34ae9e43f7cb978dec9abe1c00a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae751f34ae9e43f7cb978dec9abe1c00a">&#9670;&#160;</a></span>gen_random_seed()</h2>
+<a id="a9eab2e506acd3ccc05f4d28bd3a91bec" name="a9eab2e506acd3ccc05f4d28bd3a91bec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9eab2e506acd3ccc05f4d28bd3a91bec">&#9670;&#160;</a></span>gen_random_seed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1609,7 +1634,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void gen_random_seed </td>
           <td>(</td>
-          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>buffer</em>[PATH_SEED_BUFSIZE]</span></td><td>)</td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>buffer</em>[PATH_SEED_BUFSIZE+1]</span></td><td>)</td>
           <td></td>
         </tr>
       </table>

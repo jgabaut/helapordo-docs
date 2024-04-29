@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.5</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.7</span>
    </div>
   </td>
  </tr>
@@ -103,24 +103,26 @@ $(function(){initNavTree('game__debug_8h_source.html',''); initResizable(); });
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define GAME_DEBUG_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="floors_8h.html">floors.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#ifdef _WIN32</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;sys/utsname.h&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#endif </span><span class="comment">// _WIN32</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#ifdef HELAPORDO_CURSES_BUILD</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keywordtype">void</span> debug_generic(<a class="code hl_struct" href="structGamestate.html">Gamestate</a> * gmst, <a class="code hl_struct" href="structFighter.html">Fighter</a> * player, <a class="code hl_struct" href="structPath.html">Path</a> * p, <span class="keywordtype">int</span> roomIndex,</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>                   Koliseo * kls, Koliseo_Temp * t_kls);</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keywordtype">void</span> debug_enemies_room(<a class="code hl_struct" href="structGamestate.html">Gamestate</a> * gmst, <a class="code hl_struct" href="structRoom.html">Room</a> * room, <a class="code hl_struct" href="structFighter.html">Fighter</a> * player,</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>                        <a class="code hl_struct" href="structEnemy.html">Enemy</a> * e, <a class="code hl_struct" href="structPath.html">Path</a> * p, <span class="keywordtype">int</span> roomIndex, <span class="keywordtype">int</span> currentEnemyNum,</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>                        Koliseo * kls, Koliseo_Temp * t_kls);</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#endif </span><span class="comment">// HELAPORDO_CURSES_BUILD</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#endif </span><span class="comment">// GAME_DEBUG_H</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">//TODO This inclusion could be in a better place</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;../bsp/bsp.h&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#ifdef _WIN32</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;sys/utsname.h&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#endif </span><span class="comment">// _WIN32</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#ifdef HELAPORDO_CURSES_BUILD</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keywordtype">void</span> debug_generic(<a class="code hl_struct" href="structGamestate.html">Gamestate</a> * gmst, <a class="code hl_struct" href="structFighter.html">Fighter</a> * player, <a class="code hl_struct" href="structPath.html">Path</a> * p, <span class="keywordtype">int</span> roomIndex,</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>                   Koliseo * kls, Koliseo_Temp * t_kls);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keywordtype">void</span> debug_enemies_room(<a class="code hl_struct" href="structGamestate.html">Gamestate</a> * gmst, <a class="code hl_struct" href="structRoom.html">Room</a> * room, <a class="code hl_struct" href="structFighter.html">Fighter</a> * player,</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>                        <a class="code hl_struct" href="structEnemy.html">Enemy</a> * e, <a class="code hl_struct" href="structPath.html">Path</a> * p, <span class="keywordtype">int</span> roomIndex, <span class="keywordtype">int</span> currentEnemyNum,</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>                        Koliseo * kls, Koliseo_Temp * t_kls);</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#endif </span><span class="comment">// HELAPORDO_CURSES_BUILD</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#endif </span><span class="comment">// GAME_DEBUG_H</span></div>
 <div class="ttc" id="afloors_8h_html"><div class="ttname"><a href="floors_8h.html">floors.h</a></div></div>
 <div class="ttc" id="astructEnemy_html"><div class="ttname"><a href="structEnemy.html">Enemy</a></div><div class="ttdoc">Represents the entity initialised from a enemyClass.</div><div class="ttdef"><b>Definition</b> game_core.h:1023</div></div>
 <div class="ttc" id="astructFighter_html"><div class="ttname"><a href="structFighter.html">Fighter</a></div><div class="ttdoc">Represents the entity initialised from a fighterClass.</div><div class="ttdef"><b>Definition</b> game_core.h:953</div></div>
-<div class="ttc" id="astructGamestate_html"><div class="ttname"><a href="structGamestate.html">Gamestate</a></div><div class="ttdoc">Holds arguments for a game.</div><div class="ttdef"><b>Definition</b> game_core.h:1758</div></div>
+<div class="ttc" id="astructGamestate_html"><div class="ttname"><a href="structGamestate.html">Gamestate</a></div><div class="ttdoc">Holds arguments for a game.</div><div class="ttdef"><b>Definition</b> game_core.h:1759</div></div>
 <div class="ttc" id="astructPath_html"><div class="ttname"><a href="structPath.html">Path</a></div><div class="ttdoc">Holds the state of game progression.</div><div class="ttdef"><b>Definition</b> game_core.h:1217</div></div>
 <div class="ttc" id="astructRoom_html"><div class="ttname"><a href="structRoom.html">Room</a></div><div class="ttdoc">Represents the entity initialised from a roomClass.</div><div class="ttdef"><b>Definition</b> game_core.h:1631</div></div>
 </div><!-- fragment --></div><!-- contents -->

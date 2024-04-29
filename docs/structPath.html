@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.5</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.7</span>
    </div>
   </td>
  </tr>
@@ -129,18 +129,16 @@ Data Fields</h2></td></tr>
 <tr class="memdesc:a81020cb423ee5c0ef16883408a2582ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counts how many lore prompts have been displayed.  <br /></td></tr>
 <tr class="separator:a81020cb423ee5c0ef16883408a2582ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e38149cc05de0f60713f4ce275ba1a6" id="r_a7e38149cc05de0f60713f4ce275ba1a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structWincon.html">Wincon</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e38149cc05de0f60713f4ce275ba1a6">win_condition</a></td></tr>
+<tr class="memdesc:a7e38149cc05de0f60713f4ce275ba1a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the win condition for the current game.  <br /></td></tr>
 <tr class="separator:a7e38149cc05de0f60713f4ce275ba1a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2148b43cfb984ef696401ed319ffa8c" id="r_ad2148b43cfb984ef696401ed319ffa8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structSaveslot.html">Saveslot</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2148b43cfb984ef696401ed319ffa8c">current_saveslot</a></td></tr>
-<tr class="memdesc:ad2148b43cfb984ef696401ed319ffa8c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><blockquote class="doxtable">
-<p>&zwj;Defines the win condition for the current game. </p>
-</blockquote>
- <br /></td></tr>
+<tr class="memdesc:ad2148b43cfb984ef696401ed319ffa8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines current <a class="el" href="structSaveslot.html" title="Holds arguments for a saveslot.">Saveslot</a> for the game.  <br /></td></tr>
 <tr class="separator:ad2148b43cfb984ef696401ed319ffa8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4909345dfb33410072a30a88589e4378" id="r_a4909345dfb33410072a30a88589e4378"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4909345dfb33410072a30a88589e4378">seed</a> [<a class="el" href="game__core_8h.html#a65e0486a7d98615b739d46552f895216">PATH_SEED_BUFSIZE</a>]</td></tr>
-<tr class="memdesc:a4909345dfb33410072a30a88589e4378"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines current <a class="el" href="structSaveslot.html" title="Holds arguments for a saveslot.">Saveslot</a> for the game.  <br /></td></tr>
-<tr class="separator:a4909345dfb33410072a30a88589e4378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4c12dd9ed4c23873bb8ac62b323f21d" id="r_aa4c12dd9ed4c23873bb8ac62b323f21d"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4c12dd9ed4c23873bb8ac62b323f21d">seed</a> [<a class="el" href="game__core_8h.html#a65e0486a7d98615b739d46552f895216">PATH_SEED_BUFSIZE</a>+1]</td></tr>
+<tr class="memdesc:aa4c12dd9ed4c23873bb8ac62b323f21d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains seed for current run.  <br /></td></tr>
+<tr class="separator:aa4c12dd9ed4c23873bb8ac62b323f21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a964dfa1b3cc18ea1b94acfabc63d2203" id="r_a964dfa1b3cc18ea1b94acfabc63d2203"><td class="memItemLeft" align="right" valign="top">int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a964dfa1b3cc18ea1b94acfabc63d2203">rng_advancements</a></td></tr>
-<tr class="memdesc:a964dfa1b3cc18ea1b94acfabc63d2203"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains seed for current run.  <br /></td></tr>
+<tr class="memdesc:a964dfa1b3cc18ea1b94acfabc63d2203"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to current advancements for rng.  <br /></td></tr>
 <tr class="separator:a964dfa1b3cc18ea1b94acfabc63d2203"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -161,10 +159,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p><blockquote class="doxtable">
-<p>&zwj;Defines the win condition for the current game. </p>
-</blockquote>
-</p>
+<p>Defines current <a class="el" href="structSaveslot.html" title="Holds arguments for a saveslot.">Saveslot</a> for the game. </p>
 
 </div>
 </div>
@@ -244,23 +239,23 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Contains seed for current run. </p>
+<p>Pointer to current advancements for rng. </p>
 
 </div>
 </div>
-<a id="a4909345dfb33410072a30a88589e4378" name="a4909345dfb33410072a30a88589e4378"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4909345dfb33410072a30a88589e4378">&#9670;&#160;</a></span>seed</h2>
+<a id="aa4c12dd9ed4c23873bb8ac62b323f21d" name="aa4c12dd9ed4c23873bb8ac62b323f21d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4c12dd9ed4c23873bb8ac62b323f21d">&#9670;&#160;</a></span>seed</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">char Path::seed[<a class="el" href="game__core_8h.html#a65e0486a7d98615b739d46552f895216">PATH_SEED_BUFSIZE</a>]</td>
+          <td class="memname">char Path::seed[<a class="el" href="game__core_8h.html#a65e0486a7d98615b739d46552f895216">PATH_SEED_BUFSIZE</a>+1]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Defines current <a class="el" href="structSaveslot.html" title="Holds arguments for a saveslot.">Saveslot</a> for the game. </p>
+<p>Contains seed for current run. </p>
 
 </div>
 </div>
@@ -275,6 +270,8 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Defines the win condition for the current game. </p>
 
 </div>
 </div>

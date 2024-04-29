@@ -1,25 +1,27 @@
 <map id="src/utils/game_utils.h" name="src/utils/game_utils.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="274,5,419,30"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="322,5,467,30"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,78,66,103"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="290,33,81,80,80,75,289,28"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="324,33,81,80,80,75,323,28"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="89,78,153,103"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="310,33,168,77,167,72,308,28"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="350,33,168,80,167,74,348,28"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="177,78,244,103"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="325,33,247,73,245,68,322,28"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="365,33,256,75,254,70,363,28"/>
 <area shape="rect" id="Node000005" title=" " alt="" coords="267,78,332,103"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="341,32,318,67,313,64,336,29"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="380,33,328,71,325,67,377,28"/>
 <area shape="rect" id="Node000006" title=" " alt="" coords="356,78,432,103"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="356,29,380,64,376,67,352,32"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="397,31,397,62,392,62,392,31"/>
 <area shape="rect" id="Node000007" title=" " alt="" coords="456,78,514,103"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="370,28,450,68,447,73,368,33"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="411,28,460,66,457,71,408,33"/>
 <area shape="rect" id="Node000008" title=" " alt="" coords="538,78,616,103"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="385,28,525,71,524,76,383,33"/>
-<area shape="rect" id="Node000009" href="$game__core_8h.html" title=" " alt="" coords="640,78,778,103"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="407,28,634,72,633,77,406,33"/>
-<area shape="rect" id="Node000010" title=" " alt="" coords="554,151,717,175"/>
-<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="699,105,660,142,656,138,695,101"/>
-<area shape="rect" id="Node000011" href="$palette_8h.html" title=" " alt="" coords="741,151,824,175"/>
-<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="723,101,761,138,758,142,719,105"/>
-<area shape="rect" id="Node000012" title=" " alt="" coords="710,223,854,262"/>
-<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="785,176,785,207,780,207,780,176"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="425,28,534,70,532,75,423,33"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="640,78,706,103"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="441,28,625,74,624,79,440,33"/>
+<area shape="rect" id="Node000010" href="$game__core_8h.html" title=" " alt="" coords="730,78,867,103"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="462,28,716,72,715,77,461,33"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="644,151,806,175"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="788,105,749,142,746,138,784,101"/>
+<area shape="rect" id="Node000012" href="$palette_8h.html" title=" " alt="" coords="830,151,913,175"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="812,101,851,138,847,142,808,105"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="799,223,944,262"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="874,176,874,207,869,207,869,176"/>
 </map>

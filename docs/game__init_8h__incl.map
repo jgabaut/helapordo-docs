@@ -1,30 +1,32 @@
 <map id="src/utils/game_init.h" name="src/utils/game_init.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="278,5,415,30"/>
-<area shape="rect" id="Node000002" href="$game__utils_8h.html" title=" " alt="" coords="299,151,394,175"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="345,31,335,78,336,108,341,135,336,136,331,108,330,78,340,30"/>
-<area shape="rect" id="Node000014" href="$specials_8h.html" title=" " alt="" coords="345,78,425,103"/>
-<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="355,29,374,63,369,66,350,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="326,5,463,30"/>
+<area shape="rect" id="Node000002" href="$game__utils_8h.html" title=" " alt="" coords="347,151,442,175"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="393,31,383,78,384,108,389,135,384,136,379,108,378,78,388,30"/>
+<area shape="rect" id="Node000015" href="$specials_8h.html" title=" " alt="" coords="393,78,473,103"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="403,29,422,63,417,66,398,32"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,223,66,248"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="298,177,82,225,80,220,297,172"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="347,175,230,195,82,225,80,220,229,190,346,169"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="89,223,153,248"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="310,178,168,222,167,217,308,173"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="350,178,168,225,167,220,348,173"/>
 <area shape="rect" id="Node000005" title=" " alt="" coords="177,223,244,248"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="325,178,247,218,245,213,322,174"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="365,178,256,220,254,215,363,173"/>
 <area shape="rect" id="Node000006" title=" " alt="" coords="267,223,332,248"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="341,177,318,212,313,209,336,174"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="380,178,328,216,325,212,377,174"/>
 <area shape="rect" id="Node000007" title=" " alt="" coords="356,223,432,248"/>
-<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="356,174,380,209,376,212,352,177"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="397,176,397,208,392,208,392,176"/>
 <area shape="rect" id="Node000008" title=" " alt="" coords="456,223,514,248"/>
-<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="370,174,450,214,447,218,368,178"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="411,174,460,212,457,216,408,178"/>
 <area shape="rect" id="Node000009" title=" " alt="" coords="538,223,616,248"/>
-<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="385,173,525,216,524,221,383,178"/>
-<area shape="rect" id="Node000010" href="$game__core_8h.html" title=" " alt="" coords="640,223,778,248"/>
-<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="395,171,635,217,634,223,394,176"/>
-<area shape="rect" id="Node000011" title=" " alt="" coords="554,296,717,321"/>
-<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="699,250,660,287,656,283,695,247"/>
-<area shape="rect" id="Node000012" href="$palette_8h.html" title=" " alt="" coords="741,296,824,321"/>
-<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="723,247,761,283,758,287,719,250"/>
-<area shape="rect" id="Node000013" title=" " alt="" coords="710,369,854,407"/>
-<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="785,321,785,353,780,353,780,321"/>
-<area shape="poly" id="edge14_Node000014_Node000002" title=" " alt="" coords="381,105,362,138,357,136,376,102"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="425,173,534,215,532,220,423,178"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="640,223,706,248"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="441,173,625,220,624,225,440,178"/>
+<area shape="rect" id="Node000011" href="$game__core_8h.html" title=" " alt="" coords="730,223,867,248"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="443,170,717,217,716,223,442,175"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="644,296,806,321"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="788,250,749,287,746,283,784,247"/>
+<area shape="rect" id="Node000013" href="$palette_8h.html" title=" " alt="" coords="830,296,913,321"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="812,247,851,283,847,287,808,250"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="799,369,944,407"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="874,321,874,353,869,353,869,321"/>
+<area shape="poly" id="edge15_Node000015_Node000002" title=" " alt="" coords="429,105,410,138,405,136,424,102"/>
 </map>

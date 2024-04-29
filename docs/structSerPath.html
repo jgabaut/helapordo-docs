@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.5</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.7</span>
    </div>
   </td>
  </tr>
@@ -129,18 +129,16 @@ Data Fields</h2></td></tr>
 <tr class="memdesc:ac8876c30c4858a33512cb41e41b09946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counts how many lore prompts have been displayed.  <br /></td></tr>
 <tr class="separator:ac8876c30c4858a33512cb41e41b09946"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e882828feec2047478e86d92070b873" id="r_a7e882828feec2047478e86d92070b873"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structSerWincon.html">SerWincon</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e882828feec2047478e86d92070b873">win_condition</a></td></tr>
+<tr class="memdesc:a7e882828feec2047478e86d92070b873"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the win condition for the current game.  <br /></td></tr>
 <tr class="separator:a7e882828feec2047478e86d92070b873"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3488c8bbdb8684bb41514937ddbaf7e5" id="r_a3488c8bbdb8684bb41514937ddbaf7e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structSerSaveslot.html">SerSaveslot</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3488c8bbdb8684bb41514937ddbaf7e5">current_saveslot</a></td></tr>
-<tr class="memdesc:a3488c8bbdb8684bb41514937ddbaf7e5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><blockquote class="doxtable">
-<p>&zwj;Defines the win condition for the current game. </p>
-</blockquote>
- <br /></td></tr>
+<tr class="memdesc:a3488c8bbdb8684bb41514937ddbaf7e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines current <a class="el" href="structSerSaveslot.html" title="Serialized Saveslot.">SerSaveslot</a> for the game.  <br /></td></tr>
 <tr class="separator:a3488c8bbdb8684bb41514937ddbaf7e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a305c168bb972ebc6b3f7f59e56ab9567" id="r_a305c168bb972ebc6b3f7f59e56ab9567"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a305c168bb972ebc6b3f7f59e56ab9567">seed</a> [<a class="el" href="ser__core_8h.html#a24030d80be4c76ab748a98dd6e5615a2">SERPATH_SEED_BUFSIZE</a>]</td></tr>
-<tr class="memdesc:a305c168bb972ebc6b3f7f59e56ab9567"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines current <a class="el" href="structSerSaveslot.html" title="Serialized Saveslot.">SerSaveslot</a> for the game.  <br /></td></tr>
-<tr class="separator:a305c168bb972ebc6b3f7f59e56ab9567"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8211b51808b9fb4436c65024836832bc" id="r_a8211b51808b9fb4436c65024836832bc"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8211b51808b9fb4436c65024836832bc">seed</a> [<a class="el" href="ser__core_8h.html#a24030d80be4c76ab748a98dd6e5615a2">SERPATH_SEED_BUFSIZE</a>+1]</td></tr>
+<tr class="memdesc:a8211b51808b9fb4436c65024836832bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds seed for current run.  <br /></td></tr>
+<tr class="separator:a8211b51808b9fb4436c65024836832bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2b5930b7b9b8b5dcddce7886898a086" id="r_af2b5930b7b9b8b5dcddce7886898a086"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2b5930b7b9b8b5dcddce7886898a086">rng_advancements</a></td></tr>
-<tr class="memdesc:af2b5930b7b9b8b5dcddce7886898a086"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds seed for current run.  <br /></td></tr>
+<tr class="memdesc:af2b5930b7b9b8b5dcddce7886898a086"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current advancements for rng.  <br /></td></tr>
 <tr class="separator:af2b5930b7b9b8b5dcddce7886898a086"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -163,10 +161,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p><blockquote class="doxtable">
-<p>&zwj;Defines the win condition for the current game. </p>
-</blockquote>
-</p>
+<p>Defines current <a class="el" href="structSerSaveslot.html" title="Serialized Saveslot.">SerSaveslot</a> for the game. </p>
 
 </div>
 </div>
@@ -246,23 +241,23 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Holds seed for current run. </p>
+<p>Current advancements for rng. </p>
 
 </div>
 </div>
-<a id="a305c168bb972ebc6b3f7f59e56ab9567" name="a305c168bb972ebc6b3f7f59e56ab9567"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a305c168bb972ebc6b3f7f59e56ab9567">&#9670;&#160;</a></span>seed</h2>
+<a id="a8211b51808b9fb4436c65024836832bc" name="a8211b51808b9fb4436c65024836832bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8211b51808b9fb4436c65024836832bc">&#9670;&#160;</a></span>seed</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">char SerPath::seed[<a class="el" href="ser__core_8h.html#a24030d80be4c76ab748a98dd6e5615a2">SERPATH_SEED_BUFSIZE</a>]</td>
+          <td class="memname">char SerPath::seed[<a class="el" href="ser__core_8h.html#a24030d80be4c76ab748a98dd6e5615a2">SERPATH_SEED_BUFSIZE</a>+1]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Defines current <a class="el" href="structSerSaveslot.html" title="Serialized Saveslot.">SerSaveslot</a> for the game. </p>
+<p>Holds seed for current run. </p>
 
 </div>
 </div>
@@ -277,6 +272,8 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Defines the win condition for the current game. </p>
 
 </div>
 </div>
