@@ -15,7 +15,7 @@
 <area shape="rect" id="Node000005" href="$saves_8c.html" title=" " alt="" coords="71,397,188,421"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="132,357,132,396,127,396,127,357"/>
 <area shape="rect" id="Node000006" href="$turn__op_8h.html" title=" " alt="" coords="799,397,924,421"/>
-<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="185,343,199,346,368,370,536,387,799,403,798,408,536,392,368,375,198,351,184,348"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="186,343,201,346,369,370,537,386,799,403,799,408,537,392,369,375,200,351,185,348"/>
 <area shape="rect" id="Node000007" href="$game__curses_8h.html" title=" " alt="" coords="950,469,1133,494"/>
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="907,425,1013,466,1011,471,905,430"/>
 <area shape="rect" id="Node000009" href="$rooms_8h.html" title=" " alt="" coords="653,469,771,494"/>

@@ -50,11 +50,11 @@
 <area shape="rect" id="Node000020" title=" " alt="" coords="809,369,871,393"/>
 <area shape="poly" id="edge19_Node000019_Node000020" title=" " alt="" coords="785,319,820,355,816,359,781,323"/>
 <area shape="poly" id="edge24_Node000023_Node000004" title=" " alt="" coords="581,249,560,426,555,425,576,248"/>
-<area shape="rect" id="Node000025" href="$equips_8h.html" title=" " alt="" coords="199,441,310,466"/>
-<area shape="poly" id="edge26_Node000024_Node000025" title=" " alt="" coords="456,250,278,432,274,428,452,247"/>
+<area shape="rect" id="Node000025" href="$equips_8h.html" title=" " alt="" coords="212,441,324,466"/>
+<area shape="poly" id="edge26_Node000024_Node000025" title=" " alt="" coords="456,250,411,298,290,432,286,428,407,294,452,246"/>
 <area shape="rect" id="Node000026" href="$game__init_8h.html" title=" " alt="" coords="422,296,509,321"/>
 <area shape="poly" id="edge28_Node000024_Node000026" title=" " alt="" coords="468,249,468,280,463,280,463,249"/>
-<area shape="poly" id="edge27_Node000025_Node000013" title=" " alt="" coords="240,469,189,507,185,503,237,464"/>
+<area shape="poly" id="edge27_Node000025_Node000013" title=" " alt="" coords="251,469,192,508,189,503,249,464"/>
 <area shape="poly" id="edge29_Node000026_Node000004" title=" " alt="" coords="475,319,506,367,542,427,538,429,502,370,470,322"/>
 <area shape="rect" id="Node000027" href="$specials_8h.html" title=" " alt="" coords="412,369,492,393"/>
 <area shape="poly" id="edge30_Node000026_Node000027" title=" " alt="" coords="466,322,459,354,454,353,460,321"/>
