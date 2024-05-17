@@ -2,7 +2,7 @@ var structSerBoss =
 [
     [ "atk", "structSerBoss.html#a0cd7e95e01494c5db55b58f5fb8d69c2", null ],
     [ "beast", "structSerBoss.html#abf22446e7f3d76590ed2899133b89af8", null ],
-    [ "class", "structSerBoss.html#a6f65f687db2380c37814c8535dd866a0", null ],
+    [ "class", "structSerBoss.html#aa9e41208c91b26e306e554635be053c9", null ],
     [ "counters", "structSerBoss.html#aea157829b24ec3ef903b55bfae84334b", null ],
     [ "def", "structSerBoss.html#a60c24ccdfaa6bc05a3537b148f34cad5", null ],
     [ "energy", "structSerBoss.html#a5c6188e9d23815ee614f01cfac24ac07", null ],

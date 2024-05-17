@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.7</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.8</span>
    </div>
   </td>
  </tr>
@@ -92,6 +92,7 @@ $(function(){initNavTree('game__utils_8h.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">game_utils.h File Reference</div></div>
 </div><!--header-->
@@ -105,36 +106,39 @@ $(function(){initNavTree('game__utils_8h.html',''); initResizable(); });
 <code>#include &lt;inttypes.h&gt;</code><br />
 <code>#include &lt;signal.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="game__core_8h_source.html">../core/game_core.h</a>&quot;</code><br />
+<code>#include &quot;../../s4c-gui/src/s4c_gui.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for game_utils.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="game__utils_8h__incl.png" border="0" usemap="#asrc_2utils_2game__utils_8h" alt=""/></div>
 <map name="asrc_2utils_2game__utils_8h" id="asrc_2utils_2game__utils_8h">
-<area shape="rect" title=" " alt="" coords="322,5,467,30"/>
-<area shape="rect" title=" " alt="" coords="5,78,66,103"/>
-<area shape="poly" title=" " alt="" coords="324,33,81,80,80,75,323,28"/>
-<area shape="rect" title=" " alt="" coords="89,78,153,103"/>
-<area shape="poly" title=" " alt="" coords="350,33,168,80,167,74,348,28"/>
-<area shape="rect" title=" " alt="" coords="177,78,244,103"/>
-<area shape="poly" title=" " alt="" coords="365,33,256,75,254,70,363,28"/>
-<area shape="rect" title=" " alt="" coords="267,78,332,103"/>
-<area shape="poly" title=" " alt="" coords="380,33,328,71,325,67,377,28"/>
-<area shape="rect" title=" " alt="" coords="356,78,432,103"/>
-<area shape="poly" title=" " alt="" coords="397,31,397,62,392,62,392,31"/>
-<area shape="rect" title=" " alt="" coords="456,78,514,103"/>
-<area shape="poly" title=" " alt="" coords="411,28,460,66,457,71,408,33"/>
-<area shape="rect" title=" " alt="" coords="538,78,616,103"/>
-<area shape="poly" title=" " alt="" coords="425,28,534,70,532,75,423,33"/>
-<area shape="rect" title=" " alt="" coords="640,78,706,103"/>
-<area shape="poly" title=" " alt="" coords="441,28,625,74,624,79,440,33"/>
-<area shape="rect" href="game__core_8h.html" title=" " alt="" coords="730,78,867,103"/>
-<area shape="poly" title=" " alt="" coords="462,28,716,72,715,77,461,33"/>
-<area shape="rect" title=" " alt="" coords="644,151,806,175"/>
-<area shape="poly" title=" " alt="" coords="788,105,749,142,746,138,784,101"/>
-<area shape="rect" href="palette_8h.html" title=" " alt="" coords="830,151,913,175"/>
-<area shape="poly" title=" " alt="" coords="812,101,851,138,847,142,808,105"/>
-<area shape="rect" title=" " alt="" coords="799,223,944,262"/>
-<area shape="poly" title=" " alt="" coords="874,176,874,207,869,207,869,176"/>
+<area shape="rect" title=" " alt="" coords="367,5,512,30"/>
+<area shape="rect" title=" " alt="" coords="5,85,66,110"/>
+<area shape="poly" title=" " alt="" coords="367,28,231,46,154,61,78,81,74,82,72,77,76,75,152,56,230,41,366,23"/>
+<area shape="rect" title=" " alt="" coords="89,85,153,110"/>
+<area shape="poly" title=" " alt="" coords="369,33,272,53,166,81,162,82,160,77,164,75,271,48,368,28"/>
+<area shape="rect" title=" " alt="" coords="177,85,244,110"/>
+<area shape="poly" title=" " alt="" coords="402,33,256,81,253,82,251,77,255,75,400,28"/>
+<area shape="rect" title=" " alt="" coords="267,85,332,110"/>
+<area shape="poly" title=" " alt="" coords="420,33,335,79,333,75,418,28"/>
+<area shape="rect" title=" " alt="" coords="356,85,432,110"/>
+<area shape="poly" title=" " alt="" coords="435,32,411,73,406,70,431,29"/>
+<area shape="rect" title=" " alt="" coords="456,85,514,110"/>
+<area shape="poly" title=" " alt="" coords="448,29,473,70,468,73,444,32"/>
+<area shape="rect" title=" " alt="" coords="538,85,616,110"/>
+<area shape="poly" title=" " alt="" coords="461,28,544,75,542,79,458,33"/>
+<area shape="rect" title=" " alt="" coords="640,85,706,110"/>
+<area shape="poly" title=" " alt="" coords="480,28,628,75,632,77,630,82,627,81,479,33"/>
+<area shape="rect" href="game__core_8h.html" title=" " alt="" coords="730,85,867,110"/>
+<area shape="poly" title=" " alt="" coords="496,28,719,75,733,78,731,84,718,81,495,33"/>
+<area shape="rect" title=" " alt="" coords="891,78,1026,117"/>
+<area shape="poly" title=" " alt="" coords="513,24,675,44,875,75,875,80,675,49,512,29"/>
+<area shape="rect" title=" " alt="" coords="644,165,806,189"/>
+<area shape="poly" title=" " alt="" coords="789,112,748,155,744,152,785,108"/>
+<area shape="rect" href="palette_8h.html" title=" " alt="" coords="830,165,913,189"/>
+<area shape="poly" title=" " alt="" coords="811,108,852,152,848,155,807,112"/>
+<area shape="rect" title=" " alt="" coords="799,237,944,276"/>
+<area shape="poly" title=" " alt="" coords="874,190,874,221,869,221,869,190"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -212,11 +216,20 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 <p><a href="game__utils_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:abfd6c76f032c26d8cbbaec77aaa5fe07" id="r_abfd6c76f032c26d8cbbaec77aaa5fe07"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfd6c76f032c26d8cbbaec77aaa5fe07">hlpd_d_keyval</a>(key)&#160;&#160;&#160;((((key) &gt;= 0) &amp;&amp; ((key) &lt;= <a class="el" href="game__core_8h.html#ae08f7f5472dd32143fec7544c7827e1b">HLPD_KEYCLASS_MAX</a>)) ? (<a class="el" href="game__core_8c.html#a0c9b6f341fb90b06f17621f8aca77628">hlpd_default_keybinds</a>[(key)].val) : -1 )</td></tr>
+<tr class="separator:abfd6c76f032c26d8cbbaec77aaa5fe07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a896b526ca7aa18376369129976874088" id="r_a896b526ca7aa18376369129976874088"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a896b526ca7aa18376369129976874088">ctrl_c_handler</a> (int signum)</td></tr>
-<tr class="memdesc:a896b526ca7aa18376369129976874088"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to handle Ctrl+C signal.  <br /></td></tr>
-<tr class="separator:a896b526ca7aa18376369129976874088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0db9230fe49b35e34367d98b3cbb71aa" id="r_a0db9230fe49b35e34367d98b3cbb71aa"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0db9230fe49b35e34367d98b3cbb71aa">s4c_gui_malloc</a> (size_t size)</td></tr>
+<tr class="separator:a0db9230fe49b35e34367d98b3cbb71aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a001c8c1557bea73e9273bb2c80844653" id="r_a001c8c1557bea73e9273bb2c80844653"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a001c8c1557bea73e9273bb2c80844653">s4c_gui_calloc</a> (size_t count, size_t size)</td></tr>
+<tr class="separator:a001c8c1557bea73e9273bb2c80844653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10bcbe0ba086a040b82acd82eca29e43" id="r_a10bcbe0ba086a040b82acd82eca29e43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10bcbe0ba086a040b82acd82eca29e43">hlpd_sigint_handler</a> (int signum)</td></tr>
+<tr class="memdesc:a10bcbe0ba086a040b82acd82eca29e43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to handle Ctrl+C signal.  <br /></td></tr>
+<tr class="separator:a10bcbe0ba086a040b82acd82eca29e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1bfda6e03fc84da8546cee14d877516" id="r_aa1bfda6e03fc84da8546cee14d877516"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1bfda6e03fc84da8546cee14d877516">initWincon</a> (<a class="el" href="structWincon.html">Wincon</a> *w, <a class="el" href="structPath.html">Path</a> *p, <a class="el" href="game__core_8h.html#adf58ec162baa0a9692076eca5591240f">winconClass</a> class)</td></tr>
 <tr class="memdesc:aa1bfda6e03fc84da8546cee14d877516"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structWincon.html" title="Defines the entity initialised from a winconClass.">Wincon</a> and a <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointers and a winconClass and initialises the passed <a class="el" href="structWincon.html" title="Defines the entity initialised from a winconClass.">Wincon</a>.  <br /></td></tr>
 <tr class="separator:aa1bfda6e03fc84da8546cee14d877516"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -285,6 +298,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ab325d85923d4797af5525ac57010b31a" id="r_ab325d85923d4797af5525ac57010b31a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab325d85923d4797af5525ac57010b31a">dbg_GameScreen</a> (GameScreen *scr)</td></tr>
 <tr class="memdesc:ab325d85923d4797af5525ac57010b31a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debugs the passed (preallocated) GameScreen with <a class="el" href="game__utils_8c.html#abe95fac4e9951963428137647d905b09" title="Takes a filename string, a string headear and a format string.">log_tag()</a>.  <br /></td></tr>
 <tr class="separator:ab325d85923d4797af5525ac57010b31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a55cba88c8a01ce9fa3817c7a0d12e1" id="r_a1a55cba88c8a01ce9fa3817c7a0d12e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a55cba88c8a01ce9fa3817c7a0d12e1">dbg_GameOptions</a> (<a class="el" href="structGameOptions.html">GameOptions</a> *options)</td></tr>
+<tr class="separator:a1a55cba88c8a01ce9fa3817c7a0d12e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a110b686c21881ea9c71edc2228e5f476" id="r_a110b686c21881ea9c71edc2228e5f476"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a110b686c21881ea9c71edc2228e5f476">dbg_Fighter</a> (<a class="el" href="structFighter.html">Fighter</a> *fighter)</td></tr>
 <tr class="memdesc:a110b686c21881ea9c71edc2228e5f476"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debugs the passed (preallocated) <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> with <a class="el" href="game__utils_8c.html#abe95fac4e9951963428137647d905b09" title="Takes a filename string, a string headear and a format string.">log_tag()</a>.  <br /></td></tr>
 <tr class="separator:a110b686c21881ea9c71edc2228e5f476"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -300,9 +315,9 @@ Functions</h2></td></tr>
 <tr class="memitem:af677563cb6ae70728b2ddc99c5760e9a" id="r_af677563cb6ae70728b2ddc99c5760e9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af677563cb6ae70728b2ddc99c5760e9a">dbg_Saveslot</a> (<a class="el" href="structSaveslot.html">Saveslot</a> *saveslot)</td></tr>
 <tr class="memdesc:af677563cb6ae70728b2ddc99c5760e9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debugs the passed (preallocated) <a class="el" href="structSaveslot.html" title="Holds arguments for a saveslot.">Saveslot</a> with <a class="el" href="game__utils_8c.html#abe95fac4e9951963428137647d905b09" title="Takes a filename string, a string headear and a format string.">log_tag()</a>.  <br /></td></tr>
 <tr class="separator:af677563cb6ae70728b2ddc99c5760e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac9509a309110a7fbddedad44d6e2959" id="r_aac9509a309110a7fbddedad44d6e2959"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac9509a309110a7fbddedad44d6e2959">update_Gamestate</a> (<a class="el" href="structGamestate.html">Gamestate</a> *gmst, int current_fighters, <a class="el" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45">roomClass</a> current_roomtype, int current_room_index, int current_enemy_index, <a class="el" href="structFloor.html">Floor</a> *current_floor, <a class="el" href="structRoom.html">Room</a> *current_room)</td></tr>
-<tr class="memdesc:aac9509a309110a7fbddedad44d6e2959"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the passed (preallocated) <a class="el" href="structGamestate.html" title="Holds arguments for a game.">Gamestate</a> with the passed int values.  <br /></td></tr>
-<tr class="separator:aac9509a309110a7fbddedad44d6e2959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0c947ab058168a1d81e502a463431c7" id="r_ae0c947ab058168a1d81e502a463431c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0c947ab058168a1d81e502a463431c7">update_Gamestate</a> (<a class="el" href="structGamestate.html">Gamestate</a> *gmst, int current_fighters, <a class="el" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45">roomClass</a> current_roomtype, int current_room_index, int current_enemy_index, <a class="el" href="structFloor.html">Floor</a> *current_floor, <a class="el" href="structRoom.html">Room</a> *current_room, <a class="el" href="structGameOptions.html">GameOptions</a> *game_options)</td></tr>
+<tr class="memdesc:ae0c947ab058168a1d81e502a463431c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the passed (preallocated) <a class="el" href="structGamestate.html" title="Holds arguments for a game.">Gamestate</a> with the passed int values.  <br /></td></tr>
+<tr class="separator:ae0c947ab058168a1d81e502a463431c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a418e924f83d5f846daaa69e2eaa1ad63" id="r_a418e924f83d5f846daaa69e2eaa1ad63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a418e924f83d5f846daaa69e2eaa1ad63">update_Equipslots</a> (<a class="el" href="structFighter.html">Fighter</a> *f)</td></tr>
 <tr class="memdesc:a418e924f83d5f846daaa69e2eaa1ad63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the passed <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a>'s Equipslots item fields, by reading the equipsBag field and setting the equipped ones.  <br /></td></tr>
 <tr class="separator:a418e924f83d5f846daaa69e2eaa1ad63"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -339,6 +354,12 @@ Functions</h2></td></tr>
 <tr class="memitem:aa1880e0743083e511dd30944b3338626" id="r_aa1880e0743083e511dd30944b3338626"><td class="memItemLeft" align="right" valign="top"><a class="el" href="game__core_8h.html#a4bcff74473009e65583fe3707074fb91">saveType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1880e0743083e511dd30944b3338626">saveTypeFrom_string</a> (char *s)</td></tr>
 <tr class="memdesc:aa1880e0743083e511dd30944b3338626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a string and returns the corresponding saveType.  <br /></td></tr>
 <tr class="separator:aa1880e0743083e511dd30944b3338626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d39066fed17bd8c9f3db7a94995f5af" id="r_a2d39066fed17bd8c9f3db7a94995f5af"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d39066fed17bd8c9f3db7a94995f5af">stringFrom_HLPD_DirectionalKeys_Schema</a> (int dks)</td></tr>
+<tr class="memdesc:a2d39066fed17bd8c9f3db7a94995f5af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a integer and returns the corresponding HLPD_DirectionalKeys_Schema string by the inner array position.  <br /></td></tr>
+<tr class="separator:a2d39066fed17bd8c9f3db7a94995f5af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b4470876b11b56a699825ef4627fcd4" id="r_a8b4470876b11b56a699825ef4627fcd4"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b4470876b11b56a699825ef4627fcd4">stringFrom_HLPD_KeyClass</a> (<a class="el" href="game__core_8h.html#a931ac740e7b793097faa5be023f7161f">HLPD_KeyClass</a> k)</td></tr>
+<tr class="memdesc:a8b4470876b11b56a699825ef4627fcd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a integer and returns the corresponding HLPD_KeyClass string by the inner array position.  <br /></td></tr>
+<tr class="separator:a8b4470876b11b56a699825ef4627fcd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64715d5917a171e1c8a57df3fa0d1808" id="r_a64715d5917a171e1c8a57df3fa0d1808"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64715d5917a171e1c8a57df3fa0d1808">stringFrom_HLP_Region_Type</a> (<a class="el" href="game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4f">HLP_Region_Type</a> t)</td></tr>
 <tr class="memdesc:a64715d5917a171e1c8a57df3fa0d1808"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a integer and returns the corresponding HLP_Region_Type string by the inner array position.  <br /></td></tr>
 <tr class="separator:a64715d5917a171e1c8a57df3fa0d1808"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -675,6 +696,24 @@ Functions</h2></td></tr>
 <tr class="memdesc:a5300bf21a5318da33043d95af9255773"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks the passed buffer as a seed.  <br /></td></tr>
 <tr class="separator:a5300bf21a5318da33043d95af9255773"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="abfd6c76f032c26d8cbbaec77aaa5fe07" name="abfd6c76f032c26d8cbbaec77aaa5fe07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfd6c76f032c26d8cbbaec77aaa5fe07">&#9670;&#160;</a></span>hlpd_d_keyval</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define hlpd_d_keyval</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">key</span></td><td>)</td>
+          <td>&#160;&#160;&#160;((((key) &gt;= 0) &amp;&amp; ((key) &lt;= <a class="el" href="game__core_8h.html#ae08f7f5472dd32143fec7544c7827e1b">HLPD_KEYCLASS_MAX</a>)) ? (<a class="el" href="game__core_8c.html#a0c9b6f341fb90b06f17621f8aca77628">hlpd_default_keybinds</a>[(key)].val) : -1 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a32f18867649cf6a2111908be7833ae58" name="a32f18867649cf6a2111908be7833ae58"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a32f18867649cf6a2111908be7833ae58">&#9670;&#160;</a></span>applyPermboosts()</h2>
@@ -931,25 +970,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a896b526ca7aa18376369129976874088" name="a896b526ca7aa18376369129976874088"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a896b526ca7aa18376369129976874088">&#9670;&#160;</a></span>ctrl_c_handler()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ctrl_c_handler </td>
-          <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>signum</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Function to handle Ctrl+C signal. </p>
-
-</div>
-</div>
 <a id="adb35e592921be3df71a1e9bd89f1699a" name="adb35e592921be3df71a1e9bd89f1699a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adb35e592921be3df71a1e9bd89f1699a">&#9670;&#160;</a></span>cyan()</h2>
 
@@ -1016,6 +1036,23 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a1a55cba88c8a01ce9fa3817c7a0d12e1" name="a1a55cba88c8a01ce9fa3817c7a0d12e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a55cba88c8a01ce9fa3817c7a0d12e1">&#9670;&#160;</a></span>dbg_GameOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dbg_GameOptions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structGameOptions.html">GameOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>options</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2279,6 +2316,32 @@ rand() </dd></dl>
 
 </div>
 </div>
+<a id="a10bcbe0ba086a040b82acd82eca29e43" name="a10bcbe0ba086a040b82acd82eca29e43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10bcbe0ba086a040b82acd82eca29e43">&#9670;&#160;</a></span>hlpd_sigint_handler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void hlpd_sigint_handler </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>signum</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function to handle Ctrl+C signal. </p>
+<dl class="section see"><dt>See also</dt><dd>SIGINT </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">signum</td><td>The signal number, expected to be SIGINT. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ae96707c200d0b72c909d65320d4f38e6" name="ae96707c200d0b72c909d65320d4f38e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae96707c200d0b72c909d65320d4f38e6">&#9670;&#160;</a></span>init_game_color_pairs()</h2>
 
@@ -3324,6 +3387,44 @@ unlockSpecial() </dd></dl>
 
 </div>
 </div>
+<a id="a001c8c1557bea73e9273bb2c80844653" name="a001c8c1557bea73e9273bb2c80844653"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a001c8c1557bea73e9273bb2c80844653">&#9670;&#160;</a></span>s4c_gui_calloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * s4c_gui_calloc </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>count</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0db9230fe49b35e34367d98b3cbb71aa" name="a0db9230fe49b35e34367d98b3cbb71aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0db9230fe49b35e34367d98b3cbb71aa">&#9670;&#160;</a></span>s4c_gui_malloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * s4c_gui_malloc </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa1880e0743083e511dd30944b3338626" name="aa1880e0743083e511dd30944b3338626"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa1880e0743083e511dd30944b3338626">&#9670;&#160;</a></span>saveTypeFrom_string()</h2>
 
@@ -4299,6 +4400,60 @@ handleRoom_Shop() </dd>
 
 </div>
 </div>
+<a id="a2d39066fed17bd8c9f3db7a94995f5af" name="a2d39066fed17bd8c9f3db7a94995f5af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d39066fed17bd8c9f3db7a94995f5af">&#9670;&#160;</a></span>stringFrom_HLPD_DirectionalKeys_Schema()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * stringFrom_HLPD_DirectionalKeys_Schema </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>dks</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a integer and returns the corresponding HLPD_DirectionalKeys_Schema string by the inner array position. </p>
+<p>Correct result is only possible by having the enum values in a consistent order with the string array. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8h.html#aac8f099dd12c4389f2bdeec15ac43d3a" title="The different kinds of schemas available for directional keys.">HLPD_DirectionalKeys_Schema</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dks</td><td>The integer/HLPD_DirectionalKeys_Schema. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>String corresponding to the HLPD_DirectionalKeys_Schema. </dd></dl>
+
+</div>
+</div>
+<a id="a8b4470876b11b56a699825ef4627fcd4" name="a8b4470876b11b56a699825ef4627fcd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b4470876b11b56a699825ef4627fcd4">&#9670;&#160;</a></span>stringFrom_HLPD_KeyClass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char * stringFrom_HLPD_KeyClass </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#a931ac740e7b793097faa5be023f7161f">HLPD_KeyClass</a></td>          <td class="paramname"><span class="paramname"><em>k</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a integer and returns the corresponding HLPD_KeyClass string by the inner array position. </p>
+<p>Correct result is only possible by having the enum values in a consistent order with the string array. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8h.html#a931ac740e7b793097faa5be023f7161f" title="The different kinds of HLPD_Key.">HLPD_KeyClass</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">k</td><td>The integer/HLPD_KeyClass. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>String corresponding to the HLPD_KeyClass. </dd></dl>
+
+</div>
+</div>
 <a id="af200d40c5efac9874dd8e1cc0ff34741" name="af200d40c5efac9874dd8e1cc0ff34741"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af200d40c5efac9874dd8e1cc0ff34741">&#9670;&#160;</a></span>stringFrom_OP_res()</h2>
 
@@ -4829,8 +4984,8 @@ handleRoom_Shop() </dd>
 
 </div>
 </div>
-<a id="aac9509a309110a7fbddedad44d6e2959" name="aac9509a309110a7fbddedad44d6e2959"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac9509a309110a7fbddedad44d6e2959">&#9670;&#160;</a></span>update_Gamestate()</h2>
+<a id="ae0c947ab058168a1d81e502a463431c7" name="ae0c947ab058168a1d81e502a463431c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0c947ab058168a1d81e502a463431c7">&#9670;&#160;</a></span>update_Gamestate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4868,7 +5023,12 @@ handleRoom_Shop() </dd>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structRoom.html">Room</a> *</td>          <td class="paramname"><span class="paramname"><em>current_room</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="structRoom.html">Room</a> *</td>          <td class="paramname"><span class="paramname"><em>current_room</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structGameOptions.html">GameOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>game_options</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4883,6 +5043,7 @@ handleRoom_Shop() </dd>
     <tr><td class="paramname">current_enemy_index</td><td>Index for current <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a>. </td></tr>
     <tr><td class="paramname">current_floor</td><td>Pointer to current <a class="el" href="structFloor.html" title="Represents the entity initialised from a floorClass.">Floor</a>, initialised if gmst-&gt;gamemode == Rogue. </td></tr>
     <tr><td class="paramname">current_room</td><td>Pointer to current <a class="el" href="structRoom.html" title="Represents the entity initialised from a roomClass.">Room</a>. </td></tr>
+    <tr><td class="paramname">game_options</td><td>Pointer to current game options. </td></tr>
   </table>
   </dd>
 </dl>

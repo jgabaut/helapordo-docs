@@ -1,5 +1,6 @@
 var ser__core_8c =
 [
+    [ "appendSerGameOptions", "ser__core_8c.html#a867474ad9114a80ac3feca6b015646d1", null ],
     [ "appendSerGamestate", "ser__core_8c.html#ac8732c054d9f1e5cf346ef924b8ecf70", null ],
     [ "appendSerTurncounter", "ser__core_8c.html#a8007ad6aee4fe4f06eb4a60f7799ec02", null ],
     [ "deser_Artifact", "ser__core_8c.html#a6cfca907613f8c97faac7b8c1b3aa815", null ],
@@ -13,6 +14,7 @@ var ser__core_8c =
     [ "deser_Fighter", "ser__core_8c.html#a545a9a0098d8113a921a415fc42eafdc", null ],
     [ "deser_Floor", "ser__core_8c.html#a0de3d7edcef56d80111f2b4915790e31", null ],
     [ "deser_FoeParty", "ser__core_8c.html#aedc9371beedffbfd364b457dcb0fd4f5", null ],
+    [ "deser_GameOptions", "ser__core_8c.html#a01af9255e17299a8ed18a4b2ef986f26", null ],
     [ "deser_Gamestate", "ser__core_8c.html#a70ea356005b7853ec8d2c91e9a1e5d4b", null ],
     [ "deser_Path", "ser__core_8c.html#aa08e562019000905b182fffae790285a", null ],
     [ "deser_Perk", "ser__core_8c.html#a747f8ad1a3b3f9ad5a9592edb841da5e", null ],
@@ -26,9 +28,11 @@ var ser__core_8c =
     [ "deser_Treasure", "ser__core_8c.html#a22d4d54b1a8fbabd70760b595c90285c", null ],
     [ "deser_Turncounter", "ser__core_8c.html#a38280d39ad0f8c3508bc888ea28748ab", null ],
     [ "deser_Wincon", "ser__core_8c.html#aa7ecdd928fb974db6cb9dd21684e6715", null ],
+    [ "prep_GameOptions", "ser__core_8c.html#ae06f5f0a0c0b1274d173aea63c432cbf", null ],
     [ "prep_Gamestate", "ser__core_8c.html#a1d4e2a1948b9be70e9dfeaad962aa937", null ],
     [ "prep_saveHeader", "ser__core_8c.html#ad01fbe61a0c57a947a52e31b0c7cc06f", null ],
     [ "read_savedir", "ser__core_8c.html#aec6cbb2015d29425fc2cc981abb179e7", null ],
+    [ "readSerGameOptions", "ser__core_8c.html#ac414ed4378f7d0ed87905e8452d56b90", null ],
     [ "readSerGamestate", "ser__core_8c.html#af2806c94392e789d30f2643a5739d5b5", null ],
     [ "readSerSaveHeader", "ser__core_8c.html#affdc7feb3c732c658df22cc4443310c1", null ],
     [ "readSerTurncounter", "ser__core_8c.html#a6737fbbe87ca0ea230510b1382354fb2", null ],
@@ -43,6 +47,7 @@ var ser__core_8c =
     [ "ser_Fighter", "ser__core_8c.html#aa1f776e14bb8dbd05c4be401d2adf0bd", null ],
     [ "ser_Floor", "ser__core_8c.html#adf0c1912d671d8e1cd8d7699a051e031", null ],
     [ "ser_FoeParty", "ser__core_8c.html#af36fa97ce9b01b72b36af7077b9d3d5c", null ],
+    [ "ser_GameOptions", "ser__core_8c.html#a576fa86d3343cf66d480ca73bc2094ac", null ],
     [ "ser_Gamestate", "ser__core_8c.html#a0ab65fe798ff05d0417dc8968211d43d", null ],
     [ "ser_Path", "ser__core_8c.html#a9cbac454b0c7994f803d709df23b6ecd", null ],
     [ "ser_Perk", "ser__core_8c.html#a62c199f41eb047637cd81ffcaef8a09b", null ],
@@ -55,6 +60,7 @@ var ser__core_8c =
     [ "ser_Treasure", "ser__core_8c.html#ab8194ecbe9263be8951f26bb65ab12bd", null ],
     [ "ser_Turncounter", "ser__core_8c.html#accf4c4a81fe694c6aa42f30a9fe70d26", null ],
     [ "ser_Wincon", "ser__core_8c.html#abcc00f975444c6102277a25750e6aafd", null ],
+    [ "writeSerGameOptions", "ser__core_8c.html#aa2672b989f42d4dcc66b6493c156abbe", null ],
     [ "writeSerGamestate", "ser__core_8c.html#a430819617cd698b918b146ed8ccdaee4", null ],
     [ "writeSerSaveHeader", "ser__core_8c.html#a26c88c408697d9aba61765c6b6806b74", null ]
 ];

@@ -41,6 +41,6 @@ var searchData=
   ['bossturnpick_38',['bossTurnPick',['../game__utils_8c.html#a2728ab62c041317057375098a50d8591',1,'bossTurnPick(Boss *b, Fighter *f):&#160;game_utils.c'],['../game__utils_8h.html#a2728ab62c041317057375098a50d8591',1,'bossTurnPick(Boss *b, Fighter *f):&#160;game_utils.c']]],
   ['bread_39',['Bread',['../game__core_8h.html#abc5cb6c6be316361cce824c81a995e40adccfa4cee9717eff0fa46526a9d23845',1,'game_core.h']]],
   ['bstfactor_40',['BSTFACTOR',['../game__core_8h.html#a30a12ecc1240cb5c586c44ba13651da2',1,'game_core.h']]],
-  ['burned_41',['BURNED',['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71ab9741ae774fdf4c1493c65a54b3f548a',1,'game_core.h']]],
-  ['burned_42',['Burned',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a569e3df6d07032a6cc51104f645e851e',1,'game_core.h']]]
+  ['burned_41',['Burned',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a569e3df6d07032a6cc51104f645e851e',1,'game_core.h']]],
+  ['burned_42',['BURNED',['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71ab9741ae774fdf4c1493c65a54b3f548a',1,'game_core.h']]]
 ];

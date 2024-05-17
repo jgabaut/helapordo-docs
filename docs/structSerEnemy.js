@@ -2,7 +2,7 @@ var structSerEnemy =
 [
     [ "atk", "structSerEnemy.html#a5739c27b1a2364be60e8263d6b1f8984", null ],
     [ "beast", "structSerEnemy.html#a2b249d98c00d38a6b9b03c163cab922a", null ],
-    [ "class", "structSerEnemy.html#a0fce33d39d6ec1d795c07d7c2c3bb905", null ],
+    [ "class", "structSerEnemy.html#af7376bd7f85b811bdfb541ea3ae41dd2", null ],
     [ "counters", "structSerEnemy.html#a8f62f129b83ac4660995b6b63fb26ba1", null ],
     [ "def", "structSerEnemy.html#a72500dd13c9cf85957b614cc10117589", null ],
     [ "energy", "structSerEnemy.html#aa434bd3dd6c3e7fd3921372736395229", null ],

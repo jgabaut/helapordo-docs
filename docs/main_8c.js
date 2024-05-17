@@ -12,6 +12,7 @@ var main_8c =
     [ "G_DOTUTORIAL_ON", "main_8c.html#ac9ba882964be6bc468a478b3d6d51c65", null ],
     [ "G_EXPERIMENTAL_ON", "main_8c.html#ae2a57edc9cd3c7e9462172bed61a3948", null ],
     [ "G_FASTQUIT_ON", "main_8c.html#a336cb80c42966696e38fdcb171a56135", null ],
+    [ "G_GAMESTATE", "main_8c.html#ada27b63bf7a88ecaee527a5c9d9f09db", null ],
     [ "G_GODMODE_ON", "main_8c.html#a979381f2a3fa7ca5f61eeef36ec85353", null ],
     [ "G_LOG_ON", "main_8c.html#ad02d36f2fab57da8dfe988e2a3024c33", null ],
     [ "G_PRELOAD_ANIMATIONS_ON", "main_8c.html#a7ff38c07cdf83ad87a9e2110d94a2c00", null ],
@@ -19,7 +20,11 @@ var main_8c =
     [ "G_SEEDED_RUN_ARG", "main_8c.html#a4380e824408a17c206bfe780885a6b5e", null ],
     [ "G_SEEDED_RUN_ON", "main_8c.html#a65be74331113c0c6eef435baad387220", null ],
     [ "G_USE_CURRENTDIR", "main_8c.html#aaba6dfba2fa58ea22f7b8921f54c0ef7", null ],
+    [ "G_USE_DEFAULT_BACKGROUND", "main_8c.html#a524df9cc0b19877e9999e9b8e9758168", null ],
+    [ "G_USE_VIM_DIRECTIONAL_KEYS", "main_8c.html#a675bce79c4a9afd3f0eab49dc1d09cc1", null ],
+    [ "G_USE_WASD_DIRECTIONAL_KEYS", "main_8c.html#a9e24f03f7b9a50f44058940991e9003b", null ],
     [ "GAMEMODE", "main_8c.html#ab1e7aa4988e219c35dee29d068aa280a", null ],
     [ "GS_AUTOSAVE_ON", "main_8c.html#a02c41f9118fbb6c4ef47fd06e2002918", null ],
+    [ "support_kls", "main_8c.html#a6593ab80da329b2140bb5a07038a3e38", null ],
     [ "temporary_kls", "main_8c.html#ab09873664dfb1d459635b47b70cf4d45", null ]
 ];

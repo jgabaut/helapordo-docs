@@ -18,8 +18,8 @@ var searchData=
   ['totalxp_15',['totalxp',['../structBaseStats.html#a9f417ebe3b87e50e7d5493bf594353d2',1,'BaseStats::totalxp'],['../structFighter.html#ab2aecb0406e1da728558af7fe307abb6',1,'Fighter::totalxp'],['../structSerFighter.html#a1335882221ab68263289e483b6a57195',1,'SerFighter::totalxp']]],
   ['treasure_16',['Treasure',['../structTreasure.html',1,'']]],
   ['treasure_17',['treasure',['../structRoom.html#ac16383134323d40052ff061ad155d5a8',1,'Room::treasure'],['../structSerRoom.html#ad8f3bc222844be0cad443710827ac747',1,'SerRoom::treasure']]],
-  ['treasure_18',['Treasure',['../game__core_8h.html#addd2f004d5f83beb04edde74fa553612',1,'game_core.h']]],
-  ['treasure_19',['TREASURE',['../game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45af644794620b3ea115607f7551af2019b',1,'game_core.h']]],
+  ['treasure_18',['TREASURE',['../game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45af644794620b3ea115607f7551af2019b',1,'game_core.h']]],
+  ['treasure_19',['Treasure',['../game__core_8h.html#addd2f004d5f83beb04edde74fa553612',1,'game_core.h']]],
   ['treasure_5fartifact_20',['TREASURE_ARTIFACT',['../game__core_8h.html#a394a7e9c280371d66b6c01cb5e749b14ab3581d2cc9217e2212fb6daeedc20b48',1,'game_core.h']]],
   ['treasure_5fchest_21',['TREASURE_CHEST',['../game__core_8h.html#a394a7e9c280371d66b6c01cb5e749b14a5ebb5f9d5d2fe40a3b5e9865a8c6c8d0',1,'game_core.h']]],
   ['treasure_5fclass_5fmax_22',['TREASURE_CLASS_MAX',['../game__core_8h.html#a8c749f76d203089010ef0116483a533a',1,'game_core.h']]],
@@ -47,5 +47,5 @@ var searchData=
   ['turnoption_5fop_44',['turnOption_OP',['../game__core_8h.html#abc0ae742eb657b3657d27bc54585b160',1,'turnOption_OP:&#160;game_core.h'],['../game__core_8h.html#ab4da7dc7d81f7a0cd0826188fca9934a',1,'turnOption_OP:&#160;game_core.h']]],
   ['tutorial_45',['TUTORIAL',['../game__core_8h.html#a12a952e636763b477c873f21d458e4b7ab5e108266114332013a1ccc1610d7a71',1,'game_core.h']]],
   ['twinkie_46',['TWINKIE',['../game__core_8h.html#a1633bdf36a3d53020d3955aa2ea528a4a49ff303fb654ff1a4a34eb83eb401834',1,'game_core.h']]],
-  ['type_47',['type',['../structTurncounter.html#a622dcb3bbfa56cd8507c05fd30b4a9c7',1,'Turncounter::type'],['../structEquip.html#af9395a65478a1f4db729ee4672f95ac5',1,'Equip::type'],['../structEquipslot.html#a5f28e3dabba2b9e30ae1b5c606a121e1',1,'Equipslot::type'],['../structSerTurncounter.html#a3c967b4605bf4bd11bdc80620676cd41',1,'SerTurncounter::type'],['../structSerEquip.html#a7f610f0829d11c800372ba89056d371f',1,'SerEquip::type'],['../structSerEquipslot.html#a91f1d424d6a7f56b13c22e3e0acb929f',1,'SerEquipslot::type']]]
+  ['type_47',['type',['../structTurncounter.html#a622dcb3bbfa56cd8507c05fd30b4a9c7',1,'Turncounter::type'],['../structEquip.html#af9395a65478a1f4db729ee4672f95ac5',1,'Equip::type'],['../structEquipslot.html#a5f28e3dabba2b9e30ae1b5c606a121e1',1,'Equipslot::type'],['../structSerTurncounter.html#a3c967b4605bf4bd11bdc80620676cd41',1,'SerTurncounter::type'],['../structSerEquip.html#ad4b04e6a3a4ecf28b30b081ba48f2180',1,'SerEquip::type'],['../structSerEquipslot.html#ac67f62359d9138ddcb8ad5c75fc614e8',1,'SerEquipslot::type']]]
 ];

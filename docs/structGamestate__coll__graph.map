@@ -1,31 +1,31 @@
 <map id="Gamestate" name="Gamestate">
-<area shape="rect" id="Node000001" title="Holds arguments for a game." alt="" coords="454,525,540,550"/>
+<area shape="rect" id="Node000001" title="Holds arguments for a game." alt="" coords="596,525,681,550"/>
 <area shape="rect" id="Node000002" href="$structcountStats.html" title="Holds the lifetime stats of the player." alt="" coords="5,179,90,203"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="46,219,41,276,41,452,44,458,53,465,88,479,204,502,341,520,454,530,453,536,340,525,203,507,86,484,50,470,39,462,36,453,36,276,40,218"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="46,219,41,276,41,452,45,461,58,469,106,486,178,499,265,510,450,525,595,532,595,537,450,530,265,515,178,504,105,491,55,474,41,464,36,453,36,276,40,218"/>
 <area shape="rect" id="Node000006" href="$structFighter.html" title="Represents the entity initialised from a fighterClass." alt="" coords="442,265,504,290"/>
 <area shape="poly" id="edge17_Node000006_Node000002" title=" " alt="" coords="62,215,72,229,85,239,114,250,155,259,255,269,360,274,442,274,442,279,360,279,255,275,154,264,113,255,83,244,68,232,58,218"/>
-<area shape="rect" id="Node000003" href="$structWincon.html" title="Defines the entity initialised from a winconClass." alt="" coords="232,352,298,377"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="276,390,294,427,322,461,353,484,388,501,455,524,453,529,386,506,350,488,318,465,289,429,271,392"/>
-<area shape="rect" id="Node000004" href="$structPath.html" title="Holds the state of game progression." alt="" coords="377,439,425,463"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="285,387,314,412,346,429,377,440,375,446,344,434,311,417,282,391"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="427,471,486,523,482,527,423,475"/>
-<area shape="rect" id="Node000005" href="$structSaveslot.html" title="Holds arguments for a saveslot." alt="" coords="365,352,437,377"/>
-<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="404,392,404,439,398,439,398,392"/>
-<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="483,305,495,349,503,400,505,471,501,525,496,524,500,471,498,401,489,350,478,306"/>
+<area shape="rect" id="Node000003" href="$structWincon.html" title="Defines the entity initialised from a winconClass." alt="" coords="472,352,538,377"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="529,386,539,399,558,431,577,462,629,523,625,527,572,465,553,433,535,402,524,390"/>
+<area shape="rect" id="Node000004" href="$structPath.html" title="Holds the state of game progression." alt="" coords="429,439,477,463"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="468,388,456,402,452,420,453,438,448,438,446,420,451,399,464,384"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="474,472,509,499,553,517,596,527,595,533,551,522,507,504,471,476"/>
+<area shape="rect" id="Node000005" href="$structSaveslot.html" title="Holds arguments for a saveslot." alt="" coords="288,352,359,377"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="333,390,348,413,366,426,388,435,429,445,428,450,386,440,364,430,344,417,328,393"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="502,298,564,356,596,394,622,438,636,485,640,525,635,525,631,486,617,440,592,398,561,359,499,302"/>
 <area shape="rect" id="Node000007" href="$structSpecialslot.html" title="Holds state for a Fighter specials." alt="" coords="385,179,470,203"/>
 <area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="439,217,450,240,466,264,461,267,445,243,434,219"/>
 <area shape="rect" id="Node000008" href="$structSkillslot.html" title="Holds state for a skillType." alt="" coords="1129,92,1196,117"/>
 <area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="1114,115,935,143,848,158,811,166,764,181,740,193,715,206,600,245,505,271,503,266,598,240,713,201,737,188,762,176,809,161,847,153,934,138,1113,110"/>
-<area shape="rect" id="Node000021" href="$structBoss.html" title="Represents the entity initialised from a bossClass." alt="" coords="1201,179,1252,203"/>
-<area shape="poly" id="edge31_Node000021_Node000008" title=" " alt="" coords="1161,131,1166,153,1182,169,1201,179,1199,184,1179,173,1162,156,1156,132"/>
-<area shape="rect" id="Node000022" href="$structEnemy.html" title="Represents the entity initialised from a enemyClass." alt="" coords="1291,179,1353,203"/>
-<area shape="poly" id="edge34_Node000022_Node000008" title=" " alt="" coords="1212,110,1249,121,1285,138,1305,157,1318,177,1314,180,1301,161,1282,143,1247,126,1211,115"/>
+<area shape="rect" id="Node000021" href="$structBoss.html" title="Represents the entity initialised from a bossClass." alt="" coords="1199,179,1251,203"/>
+<area shape="poly" id="edge31_Node000021_Node000008" title=" " alt="" coords="1161,131,1167,153,1181,169,1200,179,1197,184,1178,173,1162,156,1156,132"/>
+<area shape="rect" id="Node000022" href="$structEnemy.html" title="Represents the entity initialised from a enemyClass." alt="" coords="1298,179,1360,203"/>
+<area shape="poly" id="edge34_Node000022_Node000008" title=" " alt="" coords="1211,111,1248,121,1285,138,1307,157,1323,177,1319,180,1303,161,1282,143,1247,126,1210,116"/>
 <area shape="rect" id="Node000009" href="$structTurncounter.html" title="Represents the entity initialised from a CounterType." alt="" coords="1276,92,1366,117"/>
-<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="1261,113,1207,124,1154,143,1133,158,1120,174,1106,191,1083,206,1038,220,1000,223,962,223,915,230,878,244,771,262,665,273,504,279,504,274,664,268,770,257,876,239,913,225,961,217,1000,218,1037,215,1081,201,1102,187,1116,171,1130,154,1152,138,1206,118,1260,108"/>
-<area shape="poly" id="edge32_Node000021_Node000009" title=" " alt="" coords="1263,119,1245,129,1231,142,1225,160,1226,178,1221,179,1220,159,1226,139,1242,124,1260,114"/>
-<area shape="poly" id="edge35_Node000022_Node000009" title=" " alt="" coords="1345,127,1351,140,1353,151,1349,162,1337,180,1333,177,1345,160,1347,151,1346,141,1340,130"/>
-<area shape="rect" id="Node000023" href="$structFoeParty.html" title="Represents the entity initialised from a foePartyClass." alt="" coords="1275,265,1351,290"/>
-<area shape="poly" id="edge37_Node000023_Node000009" title=" " alt="" coords="1381,116,1398,125,1411,139,1413,147,1411,155,1413,201,1411,221,1399,243,1377,261,1352,272,1350,267,1375,257,1395,240,1406,219,1408,201,1406,154,1408,147,1406,142,1394,130,1379,120"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="1261,113,1207,124,1154,143,1133,158,1120,174,1106,191,1083,206,1036,221,997,223,958,223,910,230,872,244,767,262,663,273,504,279,504,274,662,268,766,257,871,239,908,225,958,217,997,218,1035,215,1081,201,1102,187,1116,171,1130,154,1152,138,1206,118,1260,108"/>
+<area shape="poly" id="edge32_Node000021_Node000009" title=" " alt="" coords="1262,119,1245,129,1231,142,1225,160,1225,178,1220,178,1219,159,1226,139,1242,125,1260,115"/>
+<area shape="poly" id="edge35_Node000022_Node000009" title=" " alt="" coords="1345,127,1351,140,1351,161,1341,179,1336,177,1346,160,1346,141,1340,130"/>
+<area shape="rect" id="Node000023" href="$structFoeParty.html" title="Represents the entity initialised from a foePartyClass." alt="" coords="1270,265,1345,290"/>
+<area shape="poly" id="edge37_Node000023_Node000009" title=" " alt="" coords="1381,115,1398,125,1413,139,1414,147,1413,155,1415,201,1412,221,1400,243,1378,257,1346,268,1344,263,1376,252,1396,239,1407,220,1410,201,1408,154,1409,147,1408,142,1395,129,1379,120"/>
 <area shape="rect" id="Node000010" href="$structPerk.html" title="Represents the entity initialised from a perkClass." alt="" coords="133,5,181,30"/>
 <area shape="poly" id="edge10_Node000006_Node000010" title=" " alt="" coords="154,45,149,78,147,118,151,161,163,202,179,225,203,239,249,252,315,261,442,272,441,277,314,267,248,257,201,244,175,229,158,204,146,162,142,119,144,78,149,45"/>
 <area shape="rect" id="Node000012" href="$structEquip.html" title="Represents the entity initialised from a equipClass." alt="" coords="268,92,323,117"/>
@@ -41,25 +41,27 @@
 <area shape="rect" id="Node000013" href="$structConsumable.html" title="Holds a certain qty of a consumableClass." alt="" coords="768,92,863,117"/>
 <area shape="poly" id="edge15_Node000006_Node000013" title=" " alt="" coords="753,109,630,117,575,127,554,134,539,143,521,164,515,187,512,213,502,243,485,267,480,264,497,240,507,212,510,186,516,162,535,139,551,129,573,122,630,112,753,103"/>
 <area shape="poly" id="edge22_Node000017_Node000013" title=" " alt="" coords="879,119,940,138,1024,176,1022,181,939,143,877,124"/>
-<area shape="rect" id="Node000019" href="$structTreasure.html" title="Represents the entity initialised from a treasureClass." alt="" coords="912,265,983,290"/>
-<area shape="poly" id="edge28_Node000019_Node000013" title=" " alt="" coords="845,124,908,176,936,203,953,226,956,247,954,265,948,265,951,247,948,228,932,206,904,180,842,128"/>
+<area shape="rect" id="Node000019" href="$structTreasure.html" title="Represents the entity initialised from a treasureClass." alt="" coords="905,265,977,290"/>
+<area shape="poly" id="edge28_Node000019_Node000013" title=" " alt="" coords="851,123,904,165,929,194,949,226,952,247,948,265,943,264,946,247,944,228,925,197,900,169,847,127"/>
 <area shape="poly" id="edge26_Node000020_Node000013" title=" " alt="" coords="755,122,733,131,712,143,694,161,682,180,678,177,690,157,709,139,730,126,753,117"/>
 <area shape="rect" id="Node000014" href="$structArtifact.html" title="Represents the entity initialised from a artifactClass." alt="" coords="809,179,873,203"/>
-<area shape="poly" id="edge16_Node000006_Node000014" title=" " alt="" coords="794,207,731,230,706,244,651,259,596,269,504,278,504,273,595,264,650,254,704,239,729,225,793,202"/>
-<area shape="poly" id="edge29_Node000019_Node000014" title=" " alt="" coords="869,211,935,263,931,267,865,215"/>
-<area shape="rect" id="Node000015" href="$structFloor.html" title="Represents the entity initialised from a floorClass." alt="" coords="1041,439,1091,463"/>
-<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="1027,465,942,485,841,504,675,525,540,536,540,531,674,519,840,499,941,480,1026,460"/>
-<area shape="rect" id="Node000016" href="$structRoom.html" title="Represents the entity initialised from a roomClass." alt="" coords="1061,352,1117,377"/>
-<area shape="poly" id="edge40_Node000001_Node000016" title=" " alt="" coords="1046,381,538,527,536,522,1045,376"/>
-<area shape="poly" id="edge19_Node000015_Node000016" title=" " alt="" coords="1084,392,1072,439,1067,438,1079,391"/>
-<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="1049,219,1052,253,1059,289,1072,323,1085,350,1080,353,1067,325,1054,291,1047,254,1043,219"/>
-<area shape="rect" id="Node000018" href="$structRoadfork.html" title="Represents the entity initialised from a roadforkClass." alt="" coords="1375,265,1451,290"/>
-<area shape="poly" id="edge23_Node000016_Node000018" title=" " alt="" coords="1373,299,1282,331,1192,350,1118,362,1117,357,1191,345,1280,325,1371,294"/>
-<area shape="poly" id="edge24_Node000016_Node000019" title=" " alt="" coords="956,303,970,326,991,340,1015,350,1061,359,1060,364,1013,355,989,345,967,330,951,306"/>
-<area shape="poly" id="edge25_Node000019_Node000020" title=" " alt="" coords="718,200,811,225,847,239,914,262,912,267,845,244,809,230,717,205"/>
-<area shape="poly" id="edge30_Node000016_Node000021" title=" " alt="" coords="1200,215,1181,229,1158,247,1139,267,1112,313,1095,352,1090,350,1107,310,1135,264,1155,243,1178,225,1196,211"/>
-<area shape="poly" id="edge39_Node000023_Node000021" title=" " alt="" coords="1236,217,1250,240,1265,252,1283,262,1280,267,1262,257,1245,243,1231,219"/>
-<area shape="poly" id="edge33_Node000016_Node000022" title=" " alt="" coords="1277,209,1234,230,1215,244,1201,258,1171,292,1103,354,1100,350,1167,288,1197,255,1211,240,1231,225,1275,204"/>
-<area shape="poly" id="edge38_Node000023_Node000022" title=" " alt="" coords="1322,219,1317,265,1311,265,1317,219"/>
-<area shape="poly" id="edge36_Node000016_Node000023" title=" " alt="" coords="1281,300,1218,330,1165,348,1118,360,1117,354,1164,343,1216,326,1279,296"/>
+<area shape="poly" id="edge16_Node000006_Node000014" title=" " alt="" coords="794,207,726,230,701,244,647,259,594,269,504,278,504,272,593,263,646,253,698,239,723,225,792,202"/>
+<area shape="poly" id="edge29_Node000019_Node000014" title=" " alt="" coords="868,211,929,263,926,267,864,216"/>
+<area shape="rect" id="Node000015" href="$structFloor.html" title="Represents the entity initialised from a floorClass." alt="" coords="804,439,854,463"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="791,472,719,504,666,527,664,522,717,499,789,467"/>
+<area shape="rect" id="Node000016" href="$structRoom.html" title="Represents the entity initialised from a roomClass." alt="" coords="1045,352,1101,377"/>
+<area shape="poly" id="edge40_Node000001_Node000016" title=" " alt="" coords="1029,367,964,370,882,381,794,403,752,420,713,441,698,455,679,479,647,526,643,523,675,476,694,452,710,437,750,415,793,398,881,376,963,365,1029,362"/>
+<area shape="poly" id="edge19_Node000015_Node000016" title=" " alt="" coords="1031,383,855,443,854,438,1029,378"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="1048,219,1054,290,1071,351,1066,353,1049,290,1042,219"/>
+<area shape="rect" id="Node000018" href="$structRoadfork.html" title="Represents the entity initialised from a roadforkClass." alt="" coords="1370,265,1445,290"/>
+<area shape="poly" id="edge23_Node000016_Node000018" title=" " alt="" coords="1367,299,1276,331,1181,351,1102,362,1101,357,1180,346,1275,325,1366,294"/>
+<area shape="poly" id="edge24_Node000016_Node000019" title=" " alt="" coords="950,303,965,326,983,339,1004,348,1045,358,1043,363,1002,353,981,343,961,330,946,306"/>
+<area shape="poly" id="edge25_Node000019_Node000020" title=" " alt="" coords="718,200,806,225,844,239,909,262,907,267,843,244,804,230,717,206"/>
+<area shape="poly" id="edge30_Node000016_Node000021" title=" " alt="" coords="1196,214,1176,229,1153,247,1134,267,1102,313,1081,353,1076,350,1097,310,1129,264,1150,243,1173,225,1193,210"/>
+<area shape="poly" id="edge39_Node000023_Node000021" title=" " alt="" coords="1236,217,1250,240,1264,252,1281,262,1279,267,1261,257,1245,243,1231,220"/>
+<area shape="poly" id="edge33_Node000016_Node000022" title=" " alt="" coords="1284,208,1234,230,1213,244,1199,258,1165,292,1089,353,1086,349,1162,288,1195,255,1210,240,1232,225,1282,203"/>
+<area shape="poly" id="edge38_Node000023_Node000022" title=" " alt="" coords="1325,219,1313,266,1308,265,1320,218"/>
+<area shape="poly" id="edge36_Node000016_Node000023" title=" " alt="" coords="1276,300,1212,330,1154,349,1102,360,1101,355,1153,343,1211,326,1274,296"/>
+<area shape="rect" id="Node000024" href="$structGameOptions.html" title="Holds options useful for user runtime preferences." alt="" coords="878,439,980,463"/>
+<area shape="poly" id="edge41_Node000001_Node000024" title=" " alt="" coords="897,474,830,504,752,523,682,534,681,529,751,518,828,499,895,469"/>
 </map>

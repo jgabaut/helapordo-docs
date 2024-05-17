@@ -1,5 +1,8 @@
 var game__core_8h =
 [
+    [ "HLPD_Key", "structHLPD__Key.html", "structHLPD__Key" ],
+    [ "HLPD_DirectionalKeys", "structHLPD__DirectionalKeys.html", "structHLPD__DirectionalKeys" ],
+    [ "GameOptions", "structGameOptions.html", "structGameOptions" ],
     [ "Saveslot", "structSaveslot.html", "structSaveslot" ],
     [ "Consumable", "structConsumable.html", "structConsumable" ],
     [ "Artifact", "structArtifact.html", "structArtifact" ],
@@ -49,6 +52,7 @@ var game__core_8h =
     [ "COUNTERSMAX", "game__core_8h.html#a8a369e921b7c637e6c0b82834a49c46c", null ],
     [ "CURSES_BINSAVE_NAME", "game__core_8h.html#a48b98d71b86790920bae118089256e1e", null ],
     [ "CURSES_GMSTSAVE_NAME", "game__core_8h.html#a857c8868894bda5e5c02f9a500c01606", null ],
+    [ "CURSES_SETTINGS_SAVE_NAME", "game__core_8h.html#ab5bb2154dacc057e9b7054940f8f605c", null ],
     [ "ENEMY_ARTIFACTDROP_CHANCE", "game__core_8h.html#ac61fe0f91a6f4f8e05f36be4ee630ed3", null ],
     [ "ENEMY_SKILL_SLOTS", "game__core_8h.html#a8535bb4045c81b9ece2116bc60a0d659", null ],
     [ "ENEMYCLASSESMAX", "game__core_8h.html#af9677baff2a2c3238c2208c7ffbe86ad", null ],
@@ -78,6 +82,8 @@ var game__core_8h =
     [ "HELAPORDO_SAVEFILE_VERSION", "game__core_8h.html#a4788207d3500e4ada5f19eed487f8313", null ],
     [ "HELAPORDO_SAVEPATH_1", "game__core_8h.html#af103b24224742b0324bfacecd4572a96", null ],
     [ "HLP_MAX_INDEX", "game__core_8h.html#a7364324ce5a57d1dc40f9c0f4b907d35", null ],
+    [ "HLPD_DIRECTIONALKEYS_SCHEMAS_MAX", "game__core_8h.html#aab833fdb65812a32c2013e05aa6b72ad", null ],
+    [ "HLPD_KEYCLASS_MAX", "game__core_8h.html#ae08f7f5472dd32143fec7544c7827e1b", null ],
     [ "HOMEROOM", "game__core_8h.html#a75476d11ff4a885787b8d604b9e97585", null ],
     [ "ITEM_SHOP_MAX", "game__core_8h.html#a65a3e045b22e8d0243bea60720f7ba0b", null ],
     [ "LORES_MAX", "game__core_8h.html#aa1af02fc139f35c78cf87f291a50d43a", null ],
@@ -93,6 +99,7 @@ var game__core_8h =
     [ "QUALITIESMAX", "game__core_8h.html#a9d5b2c79bde3dfeaae8d54e366d60f35", null ],
     [ "RL_BINSAVE_NAME", "game__core_8h.html#a0a7bd34d3cb2e9fb80d732b2934bafaf", null ],
     [ "RL_GMSTSAVE_NAME", "game__core_8h.html#a3ad1c8dfab5ef34ddef2e6021b4cb395", null ],
+    [ "RL_SETTINGS_SAVE_NAME", "game__core_8h.html#a0f6b1f15703b9fc575626c1b889ceebb", null ],
     [ "ROADFORK_OPTIONS_MAX", "game__core_8h.html#a787d3c2ef6cd5a7598aee5c2880d42c2", null ],
     [ "ROOM_CLASS_MAX", "game__core_8h.html#aae238a74e48932aeaace0d2a4819b551", null ],
     [ "ROOM_ENEMIES_MAX", "game__core_8h.html#aec4c2193806e3f076930626666ee67fc", null ],
@@ -136,7 +143,12 @@ var game__core_8h =
     [ "FoePartyBaseStats", "game__core_8h.html#aaf5bf36010275041fb0124f263fb47e4", null ],
     [ "foeTurnOption", "game__core_8h.html#a8e3a0a40a12cc2c4909fc47b2b11cea5", null ],
     [ "foeTurnOption_OP", "game__core_8h.html#a6d71406ee8b87b816b699fbd2494f5cd", null ],
+    [ "GameOptions", "game__core_8h.html#aac732ef79440d0f3120c59efc8235785", null ],
     [ "HLP_Region_Type", "game__core_8h.html#ac3d5d287ef316a7346b3cbd73cadaf2b", null ],
+    [ "HLPD_DirectionalKeys", "game__core_8h.html#a8432cfa873e1a1c107cd847e7f9d1b31", null ],
+    [ "HLPD_DirectionalKeys_Schema", "game__core_8h.html#af7c5c51af87c28ac6ea37ad36e43da63", null ],
+    [ "HLPD_Key", "game__core_8h.html#a115083177f1a533aa08fb71bc8f2bfc8", null ],
+    [ "HLPD_KeyClass", "game__core_8h.html#a8d451bebf529f2a568a49f1839c86263", null ],
     [ "loadInfo", "game__core_8h.html#a62ada39ecbe3cd7472defbeb198a9747", null ],
     [ "OP_res", "game__core_8h.html#a68ece6057447b53d824799da0a4a4658", null ],
     [ "Path", "game__core_8h.html#a3994f4c43574026e5c4662dc6ada2f28", null ],
@@ -295,7 +307,25 @@ var game__core_8h =
       [ "HR_Saveslot", "game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa40df5b4fa3866baa69304772ac3f263e", null ],
       [ "HR_Gamestate", "game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4faba62c1b5c1492a0a670f0dbed8d15282", null ],
       [ "HR_Gamescreen", "game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fae3950c8e313996889c299292af3c609c", null ],
+      [ "HR_GameOptions", "game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa8d9a886c6b964f6d1f2ad15df24cc112", null ],
+      [ "HR_BSP_Room", "game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa7d28d47323443dd88b4bb3137e19e4e4", null ],
       [ "HR_loadInfo", "game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa9dd78b8530b65a7781b54859de460321", null ]
+    ] ],
+    [ "HLPD_DirectionalKeys_Schema", "game__core_8h.html#aac8f099dd12c4389f2bdeec15ac43d3a", [
+      [ "HLPD_ARROW_KEYS", "game__core_8h.html#aac8f099dd12c4389f2bdeec15ac43d3aa68a384f233064a4bcef907c21f2feb14", null ],
+      [ "HLPD_VIM_KEYS", "game__core_8h.html#aac8f099dd12c4389f2bdeec15ac43d3aaf596aeca0e58d31084a6bfacd0d19a49", null ],
+      [ "HLPD_WASD_KEYS", "game__core_8h.html#aac8f099dd12c4389f2bdeec15ac43d3aa9701378ea564ec195efbaa5a5a987408", null ]
+    ] ],
+    [ "HLPD_KeyClass", "game__core_8h.html#a931ac740e7b793097faa5be023f7161f", [
+      [ "HLPD_KEY_UP", "game__core_8h.html#a931ac740e7b793097faa5be023f7161fa39edf60ecd5eaafa007b72bfcf37fb46", null ],
+      [ "HLPD_KEY_RIGHT", "game__core_8h.html#a931ac740e7b793097faa5be023f7161faf98359a28fa7a82c3af8a240629bb3ba", null ],
+      [ "HLPD_KEY_DOWN", "game__core_8h.html#a931ac740e7b793097faa5be023f7161fa2a197756a67496606aa266d9303d5847", null ],
+      [ "HLPD_KEY_LEFT", "game__core_8h.html#a931ac740e7b793097faa5be023f7161fa731ec9b4dedcce30d7245f911f1dd3cd", null ],
+      [ "HLPD_KEY_DWNPAGE", "game__core_8h.html#a931ac740e7b793097faa5be023f7161fa59ddbeb038e205cba06d5855ae61fcc0", null ],
+      [ "HLPD_KEY_UPPAGE", "game__core_8h.html#a931ac740e7b793097faa5be023f7161faa16e4cc7073e4f222e2f7699f4413061", null ],
+      [ "HLPD_KEY_CONFIRM", "game__core_8h.html#a931ac740e7b793097faa5be023f7161fac0c1aedacda661fd8158f8ad071ea804", null ],
+      [ "HLPD_KEY_QUIT", "game__core_8h.html#a931ac740e7b793097faa5be023f7161faeb6e106091963fcba78ed679b2642175", null ],
+      [ "HLPD_KEY_MENU", "game__core_8h.html#a931ac740e7b793097faa5be023f7161fa6e4bc9ef31fdd2aede2095b27b63b52a", null ]
     ] ],
     [ "OP_res", "game__core_8h.html#afe8e046bf5f260d1d9a60aa4d4dfab9c", [
       [ "OP_OK", "game__core_8h.html#afe8e046bf5f260d1d9a60aa4d4dfab9cacc156be86a1cb4bfc0e21d8c72e4971c", null ],
@@ -400,7 +430,8 @@ var game__core_8h =
       [ "DEBUG", "game__core_8h.html#a12a952e636763b477c873f21d458e4b7a0593585da9181e972974c1274d8f2b4f", null ],
       [ "TUTORIAL", "game__core_8h.html#a12a952e636763b477c873f21d458e4b7ab5e108266114332013a1ccc1610d7a71", null ],
       [ "CLOSE_MENU", "game__core_8h.html#a12a952e636763b477c873f21d458e4b7aa25382e9c3fdedffab70e7d2d6bc5f4a", null ],
-      [ "SKILL", "game__core_8h.html#a12a952e636763b477c873f21d458e4b7a975b05721cd309abe76962f64db1b726", null ]
+      [ "SKILL", "game__core_8h.html#a12a952e636763b477c873f21d458e4b7a975b05721cd309abe76962f64db1b726", null ],
+      [ "GAME_OPTIONS", "game__core_8h.html#a12a952e636763b477c873f21d458e4b7ac0668a4a8767ba5a119845a49cbe919c", null ]
     ] ],
     [ "turnOption_OP", "game__core_8h.html#abc0ae742eb657b3657d27bc54585b160", [
       [ "OP_NEW_GAME", "game__core_8h.html#abc0ae742eb657b3657d27bc54585b160aa137051084e7cb3612ef0bf0561d19af", null ],
@@ -419,7 +450,8 @@ var game__core_8h =
       [ "OP_DEBUG", "game__core_8h.html#abc0ae742eb657b3657d27bc54585b160a07e8ffc91d643b38a4a26b777bf63a6a", null ],
       [ "OP_LOAD_ENEMYROOM", "game__core_8h.html#abc0ae742eb657b3657d27bc54585b160a978dea38dd239669422148b2a0356ba9", null ],
       [ "OP_LOAD_HOMEROOM", "game__core_8h.html#abc0ae742eb657b3657d27bc54585b160a42bd9de3ae04e3392d553c7cbb45699b", null ],
-      [ "OP_SKILL", "game__core_8h.html#abc0ae742eb657b3657d27bc54585b160a6cb158fab48f0d858edd5549f351bbfb", null ]
+      [ "OP_SKILL", "game__core_8h.html#abc0ae742eb657b3657d27bc54585b160a6cb158fab48f0d858edd5549f351bbfb", null ],
+      [ "OP_CHANGE_OPTIONS", "game__core_8h.html#abc0ae742eb657b3657d27bc54585b160a702dd86c091d5f6dc1cdf587ed85b04e", null ]
     ] ],
     [ "winconClass", "game__core_8h.html#adf58ec162baa0a9692076eca5591240f", [
       [ "ALL_ARTIFACTS", "game__core_8h.html#adf58ec162baa0a9692076eca5591240fa53ad6337028ccaae858c78410b7d414d", null ],
@@ -441,6 +473,7 @@ var game__core_8h =
     [ "classesstrings", "game__core_8h.html#a72c2322e1861d2c6fa0eb917801fa1c6", null ],
     [ "consumablesBase", "game__core_8h.html#a11d39033dde1f1806bf239a1708f409b", null ],
     [ "consumablestrings", "game__core_8h.html#a5744d8f373e248fa2d269da081a015bb", null ],
+    [ "default_GameOptions", "game__core_8h.html#ad50f87280a120888e1c1cd7b17c2d3b2", null ],
     [ "default_kls", "game__core_8h.html#a69bbfa03a4eea720f6036620629305b9", null ],
     [ "default_saveslots", "game__core_8h.html#a25b2b1c9ff50d6e2865ebb7948216cc5", null ],
     [ "equips", "game__core_8h.html#a87dc21da47e77e4cdcc4ce4fefa90039", null ],
@@ -460,6 +493,7 @@ var game__core_8h =
     [ "G_DOTUTORIAL_ON", "game__core_8h.html#ac9ba882964be6bc468a478b3d6d51c65", null ],
     [ "G_EXPERIMENTAL_ON", "game__core_8h.html#ae2a57edc9cd3c7e9462172bed61a3948", null ],
     [ "G_FASTQUIT_ON", "game__core_8h.html#a336cb80c42966696e38fdcb171a56135", null ],
+    [ "G_GAMESTATE", "game__core_8h.html#ada27b63bf7a88ecaee527a5c9d9f09db", null ],
     [ "G_GODMODE_ON", "game__core_8h.html#a979381f2a3fa7ca5f61eeef36ec85353", null ],
     [ "G_LOG_ON", "game__core_8h.html#ad02d36f2fab57da8dfe988e2a3024c33", null ],
     [ "G_PRELOAD_ANIMATIONS_ON", "game__core_8h.html#a7ff38c07cdf83ad87a9e2110d94a2c00", null ],
@@ -467,6 +501,9 @@ var game__core_8h =
     [ "G_SEEDED_RUN_ARG", "game__core_8h.html#a4380e824408a17c206bfe780885a6b5e", null ],
     [ "G_SEEDED_RUN_ON", "game__core_8h.html#a65be74331113c0c6eef435baad387220", null ],
     [ "G_USE_CURRENTDIR", "game__core_8h.html#aaba6dfba2fa58ea22f7b8921f54c0ef7", null ],
+    [ "G_USE_DEFAULT_BACKGROUND", "game__core_8h.html#a524df9cc0b19877e9999e9b8e9758168", null ],
+    [ "G_USE_VIM_DIRECTIONAL_KEYS", "game__core_8h.html#a675bce79c4a9afd3f0eab49dc1d09cc1", null ],
+    [ "G_USE_WASD_DIRECTIONAL_KEYS", "game__core_8h.html#a9e24f03f7b9a50f44058940991e9003b", null ],
     [ "GAMEMODE", "game__core_8h.html#ab1e7aa4988e219c35dee29d068aa280a", null ],
     [ "gamemodenamestrings", "game__core_8h.html#a6d71a1c0e7552d2540207c0f729fab3c", null ],
     [ "GS_AUTOSAVE_ON", "game__core_8h.html#a02c41f9118fbb6c4ef47fd06e2002918", null ],
@@ -474,6 +511,10 @@ var game__core_8h =
     [ "helapordo_build_string", "game__core_8h.html#af427dadff5a8eaf941b674721ebfe003", null ],
     [ "helapordo_title_string", "game__core_8h.html#afdd0453fe6225829f8651c9919bf0ea9", null ],
     [ "hlp_regiontype_strings", "game__core_8h.html#a1614baca5a7737be95adcd9d690a27b5", null ],
+    [ "hlpd_default_directional_keys", "game__core_8h.html#ac8484538d91299898c103c1841c89d44", null ],
+    [ "hlpd_default_keybinds", "game__core_8h.html#a0c9b6f341fb90b06f17621f8aca77628", null ],
+    [ "hlpd_directionalkeyschemas_strings", "game__core_8h.html#abed20fa4bbeb7190a046c99354e47201", null ],
+    [ "hlpd_keyclass_strings", "game__core_8h.html#a3f0e571745181be04379d4c395fa21a0", null ],
     [ "LEGS_CHAR_ICON", "game__core_8h.html#af7344183a2e3d6579e276e994beaa06c", null ],
     [ "opresstrings", "game__core_8h.html#a81defb550ec13389fc0eeac49ba9e06e", null ],
     [ "perksdescstrings", "game__core_8h.html#a0701d7ee02ba80468dda97669f19040e", null ],
@@ -488,6 +529,7 @@ var game__core_8h =
     [ "specialscosts", "game__core_8h.html#ae3c33f31889df07e1a00eaa9f75b10c6", null ],
     [ "specialsdescstrings", "game__core_8h.html#a14940fe1e5ff923890e2815275d4eb9c", null ],
     [ "specialsnamestrings", "game__core_8h.html#aaab0bc8e6717c894d886d3682aac51c4", null ],
+    [ "support_kls", "game__core_8h.html#a6593ab80da329b2140bb5a07038a3e38", null ],
     [ "temporary_kls", "game__core_8h.html#ab09873664dfb1d459635b47b70cf4d45", null ],
     [ "TORSO_CHAR_ICON", "game__core_8h.html#a0072ef02d2ec66bb4482a78c2f332eae", null ],
     [ "treasuredescstrings", "game__core_8h.html#a5e260a962d4dace143d1481edc669691", null ],

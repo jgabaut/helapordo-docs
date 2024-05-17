@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.7</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.8</span>
    </div>
   </td>
  </tr>
@@ -138,7 +138,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" href="saves_8c.html" title=" " alt="" coords="71,397,188,421"/>
 <area shape="poly" title=" " alt="" coords="132,357,132,396,127,396,127,357"/>
 <area shape="rect" href="turn__op_8h.html" title=" " alt="" coords="799,397,924,421"/>
-<area shape="poly" title=" " alt="" coords="185,343,199,346,368,370,536,387,799,403,798,408,536,392,368,375,198,351,184,348"/>
+<area shape="poly" title=" " alt="" coords="186,343,201,346,369,370,537,386,799,403,799,408,537,392,369,375,200,351,185,348"/>
 <area shape="rect" href="game__curses_8h.html" title=" " alt="" coords="950,469,1133,494"/>
 <area shape="poly" title=" " alt="" coords="907,425,1013,466,1011,471,905,430"/>
 <area shape="rect" href="rooms_8h.html" title=" " alt="" coords="653,469,771,494"/>
@@ -208,6 +208,15 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structHLPD__Key.html">HLPD_Key</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds info about a keybind for the game.  <a href="structHLPD__Key.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structHLPD__DirectionalKeys.html">HLPD_DirectionalKeys</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds a set of <a class="el" href="structHLPD__Key.html" title="Holds info about a keybind for the game.">HLPD_Key</a> to use for cardinal direction movement.  <a href="structHLPD__DirectionalKeys.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structGameOptions.html">GameOptions</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds options useful for user runtime preferences.  <a href="structGameOptions.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSaveslot.html">Saveslot</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds arguments for a saveslot.  <a href="structSaveslot.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -302,6 +311,12 @@ Macros</h2></td></tr>
 <tr class="separator:af4ff8d54555f45956f879af545ec7103"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a853ad5815c6ee0f92dd66fb057d22a83" id="r_a853ad5815c6ee0f92dd66fb057d22a83"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a853ad5815c6ee0f92dd66fb057d22a83">HELAPORDO_MACHINE</a>&#160;&#160;&#160;&quot;unknown&quot;</td></tr>
 <tr class="separator:a853ad5815c6ee0f92dd66fb057d22a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae08f7f5472dd32143fec7544c7827e1b" id="r_ae08f7f5472dd32143fec7544c7827e1b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae08f7f5472dd32143fec7544c7827e1b">HLPD_KEYCLASS_MAX</a>&#160;&#160;&#160;8</td></tr>
+<tr class="memdesc:ae08f7f5472dd32143fec7544c7827e1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum index of HLPD_KeyClass, so that the size has to add 1 for the 0th index.  <br /></td></tr>
+<tr class="separator:ae08f7f5472dd32143fec7544c7827e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab833fdb65812a32c2013e05aa6b72ad" id="r_aab833fdb65812a32c2013e05aa6b72ad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab833fdb65812a32c2013e05aa6b72ad">HLPD_DIRECTIONALKEYS_SCHEMAS_MAX</a>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:aab833fdb65812a32c2013e05aa6b72ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum index of HLPD_DirectionalKeys_Schema, so that the size has to add 1 for the 0th index.  <br /></td></tr>
+<tr class="separator:aab833fdb65812a32c2013e05aa6b72ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7364324ce5a57d1dc40f9c0f4b907d35" id="r_a7364324ce5a57d1dc40f9c0f4b907d35"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7364324ce5a57d1dc40f9c0f4b907d35">HLP_MAX_INDEX</a>&#160;&#160;&#160;(<a class="el" href="#ada4cc4f5e3d32693155c2f0b86dd1a4fa9dd78b8530b65a7781b54859de460321">HR_loadInfo</a>-100+KLS_REGIONTYPE_MAX)</td></tr>
 <tr class="memdesc:a7364324ce5a57d1dc40f9c0f4b907d35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines max index for an HLP_Region_Type value.  <br /></td></tr>
 <tr class="separator:a7364324ce5a57d1dc40f9c0f4b907d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -311,10 +326,10 @@ Macros</h2></td></tr>
 <tr class="memitem:a1cb68a9343b29c3257266a562fbc26a9" id="r_a1cb68a9343b29c3257266a562fbc26a9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cb68a9343b29c3257266a562fbc26a9">HELAPORDO_MINOR_VERSION</a>&#160;&#160;&#160;4</td></tr>
 <tr class="memdesc:a1cb68a9343b29c3257266a562fbc26a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current minor release.  <br /></td></tr>
 <tr class="separator:a1cb68a9343b29c3257266a562fbc26a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69f950e67bf21741e89f443bdd11c1fa" id="r_a69f950e67bf21741e89f443bdd11c1fa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69f950e67bf21741e89f443bdd11c1fa">HELAPORDO_PATCH_VERSION</a>&#160;&#160;&#160;7</td></tr>
+<tr class="memitem:a69f950e67bf21741e89f443bdd11c1fa" id="r_a69f950e67bf21741e89f443bdd11c1fa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69f950e67bf21741e89f443bdd11c1fa">HELAPORDO_PATCH_VERSION</a>&#160;&#160;&#160;8</td></tr>
 <tr class="memdesc:a69f950e67bf21741e89f443bdd11c1fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current patch release.  <br /></td></tr>
 <tr class="separator:a69f950e67bf21741e89f443bdd11c1fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c6d5de492ac61ad29aec7aa9a436bbf" id="r_a1c6d5de492ac61ad29aec7aa9a436bbf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c6d5de492ac61ad29aec7aa9a436bbf">VERSION</a>&#160;&#160;&#160;&quot;1.4.7&quot;</td></tr>
+<tr class="memitem:a1c6d5de492ac61ad29aec7aa9a436bbf" id="r_a1c6d5de492ac61ad29aec7aa9a436bbf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c6d5de492ac61ad29aec7aa9a436bbf">VERSION</a>&#160;&#160;&#160;&quot;1.4.8&quot;</td></tr>
 <tr class="memdesc:a1c6d5de492ac61ad29aec7aa9a436bbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current version string identifier, with MAJOR.MINOR.PATCH format.  <br /></td></tr>
 <tr class="separator:a1c6d5de492ac61ad29aec7aa9a436bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4788207d3500e4ada5f19eed487f8313" id="r_a4788207d3500e4ada5f19eed487f8313"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4788207d3500e4ada5f19eed487f8313">HELAPORDO_SAVEFILE_VERSION</a>&#160;&#160;&#160;&quot;0.1.7&quot;</td></tr>
@@ -460,7 +475,7 @@ Macros</h2></td></tr>
 <tr class="memitem:a220b0c8fd9ee30da953c0b041da236d2" id="r_a220b0c8fd9ee30da953c0b041da236d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a220b0c8fd9ee30da953c0b041da236d2">SAVETYPE_MAX</a>&#160;&#160;&#160;2</td></tr>
 <tr class="memdesc:a220b0c8fd9ee30da953c0b041da236d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum value of saveType values.  <br /></td></tr>
 <tr class="separator:a220b0c8fd9ee30da953c0b041da236d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa23bd50323da2cae0596ec3e5b5bc7cb" id="r_aa23bd50323da2cae0596ec3e5b5bc7cb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa23bd50323da2cae0596ec3e5b5bc7cb">TURNOP_MAX</a>&#160;&#160;&#160;16</td></tr>
+<tr class="memitem:aa23bd50323da2cae0596ec3e5b5bc7cb" id="r_aa23bd50323da2cae0596ec3e5b5bc7cb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa23bd50323da2cae0596ec3e5b5bc7cb">TURNOP_MAX</a>&#160;&#160;&#160;17</td></tr>
 <tr class="memdesc:aa23bd50323da2cae0596ec3e5b5bc7cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum value for turnOption_OP.  <br /></td></tr>
 <tr class="separator:aa23bd50323da2cae0596ec3e5b5bc7cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a610ef9a7217cbc19b810b4b3e4c74af3" id="r_a610ef9a7217cbc19b810b4b3e4c74af3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a610ef9a7217cbc19b810b4b3e4c74af3">FOETURNOP_MAX</a>&#160;&#160;&#160;3</td></tr>
@@ -523,9 +538,30 @@ Macros</h2></td></tr>
 <tr class="memitem:a3ad1c8dfab5ef34ddef2e6021b4cb395" id="r_a3ad1c8dfab5ef34ddef2e6021b4cb395"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ad1c8dfab5ef34ddef2e6021b4cb395">RL_GMSTSAVE_NAME</a>&#160;&#160;&#160;&quot;run-rl.bin&quot;</td></tr>
 <tr class="memdesc:a3ad1c8dfab5ef34ddef2e6021b4cb395"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines file name used for gamestate binary save.  <br /></td></tr>
 <tr class="separator:a3ad1c8dfab5ef34ddef2e6021b4cb395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5bb2154dacc057e9b7054940f8f605c" id="r_ab5bb2154dacc057e9b7054940f8f605c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5bb2154dacc057e9b7054940f8f605c">CURSES_SETTINGS_SAVE_NAME</a>&#160;&#160;&#160;&quot;settings-nc.bin&quot;</td></tr>
+<tr class="memdesc:ab5bb2154dacc057e9b7054940f8f605c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines file name used for game options binary save.  <br /></td></tr>
+<tr class="separator:ab5bb2154dacc057e9b7054940f8f605c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f6b1f15703b9fc575626c1b889ceebb" id="r_a0f6b1f15703b9fc575626c1b889ceebb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f6b1f15703b9fc575626c1b889ceebb">RL_SETTINGS_SAVE_NAME</a>&#160;&#160;&#160;&quot;settings-rl.bin&quot;</td></tr>
+<tr class="memdesc:a0f6b1f15703b9fc575626c1b889ceebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines file name used for game options binary save.  <br /></td></tr>
+<tr class="separator:a0f6b1f15703b9fc575626c1b889ceebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a8d451bebf529f2a568a49f1839c86263" id="r_a8d451bebf529f2a568a49f1839c86263"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a931ac740e7b793097faa5be023f7161f">HLPD_KeyClass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d451bebf529f2a568a49f1839c86263">HLPD_KeyClass</a></td></tr>
+<tr class="memdesc:a8d451bebf529f2a568a49f1839c86263"><td class="mdescLeft">&#160;</td><td class="mdescRight">The different kinds of <a class="el" href="structHLPD__Key.html" title="Holds info about a keybind for the game.">HLPD_Key</a>.  <br /></td></tr>
+<tr class="separator:a8d451bebf529f2a568a49f1839c86263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a115083177f1a533aa08fb71bc8f2bfc8" id="r_a115083177f1a533aa08fb71bc8f2bfc8"><td class="memItemLeft" align="right" valign="top">typedef struct HLPD_Key&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a115083177f1a533aa08fb71bc8f2bfc8">HLPD_Key</a></td></tr>
+<tr class="memdesc:a115083177f1a533aa08fb71bc8f2bfc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds info about a keybind for the game.  <br /></td></tr>
+<tr class="separator:a115083177f1a533aa08fb71bc8f2bfc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7c5c51af87c28ac6ea37ad36e43da63" id="r_af7c5c51af87c28ac6ea37ad36e43da63"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#aac8f099dd12c4389f2bdeec15ac43d3a">HLPD_DirectionalKeys_Schema</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7c5c51af87c28ac6ea37ad36e43da63">HLPD_DirectionalKeys_Schema</a></td></tr>
+<tr class="memdesc:af7c5c51af87c28ac6ea37ad36e43da63"><td class="mdescLeft">&#160;</td><td class="mdescRight">The different kinds of schemas available for directional keys.  <br /></td></tr>
+<tr class="separator:af7c5c51af87c28ac6ea37ad36e43da63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8432cfa873e1a1c107cd847e7f9d1b31" id="r_a8432cfa873e1a1c107cd847e7f9d1b31"><td class="memItemLeft" align="right" valign="top">typedef struct HLPD_DirectionalKeys&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8432cfa873e1a1c107cd847e7f9d1b31">HLPD_DirectionalKeys</a></td></tr>
+<tr class="memdesc:a8432cfa873e1a1c107cd847e7f9d1b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds a set of <a class="el" href="structHLPD__Key.html" title="Holds info about a keybind for the game.">HLPD_Key</a> to use for cardinal direction movement.  <br /></td></tr>
+<tr class="separator:a8432cfa873e1a1c107cd847e7f9d1b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac732ef79440d0f3120c59efc8235785" id="r_aac732ef79440d0f3120c59efc8235785"><td class="memItemLeft" align="right" valign="top">typedef struct GameOptions&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac732ef79440d0f3120c59efc8235785">GameOptions</a></td></tr>
+<tr class="memdesc:aac732ef79440d0f3120c59efc8235785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds options useful for user runtime preferences.  <br /></td></tr>
+<tr class="separator:aac732ef79440d0f3120c59efc8235785"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3d5d287ef316a7346b3cbd73cadaf2b" id="r_ac3d5d287ef316a7346b3cbd73cadaf2b"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ada4cc4f5e3d32693155c2f0b86dd1a4f">HLP_Region_Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3d5d287ef316a7346b3cbd73cadaf2b">HLP_Region_Type</a></td></tr>
 <tr class="memdesc:ac3d5d287ef316a7346b3cbd73cadaf2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines indexes for all types that are allocated with Koliseo.  <br /></td></tr>
 <tr class="separator:ac3d5d287ef316a7346b3cbd73cadaf2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -652,6 +688,28 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:a931ac740e7b793097faa5be023f7161f" id="r_a931ac740e7b793097faa5be023f7161f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a931ac740e7b793097faa5be023f7161f">HLPD_KeyClass</a> { <br />
+&#160;&#160;<a class="el" href="#a931ac740e7b793097faa5be023f7161fa39edf60ecd5eaafa007b72bfcf37fb46">HLPD_KEY_UP</a> = 0
+, <a class="el" href="#a931ac740e7b793097faa5be023f7161faf98359a28fa7a82c3af8a240629bb3ba">HLPD_KEY_RIGHT</a>
+, <a class="el" href="#a931ac740e7b793097faa5be023f7161fa2a197756a67496606aa266d9303d5847">HLPD_KEY_DOWN</a>
+, <a class="el" href="#a931ac740e7b793097faa5be023f7161fa731ec9b4dedcce30d7245f911f1dd3cd">HLPD_KEY_LEFT</a>
+, <br />
+&#160;&#160;<a class="el" href="#a931ac740e7b793097faa5be023f7161fa59ddbeb038e205cba06d5855ae61fcc0">HLPD_KEY_DWNPAGE</a>
+, <a class="el" href="#a931ac740e7b793097faa5be023f7161faa16e4cc7073e4f222e2f7699f4413061">HLPD_KEY_UPPAGE</a>
+, <a class="el" href="#a931ac740e7b793097faa5be023f7161fac0c1aedacda661fd8158f8ad071ea804">HLPD_KEY_CONFIRM</a>
+, <a class="el" href="#a931ac740e7b793097faa5be023f7161faeb6e106091963fcba78ed679b2642175">HLPD_KEY_QUIT</a>
+, <br />
+&#160;&#160;<a class="el" href="#a931ac740e7b793097faa5be023f7161fa6e4bc9ef31fdd2aede2095b27b63b52a">HLPD_KEY_MENU</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a931ac740e7b793097faa5be023f7161f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The different kinds of <a class="el" href="structHLPD__Key.html" title="Holds info about a keybind for the game.">HLPD_Key</a>.  <a href="#a931ac740e7b793097faa5be023f7161f">More...</a><br /></td></tr>
+<tr class="separator:a931ac740e7b793097faa5be023f7161f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac8f099dd12c4389f2bdeec15ac43d3a" id="r_aac8f099dd12c4389f2bdeec15ac43d3a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac8f099dd12c4389f2bdeec15ac43d3a">HLPD_DirectionalKeys_Schema</a> { <a class="el" href="#aac8f099dd12c4389f2bdeec15ac43d3aa68a384f233064a4bcef907c21f2feb14">HLPD_ARROW_KEYS</a> =0
+, <a class="el" href="#aac8f099dd12c4389f2bdeec15ac43d3aaf596aeca0e58d31084a6bfacd0d19a49">HLPD_VIM_KEYS</a>
+, <a class="el" href="#aac8f099dd12c4389f2bdeec15ac43d3aa9701378ea564ec195efbaa5a5a987408">HLPD_WASD_KEYS</a>
+ }</td></tr>
+<tr class="memdesc:aac8f099dd12c4389f2bdeec15ac43d3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The different kinds of schemas available for directional keys.  <a href="#aac8f099dd12c4389f2bdeec15ac43d3a">More...</a><br /></td></tr>
+<tr class="separator:aac8f099dd12c4389f2bdeec15ac43d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada4cc4f5e3d32693155c2f0b86dd1a4f" id="r_ada4cc4f5e3d32693155c2f0b86dd1a4f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada4cc4f5e3d32693155c2f0b86dd1a4f">HLP_Region_Type</a> { <br />
 &#160;&#160;<a class="el" href="#ada4cc4f5e3d32693155c2f0b86dd1a4fa3cfa3e385c6f7ace5d634befa1dbed7b">HR_Path</a> = KLS_REGIONTYPE_MAX + 100
 , <a class="el" href="#ada4cc4f5e3d32693155c2f0b86dd1a4fa9311c7f617e3d54d34fb886d574a3c86">HR_Wincon</a>
@@ -686,6 +744,9 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="#ada4cc4f5e3d32693155c2f0b86dd1a4fa40df5b4fa3866baa69304772ac3f263e">HR_Saveslot</a>
 , <a class="el" href="#ada4cc4f5e3d32693155c2f0b86dd1a4faba62c1b5c1492a0a670f0dbed8d15282">HR_Gamestate</a>
 , <a class="el" href="#ada4cc4f5e3d32693155c2f0b86dd1a4fae3950c8e313996889c299292af3c609c">HR_Gamescreen</a>
+, <a class="el" href="#ada4cc4f5e3d32693155c2f0b86dd1a4fa8d9a886c6b964f6d1f2ad15df24cc112">HR_GameOptions</a>
+, <br />
+&#160;&#160;<a class="el" href="#ada4cc4f5e3d32693155c2f0b86dd1a4fa7d28d47323443dd88b4bb3137e19e4e4">HR_BSP_Room</a>
 , <a class="el" href="#ada4cc4f5e3d32693155c2f0b86dd1a4fa9dd78b8530b65a7781b54859de460321">HR_loadInfo</a>
 <br />
  }</td></tr>
@@ -951,6 +1012,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#a12a952e636763b477c873f21d458e4b7aa25382e9c3fdedffab70e7d2d6bc5f4a">CLOSE_MENU</a> = 110
 , <br />
 &#160;&#160;<a class="el" href="#a12a952e636763b477c873f21d458e4b7a975b05721cd309abe76962f64db1b726">SKILL</a> = 111
+, <a class="el" href="#a12a952e636763b477c873f21d458e4b7ac0668a4a8767ba5a119845a49cbe919c">GAME_OPTIONS</a> = 112
 <br />
  }</td></tr>
 <tr class="memdesc:a12a952e636763b477c873f21d458e4b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The different kinds of turnOption.  <a href="#a12a952e636763b477c873f21d458e4b7">More...</a><br /></td></tr>
@@ -977,6 +1039,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#abc0ae742eb657b3657d27bc54585b160a42bd9de3ae04e3392d553c7cbb45699b">OP_LOAD_HOMEROOM</a> = 15
 , <br />
 &#160;&#160;<a class="el" href="#abc0ae742eb657b3657d27bc54585b160a6cb158fab48f0d858edd5549f351bbfb">OP_SKILL</a> = 16
+, <a class="el" href="#abc0ae742eb657b3657d27bc54585b160a702dd86c091d5f6dc1cdf587ed85b04e">OP_CHANGE_OPTIONS</a> = 17
 <br />
  }</td></tr>
 <tr class="memdesc:abc0ae742eb657b3657d27bc54585b160"><td class="mdescLeft">&#160;</td><td class="mdescRight">The different kinds of turnOption_OP.  <a href="#abc0ae742eb657b3657d27bc54585b160">More...</a><br /></td></tr>
@@ -1046,6 +1109,20 @@ Variables</h2></td></tr>
 <tr class="separator:afdd0453fe6225829f8651c9919bf0ea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af427dadff5a8eaf941b674721ebfe003" id="r_af427dadff5a8eaf941b674721ebfe003"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af427dadff5a8eaf941b674721ebfe003">helapordo_build_string</a></td></tr>
 <tr class="separator:af427dadff5a8eaf941b674721ebfe003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0e571745181be04379d4c395fa21a0" id="r_a3f0e571745181be04379d4c395fa21a0"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f0e571745181be04379d4c395fa21a0">hlpd_keyclass_strings</a> [<a class="el" href="#ae08f7f5472dd32143fec7544c7827e1b">HLPD_KEYCLASS_MAX</a>+1]</td></tr>
+<tr class="memdesc:a3f0e571745181be04379d4c395fa21a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array with the name strings for Gamemode.  <br /></td></tr>
+<tr class="separator:a3f0e571745181be04379d4c395fa21a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c9b6f341fb90b06f17621f8aca77628" id="r_a0c9b6f341fb90b06f17621f8aca77628"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structHLPD__Key.html">HLPD_Key</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c9b6f341fb90b06f17621f8aca77628">hlpd_default_keybinds</a> [<a class="el" href="#ae08f7f5472dd32143fec7544c7827e1b">HLPD_KEYCLASS_MAX</a>+1]</td></tr>
+<tr class="memdesc:a0c9b6f341fb90b06f17621f8aca77628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array with the keybinds for the game.  <br /></td></tr>
+<tr class="separator:a0c9b6f341fb90b06f17621f8aca77628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abed20fa4bbeb7190a046c99354e47201" id="r_abed20fa4bbeb7190a046c99354e47201"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abed20fa4bbeb7190a046c99354e47201">hlpd_directionalkeyschemas_strings</a> [<a class="el" href="#aab833fdb65812a32c2013e05aa6b72ad">HLPD_DIRECTIONALKEYS_SCHEMAS_MAX</a>+1]</td></tr>
+<tr class="memdesc:abed20fa4bbeb7190a046c99354e47201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array with the name strings for HLPD_DirectionalKeys_Schema.  <br /></td></tr>
+<tr class="separator:abed20fa4bbeb7190a046c99354e47201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8484538d91299898c103c1841c89d44" id="r_ac8484538d91299898c103c1841c89d44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structHLPD__DirectionalKeys.html">HLPD_DirectionalKeys</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8484538d91299898c103c1841c89d44">hlpd_default_directional_keys</a> [<a class="el" href="#aab833fdb65812a32c2013e05aa6b72ad">HLPD_DIRECTIONALKEYS_SCHEMAS_MAX</a>+1]</td></tr>
+<tr class="memdesc:ac8484538d91299898c103c1841c89d44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array with the default directional keys for all schemas defined as HLPD_DirectionalKeys_Schema.  <br /></td></tr>
+<tr class="separator:ac8484538d91299898c103c1841c89d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad50f87280a120888e1c1cd7b17c2d3b2" id="r_ad50f87280a120888e1c1cd7b17c2d3b2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structGameOptions.html">GameOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad50f87280a120888e1c1cd7b17c2d3b2">default_GameOptions</a></td></tr>
+<tr class="separator:ad50f87280a120888e1c1cd7b17c2d3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1614baca5a7737be95adcd9d690a27b5" id="r_a1614baca5a7737be95adcd9d690a27b5"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1614baca5a7737be95adcd9d690a27b5">hlp_regiontype_strings</a> [<a class="el" href="#a7364324ce5a57d1dc40f9c0f4b907d35">HLP_MAX_INDEX</a>+1]</td></tr>
 <tr class="memdesc:a1614baca5a7737be95adcd9d690a27b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array with the name strings for HLP_Region_Type values.  <br /></td></tr>
 <tr class="separator:a1614baca5a7737be95adcd9d690a27b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1055,6 +1132,9 @@ Variables</h2></td></tr>
 <tr class="memitem:ab09873664dfb1d459635b47b70cf4d45" id="r_ab09873664dfb1d459635b47b70cf4d45"><td class="memItemLeft" align="right" valign="top">Koliseo *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab09873664dfb1d459635b47b70cf4d45">temporary_kls</a></td></tr>
 <tr class="memdesc:ab09873664dfb1d459635b47b70cf4d45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global variable for temporary Koliseo.  <br /></td></tr>
 <tr class="separator:ab09873664dfb1d459635b47b70cf4d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6593ab80da329b2140bb5a07038a3e38" id="r_a6593ab80da329b2140bb5a07038a3e38"><td class="memItemLeft" align="right" valign="top">Koliseo *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6593ab80da329b2140bb5a07038a3e38">support_kls</a></td></tr>
+<tr class="memdesc:a6593ab80da329b2140bb5a07038a3e38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global variable for support Koliseo.  <br /></td></tr>
+<tr class="separator:a6593ab80da329b2140bb5a07038a3e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ff38c07cdf83ad87a9e2110d94a2c00" id="r_a7ff38c07cdf83ad87a9e2110d94a2c00"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ff38c07cdf83ad87a9e2110d94a2c00">G_PRELOAD_ANIMATIONS_ON</a></td></tr>
 <tr class="memdesc:a7ff38c07cdf83ad87a9e2110d94a2c00"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO Remove mentions of this.  <br /></td></tr>
 <tr class="separator:a7ff38c07cdf83ad87a9e2110d94a2c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1100,6 +1180,15 @@ Variables</h2></td></tr>
 <tr class="memitem:aaba6dfba2fa58ea22f7b8921f54c0ef7" id="r_aaba6dfba2fa58ea22f7b8921f54c0ef7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaba6dfba2fa58ea22f7b8921f54c0ef7">G_USE_CURRENTDIR</a></td></tr>
 <tr class="memdesc:aaba6dfba2fa58ea22f7b8921f54c0ef7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global variable for using current directory to store game run files.  <br /></td></tr>
 <tr class="separator:aaba6dfba2fa58ea22f7b8921f54c0ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a524df9cc0b19877e9999e9b8e9758168" id="r_a524df9cc0b19877e9999e9b8e9758168"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a524df9cc0b19877e9999e9b8e9758168">G_USE_DEFAULT_BACKGROUND</a></td></tr>
+<tr class="memdesc:a524df9cc0b19877e9999e9b8e9758168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global variable for using terminal default color.  <br /></td></tr>
+<tr class="separator:a524df9cc0b19877e9999e9b8e9758168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a675bce79c4a9afd3f0eab49dc1d09cc1" id="r_a675bce79c4a9afd3f0eab49dc1d09cc1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a675bce79c4a9afd3f0eab49dc1d09cc1">G_USE_VIM_DIRECTIONAL_KEYS</a></td></tr>
+<tr class="memdesc:a675bce79c4a9afd3f0eab49dc1d09cc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global variable for using vim-like directional keys.  <br /></td></tr>
+<tr class="separator:a675bce79c4a9afd3f0eab49dc1d09cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e24f03f7b9a50f44058940991e9003b" id="r_a9e24f03f7b9a50f44058940991e9003b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e24f03f7b9a50f44058940991e9003b">G_USE_WASD_DIRECTIONAL_KEYS</a></td></tr>
+<tr class="memdesc:a9e24f03f7b9a50f44058940991e9003b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global variable for using WASD directional keys.  <br /></td></tr>
+<tr class="separator:a9e24f03f7b9a50f44058940991e9003b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace44c1fb01dae8d2e193f56bf813139e" id="r_ace44c1fb01dae8d2e193f56bf813139e"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace44c1fb01dae8d2e193f56bf813139e">G_RNG_ADVANCEMENTS</a></td></tr>
 <tr class="memdesc:ace44c1fb01dae8d2e193f56bf813139e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global variable used to count advancements of the rng.  <br /></td></tr>
 <tr class="separator:ace44c1fb01dae8d2e193f56bf813139e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1211,6 +1300,9 @@ Variables</h2></td></tr>
 <tr class="memitem:ae622682dd57187437af8a8a7ad0b126a" id="r_ae622682dd57187437af8a8a7ad0b126a"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae622682dd57187437af8a8a7ad0b126a">savetypestrings</a> [<a class="el" href="#a220b0c8fd9ee30da953c0b041da236d2">SAVETYPE_MAX</a>+1]</td></tr>
 <tr class="memdesc:ae622682dd57187437af8a8a7ad0b126a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array with the name strings for saveType.  <br /></td></tr>
 <tr class="separator:ae622682dd57187437af8a8a7ad0b126a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada27b63bf7a88ecaee527a5c9d9f09db" id="r_ada27b63bf7a88ecaee527a5c9d9f09db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structGamestate.html">Gamestate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada27b63bf7a88ecaee527a5c9d9f09db">G_GAMESTATE</a></td></tr>
+<tr class="memdesc:ada27b63bf7a88ecaee527a5c9d9f09db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global variable used to store <a class="el" href="structGamestate.html" title="Holds arguments for a game.">Gamestate</a> address when KLS_Region is not available.  <br /></td></tr>
+<tr class="separator:ada27b63bf7a88ecaee527a5c9d9f09db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6b6acfbf01f809ff500f87743d06b21" id="r_ab6b6acfbf01f809ff500f87743d06b21"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6b6acfbf01f809ff500f87743d06b21">turnopstrings</a> [<a class="el" href="#aa23bd50323da2cae0596ec3e5b5bc7cb">TURNOP_MAX</a>+1]</td></tr>
 <tr class="memdesc:ab6b6acfbf01f809ff500f87743d06b21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array with the name strings for turnOption.  <br /></td></tr>
 <tr class="separator:ab6b6acfbf01f809ff500f87743d06b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1559,6 +1651,22 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Defines file name used for gamestate binary save. </p>
+
+</div>
+</div>
+<a id="ab5bb2154dacc057e9b7054940f8f605c" name="ab5bb2154dacc057e9b7054940f8f605c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5bb2154dacc057e9b7054940f8f605c">&#9670;&#160;</a></span>CURSES_SETTINGS_SAVE_NAME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CURSES_SETTINGS_SAVE_NAME&#160;&#160;&#160;&quot;settings-nc.bin&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defines file name used for game options binary save. </p>
 
 </div>
 </div>
@@ -1976,7 +2084,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define HELAPORDO_PATCH_VERSION&#160;&#160;&#160;7</td>
+          <td class="memname">#define HELAPORDO_PATCH_VERSION&#160;&#160;&#160;8</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2035,6 +2143,40 @@ handleSave() </dd></dl>
 </div><div class="memdoc">
 
 <p>Defines max index for an HLP_Region_Type value. </p>
+
+</div>
+</div>
+<a id="aab833fdb65812a32c2013e05aa6b72ad" name="aab833fdb65812a32c2013e05aa6b72ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab833fdb65812a32c2013e05aa6b72ad">&#9670;&#160;</a></span>HLPD_DIRECTIONALKEYS_SCHEMAS_MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HLPD_DIRECTIONALKEYS_SCHEMAS_MAX&#160;&#160;&#160;2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximum index of HLPD_DirectionalKeys_Schema, so that the size has to add 1 for the 0th index. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#aac8f099dd12c4389f2bdeec15ac43d3a" title="The different kinds of schemas available for directional keys.">HLPD_DirectionalKeys_Schema</a> </dd></dl>
+
+</div>
+</div>
+<a id="ae08f7f5472dd32143fec7544c7827e1b" name="ae08f7f5472dd32143fec7544c7827e1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae08f7f5472dd32143fec7544c7827e1b">&#9670;&#160;</a></span>HLPD_KEYCLASS_MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HLPD_KEYCLASS_MAX&#160;&#160;&#160;8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximum index of HLPD_KeyClass, so that the size has to add 1 for the 0th index. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#a931ac740e7b793097faa5be023f7161f" title="The different kinds of HLPD_Key.">HLPD_KeyClass</a> </dd></dl>
 
 </div>
 </div>
@@ -2294,6 +2436,22 @@ handleSave() </dd></dl>
 
 </div>
 </div>
+<a id="a0f6b1f15703b9fc575626c1b889ceebb" name="a0f6b1f15703b9fc575626c1b889ceebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f6b1f15703b9fc575626c1b889ceebb">&#9670;&#160;</a></span>RL_SETTINGS_SAVE_NAME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RL_SETTINGS_SAVE_NAME&#160;&#160;&#160;&quot;settings-rl.bin&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defines file name used for game options binary save. </p>
+
+</div>
+</div>
 <a id="a787d3c2ef6cd5a7598aee5c2880d42c2" name="a787d3c2ef6cd5a7598aee5c2880d42c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a787d3c2ef6cd5a7598aee5c2880d42c2">&#9670;&#160;</a></span>ROADFORK_OPTIONS_MAX</h2>
 
@@ -2502,7 +2660,7 @@ handleSave() </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TURNOP_MAX&#160;&#160;&#160;16</td>
+          <td class="memname">#define TURNOP_MAX&#160;&#160;&#160;17</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2521,7 +2679,7 @@ handleSave() </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define VERSION&#160;&#160;&#160;&quot;1.4.7&quot;</td>
+          <td class="memname">#define VERSION&#160;&#160;&#160;&quot;1.4.8&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3122,6 +3280,22 @@ initStats() </dd>
 
 </div>
 </div>
+<a id="aac732ef79440d0f3120c59efc8235785" name="aac732ef79440d0f3120c59efc8235785"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac732ef79440d0f3120c59efc8235785">&#9670;&#160;</a></span>GameOptions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct GameOptions GameOptions</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Holds options useful for user runtime preferences. </p>
+
+</div>
+</div>
 <a id="ac3d5d287ef316a7346b3cbd73cadaf2b" name="ac3d5d287ef316a7346b3cbd73cadaf2b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac3d5d287ef316a7346b3cbd73cadaf2b">&#9670;&#160;</a></span>HLP_Region_Type</h2>
 
@@ -3135,6 +3309,74 @@ initStats() </dd>
 </div><div class="memdoc">
 
 <p>Defines indexes for all types that are allocated with Koliseo. </p>
+
+</div>
+</div>
+<a id="a8432cfa873e1a1c107cd847e7f9d1b31" name="a8432cfa873e1a1c107cd847e7f9d1b31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8432cfa873e1a1c107cd847e7f9d1b31">&#9670;&#160;</a></span>HLPD_DirectionalKeys</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct HLPD_DirectionalKeys HLPD_DirectionalKeys</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Holds a set of <a class="el" href="structHLPD__Key.html" title="Holds info about a keybind for the game.">HLPD_Key</a> to use for cardinal direction movement. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structHLPD__Key.html" title="Holds info about a keybind for the game.">HLPD_Key</a> </dd></dl>
+
+</div>
+</div>
+<a id="af7c5c51af87c28ac6ea37ad36e43da63" name="af7c5c51af87c28ac6ea37ad36e43da63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7c5c51af87c28ac6ea37ad36e43da63">&#9670;&#160;</a></span>HLPD_DirectionalKeys_Schema</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="#aac8f099dd12c4389f2bdeec15ac43d3a">HLPD_DirectionalKeys_Schema</a> <a class="el" href="#aac8f099dd12c4389f2bdeec15ac43d3a">HLPD_DirectionalKeys_Schema</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The different kinds of schemas available for directional keys. </p>
+<p>Ordering is directly related to hlpd_directionalkeyschema_strings. </p><dl class="section see"><dt>See also</dt><dd>hlpd_directionalkeyschema_strings </dd></dl>
+
+</div>
+</div>
+<a id="a115083177f1a533aa08fb71bc8f2bfc8" name="a115083177f1a533aa08fb71bc8f2bfc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a115083177f1a533aa08fb71bc8f2bfc8">&#9670;&#160;</a></span>HLPD_Key</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct HLPD_Key HLPD_Key</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Holds info about a keybind for the game. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#a931ac740e7b793097faa5be023f7161f" title="The different kinds of HLPD_Key.">HLPD_KeyClass</a> </dd></dl>
+
+</div>
+</div>
+<a id="a8d451bebf529f2a568a49f1839c86263" name="a8d451bebf529f2a568a49f1839c86263"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d451bebf529f2a568a49f1839c86263">&#9670;&#160;</a></span>HLPD_KeyClass</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="#a931ac740e7b793097faa5be023f7161f">HLPD_KeyClass</a> <a class="el" href="#a931ac740e7b793097faa5be023f7161f">HLPD_KeyClass</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The different kinds of <a class="el" href="structHLPD__Key.html" title="Holds info about a keybind for the game.">HLPD_Key</a>. </p>
+<p>Ordering is directly related to hlpd_keyclass_strings. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8c.html#a3f0e571745181be04379d4c395fa21a0" title="Array with the name strings for Gamemode.">hlpd_keyclass_strings</a> </dd></dl>
 
 </div>
 </div>
@@ -3851,7 +4093,59 @@ debug() </dd></dl>
 <tr><td class="fieldname"><a id="ada4cc4f5e3d32693155c2f0b86dd1a4fa40df5b4fa3866baa69304772ac3f263e" name="ada4cc4f5e3d32693155c2f0b86dd1a4fa40df5b4fa3866baa69304772ac3f263e"></a>HR_Saveslot&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ada4cc4f5e3d32693155c2f0b86dd1a4faba62c1b5c1492a0a670f0dbed8d15282" name="ada4cc4f5e3d32693155c2f0b86dd1a4faba62c1b5c1492a0a670f0dbed8d15282"></a>HR_Gamestate&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ada4cc4f5e3d32693155c2f0b86dd1a4fae3950c8e313996889c299292af3c609c" name="ada4cc4f5e3d32693155c2f0b86dd1a4fae3950c8e313996889c299292af3c609c"></a>HR_Gamescreen&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ada4cc4f5e3d32693155c2f0b86dd1a4fa8d9a886c6b964f6d1f2ad15df24cc112" name="ada4cc4f5e3d32693155c2f0b86dd1a4fa8d9a886c6b964f6d1f2ad15df24cc112"></a>HR_GameOptions&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ada4cc4f5e3d32693155c2f0b86dd1a4fa7d28d47323443dd88b4bb3137e19e4e4" name="ada4cc4f5e3d32693155c2f0b86dd1a4fa7d28d47323443dd88b4bb3137e19e4e4"></a>HR_BSP_Room&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ada4cc4f5e3d32693155c2f0b86dd1a4fa9dd78b8530b65a7781b54859de460321" name="ada4cc4f5e3d32693155c2f0b86dd1a4fa9dd78b8530b65a7781b54859de460321"></a>HR_loadInfo&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="aac8f099dd12c4389f2bdeec15ac43d3a" name="aac8f099dd12c4389f2bdeec15ac43d3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac8f099dd12c4389f2bdeec15ac43d3a">&#9670;&#160;</a></span>HLPD_DirectionalKeys_Schema</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#aac8f099dd12c4389f2bdeec15ac43d3a">HLPD_DirectionalKeys_Schema</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The different kinds of schemas available for directional keys. </p>
+<p>Ordering is directly related to hlpd_directionalkeyschema_strings. </p><dl class="section see"><dt>See also</dt><dd>hlpd_directionalkeyschema_strings </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aac8f099dd12c4389f2bdeec15ac43d3aa68a384f233064a4bcef907c21f2feb14" name="aac8f099dd12c4389f2bdeec15ac43d3aa68a384f233064a4bcef907c21f2feb14"></a>HLPD_ARROW_KEYS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aac8f099dd12c4389f2bdeec15ac43d3aaf596aeca0e58d31084a6bfacd0d19a49" name="aac8f099dd12c4389f2bdeec15ac43d3aaf596aeca0e58d31084a6bfacd0d19a49"></a>HLPD_VIM_KEYS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aac8f099dd12c4389f2bdeec15ac43d3aa9701378ea564ec195efbaa5a5a987408" name="aac8f099dd12c4389f2bdeec15ac43d3aa9701378ea564ec195efbaa5a5a987408"></a>HLPD_WASD_KEYS&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a931ac740e7b793097faa5be023f7161f" name="a931ac740e7b793097faa5be023f7161f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a931ac740e7b793097faa5be023f7161f">&#9670;&#160;</a></span>HLPD_KeyClass</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a931ac740e7b793097faa5be023f7161f">HLPD_KeyClass</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The different kinds of <a class="el" href="structHLPD__Key.html" title="Holds info about a keybind for the game.">HLPD_Key</a>. </p>
+<p>Ordering is directly related to hlpd_keyclass_strings. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#a3f0e571745181be04379d4c395fa21a0" title="Array with the name strings for Gamemode.">hlpd_keyclass_strings</a> </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a931ac740e7b793097faa5be023f7161fa39edf60ecd5eaafa007b72bfcf37fb46" name="a931ac740e7b793097faa5be023f7161fa39edf60ecd5eaafa007b72bfcf37fb46"></a>HLPD_KEY_UP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931ac740e7b793097faa5be023f7161faf98359a28fa7a82c3af8a240629bb3ba" name="a931ac740e7b793097faa5be023f7161faf98359a28fa7a82c3af8a240629bb3ba"></a>HLPD_KEY_RIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931ac740e7b793097faa5be023f7161fa2a197756a67496606aa266d9303d5847" name="a931ac740e7b793097faa5be023f7161fa2a197756a67496606aa266d9303d5847"></a>HLPD_KEY_DOWN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931ac740e7b793097faa5be023f7161fa731ec9b4dedcce30d7245f911f1dd3cd" name="a931ac740e7b793097faa5be023f7161fa731ec9b4dedcce30d7245f911f1dd3cd"></a>HLPD_KEY_LEFT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931ac740e7b793097faa5be023f7161fa59ddbeb038e205cba06d5855ae61fcc0" name="a931ac740e7b793097faa5be023f7161fa59ddbeb038e205cba06d5855ae61fcc0"></a>HLPD_KEY_DWNPAGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931ac740e7b793097faa5be023f7161faa16e4cc7073e4f222e2f7699f4413061" name="a931ac740e7b793097faa5be023f7161faa16e4cc7073e4f222e2f7699f4413061"></a>HLPD_KEY_UPPAGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931ac740e7b793097faa5be023f7161fac0c1aedacda661fd8158f8ad071ea804" name="a931ac740e7b793097faa5be023f7161fac0c1aedacda661fd8158f8ad071ea804"></a>HLPD_KEY_CONFIRM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931ac740e7b793097faa5be023f7161faeb6e106091963fcba78ed679b2642175" name="a931ac740e7b793097faa5be023f7161faeb6e106091963fcba78ed679b2642175"></a>HLPD_KEY_QUIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931ac740e7b793097faa5be023f7161fa6e4bc9ef31fdd2aede2095b27b63b52a" name="a931ac740e7b793097faa5be023f7161fa6e4bc9ef31fdd2aede2095b27b63b52a"></a>HLPD_KEY_MENU&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -4156,6 +4450,7 @@ debug() </dd></dl>
 <tr><td class="fieldname"><a id="a12a952e636763b477c873f21d458e4b7ab5e108266114332013a1ccc1610d7a71" name="a12a952e636763b477c873f21d458e4b7ab5e108266114332013a1ccc1610d7a71"></a>TUTORIAL&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a12a952e636763b477c873f21d458e4b7aa25382e9c3fdedffab70e7d2d6bc5f4a" name="a12a952e636763b477c873f21d458e4b7aa25382e9c3fdedffab70e7d2d6bc5f4a"></a>CLOSE_MENU&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a12a952e636763b477c873f21d458e4b7a975b05721cd309abe76962f64db1b726" name="a12a952e636763b477c873f21d458e4b7a975b05721cd309abe76962f64db1b726"></a>SKILL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a12a952e636763b477c873f21d458e4b7ac0668a4a8767ba5a119845a49cbe919c" name="a12a952e636763b477c873f21d458e4b7ac0668a4a8767ba5a119845a49cbe919c"></a>GAME_OPTIONS&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -4192,6 +4487,7 @@ debug() </dd></dl>
 <tr><td class="fieldname"><a id="abc0ae742eb657b3657d27bc54585b160a978dea38dd239669422148b2a0356ba9" name="abc0ae742eb657b3657d27bc54585b160a978dea38dd239669422148b2a0356ba9"></a>OP_LOAD_ENEMYROOM&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="abc0ae742eb657b3657d27bc54585b160a42bd9de3ae04e3392d553c7cbb45699b" name="abc0ae742eb657b3657d27bc54585b160a42bd9de3ae04e3392d553c7cbb45699b"></a>OP_LOAD_HOMEROOM&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="abc0ae742eb657b3657d27bc54585b160a6cb158fab48f0d858edd5549f351bbfb" name="abc0ae742eb657b3657d27bc54585b160a6cb158fab48f0d858edd5549f351bbfb"></a>OP_SKILL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc0ae742eb657b3657d27bc54585b160a702dd86c091d5f6dc1cdf587ed85b04e" name="abc0ae742eb657b3657d27bc54585b160a702dd86c091d5f6dc1cdf587ed85b04e"></a>OP_CHANGE_OPTIONS&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -4622,6 +4918,28 @@ printStringFromEClass() </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="#abc5cb6c6be316361cce824c81a995e40" title="The different kinds of Consumable.">consumableClass</a> </dd>
 <dd>
 <a class="el" href="structConsumable.html" title="Holds a certain qty of a consumableClass.">Consumable</a> </dd></dl>
+
+</div>
+</div>
+<a id="ad50f87280a120888e1c1cd7b17c2d3b2" name="ad50f87280a120888e1c1cd7b17c2d3b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad50f87280a120888e1c1cd7b17c2d3b2">&#9670;&#160;</a></span>default_GameOptions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structGameOptions.html">GameOptions</a> default_GameOptions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -5099,6 +5417,31 @@ stringFromFoeTurnOption() </dd></dl>
 
 </div>
 </div>
+<a id="ada27b63bf7a88ecaee527a5c9d9f09db" name="ada27b63bf7a88ecaee527a5c9d9f09db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada27b63bf7a88ecaee527a5c9d9f09db">&#9670;&#160;</a></span>G_GAMESTATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structGamestate.html">Gamestate</a>* G_GAMESTATE</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Global variable used to store <a class="el" href="structGamestate.html" title="Holds arguments for a game.">Gamestate</a> address when KLS_Region is not available. </p>
+<p>Could be used even with it. Useful to save the game in a pinch, like when receiving SIGINT. </p>
+
+</div>
+</div>
 <a id="a979381f2a3fa7ca5f61eeef36ec85353" name="a979381f2a3fa7ca5f61eeef36ec85353"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a979381f2a3fa7ca5f61eeef36ec85353">&#9670;&#160;</a></span>G_GODMODE_ON</h2>
 
@@ -5268,6 +5611,78 @@ stringFromFoeTurnOption() </dd></dl>
 
 </div>
 </div>
+<a id="a524df9cc0b19877e9999e9b8e9758168" name="a524df9cc0b19877e9999e9b8e9758168"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a524df9cc0b19877e9999e9b8e9758168">&#9670;&#160;</a></span>G_USE_DEFAULT_BACKGROUND</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int G_USE_DEFAULT_BACKGROUND</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Global variable for using terminal default color. </p>
+
+</div>
+</div>
+<a id="a675bce79c4a9afd3f0eab49dc1d09cc1" name="a675bce79c4a9afd3f0eab49dc1d09cc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a675bce79c4a9afd3f0eab49dc1d09cc1">&#9670;&#160;</a></span>G_USE_VIM_DIRECTIONAL_KEYS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int G_USE_VIM_DIRECTIONAL_KEYS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Global variable for using vim-like directional keys. </p>
+
+</div>
+</div>
+<a id="a9e24f03f7b9a50f44058940991e9003b" name="a9e24f03f7b9a50f44058940991e9003b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e24f03f7b9a50f44058940991e9003b">&#9670;&#160;</a></span>G_USE_WASD_DIRECTIONAL_KEYS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int G_USE_WASD_DIRECTIONAL_KEYS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Global variable for using WASD directional keys. </p>
+
+</div>
+</div>
 <a id="ab1e7aa4988e219c35dee29d068aa280a" name="ab1e7aa4988e219c35dee29d068aa280a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab1e7aa4988e219c35dee29d068aa280a">&#9670;&#160;</a></span>GAMEMODE</h2>
 
@@ -5432,6 +5847,108 @@ stringFromFoeTurnOption() </dd></dl>
 
 <p>Array with the name strings for HLP_Region_Type values. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="#ada4cc4f5e3d32693155c2f0b86dd1a4f" title="Defines indexes for all types that are allocated with Koliseo.">HLP_Region_Type</a> </dd></dl>
+
+</div>
+</div>
+<a id="ac8484538d91299898c103c1841c89d44" name="ac8484538d91299898c103c1841c89d44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8484538d91299898c103c1841c89d44">&#9670;&#160;</a></span>hlpd_default_directional_keys</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structHLPD__DirectionalKeys.html">HLPD_DirectionalKeys</a> hlpd_default_directional_keys[<a class="el" href="#aab833fdb65812a32c2013e05aa6b72ad">HLPD_DIRECTIONALKEYS_SCHEMAS_MAX</a>+1]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Array with the default directional keys for all schemas defined as HLPD_DirectionalKeys_Schema. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#aac8f099dd12c4389f2bdeec15ac43d3a" title="The different kinds of schemas available for directional keys.">HLPD_DirectionalKeys_Schema</a> </dd>
+<dd>
+<a class="el" href="structHLPD__DirectionalKeys.html" title="Holds a set of HLPD_Key to use for cardinal direction movement.">HLPD_DirectionalKeys</a> </dd></dl>
+
+</div>
+</div>
+<a id="a0c9b6f341fb90b06f17621f8aca77628" name="a0c9b6f341fb90b06f17621f8aca77628"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c9b6f341fb90b06f17621f8aca77628">&#9670;&#160;</a></span>hlpd_default_keybinds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structHLPD__Key.html">HLPD_Key</a> hlpd_default_keybinds[<a class="el" href="#ae08f7f5472dd32143fec7544c7827e1b">HLPD_KEYCLASS_MAX</a>+1]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Array with the keybinds for the game. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structHLPD__Key.html" title="Holds info about a keybind for the game.">HLPD_Key</a> </dd></dl>
+
+</div>
+</div>
+<a id="abed20fa4bbeb7190a046c99354e47201" name="abed20fa4bbeb7190a046c99354e47201"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abed20fa4bbeb7190a046c99354e47201">&#9670;&#160;</a></span>hlpd_directionalkeyschemas_strings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* hlpd_directionalkeyschemas_strings[<a class="el" href="#aab833fdb65812a32c2013e05aa6b72ad">HLPD_DIRECTIONALKEYS_SCHEMAS_MAX</a>+1]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Array with the name strings for HLPD_DirectionalKeys_Schema. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#aac8f099dd12c4389f2bdeec15ac43d3a" title="The different kinds of schemas available for directional keys.">HLPD_DirectionalKeys_Schema</a> </dd></dl>
+
+</div>
+</div>
+<a id="a3f0e571745181be04379d4c395fa21a0" name="a3f0e571745181be04379d4c395fa21a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f0e571745181be04379d4c395fa21a0">&#9670;&#160;</a></span>hlpd_keyclass_strings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* hlpd_keyclass_strings[<a class="el" href="#ae08f7f5472dd32143fec7544c7827e1b">HLPD_KEYCLASS_MAX</a>+1]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Array with the name strings for Gamemode. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#a1c76e2d1f523d33155289c2ea84dd20e" title="The different kinds of Gamemode.">Gamemode</a> </dd></dl>
 
 </div>
 </div>
@@ -5785,6 +6302,30 @@ stringFromFoeTurnOption() </dd></dl>
 
 <p>Array with the name strings for special moves. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="#aadd913abb65c10636504bdb66fc47d69" title="The different kinds of special moves.">specialMove</a> </dd></dl>
+
+</div>
+</div>
+<a id="a6593ab80da329b2140bb5a07038a3e38" name="a6593ab80da329b2140bb5a07038a3e38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6593ab80da329b2140bb5a07038a3e38">&#9670;&#160;</a></span>support_kls</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Koliseo* support_kls</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Global variable for support Koliseo. </p>
 
 </div>
 </div>
