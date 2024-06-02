@@ -2,7 +2,8 @@ var dir_aebb8dcc11953d78e620bbef0b9e2183 =
 [
     [ "equips.c", "equips_8c.html", "equips_8c" ],
     [ "equips.h", "equips_8h.html", "equips_8h" ],
-    [ "game_animations.h", "game__animations_8h.html", null ],
+    [ "game_animations.c", "game__animations_8c.html", "game__animations_8c" ],
+    [ "game_animations.h", "game__animations_8h.html", "game__animations_8h" ],
     [ "game_core.c", "game__core_8c.html", "game__core_8c" ],
     [ "game_core.h", "game__core_8h.html", "game__core_8h" ],
     [ "game_lore.c", "game__lore_8c.html", "game__lore_8c" ],

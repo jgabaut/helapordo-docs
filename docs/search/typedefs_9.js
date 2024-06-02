@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['path_0',['Path',['../game__core_8h.html#a3994f4c43574026e5c4662dc6ada2f28',1,'game_core.h']]]
+  ['op_5fres_0',['OP_res',['../game__core_8h.html#a68ece6057447b53d824799da0a4a4658',1,'game_core.h']]]
 ];

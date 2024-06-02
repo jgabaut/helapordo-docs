@@ -12,7 +12,7 @@ var structSerBoss =
     [ "prize", "structSerBoss.html#a9e6a3b7b9867e30602251ed0644cd002", null ],
     [ "skills", "structSerBoss.html#af6f7c3ea1b1dcb9d9fcd52ee703f8231", null ],
     [ "stamina", "structSerBoss.html#a0b7721dc1c49e560a8ffe667c287df3f", null ],
-    [ "status", "structSerBoss.html#a96daec02b5602ac9cdd59bde55341167", null ],
+    [ "status", "structSerBoss.html#a8cfe791c5029217583093baba007bf5c", null ],
     [ "totalenergy", "structSerBoss.html#af06d4e1b70752788074f0530daf86fe2", null ],
     [ "totalhp", "structSerBoss.html#a2849290e85456df3ed550cc496626335", null ],
     [ "totalstamina", "structSerBoss.html#a731dda867e49142fdef053487b3e5e26", null ],

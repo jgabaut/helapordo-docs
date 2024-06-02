@@ -20,6 +20,7 @@ var annotated_dup =
     [ "HLPD_DirectionalKeys", "structHLPD__DirectionalKeys.html", "structHLPD__DirectionalKeys" ],
     [ "HLPD_Key", "structHLPD__Key.html", "structHLPD__Key" ],
     [ "loadInfo", "structloadInfo.html", "structloadInfo" ],
+    [ "Notification", "structNotification.html", "structNotification" ],
     [ "Path", "structPath.html", "structPath" ],
     [ "Perk", "structPerk.html", "structPerk" ],
     [ "Roadfork", "structRoadfork.html", "structRoadfork" ],

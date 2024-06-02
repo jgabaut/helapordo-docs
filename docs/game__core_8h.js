@@ -32,6 +32,7 @@ var game__core_8h =
     [ "loadInfo", "structloadInfo.html", "structloadInfo" ],
     [ "Gamestate", "structGamestate.html", "structGamestate" ],
     [ "turnOP_args", "structturnOP__args.html", "structturnOP__args" ],
+    [ "Notification", "structNotification.html", "structNotification" ],
     [ "ARRAY_SIZE", "game__core_8h.html#a25f003de16c08a4888b69f619d70f427", null ],
     [ "ARTIFACTSMAX", "game__core_8h.html#a6986b6f486e6dc41c9e4b83549cbcf4a", null ],
     [ "BEASTROOM", "game__core_8h.html#a9f1dde4e93e2a49240b082e47525960c", null ],
@@ -63,6 +64,9 @@ var game__core_8h =
     [ "EQUIPSBAGSIZE", "game__core_8h.html#a989eb103a5845e0a8f8dc9f157493dfb", null ],
     [ "EQUIPSMAX", "game__core_8h.html#adad00cf7a72ffd88425bdadb6b05cf4d", null ],
     [ "EQUIPZONES", "game__core_8h.html#acd1e8ba853565ce076dead3d4776fe38", null ],
+    [ "EXPECTED_NCURSES_VERSION_MAJOR", "game__core_8h.html#a0df0c9b8187566e8c5c07a90df424a68", null ],
+    [ "EXPECTED_NCURSES_VERSION_MINOR", "game__core_8h.html#a96ece928e343f47300d3ae20025a9428", null ],
+    [ "EXPECTED_NCURSES_VERSION_PATCH", "game__core_8h.html#ada7411de447c88156c3bab47ca718352", null ],
     [ "FIGHT_RES_TOT", "game__core_8h.html#afac80bb1fd1e00d4099d9d4e0146350d", null ],
     [ "FIGHTER_NAME_BUFSIZE", "game__core_8h.html#a2403b8cffb2ecf3b791d2d095b5c41ea", null ],
     [ "FIGHTER_SKILL_SLOTS", "game__core_8h.html#a31137f2e5ddfc873f654745c9a3ccf54", null ],
@@ -79,8 +83,6 @@ var game__core_8h =
     [ "HELAPORDO_MINOR_VERSION", "game__core_8h.html#a1cb68a9343b29c3257266a562fbc26a9", null ],
     [ "HELAPORDO_OS", "game__core_8h.html#af4ff8d54555f45956f879af545ec7103", null ],
     [ "HELAPORDO_PATCH_VERSION", "game__core_8h.html#a69f950e67bf21741e89f443bdd11c1fa", null ],
-    [ "HELAPORDO_SAVEFILE_VERSION", "game__core_8h.html#a4788207d3500e4ada5f19eed487f8313", null ],
-    [ "HELAPORDO_SAVEPATH_1", "game__core_8h.html#af103b24224742b0324bfacecd4572a96", null ],
     [ "HLP_MAX_INDEX", "game__core_8h.html#a7364324ce5a57d1dc40f9c0f4b907d35", null ],
     [ "HLPD_DIRECTIONALKEYS_SCHEMAS_MAX", "game__core_8h.html#aab833fdb65812a32c2013e05aa6b72ad", null ],
     [ "HLPD_KEYCLASS_MAX", "game__core_8h.html#ae08f7f5472dd32143fec7544c7827e1b", null ],
@@ -92,6 +94,8 @@ var game__core_8h =
     [ "MAXLENGTH", "game__core_8h.html#a1dbd686f69551b83691025eaae058539", null ],
     [ "MAXLUCK", "game__core_8h.html#add41503d5e79c0edb22ab0c1c33c1112", null ],
     [ "MAXPLAYERLUCK", "game__core_8h.html#a91b6c541cf4e4b74cf111d6c776a6050", null ],
+    [ "NOTIFICATION_BUFFER_SIZE", "game__core_8h.html#a0b95002ea7976d04d66698265282bbcf", null ],
+    [ "NOTIFICATIONS_RINGBUFFER_SIZE", "game__core_8h.html#aa9f3a070cd55eb8d60a0114d312b3798", null ],
     [ "OP_RES_MAX", "game__core_8h.html#a52408f85a8fb6b01b291520e2b8d4a95", null ],
     [ "OPS_LOGFILE", "game__core_8h.html#a1dccb282e06f4ec6ebadbacf05648d1d", null ],
     [ "PATH_SEED_BUFSIZE", "game__core_8h.html#a65e0486a7d98615b739d46552f895216", null ],
@@ -150,6 +154,7 @@ var game__core_8h =
     [ "HLPD_Key", "game__core_8h.html#a115083177f1a533aa08fb71bc8f2bfc8", null ],
     [ "HLPD_KeyClass", "game__core_8h.html#a8d451bebf529f2a568a49f1839c86263", null ],
     [ "loadInfo", "game__core_8h.html#a62ada39ecbe3cd7472defbeb198a9747", null ],
+    [ "Notification", "game__core_8h.html#aefcdd5ee7826de38c7adf6627798e3a0", null ],
     [ "OP_res", "game__core_8h.html#a68ece6057447b53d824799da0a4a4658", null ],
     [ "Path", "game__core_8h.html#a3994f4c43574026e5c4662dc6ada2f28", null ],
     [ "Roadfork", "game__core_8h.html#a870609e31696a6a1bf10c625857a4876", null ],
@@ -275,8 +280,6 @@ var game__core_8h =
       [ "FOE_OP_SPECIAL", "game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17ae5c45a2dac5004251f243dcd272a686a", null ]
     ] ],
     [ "Gamemode", "game__core_8h.html#a1c76e2d1f523d33155289c2ea84dd20e", [
-      [ "Standard", "game__core_8h.html#a1c76e2d1f523d33155289c2ea84dd20ea57f9bf199e30a749a03be1dac2f5f624", null ],
-      [ "Story", "game__core_8h.html#a1c76e2d1f523d33155289c2ea84dd20eab306c809d64b58ed92a48ee1006a13eb", null ],
       [ "Rogue", "game__core_8h.html#a1c76e2d1f523d33155289c2ea84dd20ea56e00d8d67dff90057a61cca95a21c50", null ]
     ] ],
     [ "HLP_Region_Type", "game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4f", [
@@ -309,6 +312,8 @@ var game__core_8h =
       [ "HR_Gamescreen", "game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fae3950c8e313996889c299292af3c609c", null ],
       [ "HR_GameOptions", "game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa8d9a886c6b964f6d1f2ad15df24cc112", null ],
       [ "HR_BSP_Room", "game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa7d28d47323443dd88b4bb3137e19e4e4", null ],
+      [ "HR_Notification", "game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4faa7fb366468d5ecf4e915b116c6922f7e", null ],
+      [ "HR_RingaBuf", "game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fad233cb66857b639886f9418e9f2166b0", null ],
       [ "HR_loadInfo", "game__core_8h.html#ada4cc4f5e3d32693155c2f0b86dd1a4fa9dd78b8530b65a7781b54859de460321", null ]
     ] ],
     [ "HLPD_DirectionalKeys_Schema", "game__core_8h.html#aac8f099dd12c4389f2bdeec15ac43d3a", [

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['roadfork_0',['Roadfork',['../structRoadfork.html',1,'']]],
-  ['room_1',['Room',['../structRoom.html',1,'']]]
+  ['path_0',['Path',['../structPath.html',1,'']]],
+  ['perk_1',['Perk',['../structPerk.html',1,'']]]
 ];

@@ -10,9 +10,9 @@ var searchData=
   ['equipsbagsize_7',['EQUIPSBAGSIZE',['../game__core_8h.html#a989eb103a5845e0a8f8dc9f157493dfb',1,'game_core.h']]],
   ['equipsmax_8',['EQUIPSMAX',['../game__core_8h.html#adad00cf7a72ffd88425bdadb6b05cf4d',1,'game_core.h']]],
   ['equipzones_9',['EQUIPZONES',['../game__core_8h.html#acd1e8ba853565ce076dead3d4776fe38',1,'game_core.h']]],
-  ['expected_5fncurses_5fversion_5fmajor_10',['EXPECTED_NCURSES_VERSION_MAJOR',['../game__curses_8h.html#a0df0c9b8187566e8c5c07a90df424a68',1,'game_curses.h']]],
-  ['expected_5fncurses_5fversion_5fminor_11',['EXPECTED_NCURSES_VERSION_MINOR',['../game__curses_8h.html#a96ece928e343f47300d3ae20025a9428',1,'game_curses.h']]],
-  ['expected_5fncurses_5fversion_5fpatch_12',['EXPECTED_NCURSES_VERSION_PATCH',['../game__curses_8h.html#ada7411de447c88156c3bab47ca718352',1,'game_curses.h']]],
+  ['expected_5fncurses_5fversion_5fmajor_10',['EXPECTED_NCURSES_VERSION_MAJOR',['../game__core_8h.html#a0df0c9b8187566e8c5c07a90df424a68',1,'game_core.h']]],
+  ['expected_5fncurses_5fversion_5fminor_11',['EXPECTED_NCURSES_VERSION_MINOR',['../game__core_8h.html#a96ece928e343f47300d3ae20025a9428',1,'game_core.h']]],
+  ['expected_5fncurses_5fversion_5fpatch_12',['EXPECTED_NCURSES_VERSION_PATCH',['../game__core_8h.html#ada7411de447c88156c3bab47ca718352',1,'game_core.h']]],
   ['expected_5fraylib_5fversion_5fmajor_13',['EXPECTED_RAYLIB_VERSION_MAJOR',['../game__rl_8h.html#af3dbbc76174a267afffd03d4d387d542',1,'game_rl.h']]],
   ['expected_5fraylib_5fversion_5fminor_14',['EXPECTED_RAYLIB_VERSION_MINOR',['../game__rl_8h.html#adf76e7c60807cd3d52494c80bd76cb85',1,'game_rl.h']]],
   ['expected_5fraylib_5fversion_5fpatch_15',['EXPECTED_RAYLIB_VERSION_PATCH',['../game__rl_8h.html#a605224506444d7b4cef1ae0118938cb6',1,'game_rl.h']]]

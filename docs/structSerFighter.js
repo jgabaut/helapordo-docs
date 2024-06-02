@@ -34,7 +34,7 @@ var structSerFighter =
     [ "specials", "structSerFighter.html#a8267e6a472c1cba8a991475514b41adb", null ],
     [ "stamina", "structSerFighter.html#aba3a3aba7e66de868394f47321af28fa", null ],
     [ "stats", "structSerFighter.html#a6aa54d0db56f7de83fded893610df558", null ],
-    [ "status", "structSerFighter.html#a740c5921022176d231c01dafe7682b0d", null ],
+    [ "status", "structSerFighter.html#a297d729a157cc25054b40ba8a692f16b", null ],
     [ "totalenergy", "structSerFighter.html#a364bdbd5cd9358e1b5b7d4e1b84b797c", null ],
     [ "totalhp", "structSerFighter.html#adb5012b25fd415a7950eeb13fb0b4c62", null ],
     [ "totallevelxp", "structSerFighter.html#a12f1e11959399c8d5cd1fb9751696bb5", null ],

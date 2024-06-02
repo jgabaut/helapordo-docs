@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['active_0',['active',['../structArtifact.html#aaf26238b1a5298b6542bdb81a24429d4',1,'Artifact::active'],['../structEquipslot.html#ab2a2f5e860ca7ebcd8e3821e27e496f7',1,'Equipslot::active'],['../structSerEquipslot.html#a0a91cc3fb3190d67beb116646c95aca6',1,'SerEquipslot::active'],['../structSerArtifact.html#ab9e60b2849e798803f90631d5d4b987b',1,'SerArtifact::active']]],
+  ['active_0',['active',['../structArtifact.html#aaf26238b1a5298b6542bdb81a24429d4',1,'Artifact::active'],['../structEquipslot.html#ab2a2f5e860ca7ebcd8e3821e27e496f7',1,'Equipslot::active'],['../structSerEquipslot.html#a0a91cc3fb3190d67beb116646c95aca6',1,'SerEquipslot::active'],['../structSerArtifact.html#ac49ffe31f343e2d9b352d3cf82691775',1,'SerArtifact::active']]],
   ['actor_1',['actor',['../structturnOP__args.html#a746a15f54f125f9a4fe5edd946cf290e',1,'turnOP_args']]],
   ['alive_5fbosses_2',['alive_bosses',['../structFoeParty.html#a4dedd551cd007f0818583a9ea3a98985',1,'FoeParty::alive_bosses'],['../structSerFoeParty.html#a0ebe3b389578004a079acb42983e7f2e',1,'SerFoeParty::alive_bosses']]],
   ['alive_5fenemies_3',['alive_enemies',['../structFoeParty.html#a5ff436864f0247267197f29d39640e34',1,'FoeParty::alive_enemies'],['../structSerFoeParty.html#a03e25baea009fcc61be564132318d831',1,'SerFoeParty::alive_enemies']]],

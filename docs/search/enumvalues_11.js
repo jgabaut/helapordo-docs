@@ -9,10 +9,8 @@ var searchData=
   ['skill_5ftype_5fmax_6',['SKILL_TYPE_MAX',['../game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7a5feed0c435da8245bd60bf128109f0a6',1,'game_core.h']]],
   ['special_7',['SPECIAL',['../game__core_8h.html#a12a952e636763b477c873f21d458e4b7aaa5259d84d06214a7b0503d636790465',1,'game_core.h']]],
   ['sr_5fwarthog_8',['Sr_Warthog',['../game__core_8h.html#ad058c5be0a35743bfba3622e849b9fafacc1bfa7a398ce8b4acde9285f7c39e35',1,'game_core.h']]],
-  ['standard_9',['Standard',['../game__core_8h.html#a1c76e2d1f523d33155289c2ea84dd20ea57f9bf199e30a749a03be1dac2f5f624',1,'game_core.h']]],
-  ['stats_10',['STATS',['../game__core_8h.html#a12a952e636763b477c873f21d458e4b7a56417e944da7c3429008202353a7ceba',1,'game_core.h']]],
-  ['std_5ffloor_11',['STD_FLOOR',['../game__core_8h.html#a61f5a375c811d0c5976df8423dbcba10a69d1555d14ef661330c6a4b7549c21ff',1,'game_core.h']]],
-  ['story_12',['Story',['../game__core_8h.html#a1c76e2d1f523d33155289c2ea84dd20eab306c809d64b58ed92a48ee1006a13eb',1,'game_core.h']]],
-  ['strong_13',['STRONG',['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71a32d1a6a9c15f0752303552ffdda0ca2f',1,'game_core.h']]],
-  ['strong_14',['Strong',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a628442936d0c47e692857732a6f040ff',1,'game_core.h']]]
+  ['stats_9',['STATS',['../game__core_8h.html#a12a952e636763b477c873f21d458e4b7a56417e944da7c3429008202353a7ceba',1,'game_core.h']]],
+  ['std_5ffloor_10',['STD_FLOOR',['../game__core_8h.html#a61f5a375c811d0c5976df8423dbcba10a69d1555d14ef661330c6a4b7549c21ff',1,'game_core.h']]],
+  ['strong_11',['STRONG',['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71a32d1a6a9c15f0752303552ffdda0ca2f',1,'game_core.h']]],
+  ['strong_12',['Strong',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a628442936d0c47e692857732a6f040ff',1,'game_core.h']]]
 ];

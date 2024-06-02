@@ -7,5 +7,8 @@ var searchData=
   ['new_5fgame_4',['NEW_GAME',['../game__core_8h.html#a12a952e636763b477c873f21d458e4b7ac9e8468c9768465a565bc176a753e261',1,'game_core.h']]],
   ['no_5fop_5',['NO_OP',['../game__core_8h.html#afe8e046bf5f260d1d9a60aa4d4dfab9cae76c941d2316666913c673a032deb9ba',1,'game_core.h']]],
   ['normal_6',['NORMAL',['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71a50d1448013c6f17125caee18aa418af7',1,'game_core.h']]],
-  ['normal_7',['Normal',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a5ecbcf0afce98b042f35ec71ba03fa4b',1,'game_core.h']]]
+  ['normal_7',['Normal',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a5ecbcf0afce98b042f35ec71ba03fa4b',1,'game_core.h']]],
+  ['notification_8',['Notification',['../structNotification.html',1,'Notification'],['../game__core_8h.html#aefcdd5ee7826de38c7adf6627798e3a0',1,'Notification:&#160;game_core.h']]],
+  ['notification_5fbuffer_5fsize_9',['NOTIFICATION_BUFFER_SIZE',['../game__core_8h.html#a0b95002ea7976d04d66698265282bbcf',1,'game_core.h']]],
+  ['notifications_5fringbuffer_5fsize_10',['NOTIFICATIONS_RINGBUFFER_SIZE',['../game__core_8h.html#aa9f3a070cd55eb8d60a0114d312b3798',1,'game_core.h']]]
 ];

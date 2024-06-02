@@ -13,7 +13,7 @@ var structSerEnemy =
     [ "prize", "structSerEnemy.html#acaaf768c5f17676cc887636e51dd59d1", null ],
     [ "skills", "structSerEnemy.html#a39d0619f404508df6f22518ed84f200b", null ],
     [ "stamina", "structSerEnemy.html#a57accbda17f67d1ee3f7acb9f05d6f01", null ],
-    [ "status", "structSerEnemy.html#a4d73ce6f6e0d33a00b347edfd3e82bea", null ],
+    [ "status", "structSerEnemy.html#a58836acbade32532278496700bdd6478", null ],
     [ "totalenergy", "structSerEnemy.html#a327689ebc2d34eb84c76da8195f4ee71", null ],
     [ "totalhp", "structSerEnemy.html#a553e0d17328f2904697e30834db0ab85", null ],
     [ "totalstamina", "structSerEnemy.html#a6f2acace023bd7ea8c2f35aa56fe27d1", null ],

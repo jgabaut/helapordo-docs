@@ -1,7 +1,7 @@
 var structSerArtifact =
 [
-    [ "active", "structSerArtifact.html#ab9e60b2849e798803f90631d5d4b987b", null ],
+    [ "active", "structSerArtifact.html#ac49ffe31f343e2d9b352d3cf82691775", null ],
     [ "class", "structSerArtifact.html#a9cab0ebb62f3bfc7ac7cc395e0bfc7bb", null ],
-    [ "innerValue", "structSerArtifact.html#a505fde66c11e8769dbea28f044942b59", null ],
-    [ "qty", "structSerArtifact.html#a08ccc559f28efc88a83f87cd5f4085d3", null ]
+    [ "innerValue", "structSerArtifact.html#a3b59a7ed845cfa8caaf65e80d3508b15", null ],
+    [ "qty", "structSerArtifact.html#ad733eea6d760fde1b262c398b6d75615", null ]
 ];

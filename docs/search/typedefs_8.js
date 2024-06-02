@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['op_5fres_0',['OP_res',['../game__core_8h.html#a68ece6057447b53d824799da0a4a4658',1,'game_core.h']]]
+  ['notification_0',['Notification',['../game__core_8h.html#aefcdd5ee7826de38c7adf6627798e3a0',1,'game_core.h']]]
 ];

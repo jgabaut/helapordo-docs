@@ -1,5 +1,6 @@
 var game__core_8c =
 [
+    [ "RINGABUF_IMPLEMENTATION", "game__core_8c.html#a2394da2719d4dadd32a5c3e21759e8cf", null ],
     [ "foeTurnOP_from_foeTurnOption", "game__core_8c.html#ae9a42b4f1d8ed8506bb9c969645c4077", null ],
     [ "OP_res_from_fightResult", "game__core_8c.html#a8e585112e4ef34cd3893615154cadbb3", null ],
     [ "turnOP_from_turnOption", "game__core_8c.html#a4ae5a20a4aaf1e12c6e7d2e588e87d30", null ],

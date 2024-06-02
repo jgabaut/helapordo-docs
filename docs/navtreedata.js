@@ -52,14 +52,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"game__core_8h.html#a1f300c4f7bc3fed5ba98eb8af1178609",
-"game__core_8h.html#abc0ae742eb657b3657d27bc54585b160a111a660e26e1126478faa338e801f983",
-"game__fight_8h_source.html",
-"game__utils_8h.html#a001c8c1557bea73e9273bb2c80844653",
-"helapordo__raylib_8h_source.html",
-"sprites_8h.html#a3cf54a4985999f4b152d92b031234fca",
-"structPath.html#ab52a42738069c33ebc7bdc51c74785a8",
-"structSerShop.html#ab1a454ad815713c3ecb7f5b94be61ecd"
+"game__core_8h.html#a177a1c31998379b71523666b43614780",
+"game__core_8h.html#ab4da7dc7d81f7a0cd0826188fca9934a",
+"game__curses_8h.html#ad2eb3d555e01796d30695d8a236eb1e0",
+"game__utils_8c.html#aea988f225575f9db3ac07c4546c88afe",
+"globals_s.html",
+"ser__core_8h.html#aedc9371beedffbfd364b457dcb0fd4f5",
+"structGamestate.html#a7d8cb62ac511f74a0eb63b72037cf39f",
+"structSerPerk.html#afe0a9d5d8fbd30af470adcc76da36580"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -14,5 +14,6 @@ var searchData=
   ['boss_11',['boss',['../structRoom.html#a866d5dc6bfb9d0c0241f8e5af3e61c19',1,'Room::boss'],['../structturnOP__args.html#a9316ec5b1c3e4f10d27775f3b28958d5',1,'turnOP_args::boss'],['../structSerRoom.html#a0c3ea1633d5fa8f8ee9f7060413dc9ea',1,'SerRoom::boss']]],
   ['boss_5ffoes_12',['boss_foes',['../structFoeParty.html#adee59ad04e8c474ae974172e0575cfab',1,'FoeParty::boss_foes'],['../structSerFoeParty.html#a98162652b79f6e0e8029fd8e2e4ce7c1',1,'SerFoeParty::boss_foes']]],
   ['bosses_5fsprites_13',['bosses_sprites',['../sprites_8c.html#aed40a508744715f01cc938dd3bfb9766',1,'bosses_sprites:&#160;sprites.c'],['../sprites_8h.html#aed40a508744715f01cc938dd3bfb9766',1,'bosses_sprites:&#160;sprites.c']]],
-  ['bosseskilled_14',['bosseskilled',['../structcountStats.html#aab58d58e6d31d8dbe054deb7f02cdeb1',1,'countStats::bosseskilled'],['../structSerCountstats.html#a4e18f3fcec6cecab1c48cb8b3bd2fe3c',1,'SerCountstats::bosseskilled']]]
+  ['bosseskilled_14',['bosseskilled',['../structcountStats.html#aab58d58e6d31d8dbe054deb7f02cdeb1',1,'countStats::bosseskilled'],['../structSerCountstats.html#a4e18f3fcec6cecab1c48cb8b3bd2fe3c',1,'SerCountstats::bosseskilled']]],
+  ['buf_15',['buf',['../structNotification.html#a3db1f062e8cb3778a14d2f0c66b97027',1,'Notification']]]
 ];
