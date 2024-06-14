@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.9</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.10</span>
    </div>
   </td>
  </tr>
@@ -96,6 +96,8 @@ $(function(){initNavTree('game__fight_8h.html',''); initResizable(true); });
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">game_fight.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -105,31 +107,29 @@ Include dependency graph for game_fight.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="game__fight_8h__incl.png" border="0" usemap="#asrc_2utils_2game__fight_8h" alt=""/></div>
 <map name="asrc_2utils_2game__fight_8h" id="asrc_2utils_2game__fight_8h">
-<area shape="rect" title=" " alt="" coords="412,5,558,30"/>
-<area shape="rect" href="game__utils_8h.html" title=" " alt="" coords="437,78,533,103"/>
-<area shape="poly" title=" " alt="" coords="488,31,488,62,482,62,482,31"/>
+<area shape="rect" title=" " alt="" coords="367,5,512,30"/>
+<area shape="rect" href="game__utils_8h.html" title=" " alt="" coords="392,78,487,103"/>
+<area shape="poly" title=" " alt="" coords="442,31,442,62,437,62,437,31"/>
 <area shape="rect" title=" " alt="" coords="5,158,66,182"/>
-<area shape="poly" title=" " alt="" coords="437,97,276,114,176,130,78,153,74,154,73,149,76,148,175,125,275,108,437,92"/>
+<area shape="poly" title=" " alt="" coords="392,98,250,116,163,132,78,153,74,154,72,149,76,148,162,127,249,111,391,93"/>
 <area shape="rect" title=" " alt="" coords="89,158,153,182"/>
-<area shape="poly" title=" " alt="" coords="437,100,313,119,239,134,166,153,162,154,160,149,164,148,238,129,312,114,437,95"/>
+<area shape="poly" title=" " alt="" coords="392,102,287,122,166,153,162,154,160,149,164,148,286,117,391,97"/>
 <area shape="rect" title=" " alt="" coords="177,158,244,182"/>
-<area shape="poly" title=" " alt="" coords="438,105,353,125,256,153,253,154,251,149,255,148,351,120,436,100"/>
+<area shape="poly" title=" " alt="" coords="402,106,256,153,253,154,251,149,255,148,400,101"/>
 <area shape="rect" title=" " alt="" coords="267,158,332,182"/>
-<area shape="poly" title=" " alt="" coords="458,106,342,154,340,149,456,101"/>
+<area shape="poly" title=" " alt="" coords="420,105,335,152,333,147,418,101"/>
 <area shape="rect" title=" " alt="" coords="356,158,432,182"/>
-<area shape="poly" title=" " alt="" coords="473,105,421,150,417,146,470,101"/>
+<area shape="poly" title=" " alt="" coords="435,104,411,146,406,143,431,102"/>
 <area shape="rect" title=" " alt="" coords="456,158,514,182"/>
-<area shape="poly" title=" " alt="" coords="488,103,488,142,482,142,482,103"/>
+<area shape="poly" title=" " alt="" coords="448,102,473,143,468,146,444,104"/>
 <area shape="rect" title=" " alt="" coords="538,158,616,182"/>
-<area shape="poly" title=" " alt="" coords="500,101,553,146,550,150,497,105"/>
+<area shape="poly" title=" " alt="" coords="461,101,544,147,542,152,458,105"/>
 <area shape="rect" title=" " alt="" coords="640,158,706,182"/>
-<area shape="poly" title=" " alt="" coords="514,101,632,149,630,154,512,106"/>
+<area shape="poly" title=" " alt="" coords="480,101,628,148,632,149,630,154,627,153,479,106"/>
 <area shape="rect" href="game__core_8h.html" title=" " alt="" coords="730,158,867,182"/>
-<area shape="poly" title=" " alt="" coords="533,101,737,151,736,156,531,106"/>
-<area shape="rect" title=" " alt="" coords="891,151,1026,189"/>
-<area shape="poly" title=" " alt="" coords="533,95,682,116,875,147,875,153,682,121,533,100"/>
-<area shape="rect" title=" " alt="" coords="1050,151,1203,189"/>
-<area shape="poly" title=" " alt="" coords="533,93,747,112,1034,147,1034,153,746,117,533,98"/>
+<area shape="poly" title=" " alt="" coords="488,99,719,148,733,151,731,156,718,153,487,104"/>
+<area shape="rect" title=" " alt="" coords="891,151,1044,189"/>
+<area shape="poly" title=" " alt="" coords="488,94,655,115,876,147,875,153,655,120,487,100"/>
 <area shape="rect" title=" " alt="" coords="580,237,694,276"/>
 <area shape="poly" title=" " alt="" coords="778,185,687,232,685,228,775,180"/>
 <area shape="rect" title=" " alt="" coords="717,244,879,269"/>
@@ -168,6 +168,559 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 </div>
 <p><a href="game__fight_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aa0f69318c8e192046ea6f598d3995944" id="r_aa0f69318c8e192046ea6f598d3995944"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0f69318c8e192046ea6f598d3995944">defer_fight_enemy</a> (<a class="el" href="structFighter.html">Fighter</a> *player, <a class="el" href="structEnemy.html">Enemy</a> *e, <a class="el" href="game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17">foeTurnOption_OP</a> foe_op, Koliseo *kls, RingaBuf *rb_notifications)</td></tr>
+<tr class="memdesc:aa0f69318c8e192046ea6f598d3995944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointers and calls <a class="el" href="game__fight_8c.html#a513bff8151fdfeaab88b8ba02d5ab8a2" title="Takes a Fighter and a Enemy pointers and compares their stats to determine who gets damaged and retur...">fight()</a>.  <br /></td></tr>
+<tr class="separator:aa0f69318c8e192046ea6f598d3995944"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c2dd96f5129334959f0d9971acb417e" id="r_a4c2dd96f5129334959f0d9971acb417e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c2dd96f5129334959f0d9971acb417e">defer_skill_enemy</a> (<a class="el" href="structFighter.html">Fighter</a> *player, <a class="el" href="structEnemy.html">Enemy</a> *e, <a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a> picked_skill, <a class="el" href="game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17">foeTurnOption_OP</a> foe_op, Koliseo *kls, RingaBuf *rb_notifications)</td></tr>
+<tr class="memdesc:a4c2dd96f5129334959f0d9971acb417e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointers and calls <a class="el" href="game__fight_8c.html#a8b3f8a38648ff2f6604b81f635380ca9">do_Skill()</a>.  <br /></td></tr>
+<tr class="separator:a4c2dd96f5129334959f0d9971acb417e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a513bff8151fdfeaab88b8ba02d5ab8a2" id="r_a513bff8151fdfeaab88b8ba02d5ab8a2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a513bff8151fdfeaab88b8ba02d5ab8a2">fight</a> (<a class="el" href="structFighter.html">Fighter</a> *player, <a class="el" href="structEnemy.html">Enemy</a> *e, Koliseo *kls, RingaBuf *rb_notifications)</td></tr>
+<tr class="memdesc:a513bff8151fdfeaab88b8ba02d5ab8a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointers and compares their stats to determine who gets damaged and returns the fightStatus value.  <br /></td></tr>
+<tr class="separator:a513bff8151fdfeaab88b8ba02d5ab8a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4f6c2e53c715fcaaac0e3142a1ae292" id="r_ac4f6c2e53c715fcaaac0e3142a1ae292"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4f6c2e53c715fcaaac0e3142a1ae292">enemy_attack</a> (<a class="el" href="structEnemy.html">Enemy</a> *e, <a class="el" href="structFighter.html">Fighter</a> *target, Koliseo *kls, RingaBuf *rb_notifications)</td></tr>
+<tr class="memdesc:ac4f6c2e53c715fcaaac0e3142a1ae292"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes an <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> and a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and compares their stats to determine who gets damaged and returns the fightStatus value.  <br /></td></tr>
+<tr class="separator:ac4f6c2e53c715fcaaac0e3142a1ae292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68ac7f034b059c9421ebc44a99c47c58" id="r_a68ac7f034b059c9421ebc44a99c47c58"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68ac7f034b059c9421ebc44a99c47c58">defer_fight_boss</a> (<a class="el" href="structFighter.html">Fighter</a> *player, <a class="el" href="structBoss.html">Boss</a> *b, <a class="el" href="structPath.html">Path</a> *p, <a class="el" href="game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17">foeTurnOption_OP</a> foe_op, Koliseo *kls, RingaBuf *rb_notifications)</td></tr>
+<tr class="memdesc:a68ac7f034b059c9421ebc44a99c47c58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointers and calls <a class="el" href="game__fight_8c.html#af14958261c364c6da405bf07594c267a" title="Takes a Fighter, a Boss and a Path pointers and compares fighters stats to determine who gets damaged...">boss_fight()</a>.  <br /></td></tr>
+<tr class="separator:a68ac7f034b059c9421ebc44a99c47c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab16d0ed5712d2558fa13a47331472aab" id="r_ab16d0ed5712d2558fa13a47331472aab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab16d0ed5712d2558fa13a47331472aab">defer_skill_boss</a> (<a class="el" href="structFighter.html">Fighter</a> *player, <a class="el" href="structBoss.html">Boss</a> *b, <a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a> picked_skill, <a class="el" href="structPath.html">Path</a> *p, <a class="el" href="game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17">foeTurnOption_OP</a> foe_op, Koliseo *kls, RingaBuf *rb_notifications)</td></tr>
+<tr class="memdesc:ab16d0ed5712d2558fa13a47331472aab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointers and calls <a class="el" href="game__fight_8c.html#a70abb2104bddf135a794299fd0c432ca">do_Skill_boss()</a>.  <br /></td></tr>
+<tr class="separator:ab16d0ed5712d2558fa13a47331472aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af14958261c364c6da405bf07594c267a" id="r_af14958261c364c6da405bf07594c267a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af14958261c364c6da405bf07594c267a">boss_fight</a> (<a class="el" href="structFighter.html">Fighter</a> *player, <a class="el" href="structBoss.html">Boss</a> *b, <a class="el" href="structPath.html">Path</a> *p, Koliseo *kls, RingaBuf *rb_notifications)</td></tr>
+<tr class="memdesc:af14958261c364c6da405bf07594c267a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a>, a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> and a <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointers and compares fighters stats to determine who gets damaged and returns the fightStatus value.  <br /></td></tr>
+<tr class="separator:af14958261c364c6da405bf07594c267a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a504cf093b286285e9bc311a30a27a050" id="r_a504cf093b286285e9bc311a30a27a050"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a504cf093b286285e9bc311a30a27a050">boss_attack</a> (<a class="el" href="structBoss.html">Boss</a> *b, <a class="el" href="structFighter.html">Fighter</a> *target, <a class="el" href="structPath.html">Path</a> *p, Koliseo *kls, RingaBuf *rb_notifications)</td></tr>
+<tr class="separator:a504cf093b286285e9bc311a30a27a050"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b3f8a38648ff2f6604b81f635380ca9" id="r_a8b3f8a38648ff2f6604b81f635380ca9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="game__core_8h.html#aee2e0d770e29cb4d97b973990d274eb4">fightResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b3f8a38648ff2f6604b81f635380ca9">do_Skill</a> (<a class="el" href="structFighter.html">Fighter</a> *player, <a class="el" href="structEnemy.html">Enemy</a> *e, <a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a> picked_skill, Koliseo *kls)</td></tr>
+<tr class="separator:a8b3f8a38648ff2f6604b81f635380ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70abb2104bddf135a794299fd0c432ca" id="r_a70abb2104bddf135a794299fd0c432ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="game__core_8h.html#aee2e0d770e29cb4d97b973990d274eb4">fightResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70abb2104bddf135a794299fd0c432ca">do_Skill_boss</a> (<a class="el" href="structFighter.html">Fighter</a> *player, <a class="el" href="structBoss.html">Boss</a> *b, <a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a> picked_skill, <a class="el" href="structPath.html">Path</a> *path, Koliseo *kls)</td></tr>
+<tr class="separator:a70abb2104bddf135a794299fd0c432ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a504cf093b286285e9bc311a30a27a050" name="a504cf093b286285e9bc311a30a27a050"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a504cf093b286285e9bc311a30a27a050">&#9670;&#160;</a></span>boss_attack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int boss_attack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structBoss.html">Boss</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>target</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structPath.html">Path</a> *</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Koliseo *</td>          <td class="paramname"><span class="paramname"><em>kls</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RingaBuf *</td>          <td class="paramname"><span class="paramname"><em>rb_notifications</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af14958261c364c6da405bf07594c267a" name="af14958261c364c6da405bf07594c267a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af14958261c364c6da405bf07594c267a">&#9670;&#160;</a></span>boss_fight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int boss_fight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>player</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structBoss.html">Boss</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structPath.html">Path</a> *</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Koliseo *</td>          <td class="paramname"><span class="paramname"><em>kls</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RingaBuf *</td>          <td class="paramname"><span class="paramname"><em>rb_notifications</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a>, a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> and a <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointers and compares fighters stats to determine who gets damaged and returns the fightStatus value. </p>
+<p>Queues notifications to the passed RingaBuf pointer. On boss death, we call dropConsumable, dropEquip and dropArtifact. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd>
+<dd>
+<a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#a5878d6db912ef82ed4d43c74a808ba7c" title="Takes a Fighter pointer and an integer used to force execution.">statReset()</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#a5788b5443bb338c4ce8fcae89fb60ee1" title="Takes a Boss pointer and an integer used to force execution.">statResetBoss()</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#aa5631be08592697ae76b19a265dacfa5" title="Takes a bossClass and returns the corresponding string by the inner array position.">stringFromBossClass()</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#a70f0dfd01928b43175f57a38615fc210" title="Takes a Fighter pointer value and adds a random Consumable to consumablesBag.">dropConsumable()</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#a62840f6ba9999c949cd207d7ceba9b9b" title="Takes a Fighter pointer value and an integer indicating if the drop was from a beast enemy,...">dropEquip()</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#a96acd184f58849b4bb214903d5f999a2" title="Takes a Fighter pointer value and adds a random Artifact to artifactsBag.">dropArtifact()</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">player</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">b</td><td>The <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">p</td><td>The <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointer for the game. </td></tr>
+    <tr><td class="paramname">notify_win</td><td>The WINDOW pointer to call display_notification() on. </td></tr>
+    <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
+    <tr><td class="paramname">rb_notifications</td><td>The RingaBuf used for notifications. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__utils_8c.html#abba8030a0bc40a43cfe79883807fd83e" title="Takes a RingaBuf pointer and queues the passed text to it.">enqueue_notification()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a68ac7f034b059c9421ebc44a99c47c58" name="a68ac7f034b059c9421ebc44a99c47c58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68ac7f034b059c9421ebc44a99c47c58">&#9670;&#160;</a></span>defer_fight_boss()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int defer_fight_boss </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>player</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structBoss.html">Boss</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structPath.html">Path</a> *</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17">foeTurnOption_OP</a></td>          <td class="paramname"><span class="paramname"><em>foe_op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Koliseo *</td>          <td class="paramname"><span class="paramname"><em>kls</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RingaBuf *</td>          <td class="paramname"><span class="paramname"><em>rb_notifications</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointers and calls <a class="el" href="game__fight_8c.html#af14958261c364c6da405bf07594c267a" title="Takes a Fighter, a Boss and a Path pointers and compares fighters stats to determine who gets damaged...">boss_fight()</a>. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd>
+<dd>
+<a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> </dd>
+<dd>
+<a class="el" href="game__fight_8c.html#af14958261c364c6da405bf07594c267a" title="Takes a Fighter, a Boss and a Path pointers and compares fighters stats to determine who gets damaged...">boss_fight()</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">player</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">b</td><td>The <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">foe_op</td><td>The foeTurnOption_OP for the foe. </td></tr>
+    <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
+    <tr><td class="paramname">rb_notifications</td><td>The RingaBuf used for notifications. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa0f69318c8e192046ea6f598d3995944" name="aa0f69318c8e192046ea6f598d3995944"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0f69318c8e192046ea6f598d3995944">&#9670;&#160;</a></span>defer_fight_enemy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int defer_fight_enemy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>player</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structEnemy.html">Enemy</a> *</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17">foeTurnOption_OP</a></td>          <td class="paramname"><span class="paramname"><em>foe_op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Koliseo *</td>          <td class="paramname"><span class="paramname"><em>kls</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RingaBuf *</td>          <td class="paramname"><span class="paramname"><em>rb_notifications</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointers and calls <a class="el" href="game__fight_8c.html#a513bff8151fdfeaab88b8ba02d5ab8a2" title="Takes a Fighter and a Enemy pointers and compares their stats to determine who gets damaged and retur...">fight()</a>. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd>
+<dd>
+<a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> </dd>
+<dd>
+<a class="el" href="game__fight_8c.html#a513bff8151fdfeaab88b8ba02d5ab8a2" title="Takes a Fighter and a Enemy pointers and compares their stats to determine who gets damaged and retur...">fight()</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">player</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">e</td><td>The <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">foe_op</td><td>The foeTurnOption_OP for the foe. </td></tr>
+    <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
+    <tr><td class="paramname">rb_notifications</td><td>The RingaBuf used for notifications. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab16d0ed5712d2558fa13a47331472aab" name="ab16d0ed5712d2558fa13a47331472aab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab16d0ed5712d2558fa13a47331472aab">&#9670;&#160;</a></span>defer_skill_boss()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int defer_skill_boss </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>player</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structBoss.html">Boss</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a></td>          <td class="paramname"><span class="paramname"><em>picked_skill</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structPath.html">Path</a> *</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17">foeTurnOption_OP</a></td>          <td class="paramname"><span class="paramname"><em>foe_op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Koliseo *</td>          <td class="paramname"><span class="paramname"><em>kls</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RingaBuf *</td>          <td class="paramname"><span class="paramname"><em>rb_notifications</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointers and calls <a class="el" href="game__fight_8c.html#a70abb2104bddf135a794299fd0c432ca">do_Skill_boss()</a>. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd>
+<dd>
+<a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> </dd>
+<dd>
+<a class="el" href="game__fight_8c.html#a70abb2104bddf135a794299fd0c432ca">do_Skill_boss()</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">player</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">b</td><td>The <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">picked_skill</td><td>The skill picked by <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a>. </td></tr>
+    <tr><td class="paramname">foe_op</td><td>The foeTurnOption_OP for the foe. </td></tr>
+    <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
+    <tr><td class="paramname">rb_notifications</td><td>The RingaBuf used for notifications. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4c2dd96f5129334959f0d9971acb417e" name="a4c2dd96f5129334959f0d9971acb417e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c2dd96f5129334959f0d9971acb417e">&#9670;&#160;</a></span>defer_skill_enemy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int defer_skill_enemy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>player</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structEnemy.html">Enemy</a> *</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a></td>          <td class="paramname"><span class="paramname"><em>picked_skill</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17">foeTurnOption_OP</a></td>          <td class="paramname"><span class="paramname"><em>foe_op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Koliseo *</td>          <td class="paramname"><span class="paramname"><em>kls</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RingaBuf *</td>          <td class="paramname"><span class="paramname"><em>rb_notifications</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointers and calls <a class="el" href="game__fight_8c.html#a8b3f8a38648ff2f6604b81f635380ca9">do_Skill()</a>. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd>
+<dd>
+<a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> </dd>
+<dd>
+<a class="el" href="game__fight_8c.html#a8b3f8a38648ff2f6604b81f635380ca9">do_Skill()</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">player</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">e</td><td>The <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">picked_skill</td><td>The picked skill by <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a>. </td></tr>
+    <tr><td class="paramname">foe_op</td><td>The foeTurnOption_OP for the foe. </td></tr>
+    <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
+    <tr><td class="paramname">rb_notifications</td><td>The RingaBuf use for notifications. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8b3f8a38648ff2f6604b81f635380ca9" name="a8b3f8a38648ff2f6604b81f635380ca9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b3f8a38648ff2f6604b81f635380ca9">&#9670;&#160;</a></span>do_Skill()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="game__core_8h.html#aee2e0d770e29cb4d97b973990d274eb4">fightResult</a> do_Skill </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>player</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structEnemy.html">Enemy</a> *</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a></td>          <td class="paramname"><span class="paramname"><em>picked_skill</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Koliseo *</td>          <td class="paramname"><span class="paramname"><em>kls</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a70abb2104bddf135a794299fd0c432ca" name="a70abb2104bddf135a794299fd0c432ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70abb2104bddf135a794299fd0c432ca">&#9670;&#160;</a></span>do_Skill_boss()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="game__core_8h.html#aee2e0d770e29cb4d97b973990d274eb4">fightResult</a> do_Skill_boss </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>player</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structBoss.html">Boss</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a></td>          <td class="paramname"><span class="paramname"><em>picked_skill</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structPath.html">Path</a> *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Koliseo *</td>          <td class="paramname"><span class="paramname"><em>kls</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4f6c2e53c715fcaaac0e3142a1ae292" name="ac4f6c2e53c715fcaaac0e3142a1ae292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4f6c2e53c715fcaaac0e3142a1ae292">&#9670;&#160;</a></span>enemy_attack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int enemy_attack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEnemy.html">Enemy</a> *</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>target</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Koliseo *</td>          <td class="paramname"><span class="paramname"><em>kls</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RingaBuf *</td>          <td class="paramname"><span class="paramname"><em>rb_notifications</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes an <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> and a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and compares their stats to determine who gets damaged and returns the fightStatus value. </p>
+<p>Queues notifications to the passed RingaBuf pointer. On enemy death, there's a chance to call dropConsumable, dropEquip or dropArtifact (guaranteed for beast enemies). NOTE: that the return values are always from the POV of the <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a>: FIGHTRES_DMG_DEALT means the <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> was damaged! </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="game__fight_8c.html#aa0f69318c8e192046ea6f598d3995944" title="Takes a Fighter and a Enemy pointers and calls fight().">defer_fight_enemy()</a> </dd>
+<dd>
+<a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd>
+<dd>
+<a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#a5878d6db912ef82ed4d43c74a808ba7c" title="Takes a Fighter pointer and an integer used to force execution.">statReset()</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#a896773eca0482957b1cabdca9c2a4100" title="Takes an Enemy pointer and an integer used to force execution.">statResetEnemy()</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#afab05b3d814222e36db1b7fe1cf7e172" title="Takes a enemyClass and returns the corresponding string by the inner array position.">stringFromEClass()</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#a70f0dfd01928b43175f57a38615fc210" title="Takes a Fighter pointer value and adds a random Consumable to consumablesBag.">dropConsumable()</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#a62840f6ba9999c949cd207d7ceba9b9b" title="Takes a Fighter pointer value and an integer indicating if the drop was from a beast enemy,...">dropEquip()</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#a96acd184f58849b4bb214903d5f999a2" title="Takes a Fighter pointer value and adds a random Artifact to artifactsBag.">dropArtifact()</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">player</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">e</td><td>The <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">notify_win</td><td>The WINDOW pointer to call display_notification() on. </td></tr>
+    <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
+    <tr><td class="paramname">rb_notifications</td><td>The RingaBuf used for notifications. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__utils_8c.html#abba8030a0bc40a43cfe79883807fd83e" title="Takes a RingaBuf pointer and queues the passed text to it.">enqueue_notification()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a513bff8151fdfeaab88b8ba02d5ab8a2" name="a513bff8151fdfeaab88b8ba02d5ab8a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a513bff8151fdfeaab88b8ba02d5ab8a2">&#9670;&#160;</a></span>fight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int fight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>player</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structEnemy.html">Enemy</a> *</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Koliseo *</td>          <td class="paramname"><span class="paramname"><em>kls</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RingaBuf *</td>          <td class="paramname"><span class="paramname"><em>rb_notifications</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointers and compares their stats to determine who gets damaged and returns the fightStatus value. </p>
+<p>Queues notifications to the passed RingaBuf pointer. On enemy death, there's a chance to call dropConsumable, dropEquip or dropArtifact (guaranteed for beast enemies). </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd>
+<dd>
+<a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#a5878d6db912ef82ed4d43c74a808ba7c" title="Takes a Fighter pointer and an integer used to force execution.">statReset()</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#a896773eca0482957b1cabdca9c2a4100" title="Takes an Enemy pointer and an integer used to force execution.">statResetEnemy()</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#afab05b3d814222e36db1b7fe1cf7e172" title="Takes a enemyClass and returns the corresponding string by the inner array position.">stringFromEClass()</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#a70f0dfd01928b43175f57a38615fc210" title="Takes a Fighter pointer value and adds a random Consumable to consumablesBag.">dropConsumable()</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#a62840f6ba9999c949cd207d7ceba9b9b" title="Takes a Fighter pointer value and an integer indicating if the drop was from a beast enemy,...">dropEquip()</a> </dd>
+<dd>
+<a class="el" href="game__utils_8c.html#a96acd184f58849b4bb214903d5f999a2" title="Takes a Fighter pointer value and adds a random Artifact to artifactsBag.">dropArtifact()</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">player</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">e</td><td>The <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
+    <tr><td class="paramname">rb_notifications</td><td>The RingaBuf used for notifications. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__utils_8c.html#abba8030a0bc40a43cfe79883807fd83e" title="Takes a RingaBuf pointer and queues the passed text to it.">enqueue_notification()</a> </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -10,7 +10,7 @@ var structSerGamestate =
     [ "is_seeded", "structSerGamestate.html#a98532643dd9cb9dd94e1675a83c5b8af", null ],
     [ "path", "structSerGamestate.html#abf032fafb294e6f8e33f9fa64088bd2c", null ],
     [ "player", "structSerGamestate.html#a9a940a0e6d84eaaf41e8f89c20150e81", null ],
-    [ "start_time", "structSerGamestate.html#ae8bb94959fd1b559bc8e5d7b16b452a6", null ],
+    [ "start_time", "structSerGamestate.html#a02a9354e758c3e35f2998c1bacee9e22", null ],
     [ "stats", "structSerGamestate.html#a0fdce2c3b5b53b1f3ac544409b221d86", null ],
     [ "wincon", "structSerGamestate.html#a46049c42c9eae4dae76c4c6aefff41e6", null ]
 ];

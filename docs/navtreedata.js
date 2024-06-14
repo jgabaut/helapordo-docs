@@ -53,13 +53,13 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "game__core_8h.html#a177a1c31998379b71523666b43614780",
-"game__core_8h.html#ab4da7dc7d81f7a0cd0826188fca9934a",
-"game__curses_8h.html#ad2eb3d555e01796d30695d8a236eb1e0",
-"game__utils_8c.html#aea988f225575f9db3ac07c4546c88afe",
-"globals_s.html",
-"ser__core_8h.html#aedc9371beedffbfd364b457dcb0fd4f5",
-"structGamestate.html#a7d8cb62ac511f74a0eb63b72037cf39f",
-"structSerPerk.html#afe0a9d5d8fbd30af470adcc76da36580"
+"game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17ae5c45a2dac5004251f243dcd272a686a",
+"game__curses_8h.html#ac2ecbde10c38e1555f7ef4593369f06d",
+"game__utils_8c.html#ac7ecb255c1d12511da271a98a2e9fc77",
+"globals_func.html",
+"ser__core_8h.html#aa318b8eabd14dc72ebb0c83a0f4c435d",
+"structFloor.html#aa1ff1f0cebf69a69093024dd2f0c9f62",
+"structSerFoeParty.html#a73805dd55ffea3fa9342579e1d368ec8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

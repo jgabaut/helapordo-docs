@@ -158,7 +158,7 @@ var searchData=
   ['sprites_2eh_155',['sprites.h',['../sprites_8h.html',1,'']]],
   ['sr_5fwarthog_156',['Sr_Warthog',['../game__core_8h.html#ad058c5be0a35743bfba3622e849b9fafacc1bfa7a398ce8b4acde9285f7c39e35',1,'game_core.h']]],
   ['stamina_157',['stamina',['../structFighter.html#af582f3976f4037994e0d2bbff01b7706',1,'Fighter::stamina'],['../structEnemy.html#ab416e9d2af974d3f70f5bc6fdbccf41f',1,'Enemy::stamina'],['../structBoss.html#a56697ceb169ca4165ca9e921a035ced9',1,'Boss::stamina'],['../structSerEnemy.html#a57accbda17f67d1ee3f7acb9f05d6f01',1,'SerEnemy::stamina'],['../structSerBoss.html#a0b7721dc1c49e560a8ffe667c287df3f',1,'SerBoss::stamina'],['../structSerFighter.html#aba3a3aba7e66de868394f47321af28fa',1,'SerFighter::stamina']]],
-  ['start_5ftime_158',['start_time',['../structGamestate.html#ad02e2be15dff9315376f9ab0d76ab901',1,'Gamestate::start_time'],['../structSerGamestate.html#ae8bb94959fd1b559bc8e5d7b16b452a6',1,'SerGamestate::start_time']]],
+  ['start_5ftime_158',['start_time',['../structGamestate.html#ad02e2be15dff9315376f9ab0d76ab901',1,'Gamestate::start_time'],['../structSerGamestate.html#a02a9354e758c3e35f2998c1bacee9e22',1,'SerGamestate::start_time']]],
   ['stat_159',['Stat',['../game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305',1,'game_core.h']]],
   ['statmax_160',['STATMAX',['../game__core_8h.html#ad31bff318e157e40c2917a541c3a0860',1,'game_core.h']]],
   ['statreset_161',['statReset',['../game__utils_8c.html#a5878d6db912ef82ed4d43c74a808ba7c',1,'statReset(Fighter *player, int force):&#160;game_utils.c'],['../game__utils_8h.html#a5878d6db912ef82ed4d43c74a808ba7c',1,'statReset(Fighter *player, int force):&#160;game_utils.c']]],

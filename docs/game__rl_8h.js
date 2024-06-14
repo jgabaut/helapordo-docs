@@ -1,8 +1,5 @@
 var game__rl_8h =
 [
-    [ "EXPECTED_RAYLIB_VERSION_MAJOR", "game__rl_8h.html#af3dbbc76174a267afffd03d4d387d542", null ],
-    [ "EXPECTED_RAYLIB_VERSION_MINOR", "game__rl_8h.html#adf76e7c60807cd3d52494c80bd76cb85", null ],
-    [ "EXPECTED_RAYLIB_VERSION_PATCH", "game__rl_8h.html#a605224506444d7b4cef1ae0118938cb6", null ],
     [ "handleTutorial", "game__rl_8h.html#a5543d652daa003dfabf55e802c1e6202", null ],
     [ "setArtifactSprite", "game__rl_8h.html#aacdc495ee6ed789f7e58946715f0fd47", null ],
     [ "setBossSprite", "game__rl_8h.html#ad530f610f7ff6ffc94e32725a29d73c3", null ],
