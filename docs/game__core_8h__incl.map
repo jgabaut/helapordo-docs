@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title=" " alt="" coords="150,5,297,30"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,78,119,117"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,33,115,73,113,69,198,28"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="142,85,305,110"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="142,85,304,110"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,30,226,69,221,69,221,30"/>
 <area shape="rect" id="Node000004" href="$palette_8h.html" title=" " alt="" coords="328,85,412,110"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="246,28,335,75,333,80,244,33"/>

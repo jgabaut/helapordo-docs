@@ -6,9 +6,9 @@
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,212,192,227,214,239,253,253,293,263,364,272,363,277,292,268,251,258,212,244,189,231,169,216"/>
 <area shape="rect" id="Node000004" href="$structTurncounter.html" title="Represents the entity initialised from a CounterType." alt="" coords="206,179,295,203"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="253,219,256,230,262,240,284,257,311,267,364,275,363,280,309,272,281,261,258,243,251,232,248,220"/>
-<area shape="rect" id="Node000005" href="$structPerk.html" title="Represents the entity initialised from a perkClass." alt="" coords="331,5,379,30"/>
+<area shape="rect" id="Node000005" href="$structPerk.html" title="Represents the entity initialised from a perkClass." alt="" coords="330,5,379,30"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="355,46,352,96,356,154,373,217,392,264,387,266,368,218,351,155,347,96,349,45"/>
-<area shape="rect" id="Node000007" href="$structEquip.html" title="Represents the entity initialised from a equipClass." alt="" coords="370,92,425,117"/>
+<area shape="rect" id="Node000007" href="$structEquip.html" title="Represents the entity initialised from a equipClass." alt="" coords="370,92,424,117"/>
 <area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="370,43,394,91,389,93,365,45"/>
 <area shape="rect" id="Node000006" href="$structEquipslot.html" title="Represents the entity containing an Equip instance." alt="" coords="484,179,559,203"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="493,214,413,267,410,263,490,210"/>
@@ -16,7 +16,7 @@
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="428,123,506,176,503,180,425,128"/>
 <area shape="rect" id="Node000008" href="$structConsumable.html" title="Holds a certain qty of a consumableClass." alt="" coords="584,179,678,203"/>
 <area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="599,214,534,244,477,261,426,273,425,268,476,256,532,239,597,209"/>
-<area shape="rect" id="Node000009" href="$structArtifact.html" title="Represents the entity initialised from a artifactClass." alt="" coords="703,179,767,203"/>
+<area shape="rect" id="Node000009" href="$structArtifact.html" title="Represents the entity initialised from a artifactClass." alt="" coords="702,179,767,203"/>
 <area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="714,216,695,231,673,244,624,256,556,266,426,277,426,272,556,261,623,251,671,239,692,227,711,212"/>
 <area shape="rect" id="Node000010" href="$structcountStats.html" title="Holds the lifetime stats of the player." alt="" coords="798,179,882,203"/>
 <area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="819,216,799,232,776,244,705,259,606,270,426,278,426,273,606,264,704,254,774,239,796,227,816,212"/>

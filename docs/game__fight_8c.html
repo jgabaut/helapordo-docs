@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.10</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.11</span>
    </div>
   </td>
  </tr>
@@ -114,9 +114,9 @@ Include dependency graph for game_fight.c:</div>
 <area shape="poly" title=" " alt="" coords="442,103,442,135,437,135,437,103"/>
 <area shape="rect" title=" " alt="" coords="5,230,66,255"/>
 <area shape="poly" title=" " alt="" coords="392,171,250,189,163,205,78,226,74,227,72,222,76,221,162,199,249,184,391,166"/>
-<area shape="rect" title=" " alt="" coords="89,230,153,255"/>
+<area shape="rect" title=" " alt="" coords="89,230,152,255"/>
 <area shape="poly" title=" " alt="" coords="392,175,287,195,166,226,162,227,160,222,164,221,286,190,391,169"/>
-<area shape="rect" title=" " alt="" coords="177,230,244,255"/>
+<area shape="rect" title=" " alt="" coords="176,230,244,255"/>
 <area shape="poly" title=" " alt="" coords="402,178,256,226,253,227,251,222,255,221,400,173"/>
 <area shape="rect" title=" " alt="" coords="267,230,332,255"/>
 <area shape="poly" title=" " alt="" coords="420,178,335,225,333,220,418,173"/>
@@ -136,7 +136,7 @@ Include dependency graph for game_fight.c:</div>
 <area shape="poly" title=" " alt="" coords="778,258,687,305,685,300,775,253"/>
 <area shape="rect" title=" " alt="" coords="717,317,879,342"/>
 <area shape="poly" title=" " alt="" coords="801,255,801,302,796,302,796,255"/>
-<area shape="rect" href="palette_8h.html" title=" " alt="" coords="903,317,987,342"/>
+<area shape="rect" href="palette_8h.html" title=" " alt="" coords="903,317,986,342"/>
 <area shape="poly" title=" " alt="" coords="819,253,913,307,911,311,817,258"/>
 <area shape="rect" title=" " alt="" coords="873,397,1017,435"/>
 <area shape="poly" title=" " alt="" coords="948,342,948,381,942,381,942,342"/>
@@ -265,7 +265,6 @@ Functions</h2></td></tr>
     <tr><td class="paramname">player</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
     <tr><td class="paramname">b</td><td>The <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer at hand. </td></tr>
     <tr><td class="paramname">p</td><td>The <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointer for the game. </td></tr>
-    <tr><td class="paramname">notify_win</td><td>The WINDOW pointer to call display_notification() on. </td></tr>
     <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
     <tr><td class="paramname">rb_notifications</td><td>The RingaBuf used for notifications. </td></tr>
   </table>
@@ -324,6 +323,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">player</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
     <tr><td class="paramname">b</td><td>The <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">p</td><td>The <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointer for the game. </td></tr>
     <tr><td class="paramname">foe_op</td><td>The foeTurnOption_OP for the foe. </td></tr>
     <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
     <tr><td class="paramname">rb_notifications</td><td>The RingaBuf used for notifications. </td></tr>
@@ -440,6 +440,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">player</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
     <tr><td class="paramname">b</td><td>The <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">p</td><td>The <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointer for the game. </td></tr>
     <tr><td class="paramname">picked_skill</td><td>The skill picked by <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a>. </td></tr>
     <tr><td class="paramname">foe_op</td><td>The foeTurnOption_OP for the foe. </td></tr>
     <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
@@ -625,9 +626,8 @@ Functions</h2></td></tr>
 <a class="el" href="game__utils_8c.html#a96acd184f58849b4bb214903d5f999a2" title="Takes a Fighter pointer value and adds a random Artifact to artifactsBag.">dropArtifact()</a> </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">player</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
+    <tr><td class="paramname">target</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer at hand. </td></tr>
     <tr><td class="paramname">e</td><td>The <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer at hand. </td></tr>
-    <tr><td class="paramname">notify_win</td><td>The WINDOW pointer to call display_notification() on. </td></tr>
     <tr><td class="paramname">kls</td><td>The Koliseo used for allocations. </td></tr>
     <tr><td class="paramname">rb_notifications</td><td>The RingaBuf used for notifications. </td></tr>
   </table>

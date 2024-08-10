@@ -6,9 +6,9 @@
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="398,29,424,64,420,67,394,32"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="5,158,66,182"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="392,103,380,105,294,117,227,124,161,133,78,153,74,154,72,149,76,148,160,128,227,118,294,112,379,100,391,98"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="89,158,153,182"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="89,158,152,182"/>
 <area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="392,104,269,128,166,153,162,154,160,149,164,148,268,123,391,98"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="177,158,244,182"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="176,158,244,182"/>
 <area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="402,106,256,153,253,154,251,149,255,148,400,101"/>
 <area shape="rect" id="Node000007" title=" " alt="" coords="267,158,332,182"/>
 <area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="420,105,335,152,333,147,418,101"/>
@@ -28,7 +28,7 @@
 <area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="778,185,687,232,685,228,775,180"/>
 <area shape="rect" id="Node000014" title=" " alt="" coords="717,244,879,269"/>
 <area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="801,183,801,229,796,229,796,183"/>
-<area shape="rect" id="Node000015" href="$palette_8h.html" title=" " alt="" coords="903,244,987,269"/>
+<area shape="rect" id="Node000015" href="$palette_8h.html" title=" " alt="" coords="903,244,986,269"/>
 <area shape="poly" id="edge14_Node000012_Node000015" title=" " alt="" coords="819,180,913,234,911,239,817,185"/>
 <area shape="rect" id="Node000016" title=" " alt="" coords="873,324,1017,363"/>
 <area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="948,269,948,308,942,308,942,269"/>

@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.10</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.11</span>
    </div>
   </td>
  </tr>
@@ -162,7 +162,7 @@ $(function(){initNavTree('game__core_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#ifndef HELAPORDO_RAYLIB_BUILD</span></div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#error &quot;HELAPORDO_CURSES_BUILD and HELAPORDO_RAYLIB_BUILD are both undefined.&quot;</span></div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keyword">typedef</span> <span class="keyword">enum</span> GameScreen { LOGO = 0, TITLE, GAMEPLAY, ENDING, DOOR_ANIM } GameScreen;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keyword">typedef</span> <span class="keyword">enum</span> GameScreen { LOGO = 0, TITLE, SAVES_VIEW, NAMEPICK_VIEW, CLASSPICK_VIEW, FLOOR_VIEW, ROOM_VIEW, ENDING, DOOR_ANIM } GameScreen;</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="comment">// Add more includes for rl-build here</span></div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">#ifdef _WIN32</span></div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">#define WIN32_LEAN_AND_MEAN </span><span class="comment">// We don&#39;t want no playsound</span></div>
@@ -323,9 +323,9 @@ $(function(){initNavTree('game__core_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span> </div>
 <div class="line"><a id="l00362" name="l00362"></a><span class="lineno"><a class="line" href="game__core_8h.html#a1cb68a9343b29c3257266a562fbc26a9">  362</a></span><span class="preprocessor">#define HELAPORDO_MINOR_VERSION 4</span></div>
 <div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span> </div>
-<div class="line"><a id="l00367" name="l00367"></a><span class="lineno"><a class="line" href="game__core_8h.html#a69f950e67bf21741e89f443bdd11c1fa">  367</a></span><span class="preprocessor">#define HELAPORDO_PATCH_VERSION 10</span></div>
+<div class="line"><a id="l00367" name="l00367"></a><span class="lineno"><a class="line" href="game__core_8h.html#a69f950e67bf21741e89f443bdd11c1fa">  367</a></span><span class="preprocessor">#define HELAPORDO_PATCH_VERSION 11</span></div>
 <div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span> </div>
-<div class="line"><a id="l00372" name="l00372"></a><span class="lineno"><a class="line" href="game__core_8h.html#a1c6d5de492ac61ad29aec7aa9a436bbf">  372</a></span><span class="preprocessor">#define VERSION &quot;1.4.10&quot;</span></div>
+<div class="line"><a id="l00372" name="l00372"></a><span class="lineno"><a class="line" href="game__core_8h.html#a1c6d5de492ac61ad29aec7aa9a436bbf">  372</a></span><span class="preprocessor">#define VERSION &quot;1.4.11&quot;</span></div>
 <div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span> </div>
 <div class="line"><a id="l00374" name="l00374"></a><span class="lineno"><a class="line" href="game__core_8h.html#a65600b37f11b4930f0963618823d9687">  374</a></span><span class="preprocessor">#define HELAPORDO_BINSAVEFILE_VERSION &quot;0.0.5&quot;</span></div>
 <div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span> </div>

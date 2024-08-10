@@ -1,15 +1,15 @@
 <map id="src/core/game_animations.h" name="src/core/game_animations.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="191,5,376,30"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="190,5,376,30"/>
 <area shape="rect" id="Node000002" href="$game__curses_8h.html" title=" " alt="" coords="5,78,188,103"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,38,128,80,126,75,237,33"/>
 <area shape="rect" id="Node000004" href="$game__rl_8h.html" title=" " alt="" coords="212,78,354,103"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="286,46,286,78,281,78,281,46"/>
-<area shape="rect" id="Node000008" href="$game__animations_8c.html" title=" " alt="" coords="379,78,564,103"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="286,46,286,78,280,78,280,46"/>
+<area shape="rect" id="Node000008" href="$game__animations_8c.html" title=" " alt="" coords="378,78,564,103"/>
 <area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="329,33,441,75,439,80,327,38"/>
 <area shape="rect" id="Node000003" href="$game__curses_8c.html" title=" " alt="" coords="5,158,188,182"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,118,99,157,94,157,94,118"/>
 <area shape="rect" id="Node000005" href="$game__rl_8c.html" title=" " alt="" coords="212,158,354,182"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="286,118,286,157,281,157,281,118"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="286,118,286,157,280,157,280,118"/>
 <area shape="rect" id="Node000006" href="$helapordo__raylib_8h.html" title=" " alt="" coords="378,151,519,189"/>
 <area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="323,107,410,148,408,153,320,112"/>
 <area shape="rect" id="Node000007" href="$helapordo__raylib_8c.html" title=" " alt="" coords="378,237,519,276"/>

@@ -11,5 +11,19 @@ var searchData=
   ['bosses_8',['Bosses',['../game__core_8h.html#ac7e963d3b7c81d2f265d61e78bc1a5f2a8c8034ee800533b6f2469741b3b5bdc6',1,'game_core.h']]],
   ['bread_9',['Bread',['../game__core_8h.html#abc5cb6c6be316361cce824c81a995e40adccfa4cee9717eff0fa46526a9d23845',1,'game_core.h']]],
   ['burned_10',['BURNED',['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71ab9741ae774fdf4c1493c65a54b3f548a',1,'game_core.h']]],
-  ['burned_11',['Burned',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a569e3df6d07032a6cc51104f645e851e',1,'game_core.h']]]
+  ['burned_11',['Burned',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a569e3df6d07032a6cc51104f645e851e',1,'game_core.h']]],
+  ['button_5fclass_5farcher_12',['BUTTON_CLASS_ARCHER',['../game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1ae51e24e22bb0039a41297e4e316c6447',1,'game_rl.h']]],
+  ['button_5fclass_5fassassin_13',['BUTTON_CLASS_ASSASSIN',['../game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a2b3efb3f25f2268b997113257e93163a',1,'game_rl.h']]],
+  ['button_5fclass_5fknight_14',['BUTTON_CLASS_KNIGHT',['../game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1ab6629cbf5901fdda8c0676fe74d2c18a',1,'game_rl.h']]],
+  ['button_5fclass_5fmage_15',['BUTTON_CLASS_MAGE',['../game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a99fae851c1b0454c559a12b008c18ea4',1,'game_rl.h']]],
+  ['button_5fclass_5ftxtfield_16',['BUTTON_CLASS_TXTFIELD',['../game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a66b5075d45baab35d9242cf27ca2a753',1,'game_rl.h']]],
+  ['button_5fhover_17',['BUTTON_HOVER',['../game__rl_8h.html#a5078feb0662fac6669451e95600e7b68ad0ad1a7fd2300cea7c67a3ecf6675776',1,'game_rl.h']]],
+  ['button_5fload_5fgame_18',['BUTTON_LOAD_GAME',['../game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1af7867c356385a7a4ad1c200adc252307',1,'game_rl.h']]],
+  ['button_5fname_5ftxtfield_19',['BUTTON_NAME_TXTFIELD',['../game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a9556ac95df745836102e757452add0dc',1,'game_rl.h']]],
+  ['button_5fnew_5fgame_20',['BUTTON_NEW_GAME',['../game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a889f03264a131563fdb7e034ddc53f48',1,'game_rl.h']]],
+  ['button_5fnormal_21',['BUTTON_NORMAL',['../game__rl_8h.html#a5078feb0662fac6669451e95600e7b68a06ffeb2163a93c4005a9391ec4dc1c0f',1,'game_rl.h']]],
+  ['button_5fpressed_22',['BUTTON_PRESSED',['../game__rl_8h.html#a5078feb0662fac6669451e95600e7b68abd19dea9e19d02d7d39464dfdde1e48b',1,'game_rl.h']]],
+  ['button_5fsaveslot_5f1_23',['BUTTON_SAVESLOT_1',['../game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1adeee1426de11f1157696923ddb80e7fa',1,'game_rl.h']]],
+  ['button_5fsaveslot_5f2_24',['BUTTON_SAVESLOT_2',['../game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a6985fc87f4793afe3e651ce23f439686',1,'game_rl.h']]],
+  ['button_5fsaveslot_5f3_25',['BUTTON_SAVESLOT_3',['../game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a179d1b6c08b0c6bb3dba4ce1a3fe53ce',1,'game_rl.h']]]
 ];

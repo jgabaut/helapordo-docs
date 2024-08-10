@@ -56,9 +56,10 @@ var searchData=
   ['foeturnopstrings_53',['foeturnopstrings',['../game__core_8c.html#a044dd5247bbb9b385678802e256e728c',1,'foeturnopstrings:&#160;game_core.c'],['../game__core_8h.html#a044dd5247bbb9b385678802e256e728c',1,'foeturnopstrings:&#160;game_core.c']]],
   ['foeturnoption_54',['foeTurnOption',['../game__core_8h.html#a50069590115e5ae5089385871b62ab79',1,'foeTurnOption:&#160;game_core.h'],['../game__core_8h.html#a8e3a0a40a12cc2c4909fc47b2b11cea5',1,'foeTurnOption:&#160;game_core.h']]],
   ['foeturnoption_5fop_55',['foeTurnOption_OP',['../game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17',1,'foeTurnOption_OP:&#160;game_core.h'],['../game__core_8h.html#a6d71406ee8b87b816b699fbd2494f5cd',1,'foeTurnOption_OP:&#160;game_core.h']]],
-  ['freeroom_56',['freeRoom',['../game__utils_8c.html#a7a2c4831d10846369f34e2a04c37eba5',1,'freeRoom(Room *room):&#160;game_utils.c'],['../game__utils_8h.html#a7a2c4831d10846369f34e2a04c37eba5',1,'freeRoom(Room *room):&#160;game_utils.c']]],
-  ['from_5fbsp_57',['from_bsp',['../structFloor.html#ae00cb402299c65e56829a468ad02590d',1,'Floor::from_bsp'],['../structSerFloor.html#a837ae4b2dc1a4ce0bf9e1ba52351960a',1,'SerFloor::from_bsp']]],
-  ['frozen_58',['FROZEN',['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71adb83d199c06e08151be51095ab9f42fe',1,'game_core.h']]],
-  ['frozen_59',['Frozen',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a2a246cb2744d3a51000e1d0141e39df1',1,'game_core.h']]],
-  ['full_5fpath_60',['FULL_PATH',['../game__core_8h.html#adf58ec162baa0a9692076eca5591240fa89d06ebc5cb532ed3e2abf4ac71ec454',1,'game_core.h']]]
+  ['framescounter_56',['framesCounter',['../structGui__State.html#acdd0929640b2e12ddf31581e34aac153',1,'Gui_State']]],
+  ['freeroom_57',['freeRoom',['../game__utils_8c.html#a7a2c4831d10846369f34e2a04c37eba5',1,'freeRoom(Room *room):&#160;game_utils.c'],['../game__utils_8h.html#a7a2c4831d10846369f34e2a04c37eba5',1,'freeRoom(Room *room):&#160;game_utils.c']]],
+  ['from_5fbsp_58',['from_bsp',['../structFloor.html#ae00cb402299c65e56829a468ad02590d',1,'Floor::from_bsp'],['../structSerFloor.html#a837ae4b2dc1a4ce0bf9e1ba52351960a',1,'SerFloor::from_bsp']]],
+  ['frozen_59',['FROZEN',['../game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71adb83d199c06e08151be51095ab9f42fe',1,'game_core.h']]],
+  ['frozen_60',['Frozen',['../game__core_8h.html#aaeddacde1fba33d96646183ed28cff36a2a246cb2744d3a51000e1d0141e39df1',1,'game_core.h']]],
+  ['full_5fpath_61',['FULL_PATH',['../game__core_8h.html#adf58ec162baa0a9692076eca5591240fa89d06ebc5cb532ed3e2abf4ac71ec454',1,'game_core.h']]]
 ];

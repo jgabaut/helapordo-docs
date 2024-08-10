@@ -1,6 +1,6 @@
 <map id="Room" name="Room">
 <area shape="rect" id="Node000001" title="Represents the entity initialised from a roomClass." alt="" coords="500,352,556,377"/>
-<area shape="rect" id="Node000002" href="$structShop.html" title="Represents a shop instance." alt="" coords="367,179,418,203"/>
+<area shape="rect" id="Node000002" href="$structShop.html" title="Represents a shop instance." alt="" coords="366,179,418,203"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="392,218,394,254,398,272,406,289,426,311,451,329,501,352,499,357,448,334,423,315,402,291,393,274,389,255,387,219"/>
 <area shape="rect" id="Node000003" href="$structEquip.html" title="Represents the entity initialised from a equipClass." alt="" coords="394,92,449,117"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="434,132,432,156,423,169,412,180,408,176,419,166,427,154,428,131"/>
@@ -19,11 +19,11 @@
 <area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="222,215,164,267,160,263,219,211"/>
 <area shape="rect" id="Node000009" href="$structArtifact.html" title="Represents the entity initialised from a artifactClass." alt="" coords="5,179,70,203"/>
 <area shape="poly" id="edge11_Node000007_Node000009" title=" " alt="" coords="44,217,56,240,83,258,114,268,113,274,81,263,52,243,39,220"/>
-<area shape="rect" id="Node000010" href="$structBoss.html" title="Represents the entity initialised from a bossClass." alt="" coords="725,179,777,203"/>
+<area shape="rect" id="Node000010" href="$structBoss.html" title="Represents the entity initialised from a bossClass." alt="" coords="725,179,776,203"/>
 <area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="784,211,794,226,793,242,782,261,770,272,736,292,690,317,641,337,557,360,556,355,639,332,687,312,734,288,767,268,778,257,788,241,789,227,780,215"/>
 <area shape="rect" id="Node000014" href="$structFoeParty.html" title="Represents the entity initialised from a foePartyClass." alt="" coords="648,265,723,290"/>
 <area shape="poly" id="edge21_Node000014_Node000010" title=" " alt="" coords="735,217,696,267,692,264,731,214"/>
-<area shape="rect" id="Node000011" href="$structSkillslot.html" title="Holds state for a skillType." alt="" coords="735,92,802,117"/>
+<area shape="rect" id="Node000011" href="$structSkillslot.html" title="Holds state for a skillType." alt="" coords="734,92,802,117"/>
 <area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="776,132,775,155,762,179,758,177,770,154,771,132"/>
 <area shape="rect" id="Node000013" href="$structEnemy.html" title="Represents the entity initialised from a enemyClass." alt="" coords="601,179,663,203"/>
 <area shape="poly" id="edge16_Node000013_Node000011" title=" " alt="" coords="746,129,708,157,662,180,660,176,705,152,743,125"/>

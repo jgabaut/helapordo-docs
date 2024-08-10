@@ -77,8 +77,9 @@ var searchData=
   ['current_5fsaveslot_74',['current_saveslot',['../structPath.html#ad2148b43cfb984ef696401ed319ffa8c',1,'Path::current_saveslot'],['../structSerPath.html#a3488c8bbdb8684bb41514937ddbaf7e5',1,'SerPath::current_saveslot']]],
   ['current_5fval_75',['current_val',['../structWincon.html#a58cac684939b1b925d672b2fc93f624b',1,'Wincon::current_val'],['../structSerWincon.html#af9c23450e7859587456a049935abcbfd',1,'SerWincon::current_val']]],
   ['currentlevelxp_76',['currentlevelxp',['../structBaseStats.html#a9064606106458ad62d294d25f6df92ea',1,'BaseStats::currentlevelxp'],['../structFighter.html#adf70faf62de11de996dcd1a19723f3b3',1,'Fighter::currentlevelxp'],['../structSerFighter.html#ad935165583459209b03ace80ce1a0529',1,'SerFighter::currentlevelxp']]],
-  ['curses_5fbinsave_5fname_77',['CURSES_BINSAVE_NAME',['../game__core_8h.html#a48b98d71b86790920bae118089256e1e',1,'game_core.h']]],
-  ['curses_5fgmstsave_5fname_78',['CURSES_GMSTSAVE_NAME',['../game__core_8h.html#a857c8868894bda5e5c02f9a500c01606',1,'game_core.h']]],
-  ['curses_5fsettings_5fsave_5fname_79',['CURSES_SETTINGS_SAVE_NAME',['../game__core_8h.html#ab5bb2154dacc057e9b7054940f8f605c',1,'game_core.h']]],
-  ['cyan_80',['cyan',['../game__utils_8c.html#adb35e592921be3df71a1e9bd89f1699a',1,'cyan(void):&#160;game_utils.c'],['../game__utils_8h.html#adb35e592921be3df71a1e9bd89f1699a',1,'cyan(void):&#160;game_utils.c']]]
+  ['currentscreen_77',['currentScreen',['../structGui__State.html#a00040c8ed42037b0e9316755c9f49ea0',1,'Gui_State']]],
+  ['curses_5fbinsave_5fname_78',['CURSES_BINSAVE_NAME',['../game__core_8h.html#a48b98d71b86790920bae118089256e1e',1,'game_core.h']]],
+  ['curses_5fgmstsave_5fname_79',['CURSES_GMSTSAVE_NAME',['../game__core_8h.html#a857c8868894bda5e5c02f9a500c01606',1,'game_core.h']]],
+  ['curses_5fsettings_5fsave_5fname_80',['CURSES_SETTINGS_SAVE_NAME',['../game__core_8h.html#ab5bb2154dacc057e9b7054940f8f605c',1,'game_core.h']]],
+  ['cyan_81',['cyan',['../game__utils_8c.html#adb35e592921be3df71a1e9bd89f1699a',1,'cyan(void):&#160;game_utils.c'],['../game__utils_8h.html#adb35e592921be3df71a1e9bd89f1699a',1,'cyan(void):&#160;game_utils.c']]]
 ];

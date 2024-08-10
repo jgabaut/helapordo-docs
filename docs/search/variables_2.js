@@ -33,5 +33,6 @@ var searchData=
   ['current_5froomtype_30',['current_roomtype',['../structGamestate.html#ab62b9bded8e85646d7586b98071047ea',1,'Gamestate::current_roomtype'],['../structSerGamestate.html#abbc26cda58181f9edd20dbb72ae04379',1,'SerGamestate::current_roomtype']]],
   ['current_5fsaveslot_31',['current_saveslot',['../structPath.html#ad2148b43cfb984ef696401ed319ffa8c',1,'Path::current_saveslot'],['../structSerPath.html#a3488c8bbdb8684bb41514937ddbaf7e5',1,'SerPath::current_saveslot']]],
   ['current_5fval_32',['current_val',['../structWincon.html#a58cac684939b1b925d672b2fc93f624b',1,'Wincon::current_val'],['../structSerWincon.html#af9c23450e7859587456a049935abcbfd',1,'SerWincon::current_val']]],
-  ['currentlevelxp_33',['currentlevelxp',['../structBaseStats.html#a9064606106458ad62d294d25f6df92ea',1,'BaseStats::currentlevelxp'],['../structFighter.html#adf70faf62de11de996dcd1a19723f3b3',1,'Fighter::currentlevelxp'],['../structSerFighter.html#ad935165583459209b03ace80ce1a0529',1,'SerFighter::currentlevelxp']]]
+  ['currentlevelxp_33',['currentlevelxp',['../structBaseStats.html#a9064606106458ad62d294d25f6df92ea',1,'BaseStats::currentlevelxp'],['../structFighter.html#adf70faf62de11de996dcd1a19723f3b3',1,'Fighter::currentlevelxp'],['../structSerFighter.html#ad935165583459209b03ace80ce1a0529',1,'SerFighter::currentlevelxp']]],
+  ['currentscreen_34',['currentScreen',['../structGui__State.html#a00040c8ed42037b0e9316755c9f49ea0',1,'Gui_State']]]
 ];
