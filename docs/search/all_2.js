@@ -2,7 +2,7 @@ var searchData=
 [
   ['b_5fdeath_0',['b_death',['../game__utils_8c.html#ad28ad216665c8059357ae3dd1f8fbbea',1,'b_death(Boss *b):&#160;game_utils.c'],['../game__utils_8h.html#ad28ad216665c8059357ae3dd1f8fbbea',1,'b_death(Boss *b):&#160;game_utils.c']]],
   ['bad_1',['Bad',['../game__core_8h.html#a517dde945463233a0d8c0a5b124ce917ad57e8c1d32b9250a476d354158630c14',1,'game_core.h']]],
-  ['balance_2',['balance',['../structFighter.html#ad92aa5b097847949526d1e25a2d6ac3c',1,'Fighter::balance'],['../structSerFighter.html#a8dea335cf66227a8f445a6a89cd234ad',1,'SerFighter::balance']]],
+  ['balance_2',['balance',['../structFighter.html#ad92aa5b097847949526d1e25a2d6ac3c',1,'Fighter::balance'],['../structSerFighter.html#aec0c6bb1140f9bdb181fba70d69839c3',1,'SerFighter::balance']]],
   ['basebossstats_3',['basebossstats',['../game__core_8c.html#aa06cb259d2313f81e4b22d0f0710db54',1,'basebossstats:&#160;game_core.c'],['../game__core_8h.html#aa06cb259d2313f81e4b22d0f0710db54',1,'basebossstats:&#160;game_core.c']]],
   ['baseenemystats_4',['baseenemystats',['../game__core_8c.html#aa113fa5aeaac95283db86cae8f646e5b',1,'baseenemystats:&#160;game_core.c'],['../game__core_8h.html#aa113fa5aeaac95283db86cae8f646e5b',1,'baseenemystats:&#160;game_core.c']]],
   ['basefoepartystats_5',['basefoepartystats',['../game__core_8c.html#a59621fee248f97258221542df901623b',1,'basefoepartystats:&#160;game_core.c'],['../game__core_8h.html#a59621fee248f97258221542df901623b',1,'basefoepartystats:&#160;game_core.c']]],

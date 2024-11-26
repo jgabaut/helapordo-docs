@@ -2,7 +2,7 @@ var structSerFighter =
 [
     [ "artifactsBag", "structSerFighter.html#a54a8b142c05387de350b6397959b0803", null ],
     [ "atk", "structSerFighter.html#a75a68edf10d109a6a0adef57ccfe73ca", null ],
-    [ "balance", "structSerFighter.html#a8dea335cf66227a8f445a6a89cd234ad", null ],
+    [ "balance", "structSerFighter.html#aec0c6bb1140f9bdb181fba70d69839c3", null ],
     [ "class", "structSerFighter.html#a47978762a498eab477a1d676ac7eb117", null ],
     [ "consumablesBag", "structSerFighter.html#ad0a4766bb7b60c0aca14729779327d58", null ],
     [ "counters", "structSerFighter.html#a40b8e779aec7030b9b3bca9e8e7f3b4c", null ],

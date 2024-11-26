@@ -4,7 +4,7 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,219,182,265,177,265,177,219"/>
 <area shape="rect" id="Node000003" href="$structSerConsumable.html" title="Serialized Consumable." alt="" coords="5,92,120,117"/>
 <area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="56,132,50,167,51,185,57,202,74,223,95,240,141,262,139,267,92,244,70,227,53,205,46,186,44,167,50,131"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="80,127,103,153,146,176,143,180,100,157,76,131"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="80,127,104,153,147,176,144,180,101,157,76,131"/>
 <area shape="rect" id="Node000004" href="$structSerEquip.html" title="Serialized Equip." alt="" coords="163,92,237,117"/>
 <area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="196,132,185,179,180,178,191,131"/>
 <area shape="rect" id="Node000005" href="$structSerPerk.html" title="Serialized Perk." alt="" coords="166,5,234,30"/>

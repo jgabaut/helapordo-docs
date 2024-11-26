@@ -6,8 +6,6 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "core", "dir_aebb8dcc11953d78e620bbef0b9e2183.html", "dir_aebb8dcc11953d78e620bbef0b9e2183" ],
     [ "ser", "dir_984b8f3b44408dd4ae3ffc529732939a.html", "dir_984b8f3b44408dd4ae3ffc529732939a" ],
     [ "utils", "dir_313caf1132e152dd9b58bea13a4052ca.html", "dir_313caf1132e152dd9b58bea13a4052ca" ],
-    [ "anvil__helapordo.c", "anvil____helapordo_8c.html", "anvil____helapordo_8c" ],
-    [ "anvil__helapordo.h", "anvil____helapordo_8h.html", "anvil____helapordo_8h" ],
     [ "main.c", "main_8c.html", "main_8c" ],
     [ "palette.c", "palette_8c.html", "palette_8c" ],
     [ "palette.h", "palette_8h.html", "palette_8h" ]
