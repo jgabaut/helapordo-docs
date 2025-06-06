@@ -37,7 +37,7 @@ var searchData=
   ['bossclassesmax_34',['BOSSCLASSESMAX',['../game__core_8h.html#a8dee0cafdd47afa8d18c31e58c10e728',1,'game_core.h']]],
   ['bosses_35',['Bosses',['../game__core_8h.html#ac7e963d3b7c81d2f265d61e78bc1a5f2a8c8034ee800533b6f2469741b3b5bdc6',1,'game_core.h']]],
   ['bosses_5fsprites_36',['bosses_sprites',['../sprites_8c.html#aed40a508744715f01cc938dd3bfb9766',1,'bosses_sprites:&#160;sprites.c'],['../sprites_8h.html#aed40a508744715f01cc938dd3bfb9766',1,'bosses_sprites:&#160;sprites.c']]],
-  ['bosseskilled_37',['bosseskilled',['../structcountStats.html#aab58d58e6d31d8dbe054deb7f02cdeb1',1,'countStats::bosseskilled'],['../structSerCountstats.html#a4e18f3fcec6cecab1c48cb8b3bd2fe3c',1,'SerCountstats::bosseskilled']]],
+  ['bosseskilled_37',['bosseskilled',['../structcountStats.html#aab58d58e6d31d8dbe054deb7f02cdeb1',1,'countStats::bosseskilled'],['../structSerCountstats.html#a7448756d7457168ea49f56760c5c582b',1,'SerCountstats::bosseskilled']]],
   ['bossroom_38',['BOSSROOM',['../game__core_8h.html#a6bb8be318cb5cfbedf7e301f9599f393',1,'game_core.h']]],
   ['bossturnpick_39',['bossTurnPick',['../game__utils_8c.html#a2728ab62c041317057375098a50d8591',1,'bossTurnPick(Boss *b, Fighter *f):&#160;game_utils.c'],['../game__utils_8h.html#a2728ab62c041317057375098a50d8591',1,'bossTurnPick(Boss *b, Fighter *f):&#160;game_utils.c']]],
   ['box_5fcolor_40',['box_color',['../structGui__Button.html#a034861a1c3772a1e70297d00ccd28f88',1,'Gui_Button']]],

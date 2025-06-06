@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lores_5fmax_0',['LORES_MAX',['../game__core_8h.html#aa1af02fc139f35c78cf87f291a50d43a',1,'game_core.h']]]
+  ['kls_5fregiontype_5fmax_0',['KLS_REGIONTYPE_MAX',['../game__core_8h.html#a15fdda5e6f3ef1e781ad7c019ab250f5',1,'game_core.h']]]
 ];

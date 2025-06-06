@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"game__utils_8c.html#abb9cca5dd50fe2dc2fbd318f8fd9a620":[2,0,0,5,10,126],
 "game__utils_8c.html#abba8030a0bc40a43cfe79883807fd83e":[2,0,0,5,10,39],
 "game__utils_8c.html#abbfb97240b1f872fd2f22fed92411344":[2,0,0,5,10,147],
 "game__utils_8c.html#abddbc99a3c42eb725d90eaccaf4174ef":[2,0,0,5,10,141],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "globals_eval_m.html":[2,1,5,11],
 "globals_eval_n.html":[2,1,5,12],
 "globals_eval_o.html":[2,1,5,13],
-"globals_eval_p.html":[2,1,5,14],
-"globals_eval_q.html":[2,1,5,15]
+"globals_eval_p.html":[2,1,5,14]
 };

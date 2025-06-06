@@ -1,0 +1,12 @@
+digraph "Path"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="Path",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Holds the state of game progression."];
+  Node2 -> Node1 [id="edge1_Node000001_Node000002",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" win_condition",fontcolor="grey" ];
+  Node2 [id="Node000002",label="Wincon",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structWincon.html",tooltip="Defines the entity initialised from a winconClass."];
+  Node3 -> Node1 [id="edge2_Node000001_Node000003",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" current_saveslot",fontcolor="grey" ];
+  Node3 [id="Node000003",label="Saveslot",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structSaveslot.html",tooltip="Holds arguments for a saveslot."];
+}

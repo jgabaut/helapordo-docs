@@ -34,7 +34,7 @@ var searchData=
   ['floornamestrings_31',['floornamestrings',['../game__core_8c.html#ab1acfa5cdc830d795070ccf75039bc40',1,'floornamestrings:&#160;game_core.c'],['../game__core_8h.html#ab1acfa5cdc830d795070ccf75039bc40',1,'floornamestrings:&#160;game_core.c']]],
   ['floors_2ec_32',['floors.c',['../floors_8c.html',1,'']]],
   ['floors_2eh_33',['floors.h',['../floors_8h.html',1,'']]],
-  ['floorscompleted_34',['floorscompleted',['../structcountStats.html#ae19bed53c38989d207eedc29d42f43e6',1,'countStats::floorscompleted'],['../structSerCountstats.html#ab41be9ec6d83744375b6dac2b25bf6c7',1,'SerCountstats::floorscompleted']]],
+  ['floorscompleted_34',['floorscompleted',['../structcountStats.html#ae19bed53c38989d207eedc29d42f43e6',1,'countStats::floorscompleted'],['../structSerCountstats.html#a07ad781d3f391888a92d5480739361ea',1,'SerCountstats::floorscompleted']]],
   ['foe_5ffight_35',['FOE_FIGHT',['../game__core_8h.html#a50069590115e5ae5089385871b62ab79a8244dcc74201feb1ef748b0fc19d2991',1,'game_core.h']]],
   ['foe_5fidle_36',['FOE_IDLE',['../game__core_8h.html#a50069590115e5ae5089385871b62ab79a3ebc15a7b225189ffc6b8545574f7868',1,'game_core.h']]],
   ['foe_5finvalid_37',['FOE_INVALID',['../game__core_8h.html#a50069590115e5ae5089385871b62ab79a7dc2a4a13998a3b800b672af80f42f2c',1,'game_core.h']]],

@@ -45,6 +45,6 @@ var searchData=
   ['rooms_2ec_42',['rooms.c',['../rooms_8c.html',1,'']]],
   ['rooms_2eh_43',['rooms.h',['../rooms_8h.html',1,'']]],
   ['rooms_5fmatrix_44',['rooms_matrix',['../structFloor.html#a79ef2820ccddedb75d6dcb37a96ef671',1,'Floor']]],
-  ['roomscompleted_45',['roomscompleted',['../structcountStats.html#a1f5af8e35d246d23c9857b09542e94c9',1,'countStats::roomscompleted'],['../structSerCountstats.html#a2966759eeefa32c4e0702c70149cf4c4',1,'SerCountstats::roomscompleted']]],
+  ['roomscompleted_45',['roomscompleted',['../structcountStats.html#a1f5af8e35d246d23c9857b09542e94c9',1,'countStats::roomscompleted'],['../structSerCountstats.html#a6dd0d372bb5daa4515980a188d27e8f0',1,'SerCountstats::roomscompleted']]],
   ['runic_5fmagnet_46',['RUNIC_MAGNET',['../game__core_8h.html#a6596d102ab23827f3fb47b9531feabcfab0d026ef9b66f60dbf2b083e4948ca11',1,'game_core.h']]]
 ];

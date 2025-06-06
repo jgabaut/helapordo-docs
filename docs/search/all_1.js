@@ -40,7 +40,7 @@ var searchData=
   ['artifacts_5fsprites_37',['artifacts_sprites',['../sprites_8c.html#a3745ee9cbfb8db4e5a88ecafb50aed82',1,'artifacts_sprites:&#160;sprites.c'],['../sprites_8h.html#a3745ee9cbfb8db4e5a88ecafb50aed82',1,'artifacts_sprites:&#160;sprites.c']]],
   ['artifactsbag_38',['artifactsBag',['../structFighter.html#a1d96bbfd57d0608570ab094835dd20ed',1,'Fighter::artifactsBag'],['../structSerFighter.html#a54a8b142c05387de350b6397959b0803',1,'SerFighter::artifactsBag']]],
   ['artifactsbase_39',['artifactsBase',['../game__core_8c.html#a5377bcc4a9f1ad11f3fe6286a7bd8ad2',1,'artifactsBase:&#160;game_core.c'],['../game__core_8h.html#a5377bcc4a9f1ad11f3fe6286a7bd8ad2',1,'artifactsBase:&#160;game_core.c']]],
-  ['artifactsfound_40',['artifactsfound',['../structcountStats.html#a93a70da8bf35bbfa6199d94004b2448e',1,'countStats::artifactsfound'],['../structSerCountstats.html#ac06f1b548e9edc903317e7da8f7bc04a',1,'SerCountstats::artifactsfound']]],
+  ['artifactsfound_40',['artifactsfound',['../structcountStats.html#a93a70da8bf35bbfa6199d94004b2448e',1,'countStats::artifactsfound'],['../structSerCountstats.html#added71dfbe67f5157762f1cd8a5ceb45',1,'SerCountstats::artifactsfound']]],
   ['artifactsmax_41',['ARTIFACTSMAX',['../game__core_8h.html#a6986b6f486e6dc41c9e4b83549cbcf4a',1,'game_core.h']]],
   ['artifactstrings_42',['artifactstrings',['../game__core_8c.html#aca00570c9830f21e65f7d8110fb7e547',1,'artifactstrings:&#160;game_core.c'],['../game__core_8h.html#aca00570c9830f21e65f7d8110fb7e547',1,'artifactstrings:&#160;game_core.c']]],
   ['assassin_43',['Assassin',['../game__core_8h.html#a8c50861d8f0fe242b6a84014376bf63aa62fc4a5032897c2fde009d94f42458f8',1,'game_core.h']]],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX8 =
 {
+"structSerFighter.html#ad908baef92218fc22cb7df8260f968e3":[1,0,38,9],
+"structSerFighter.html#ad935165583459209b03ace80ce1a0529":[1,0,38,6],
+"structSerFighter.html#adb1cfd7f6cef27c539ccd9ee41bf19b4":[1,0,38,38],
 "structSerFighter.html#adb5012b25fd415a7950eeb13fb0b4c62":[1,0,38,36],
 "structSerFighter.html#aec0c6bb1140f9bdb181fba70d69839c3":[1,0,38,2],
 "structSerFighter.html#aee341147675b0c907a444220c2c6f4c7":[1,0,38,27],

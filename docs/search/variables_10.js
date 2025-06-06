@@ -10,5 +10,5 @@ var searchData=
   ['roomclass_5flayout_7',['roomclass_layout',['../structFloor.html#aa67de97d1f53991c6dd6e2eab614d960',1,'Floor::roomclass_layout'],['../structSerFloor.html#acd2f4163f12993a148c60f820e099142',1,'SerFloor::roomclass_layout']]],
   ['roomnamestrings_8',['roomnamestrings',['../game__core_8c.html#a4646a5c6512108c26142bed5300b65fd',1,'roomnamestrings:&#160;game_core.c'],['../game__core_8h.html#a4646a5c6512108c26142bed5300b65fd',1,'roomnamestrings:&#160;game_core.c']]],
   ['rooms_5fmatrix_9',['rooms_matrix',['../structFloor.html#a79ef2820ccddedb75d6dcb37a96ef671',1,'Floor']]],
-  ['roomscompleted_10',['roomscompleted',['../structcountStats.html#a1f5af8e35d246d23c9857b09542e94c9',1,'countStats::roomscompleted'],['../structSerCountstats.html#a2966759eeefa32c4e0702c70149cf4c4',1,'SerCountstats::roomscompleted']]]
+  ['roomscompleted_10',['roomscompleted',['../structcountStats.html#a1f5af8e35d246d23c9857b09542e94c9',1,'countStats::roomscompleted'],['../structSerCountstats.html#a6dd0d372bb5daa4515980a188d27e8f0',1,'SerCountstats::roomscompleted']]]
 ];

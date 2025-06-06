@@ -1,16 +1,16 @@
 var structSerCountstats =
 [
-    [ "artifactsfound", "structSerCountstats.html#ac06f1b548e9edc903317e7da8f7bc04a", null ],
-    [ "bosseskilled", "structSerCountstats.html#a4e18f3fcec6cecab1c48cb8b3bd2fe3c", null ],
-    [ "coinsfound", "structSerCountstats.html#a832239c805ba39c77c56434e2b5c2e21", null ],
-    [ "consumablesfound", "structSerCountstats.html#ab266978c25b7fdf12389cefaddf33c27", null ],
-    [ "criticalhits", "structSerCountstats.html#a61023a0bb4c371d30b2918896c2321d4", null ],
-    [ "enemieskilled", "structSerCountstats.html#ad50092c00217d1d6e838dc387911054a", null ],
-    [ "equipsfound", "structSerCountstats.html#a0a992b09d599ce37a5e31ab80d969fb0", null ],
-    [ "floorscompleted", "structSerCountstats.html#ab41be9ec6d83744375b6dac2b25bf6c7", null ],
-    [ "keysfound", "structSerCountstats.html#ac14e40665fdbe3cc983897c67f4ad455", null ],
+    [ "artifactsfound", "structSerCountstats.html#added71dfbe67f5157762f1cd8a5ceb45", null ],
+    [ "bosseskilled", "structSerCountstats.html#a7448756d7457168ea49f56760c5c582b", null ],
+    [ "coinsfound", "structSerCountstats.html#ad4e17a90598b1cdacfa3b93b6d89b910", null ],
+    [ "consumablesfound", "structSerCountstats.html#a4c5169fb009e2fa60392e698e7aa8711", null ],
+    [ "criticalhits", "structSerCountstats.html#abe0c410ac3c785318add600ca929c91b", null ],
+    [ "enemieskilled", "structSerCountstats.html#ad2d039302a95a42357132eca5804c74a", null ],
+    [ "equipsfound", "structSerCountstats.html#a8a7e5c7f67465a2bed2f53ef75464cdd", null ],
+    [ "floorscompleted", "structSerCountstats.html#a07ad781d3f391888a92d5480739361ea", null ],
+    [ "keysfound", "structSerCountstats.html#af915ac2ed65845e7d3b597f66ad14a52", null ],
     [ "killed_bosses", "structSerCountstats.html#aba992bd5aa24ea5d591b8d218615a09c", null ],
-    [ "roomscompleted", "structSerCountstats.html#a2966759eeefa32c4e0702c70149cf4c4", null ],
-    [ "specialsunlocked", "structSerCountstats.html#ab03e872586c848ebe2fd0ad483b40a1c", null ],
+    [ "roomscompleted", "structSerCountstats.html#a6dd0d372bb5daa4515980a188d27e8f0", null ],
+    [ "specialsunlocked", "structSerCountstats.html#a7d031fd7c92fd61849791a4a0cd48e75", null ],
     [ "unique_bosseskilled", "structSerCountstats.html#a2d7d67bfee24c1bddccca456d3bfd543", null ]
 ];

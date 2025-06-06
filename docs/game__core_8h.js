@@ -91,6 +91,7 @@ var game__core_8h =
     [ "HLPD_KEYCLASS_MAX", "game__core_8h.html#ae08f7f5472dd32143fec7544c7827e1b", null ],
     [ "HOMEROOM", "game__core_8h.html#a75476d11ff4a885787b8d604b9e97585", null ],
     [ "ITEM_SHOP_MAX", "game__core_8h.html#a65a3e045b22e8d0243bea60720f7ba0b", null ],
+    [ "KLS_REGIONTYPE_MAX", "game__core_8h.html#a15fdda5e6f3ef1e781ad7c019ab250f5", null ],
     [ "LORES_MAX", "game__core_8h.html#aa1af02fc139f35c78cf87f291a50d43a", null ],
     [ "MAX_ROGUE_FLOORS", "game__core_8h.html#a6adbe72467fc02cdecee4719943bdcb0", null ],
     [ "MAX_SAVESLOTS", "game__core_8h.html#a1cfde27bc59361009370b89a3f06932a", null ],
