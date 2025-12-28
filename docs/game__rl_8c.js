@@ -1,6 +1,7 @@
 var game__rl_8c =
 [
     [ "draw_GameScreen_Texture", "game__rl_8c.html#a74954e289a30eb9fa294882b1223b858", null ],
+    [ "fight_Special", "game__rl_8c.html#a1765b971f38e66be22cae46ca381fc2e", null ],
     [ "handleTutorial", "game__rl_8c.html#a5543d652daa003dfabf55e802c1e6202", null ],
     [ "hlpd_draw_notifications", "game__rl_8c.html#a4fd3202b29e7a14d95a1cd0e35be3b44", null ],
     [ "setArtifactSprite", "game__rl_8c.html#aacdc495ee6ed789f7e58946715f0fd47", null ],

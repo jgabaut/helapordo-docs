@@ -1,7 +1,7 @@
 var searchData=
 [
   ['on_0',['on',['../structGui__Button.html#acddd1aec36834a351a0108a8d7858b3a',1,'Gui_Button']]],
-  ['onlevelup_1',['onLevelUp',['../game__utils_8c.html#a22766372835b85f40d0103752aad5a3c',1,'onLevelUp(Fighter *player):&#160;game_utils.c'],['../game__utils_8h.html#a22766372835b85f40d0103752aad5a3c',1,'onLevelUp(Fighter *player):&#160;game_utils.c']]],
+  ['onlevelup_1',['onLevelUp',['../game__utils_8c.html#acdf48eea793d391add3cfde75500fa37',1,'onLevelUp(Fighter *player):&#160;game_utils.c'],['../game__utils_8h.html#acdf48eea793d391add3cfde75500fa37',1,'onLevelUp(Fighter *player):&#160;game_utils.c']]],
   ['op_5fartifacts_2',['OP_ARTIFACTS',['../game__core_8h.html#abc0ae742eb657b3657d27bc54585b160a111a660e26e1126478faa338e801f983',1,'game_core.h']]],
   ['op_5fcannot_5fopen_5fsavefile_3',['OP_CANNOT_OPEN_SAVEFILE',['../game__core_8h.html#afe8e046bf5f260d1d9a60aa4d4dfab9ca353f8126c6ce673317694496ee1ea01f',1,'game_core.h']]],
   ['op_5fchange_5foptions_4',['OP_CHANGE_OPTIONS',['../game__core_8h.html#abc0ae742eb657b3657d27bc54585b160a702dd86c091d5f6dc1cdf587ed85b04e',1,'game_core.h']]],

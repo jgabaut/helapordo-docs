@@ -1,9 +1,9 @@
 <map id="loadInfo" name="loadInfo">
-<area shape="rect" id="Node000001" title="Contains loaded values to pass to initRoom()." alt="" coords="56,179,123,203"/>
-<area shape="rect" id="Node000002" href="$structEnemy.html" title="Represents the entity initialised from a enemyClass." alt="" coords="58,92,121,117"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,132,92,179,87,179,87,132"/>
-<area shape="rect" id="Node000003" href="$structSkillslot.html" title="Holds state for a skillType." alt="" coords="5,5,73,30"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="56,42,85,90,81,93,51,44"/>
-<area shape="rect" id="Node000004" href="$structTurncounter.html" title="Represents the entity initialised from a CounterType." alt="" coords="97,5,186,30"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="129,44,99,93,94,90,125,42"/>
+<area shape="rect" id="Node000001" title="Contains loaded values to pass to initRoom()." alt="" coords="56,199,123,224"/>
+<area shape="rect" id="Node000002" href="$structEnemy.html" title="Represents the entity initialised from a enemyClass." alt="" coords="60,102,120,128"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,141,92,199,87,197,87,144"/>
+<area shape="rect" id="Node000003" href="$structSkillslot.html" title="Holds state for a skillType." alt="" coords="5,5,73,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="53,42,86,101,81,102,52,47"/>
+<area shape="rect" id="Node000004" href="$structTurncounter.html" title="Represents the entity initialised from a CounterType." alt="" coords="96,5,187,31"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="131,43,115,79,100,103,95,100,110,77,128,47"/>
 </map>

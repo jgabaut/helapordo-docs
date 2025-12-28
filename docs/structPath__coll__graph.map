@@ -1,7 +1,7 @@
 <map id="Path" name="Path">
-<area shape="rect" id="Node000001" title="Holds the state of game progression." alt="" coords="70,92,118,117"/>
-<area shape="rect" id="Node000002" href="$structWincon.html" title="Defines the entity initialised from a winconClass." alt="" coords="5,5,71,30"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="37,44,41,67,54,81,71,92,68,96,51,85,37,69,31,46"/>
-<area shape="rect" id="Node000003" href="$structSaveslot.html" title="Holds arguments for a saveslot." alt="" coords="116,5,187,30"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="140,45,124,70,106,93,102,90,120,66,135,42"/>
+<area shape="rect" id="Node000001" title="Holds the state of game progression." alt="" coords="72,102,120,128"/>
+<area shape="rect" id="Node000002" href="$structWincon.html" title="Defines the entity initialised from a winconClass." alt="" coords="5,5,70,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="33,44,36,62,41,77,55,92,74,104,69,106,52,96,36,79,31,63,32,49"/>
+<area shape="rect" id="Node000003" href="$structSaveslot.html" title="Holds arguments for a saveslot." alt="" coords="119,5,191,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="146,44,128,79,109,104,105,99,123,77,141,47"/>
 </map>

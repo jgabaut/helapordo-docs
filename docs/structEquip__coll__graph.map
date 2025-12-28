@@ -1,5 +1,5 @@
 <map id="Equip" name="Equip">
-<area shape="rect" id="Node000001" title="Represents the entity initialised from a equipClass." alt="" coords="5,92,60,117"/>
-<area shape="rect" id="Node000002" href="$structPerk.html" title="Represents the entity initialised from a perkClass." alt="" coords="8,5,57,30"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="35,45,35,92,30,92,30,45"/>
+<area shape="rect" id="Node000001" title="Represents the entity initialised from a equipClass." alt="" coords="5,102,59,128"/>
+<area shape="rect" id="Node000002" href="$structPerk.html" title="Represents the entity initialised from a perkClass." alt="" coords="8,5,56,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="34,45,35,102,29,101,30,47"/>
 </map>

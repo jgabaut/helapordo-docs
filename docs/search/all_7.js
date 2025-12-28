@@ -75,7 +75,7 @@ var searchData=
   ['getturnchoice_72',['getTurnChoice',['../game__utils_8c.html#ae54e162bba9bfb58797361b63f942c30',1,'getTurnChoice(char *ch):&#160;game_utils.c'],['../game__utils_8h.html#ae54e162bba9bfb58797361b63f942c30',1,'getTurnChoice(char *ch):&#160;game_utils.c']]],
   ['ghost_73',['Ghost',['../game__core_8h.html#a11ed656be5525063588efc931101c732abe7d0b24cc3446c927e54e440af7566f',1,'game_core.h']]],
   ['giantfossile_74',['GIANTFOSSILE',['../game__core_8h.html#a1633bdf36a3d53020d3955aa2ea528a4a6a59494636f8f18a7d4278dc9b48a9ee',1,'game_core.h']]],
-  ['givexp_75',['giveXp',['../game__utils_8c.html#a20db8bd79aeaffbdb3d18e55b75bf49f',1,'giveXp(Fighter *player, Enemy *e):&#160;game_utils.c'],['../game__utils_8h.html#a20db8bd79aeaffbdb3d18e55b75bf49f',1,'giveXp(Fighter *player, Enemy *e):&#160;game_utils.c']]],
+  ['givexp_75',['giveXp',['../game__utils_8c.html#a61ec91ed889072bcaf109f5e55688b27',1,'giveXp(Fighter *player, Enemy *e):&#160;game_utils.c'],['../game__utils_8h.html#a61ec91ed889072bcaf109f5e55688b27',1,'giveXp(Fighter *player, Enemy *e):&#160;game_utils.c']]],
   ['givexp_5fboss_76',['giveXp_Boss',['../game__utils_8c.html#a4bb3b25728e7e3979788d82932984d1a',1,'giveXp_Boss(Fighter *player, Boss *b):&#160;game_utils.c'],['../game__utils_8h.html#a4bb3b25728e7e3979788d82932984d1a',1,'giveXp_Boss(Fighter *player, Boss *b):&#160;game_utils.c']]],
   ['gmst_77',['gmst',['../structturnOP__args.html#aec0bf444e35f85ed8caac29e77e5f083',1,'turnOP_args']]],
   ['goblin_78',['Goblin',['../game__core_8h.html#a11ed656be5525063588efc931101c732a82e24ff0d0b8066ea4728ab820edc81f',1,'game_core.h']]],

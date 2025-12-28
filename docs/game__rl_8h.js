@@ -21,7 +21,21 @@ var game__rl_8h =
       [ "BUTTON_CLASS_ARCHER", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1ae51e24e22bb0039a41297e4e316c6447", null ],
       [ "BUTTON_CLASS_MAGE", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a99fae851c1b0454c559a12b008c18ea4", null ],
       [ "BUTTON_CLASS_ASSASSIN", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a2b3efb3f25f2268b997113257e93163a", null ],
-      [ "BUTTON_NAME_TXTFIELD", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a9556ac95df745836102e757452add0dc", null ]
+      [ "BUTTON_NAME_TXTFIELD", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a9556ac95df745836102e757452add0dc", null ],
+      [ "BUTTON_FIGHT", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1ac085ddef10766b11fd744de019508111", null ],
+      [ "BUTTON_SPECIAL", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a6f6e7a9c9add5ef8b67b56daf5aa56c6", null ],
+      [ "BUTTON_EQUIPS", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a69bee9097c820c35d3c64cd2ab802112", null ],
+      [ "BUTTON_CONSUMABLES", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1aa2d715f71bfbfd054fb454eea354f65a", null ],
+      [ "BUTTON_OPEN_BAG", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1acd9ad9e7498741af27d166aa8b7884be", null ],
+      [ "BUTTON_CHECK_LOADOUT", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a9bb3fd86c5bd331a3643d18a809ed06c", null ],
+      [ "BUTTON_SPECIAL_1", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a48da0b21323051d34393b09f89bc59e0", null ],
+      [ "BUTTON_SPECIAL_2", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a1d34c87b0879ee2ad23c91a7bb05a77f", null ],
+      [ "BUTTON_SPECIAL_3", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a7a4c0fb97a3a2ffefc43ef18d1c45d88", null ],
+      [ "BUTTON_SPECIAL_4", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a8e78df3d258bb4c6ba720bd141138a08", null ],
+      [ "BUTTON_SPECIAL_UNLOCK_1", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1aad0f5dba2509604c6fbca792d0e10f52", null ],
+      [ "BUTTON_SPECIAL_UNLOCK_2", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1acd18de2b4f535ea8fbab1539cf493511", null ],
+      [ "BUTTON_SPECIAL_UNLOCK_3", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a136220aecdc6560b3319c361eed244cb", null ],
+      [ "BUTTON_SPECIAL_UNLOCK_4", "game__rl_8h.html#a5c54c6efbf07ddbacdfba05dbc372ae1a58b6c4b51c7b7344e1b3198ccaa693e8", null ]
     ] ],
     [ "Gui_Button_State", "game__rl_8h.html#a5078feb0662fac6669451e95600e7b68", [
       [ "BUTTON_NORMAL", "game__rl_8h.html#a5078feb0662fac6669451e95600e7b68a06ffeb2163a93c4005a9391ec4dc1c0f", null ],
@@ -29,6 +43,7 @@ var game__rl_8h =
       [ "BUTTON_PRESSED", "game__rl_8h.html#a5078feb0662fac6669451e95600e7b68abd19dea9e19d02d7d39464dfdde1e48b", null ]
     ] ],
     [ "draw_GameScreen_Texture", "game__rl_8h.html#a74954e289a30eb9fa294882b1223b858", null ],
+    [ "fight_Special", "game__rl_8h.html#a1765b971f38e66be22cae46ca381fc2e", null ],
     [ "handleTutorial", "game__rl_8h.html#a5543d652daa003dfabf55e802c1e6202", null ],
     [ "hlpd_draw_notifications", "game__rl_8h.html#a4fd3202b29e7a14d95a1cd0e35be3b44", null ],
     [ "setArtifactSprite", "game__rl_8h.html#aacdc495ee6ed789f7e58946715f0fd47", null ],

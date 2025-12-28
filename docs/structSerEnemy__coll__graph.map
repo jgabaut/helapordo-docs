@@ -1,7 +1,7 @@
 <map id="SerEnemy" name="SerEnemy">
-<area shape="rect" id="Node000001" title="Serialized Enemy." alt="" coords="69,92,152,117"/>
-<area shape="rect" id="Node000002" href="$structSerSkillslot.html" title="Serialized Skillslot." alt="" coords="5,5,93,30"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,41,104,90,100,93,64,44"/>
-<area shape="rect" id="Node000003" href="$structSerTurncounter.html" title="Serialized Turncounter." alt="" coords="117,5,226,30"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,44,121,93,116,90,152,41"/>
+<area shape="rect" id="Node000001" title="Serialized Enemy." alt="" coords="70,102,150,128"/>
+<area shape="rect" id="Node000002" href="$structSerSkillslot.html" title="Serialized Skillslot." alt="" coords="5,5,93,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,42,105,101,100,102,64,46"/>
+<area shape="rect" id="Node000003" href="$structSerTurncounter.html" title="Serialized Turncounter." alt="" coords="116,5,227,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,43,120,103,116,100,153,45"/>
 </map>

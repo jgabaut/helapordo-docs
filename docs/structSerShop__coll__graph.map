@@ -1,9 +1,9 @@
 <map id="SerShop" name="SerShop">
-<area shape="rect" id="Node000001" title="Serialized Shop." alt="" coords="66,179,137,203"/>
-<area shape="rect" id="Node000002" href="$structSerEquip.html" title="Serialized Equip." alt="" coords="5,92,80,117"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="61,128,96,177,91,180,57,131"/>
-<area shape="rect" id="Node000003" href="$structSerPerk.html" title="Serialized Perk." alt="" coords="8,5,77,30"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="45,45,45,92,40,92,40,45"/>
-<area shape="rect" id="Node000004" href="$structSerConsumable.html" title="Serialized Consumable." alt="" coords="104,92,218,117"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="147,131,111,180,107,177,142,128"/>
+<area shape="rect" id="Node000001" title="Serialized Shop." alt="" coords="65,199,136,224"/>
+<area shape="rect" id="Node000002" href="$structSerEquip.html" title="Serialized Equip." alt="" coords="5,102,79,128"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,139,96,197,91,199,56,143"/>
+<area shape="rect" id="Node000003" href="$structSerPerk.html" title="Serialized Perk." alt="" coords="8,5,76,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="43,44,45,102,39,101,41,49"/>
+<area shape="rect" id="Node000004" href="$structSerConsumable.html" title="Serialized Consumable." alt="" coords="103,102,216,128"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="150,141,132,176,113,200,110,196,128,173,146,144"/>
 </map>

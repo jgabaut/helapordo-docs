@@ -7,6 +7,7 @@ var structGui__State =
     [ "gameScreenWidth", "structGui__State.html#a914d3d34aed4ca00f5ec4af450c8667d", null ],
     [ "mouse", "structGui__State.html#a7fefd4877d0117997e9aeaaafc66ab51", null ],
     [ "scale", "structGui__State.html#ab6a9fe1687e594c2b194da5ba28dc941", null ],
+    [ "selectedIndex", "structGui__State.html#af1f2d05de2d0f1b7bd67b394e0defae0", null ],
     [ "theme", "structGui__State.html#adbce0893eb488b2b1570b16cad588778", null ],
     [ "virtualMouse", "structGui__State.html#ae6409bbfd68067dcad71646b570e06d8", null ]
 ];

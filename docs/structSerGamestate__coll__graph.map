@@ -1,63 +1,63 @@
 <map id="SerGamestate" name="SerGamestate">
-<area shape="rect" id="Node000001" title="Serialized Gamestate." alt="" coords="1077,220,1182,245"/>
-<area shape="rect" id="Node000002" href="$structSerCountstats.html" title="Serialized countStats." alt="" coords="163,35,268,60"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="284,33,370,22,465,17,912,17,954,24,992,42,1026,69,1055,101,1100,168,1125,219,1121,221,1096,171,1051,104,1022,73,989,46,953,29,912,22,465,22,370,27,284,38"/>
-<area shape="rect" id="Node000006" href="$structSerFighter.html" title="Serialized Fighter." alt="" coords="426,244,507,269"/>
-<area shape="poly" id="edge16_Node000006_Node000002" title=" " alt="" coords="284,54,346,74,376,89,403,109,429,142,448,180,465,243,460,245,443,182,425,145,399,113,373,94,344,79,283,60"/>
-<area shape="rect" id="Node000003" href="$structSerWincon.html" title="Serialized Wincon." alt="" coords="635,130,721,154"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="736,138,791,139,849,143,953,161,1054,193,1107,217,1105,222,1052,198,952,166,848,149,791,144,736,143"/>
-<area shape="rect" id="Node000004" href="$structSerPath.html" title="Serialized SerPath." alt="" coords="877,195,945,220"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="736,155,877,195,876,200,735,160"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="961,210,1077,224,1076,229,960,216"/>
-<area shape="rect" id="Node000005" href="$structSerSaveslot.html" title="Serialized Saveslot." alt="" coords="632,195,724,220"/>
-<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="739,205,876,205,876,210,739,210"/>
-<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="522,252,1076,232,1077,237,523,257"/>
-<area shape="rect" id="Node000007" href="$structSerSpecialslot.html" title="Serialized Specialslot." alt="" coords="163,159,268,184"/>
-<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="284,174,343,185,402,205,431,223,454,242,451,246,428,227,400,210,341,190,283,179"/>
-<area shape="rect" id="Node000008" href="$structSerSkillslot.html" title="Serialized Skillslot." alt="" coords="172,686,260,710"/>
-<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="218,670,226,632,240,585,262,539,295,499,309,489,323,485,350,485,376,484,387,480,399,470,411,453,418,437,419,404,415,368,417,348,422,325,437,293,453,268,458,271,442,296,428,327,422,348,421,368,424,404,423,438,416,455,403,474,390,484,377,490,350,490,324,490,312,494,299,503,267,542,245,587,231,633,223,671"/>
-<area shape="rect" id="Node000021" href="$structSerBoss.html" title="Serialized Boss." alt="" coords="430,683,502,708"/>
-<area shape="poly" id="edge30_Node000021_Node000008" title=" " alt="" coords="275,695,430,693,430,698,275,700"/>
-<area shape="rect" id="Node000022" href="$structSerEnemy.html" title="Serialized Enemy." alt="" coords="425,752,507,777"/>
-<area shape="poly" id="edge33_Node000022_Node000008" title=" " alt="" coords="275,711,425,751,424,756,273,716"/>
-<area shape="rect" id="Node000009" href="$structSerTurncounter.html" title="Serialized Turncounter." alt="" coords="161,799,270,824"/>
-<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="235,785,254,755,270,721,277,695,278,672,273,629,271,608,272,588,280,566,295,544,308,534,322,529,349,529,376,529,387,525,399,516,407,501,412,479,416,425,417,368,422,325,437,293,453,268,458,271,442,296,428,327,422,369,421,425,417,480,412,502,403,519,390,530,376,535,349,534,323,534,311,538,299,548,285,569,278,589,276,608,278,628,283,671,282,696,276,723,259,758,239,788"/>
-<area shape="poly" id="edge31_Node000021_Node000009" title=" " alt="" coords="285,802,343,789,372,778,399,765,452,706,455,710,403,769,375,783,345,794,287,807"/>
-<area shape="poly" id="edge34_Node000022_Node000009" title=" " alt="" coords="264,826,295,834,330,839,366,839,400,830,418,819,433,805,455,776,459,779,437,809,421,823,402,834,367,844,330,845,294,840,263,832"/>
-<area shape="rect" id="Node000023" href="$structSerFoeParty.html" title="Serialized FoeParty." alt="" coords="630,703,726,728"/>
-<area shape="poly" id="edge36_Node000023_Node000009" title=" " alt="" coords="253,829,298,845,349,852,400,845,478,821,552,788,614,754,657,726,660,730,616,758,554,793,480,826,402,850,349,857,296,850,252,834"/>
-<area shape="rect" id="Node000010" href="$structSerPerk.html" title="Serialized Perk." alt="" coords="5,311,74,336"/>
-<area shape="poly" id="edge10_Node000006_Node000010" title=" " alt="" coords="69,300,110,276,158,255,224,238,278,233,332,235,401,242,426,245,425,251,401,247,332,241,278,238,225,244,160,261,113,281,72,304"/>
-<area shape="rect" id="Node000012" href="$structSerEquip.html" title="Serialized Equip." alt="" coords="179,423,253,448"/>
-<area shape="poly" id="edge13_Node000012_Node000010" title=" " alt="" coords="75,342,196,420,193,425,72,347"/>
-<area shape="rect" id="Node000011" href="$structSerEquipslot.html" title="Serialized Equipslot." alt="" coords="168,270,264,294"/>
-<area shape="poly" id="edge11_Node000006_Node000011" title=" " alt="" coords="278,273,425,258,425,263,279,278"/>
-<area shape="poly" id="edge12_Node000006_Node000012" title=" " alt="" coords="269,445,301,449,336,449,370,441,399,425,409,414,415,404,417,381,416,355,422,325,438,294,454,268,458,271,443,296,428,327,422,356,423,381,420,405,414,417,403,429,372,446,336,454,301,455,268,451"/>
-<area shape="rect" id="Node000017" href="$structSerShop.html" title="Serialized Shop." alt="" coords="430,555,502,580"/>
-<area shape="poly" id="edge20_Node000017_Node000012" title=" " alt="" coords="221,463,226,505,239,555,262,603,278,624,299,642,324,655,347,659,372,653,400,642,419,629,435,612,457,579,461,582,439,616,422,633,402,646,373,659,348,664,323,660,295,646,275,628,258,606,234,556,221,506,216,463"/>
-<area shape="rect" id="Node000020" href="$structSerChest.html" title="Serialized Chest." alt="" coords="428,450,504,474"/>
-<area shape="poly" id="edge26_Node000020_Node000012" title=" " alt="" coords="224,462,231,497,245,536,267,574,282,590,298,603,325,617,349,622,373,617,399,603,411,591,415,578,417,562,423,542,456,473,461,476,427,544,422,563,420,579,416,594,403,607,375,622,349,627,323,622,296,608,278,594,263,577,241,538,226,498,218,463"/>
-<area shape="rect" id="Node000013" href="$structSerConsumable.html" title="Serialized Consumable." alt="" coords="159,359,273,384"/>
-<area shape="poly" id="edge14_Node000006_Node000013" title=" " alt="" coords="254,349,296,329,348,310,400,291,443,267,446,272,402,296,350,315,298,334,256,354"/>
-<area shape="poly" id="edge21_Node000017_Node000013" title=" " alt="" coords="258,391,275,410,285,432,287,452,282,491,280,526,285,542,299,558,329,575,363,581,398,580,429,575,430,580,399,585,363,586,327,580,295,562,281,544,274,526,277,490,282,452,280,433,271,413,254,395"/>
-<area shape="rect" id="Node000019" href="$structSerTreasure.html" title="Serialized Treasure." alt="" coords="632,450,724,474"/>
-<area shape="poly" id="edge27_Node000019_Node000013" title=" " alt="" coords="289,359,344,357,401,362,474,379,544,402,651,447,649,452,542,407,473,384,401,367,344,363,289,365"/>
-<area shape="poly" id="edge25_Node000020_Node000013" title=" " alt="" coords="289,376,345,387,402,408,432,427,455,447,451,451,428,431,400,412,344,392,288,381"/>
-<area shape="rect" id="Node000014" href="$structSerArtifact.html" title="Serialized Artifact." alt="" coords="174,94,258,118"/>
-<area shape="poly" id="edge15_Node000006_Node000014" title=" " alt="" coords="274,121,298,128,328,135,352,138,376,145,403,160,423,179,440,202,462,243,457,245,436,205,419,183,399,164,374,149,351,143,327,140,296,133,272,126"/>
-<area shape="poly" id="edge28_Node000019_Node000014" title=" " alt="" coords="273,96,337,97,370,103,402,114,448,140,483,168,508,198,528,231,563,305,583,348,609,395,619,417,632,435,649,447,646,451,628,439,614,419,604,398,578,351,558,308,524,233,504,201,479,172,445,144,400,119,369,108,336,102,273,101"/>
-<area shape="rect" id="Node000015" href="$structSerFloor.html" title="Serialized Floor." alt="" coords="876,294,946,318"/>
-<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="961,304,1006,299,1052,287,1087,267,1114,243,1118,248,1090,271,1054,292,1007,304,962,309"/>
-<area shape="rect" id="Node000016" href="$structSerRoom.html" title="Serialized Room." alt="" coords="873,555,949,580"/>
-<area shape="poly" id="edge18_Node000001_Node000016" title=" " alt="" coords="926,540,1118,244,1122,247,931,543"/>
-<area shape="poly" id="edge19_Node000016_Node000017" title=" " alt="" coords="517,565,873,565,873,570,517,570"/>
-<area shape="rect" id="Node000018" href="$structSerRoadfork.html" title="Serialized Roadfork." alt="" coords="630,400,726,425"/>
-<area shape="poly" id="edge22_Node000016_Node000018" title=" " alt="" coords="742,423,797,443,825,457,850,475,869,493,885,515,906,553,902,556,881,518,865,497,847,479,822,462,795,448,740,429"/>
-<area shape="poly" id="edge23_Node000016_Node000019" title=" " alt="" coords="722,479,883,552,880,557,720,484"/>
-<area shape="poly" id="edge24_Node000019_Node000020" title=" " alt="" coords="520,459,632,459,632,465,520,465"/>
-<area shape="poly" id="edge29_Node000016_Node000021" title=" " alt="" coords="516,679,872,575,873,581,517,684"/>
-<area shape="poly" id="edge38_Node000023_Node000021" title=" " alt="" coords="517,697,630,708,630,714,517,703"/>
-<area shape="poly" id="edge32_Node000016_Node000022" title=" " alt="" coords="523,773,596,781,683,780,727,774,770,762,811,743,847,717,873,684,890,645,901,608,906,580,911,581,906,609,896,647,878,687,851,721,814,748,772,767,728,779,683,785,596,787,523,779"/>
-<area shape="poly" id="edge37_Node000023_Node000022" title=" " alt="" coords="522,749,629,724,631,729,523,754"/>
-<area shape="poly" id="edge35_Node000016_Node000023" title=" " alt="" coords="741,713,796,703,823,693,847,679,869,656,886,629,904,579,909,581,891,631,874,660,850,683,825,698,797,708,742,718"/>
+<area shape="rect" id="Node000001" title="Serialized Gamestate." alt="" coords="1091,258,1196,284"/>
+<area shape="rect" id="Node000002" href="$structSerCountstats.html" title="Serialized countStats." alt="" coords="166,50,270,76"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="284,47,373,32,470,26,923,26,946,28,968,34,1008,55,1043,86,1072,122,1097,161,1117,199,1140,258,1135,257,1112,201,1092,164,1068,125,1039,89,1005,59,966,39,945,33,923,31,470,31,374,38,287,51"/>
+<area shape="rect" id="Node000006" href="$structSerFighter.html" title="Serialized Fighter." alt="" coords="431,285,512,310"/>
+<area shape="poly" id="edge16_Node000006_Node000002" title=" " alt="" coords="284,69,350,89,381,105,409,126,438,166,456,211,467,253,472,285,467,284,462,254,451,212,433,168,405,130,378,109,348,94,287,74"/>
+<area shape="rect" id="Node000003" href="$structSerWincon.html" title="Serialized Wincon." alt="" coords="643,157,727,182"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="742,165,756,164,808,162,860,164,920,173,967,184,1012,199,1068,222,1127,257,1121,258,1066,227,1010,204,965,189,919,179,859,170,808,167,756,170,744,170"/>
+<area shape="rect" id="Node000004" href="$structSerPath.html" title="Serialized SerPath." alt="" coords="887,232,956,257"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="742,183,756,187,861,218,891,231,886,232,859,223,755,193,743,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="970,248,1093,264,1088,266,971,253"/>
+<area shape="rect" id="Node000005" href="$structSerSaveslot.html" title="Serialized Saveslot." alt="" coords="639,232,731,257"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="746,242,889,243,884,245,747,247"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="528,293,1092,271,1089,275,529,298"/>
+<area shape="rect" id="Node000007" href="$structSerSpecialslot.html" title="Serialized Specialslot." alt="" coords="166,182,271,208"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="285,205,356,221,408,238,438,259,462,284,457,285,435,264,406,243,355,226,288,210"/>
+<area shape="rect" id="Node000008" href="$structSerSkillslot.html" title="Serialized Skillslot." alt="" coords="175,798,262,824"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="225,782,261,661,281,603,297,572,312,562,326,558,354,560,381,561,393,557,405,547,413,533,418,513,422,461,423,407,428,366,443,335,459,313,462,309,447,337,434,368,428,408,427,461,423,513,418,535,409,550,396,561,382,566,354,565,327,564,314,567,301,575,286,605,266,662,230,784"/>
+<area shape="rect" id="Node000021" href="$structSerBoss.html" title="Serialized Boss." alt="" coords="436,792,507,817"/>
+<area shape="poly" id="edge30_Node000021_Node000008" title=" " alt="" coords="277,809,407,807,438,807,433,809,407,813,278,815"/>
+<area shape="rect" id="Node000022" href="$structSerEnemy.html" title="Serialized Enemy." alt="" coords="432,857,512,882"/>
+<area shape="poly" id="edge33_Node000022_Node000008" title=" " alt="" coords="265,827,300,838,369,853,434,865,428,866,368,858,298,843,266,832"/>
+<area shape="rect" id="Node000009" href="$structSerTurncounter.html" title="Serialized Turncounter." alt="" coords="163,932,274,957"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="235,916,255,879,272,836,277,789,278,728,281,668,287,643,297,625,310,615,325,610,353,612,381,614,393,610,405,600,415,582,421,555,423,488,423,419,428,366,443,335,459,313,462,308,447,337,434,368,428,419,429,489,426,556,420,584,409,604,396,615,381,619,353,617,325,615,313,619,301,629,292,645,287,669,283,728,283,790,278,837,260,881,238,920"/>
+<area shape="poly" id="edge31_Node000021_Node000009" title=" " alt="" coords="288,935,349,919,378,906,405,888,414,878,418,868,429,843,453,819,458,816,433,846,423,870,419,881,409,892,381,910,350,924,289,940"/>
+<area shape="poly" id="edge34_Node000022_Node000009" title=" " alt="" coords="261,961,294,972,332,979,370,979,406,968,428,950,445,927,464,884,469,881,449,929,432,953,408,972,371,984,331,985,293,977,260,966"/>
+<area shape="rect" id="Node000023" href="$structSerFoeParty.html" title="Serialized FoeParty." alt="" coords="638,797,732,822"/>
+<area shape="poly" id="edge36_Node000023_Node000009" title=" " alt="" coords="251,963,274,976,300,986,353,995,377,993,406,986,449,971,490,952,566,905,628,857,668,824,673,822,631,861,569,909,492,956,451,976,408,991,378,998,353,1000,298,991,272,981,249,968"/>
+<area shape="rect" id="Node000010" href="$structSerPerk.html" title="Serialized Perk." alt="" coords="5,360,74,385"/>
+<area shape="poly" id="edge10_Node000006_Node000010" title=" " alt="" coords="65,348,108,316,161,289,227,267,282,259,338,262,408,272,442,283,437,285,406,278,337,267,283,264,229,272,163,293,111,320,69,351"/>
+<area shape="rect" id="Node000012" href="$structSerEquip.html" title="Serialized Equip." alt="" coords="182,585,255,610"/>
+<area shape="poly" id="edge13_Node000012_Node000010" title=" " alt="" coords="61,395,209,584,204,586,60,400"/>
+<area shape="rect" id="Node000011" href="$structSerEquipslot.html" title="Serialized Equipslot." alt="" coords="171,304,266,329"/>
+<area shape="poly" id="edge11_Node000006_Node000011" title=" " alt="" coords="280,309,432,299,428,302,282,314"/>
+<area shape="poly" id="edge12_Node000006_Node000012" title=" " alt="" coords="237,571,264,543,298,518,329,509,356,510,381,508,393,503,405,493,416,479,422,465,424,436,422,404,428,366,443,335,460,313,463,309,448,337,434,368,427,404,429,436,427,466,421,481,409,497,396,508,382,514,356,515,330,514,300,523,267,547,241,575"/>
+<area shape="rect" id="Node000017" href="$structSerShop.html" title="Serialized Shop." alt="" coords="436,638,507,664"/>
+<area shape="poly" id="edge20_Node000017_Node000012" title=" " alt="" coords="225,623,235,657,250,693,271,728,301,754,328,768,353,772,377,768,406,754,428,735,445,711,465,666,469,662,450,713,432,739,408,759,379,773,353,778,326,773,297,759,267,731,245,696,230,659,224,628"/>
+<area shape="rect" id="Node000020" href="$structSerChest.html" title="Serialized Chest." alt="" coords="434,480,509,505"/>
+<area shape="poly" id="edge26_Node000020_Node000012" title=" " alt="" coords="231,622,260,666,278,686,300,701,329,714,355,719,379,716,405,702,465,507,468,504,409,705,381,721,355,725,328,719,298,706,275,690,255,669,231,627"/>
+<area shape="rect" id="Node000013" href="$structSerConsumable.html" title="Serialized Consumable." alt="" coords="162,404,275,429"/>
+<area shape="poly" id="edge14_Node000006_Node000013" title=" " alt="" coords="260,395,298,378,353,358,406,336,453,309,450,313,408,340,355,363,300,383,264,399"/>
+<area shape="poly" id="edge21_Node000017_Node000013" title=" " alt="" coords="230,441,278,572,282,596,283,616,287,632,301,648,332,663,368,668,403,665,438,661,433,663,404,671,368,673,331,668,297,652,282,635,278,616,277,596,272,573,229,446"/>
+<area shape="rect" id="Node000019" href="$structSerTreasure.html" title="Serialized Treasure." alt="" coords="639,480,731,505"/>
+<area shape="poly" id="edge27_Node000019_Node000013" title=" " alt="" coords="289,412,299,411,353,409,407,411,513,430,615,462,656,478,651,480,613,467,511,435,407,416,353,414,299,416,292,416"/>
+<area shape="poly" id="edge25_Node000020_Node000013" title=" " alt="" coords="286,431,408,464,442,478,436,480,406,470,287,436"/>
+<area shape="rect" id="Node000014" href="$structSerArtifact.html" title="Serialized Artifact." alt="" coords="177,112,260,137"/>
+<area shape="poly" id="edge15_Node000006_Node000014" title=" " alt="" coords="263,141,300,154,331,161,356,164,381,169,409,185,431,208,449,235,469,284,464,284,444,238,427,211,405,189,379,174,356,169,330,167,298,159,265,146"/>
+<area shape="poly" id="edge28_Node000019_Node000014" title=" " alt="" coords="274,113,341,112,376,119,408,131,448,160,471,191,489,228,515,271,577,370,640,466,656,479,650,479,636,470,572,372,510,274,484,230,466,194,444,164,406,136,374,124,341,118,277,117"/>
+<area shape="rect" id="Node000015" href="$structSerFloor.html" title="Serialized Floor." alt="" coords="886,336,956,361"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="971,351,1019,349,1066,337,1086,326,1103,312,1130,286,1134,283,1107,316,1089,330,1068,342,1019,354,973,356"/>
+<area shape="rect" id="Node000016" href="$structSerRoom.html" title="Serialized Room." alt="" coords="884,638,959,664"/>
+<area shape="poly" id="edge18_Node000001_Node000016" title=" " alt="" coords="936,623,1132,286,1137,283,940,627"/>
+<area shape="poly" id="edge19_Node000016_Node000017" title=" " alt="" coords="523,648,885,650,881,652,523,654"/>
+<area shape="rect" id="Node000018" href="$structSerRoadfork.html" title="Serialized Roadfork." alt="" coords="638,430,732,456"/>
+<area shape="poly" id="edge22_Node000016_Node000018" title=" " alt="" coords="746,453,806,476,836,492,862,513,885,544,902,578,920,639,915,636,897,580,881,547,858,517,833,497,804,481,747,459"/>
+<area shape="poly" id="edge23_Node000016_Node000019" title=" " alt="" coords="719,512,903,638,898,638,718,517"/>
+<area shape="poly" id="edge24_Node000019_Node000020" title=" " alt="" coords="524,490,641,491,636,493,526,495"/>
+<area shape="poly" id="edge29_Node000016_Node000021" title=" " alt="" coords="516,783,535,775,730,708,886,661,881,663,732,713,537,780,518,788"/>
+<area shape="poly" id="edge38_Node000023_Node000021" title=" " alt="" coords="523,803,640,808,635,809,523,808"/>
+<area shape="poly" id="edge32_Node000016_Node000022" title=" " alt="" coords="527,878,602,885,691,883,737,876,781,863,822,843,858,816,885,779,903,736,912,695,917,666,921,662,917,696,908,737,890,781,862,820,824,848,783,868,738,881,691,889,602,891,527,883"/>
+<area shape="poly" id="edge37_Node000023_Node000022" title=" " alt="" coords="527,856,614,834,649,824,654,822,615,839,528,861"/>
+<area shape="poly" id="edge35_Node000016_Node000023" title=" " alt="" coords="747,810,805,803,833,793,858,779,882,752,899,720,910,689,916,666,920,662,915,690,904,722,887,755,861,783,835,798,806,808,748,816"/>
 </map>

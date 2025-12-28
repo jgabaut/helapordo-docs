@@ -1,9 +1,9 @@
 <map id="src/build&#45;rl/game_rl.h" name="src/build&#45;rl/game_rl.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="88,5,230,30"/>
-<area shape="rect" id="Node000002" href="$game__rl_8c.html" title=" " alt="" coords="5,85,148,110"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,43,91,87,87,83,134,39"/>
-<area shape="rect" id="Node000003" href="$helapordo__raylib_8h.html" title=" " alt="" coords="171,78,312,117"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,39,224,75,220,79,180,42"/>
-<area shape="rect" id="Node000004" href="$helapordo__raylib_8c.html" title=" " alt="" coords="171,165,312,203"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="244,133,244,164,239,164,239,133"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="88,5,229,31"/>
+<area shape="rect" id="Node000002" href="$game__rl_8c.html" title=" " alt="" coords="5,86,147,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,44,91,88,87,84,137,40"/>
+<area shape="rect" id="Node000003" href="$helapordo__raylib_8h.html" title=" " alt="" coords="171,79,312,120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,39,224,78,218,79,181,44"/>
+<area shape="rect" id="Node000004" href="$helapordo__raylib_8c.html" title=" " alt="" coords="171,168,312,208"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="243,133,244,169,239,166,239,137"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="src/core/game_lore_alt.h" name="src/core/game_lore_alt.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,138,44"/>
-<area shape="rect" id="Node000002" href="$game__lore__alt_8c.html" title=" " alt="" coords="5,92,138,131"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,60,74,91,69,91,69,60"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,138,46"/>
+<area shape="rect" id="Node000002" href="$game__lore__alt_8c.html" title=" " alt="" coords="5,94,138,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,60,74,94,69,93,70,64"/>
 </map>

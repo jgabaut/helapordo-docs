@@ -1,30 +1,30 @@
 <map id="src/core/equips.h" name="src/core/equips.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="112,5,233,30"/>
-<area shape="rect" id="Node000002" href="$equips_8c.html" title=" " alt="" coords="41,78,162,103"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,43,115,80,111,76,148,39"/>
-<area shape="rect" id="Node000003" href="$saves_8h.html" title=" " alt="" coords="186,78,303,103"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,39,235,76,231,80,194,43"/>
-<area shape="rect" id="Node000004" href="$saves_8c.html" title=" " alt="" coords="113,151,229,175"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="223,115,185,152,181,148,220,112"/>
-<area shape="rect" id="Node000005" href="$turn__op_8h.html" title=" " alt="" coords="254,151,379,175"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="269,112,307,148,303,152,266,116"/>
-<area shape="rect" id="Node000006" href="$game__curses_8h.html" title=" " alt="" coords="35,223,217,248"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="272,184,158,225,156,220,270,179"/>
-<area shape="rect" id="Node000008" href="$game__rl_8h.html" title=" " alt="" coords="212,296,354,321"/>
-<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="308,191,296,224,289,263,286,296,281,295,284,262,291,223,303,189"/>
-<area shape="rect" id="Node000012" href="$rooms_8h.html" title=" " alt="" coords="305,223,424,248"/>
-<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="335,187,359,221,355,224,331,190"/>
-<area shape="rect" id="Node000014" href="$turn__op_8c.html" title=" " alt="" coords="447,223,572,248"/>
-<area shape="poly" id="edge14_Node000005_Node000014" title=" " alt="" coords="364,179,479,220,477,225,362,184"/>
-<area shape="rect" id="Node000007" href="$game__curses_8c.html" title=" " alt="" coords="5,296,188,321"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="118,264,104,297,99,295,113,262"/>
-<area shape="rect" id="Node000009" href="$game__rl_8c.html" title=" " alt="" coords="129,376,272,400"/>
-<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="262,333,215,377,211,373,258,329"/>
-<area shape="rect" id="Node000010" href="$helapordo__raylib_8h.html" title=" " alt="" coords="295,369,436,407"/>
-<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="308,329,348,366,344,370,304,333"/>
-<area shape="rect" id="Node000011" href="$helapordo__raylib_8c.html" title=" " alt="" coords="295,455,436,494"/>
-<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="368,423,368,455,363,455,363,423"/>
-<area shape="poly" id="edge12_Node000012_Node000008" title=" " alt="" coords="341,260,298,298,295,294,338,256"/>
-<area shape="rect" id="Node000013" href="$rooms_8c.html" title=" " alt="" coords="379,296,497,321"/>
-<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="389,257,428,294,424,298,386,261"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="110,5,230,31"/>
+<area shape="rect" id="Node000002" href="$equips_8c.html" title=" " alt="" coords="39,79,160,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,44,114,80,109,77,149,40"/>
+<area shape="rect" id="Node000003" href="$saves_8h.html" title=" " alt="" coords="184,79,300,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,39,233,78,227,79,193,45"/>
+<area shape="rect" id="Node000004" href="$saves_8c.html" title=" " alt="" coords="112,153,228,178"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="218,118,184,154,180,151,221,113"/>
+<area shape="rect" id="Node000005" href="$turn__op_8h.html" title=" " alt="" coords="252,153,376,178"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="265,113,305,152,299,153,265,118"/>
+<area shape="rect" id="Node000006" href="$game__curses_8h.html" title=" " alt="" coords="33,226,214,252"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="266,186,157,228,155,223,269,182"/>
+<area shape="rect" id="Node000008" href="$game__rl_8h.html" title=" " alt="" coords="210,300,352,326"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="304,191,294,227,287,267,284,301,279,299,282,266,289,226,301,195"/>
+<area shape="rect" id="Node000012" href="$rooms_8h.html" title=" " alt="" coords="304,226,421,252"/>
+<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="331,189,357,226,351,226,330,194"/>
+<area shape="rect" id="Node000014" href="$turn__op_8c.html" title=" " alt="" coords="445,226,570,252"/>
+<area shape="poly" id="edge14_Node000005_Node000014" title=" " alt="" coords="361,181,477,225,472,227,361,187"/>
+<area shape="rect" id="Node000007" href="$game__curses_8c.html" title=" " alt="" coords="5,300,186,326"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="114,264,103,301,98,298,112,269"/>
+<area shape="rect" id="Node000009" href="$game__rl_8c.html" title=" " alt="" coords="128,381,269,407"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="259,335,213,383,209,379,255,338"/>
+<area shape="rect" id="Node000010" href="$helapordo__raylib_8h.html" title=" " alt="" coords="293,374,434,414"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="305,334,346,373,340,373,303,339"/>
+<area shape="rect" id="Node000011" href="$helapordo__raylib_8c.html" title=" " alt="" coords="293,462,434,503"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="365,428,366,463,361,460,362,432"/>
+<area shape="poly" id="edge12_Node000012_Node000008" title=" " alt="" coords="339,261,296,302,293,298,335,264"/>
+<area shape="rect" id="Node000013" href="$rooms_8c.html" title=" " alt="" coords="376,300,493,326"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="385,260,425,300,419,299,384,266"/>
 </map>

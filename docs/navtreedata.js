@@ -55,12 +55,13 @@ var NAVTREEINDEX =
 "game__core_8h.html#a2d7659947fb687bc7b44d11609a7dbc9",
 "game__core_8h.html#abc0ae742eb657b3657d27bc54585b160a978dea38dd239669422148b2a0356ba9",
 "game__fight_8c.html#aa0f69318c8e192046ea6f598d3995944",
-"game__utils_8c.html#abb9cca5dd50fe2dc2fbd318f8fd9a620",
-"globals_eval_q.html",
-"ser__core_8h.html#a83b39a4ea0a018be507d1f76f21e054e",
-"structFighter.html#ae4d65efe16d578fab870959774145c74",
-"structSerFighter.html#ad908baef92218fc22cb7df8260f968e3"
+"game__utils_8c.html#aa2b72d12ebbaac68800fef034605a94f",
+"globals_eval.html",
+"ser__core_8h.html#a5a0be36205e2ecc10500f5d6d5e689a0",
+"structFighter.html#a6f12541e81a925d2443f800a80184578",
+"structSerFighter.html#a3b13d62fc4c9472272726cbdc6721b6d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
 var SYNCOFFMSG = 'click to enable panel synchronization';
+var LISTOFALLMEMBERS = 'List of all members';
