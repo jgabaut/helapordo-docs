@@ -2,8 +2,21 @@ var searchData=
 [
   ['gameoptions_0',['GameOptions',['../game__core_8h.html#aac732ef79440d0f3120c59efc8235785',1,'game_core.h']]],
   ['gui_5fbutton_1',['Gui_Button',['../game__rl_8h.html#a9797ef7babcb6c2d94657a9878bdc300',1,'game_rl.h']]],
-  ['gui_5fbutton_5fidx_2',['Gui_Button_Idx',['../game__rl_8h.html#a1f09ceeb8ac2708a9804a4271b16c31c',1,'game_rl.h']]],
-  ['gui_5fbutton_5fstate_3',['Gui_Button_State',['../game__rl_8h.html#a0704f21b67c5fabd90ea383326c73e97',1,'game_rl.h']]],
-  ['gui_5fstate_4',['Gui_State',['../game__rl_8h.html#ae4918a25cd7156d5696f621314b3d750',1,'game_rl.h']]],
-  ['gui_5ftheme_5',['Gui_Theme',['../game__rl_8h.html#af60831150bf1c1cc64a8d258cb1751be',1,'game_rl.h']]]
+  ['gui_5fbutton_5fgroup_2',['Gui_Button_Group',['../game__rl_8h.html#ab16f9014ce9c3035910658145637b447',1,'game_rl.h']]],
+  ['gui_5fbutton_5flayout_3',['Gui_Button_Layout',['../game__rl_8h.html#a2fa129e3d9e690ecd5556756383d95d9',1,'game_rl.h']]],
+  ['gui_5fbutton_5fstate_4',['Gui_Button_State',['../game__rl_8h.html#a0704f21b67c5fabd90ea383326c73e97',1,'game_rl.h']]],
+  ['gui_5fclasspick_5fgroup_5fbutton_5findex_5',['Gui_ClassPick_Group_Button_Index',['../game__rl_8h.html#a72125a9c63041bce95dc5d27a33ad687',1,'game_rl.h']]],
+  ['gui_5fdebug_5ffighter_5flayout_5fgroup_5findex_6',['Gui_Debug_Fighter_Layout_Group_Index',['../game__rl_8h.html#acaec3e9c2703c644ade3b3c7a6fbc263',1,'game_rl.h']]],
+  ['gui_5fdebug_5fgroup_5fbutton_5findex_7',['Gui_Debug_Group_Button_Index',['../game__rl_8h.html#a59adcceda25aa99c884ccf4ec5ca8284',1,'game_rl.h']]],
+  ['gui_5fequips_5fgroup_5fbutton_5findex_8',['Gui_Equips_Group_Button_Index',['../game__rl_8h.html#af704039ecc83728d64d9efafeb177f27',1,'game_rl.h']]],
+  ['gui_5ffight_5fgroup_5fbutton_5findex_9',['Gui_Fight_Group_Button_Index',['../game__rl_8h.html#a3cfb01e9b28c40c2360064a18851049d',1,'game_rl.h']]],
+  ['gui_5fgamepick_5fgroup_5fbutton_5findex_10',['Gui_GamePick_Group_Button_Index',['../game__rl_8h.html#a498f9395debaed4f99e4f99ea6ae4f11',1,'game_rl.h']]],
+  ['gui_5fsaveslotpick_5fgroup_5fbutton_5findex_11',['Gui_SaveSlotPick_Group_Button_Index',['../game__rl_8h.html#a5e4a09e1ef13246cc35a41091f252811',1,'game_rl.h']]],
+  ['gui_5fshop_5flayout_5fgroup_5findex_12',['Gui_Shop_Layout_Group_Index',['../game__rl_8h.html#afe3adfd832eb0432dfb8324bcb25500a',1,'game_rl.h']]],
+  ['gui_5fshop_5fothers_5fgroup_5fbutton_5findex_13',['Gui_Shop_Others_Group_Button_Index',['../game__rl_8h.html#a62d47eb9ac0f0822db3832d4f68e9e4e',1,'game_rl.h']]],
+  ['gui_5fspecial_5fgroup_5fbutton_5findex_14',['Gui_Special_Group_Button_Index',['../game__rl_8h.html#a42c12f60693c201ba29f70135d9b18f8',1,'game_rl.h']]],
+  ['gui_5fstate_15',['Gui_State',['../game__rl_8h.html#ae4918a25cd7156d5696f621314b3d750',1,'game_rl.h']]],
+  ['gui_5ftheme_16',['Gui_Theme',['../game__rl_8h.html#af60831150bf1c1cc64a8d258cb1751be',1,'game_rl.h']]],
+  ['gui_5ftreasure_5fgroup_5fbutton_5findex_17',['Gui_Treasure_Group_Button_Index',['../game__rl_8h.html#ab14b012c67a9a50544b3a74b2ddfc26c',1,'game_rl.h']]],
+  ['gui_5ftxtfield_5fgroup_5fbutton_5findex_18',['Gui_TxtField_Group_Button_Index',['../game__rl_8h.html#a7202169e0fe3648e3ea88524c8cdd35b',1,'game_rl.h']]]
 ];

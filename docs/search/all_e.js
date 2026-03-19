@@ -32,9 +32,10 @@ var searchData=
   ['op_5fskill_29',['OP_SKILL',['../game__core_8h.html#abc0ae742eb657b3657d27bc54585b160a6cb158fab48f0d858edd5549f351bbfb',1,'game_core.h']]],
   ['op_5fspecial_30',['OP_SPECIAL',['../game__core_8h.html#abc0ae742eb657b3657d27bc54585b160aa319e5f4409592c8efc84e6f35d71a44',1,'game_core.h']]],
   ['op_5fstats_31',['OP_STATS',['../game__core_8h.html#abc0ae742eb657b3657d27bc54585b160a71d7e0626d32f1ccb47a800ea0b7dc1b',1,'game_core.h']]],
-  ['opresstrings_32',['opresstrings',['../game__core_8c.html#a81defb550ec13389fc0eeac49ba9e06e',1,'opresstrings:&#160;game_core.c'],['../game__core_8h.html#a81defb550ec13389fc0eeac49ba9e06e',1,'opresstrings:&#160;game_core.c']]],
-  ['ops_5flogfile_33',['OPS_LOGFILE',['../game__core_8h.html#a1dccb282e06f4ec6ebadbacf05648d1d',1,'game_core.h']]],
-  ['options_34',['options',['../structRoadfork.html#a58b41d01896a88e77025ec1eed69bd5c',1,'Roadfork::options'],['../structGamestate.html#a5fe3f8478aaf1b9dfa8bf87a68cad13a',1,'Gamestate::options'],['../structSerRoadfork.html#a575c8227306a2ae9e14f52f5fd01f774',1,'SerRoadfork::options']]],
-  ['oracle_5fgift_35',['ORACLE_GIFT',['../game__core_8h.html#a6596d102ab23827f3fb47b9531feabcfab0ab8a32a8b20a7a89810fc9dd922867',1,'game_core.h']]],
-  ['os_36',['os',['../structSerSaveHeader.html#a28604da5e553533db4ad921f05a79baf',1,'SerSaveHeader::os'],['../structSaveHeader.html#adecab6beabd01dada816b8dd53c1c195',1,'SaveHeader::os']]]
+  ['open_5fchest_32',['open_chest',['../rooms_8c.html#a98717d3ff0839e9ad83dc5868c538431',1,'rooms.c']]],
+  ['opresstrings_33',['opresstrings',['../game__core_8c.html#a81defb550ec13389fc0eeac49ba9e06e',1,'opresstrings:&#160;game_core.c'],['../game__core_8h.html#a81defb550ec13389fc0eeac49ba9e06e',1,'opresstrings:&#160;game_core.c']]],
+  ['ops_5flogfile_34',['OPS_LOGFILE',['../game__core_8h.html#a1dccb282e06f4ec6ebadbacf05648d1d',1,'game_core.h']]],
+  ['options_35',['options',['../structRoadfork.html#a58b41d01896a88e77025ec1eed69bd5c',1,'Roadfork::options'],['../structGamestate.html#a5fe3f8478aaf1b9dfa8bf87a68cad13a',1,'Gamestate::options'],['../structSerRoadfork.html#a575c8227306a2ae9e14f52f5fd01f774',1,'SerRoadfork::options']]],
+  ['oracle_5fgift_36',['ORACLE_GIFT',['../game__core_8h.html#a6596d102ab23827f3fb47b9531feabcfab0ab8a32a8b20a7a89810fc9dd922867',1,'game_core.h']]],
+  ['os_37',['os',['../structSerSaveHeader.html#a28604da5e553533db4ad921f05a79baf',1,'SerSaveHeader::os'],['../structSaveHeader.html#adecab6beabd01dada816b8dd53c1c195',1,'SaveHeader::os']]]
 ];

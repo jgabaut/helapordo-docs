@@ -18,5 +18,5 @@ var searchData=
   ['bosseskilled_15',['bosseskilled',['../structcountStats.html#aab58d58e6d31d8dbe054deb7f02cdeb1',1,'countStats::bosseskilled'],['../structSerCountstats.html#a7448756d7457168ea49f56760c5c582b',1,'SerCountstats::bosseskilled']]],
   ['box_5fcolor_16',['box_color',['../structGui__Button.html#a034861a1c3772a1e70297d00ccd28f88',1,'Gui_Button']]],
   ['buf_17',['buf',['../structNotification.html#a3db1f062e8cb3778a14d2f0c66b97027',1,'Notification']]],
-  ['buttons_18',['buttons',['../structGui__State.html#a7b140784fe02f7a6c44c94d00cfc5612',1,'Gui_State']]]
+  ['buttons_18',['buttons',['../structGui__Button__Group.html#a0a1ce0f0b5b7e5f175eaeb1f913bd703',1,'Gui_Button_Group']]]
 ];

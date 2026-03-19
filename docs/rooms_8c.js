@@ -6,5 +6,6 @@ var rooms_8c =
     [ "initRoom_Home", "rooms_8c.html#a8c02dd6e27696d27e6307d972b1961b0", null ],
     [ "initRoom_Roadfork", "rooms_8c.html#a740a1d4861b20c155aa9509136ff39a0", null ],
     [ "initRoom_Shop", "rooms_8c.html#a20e8f6421866d58e1dcc3cbd84533c2d", null ],
-    [ "initRoom_Treasure", "rooms_8c.html#ae270d6ec7d3228381ba5feeacd1f7063", null ]
+    [ "initRoom_Treasure", "rooms_8c.html#ae270d6ec7d3228381ba5feeacd1f7063", null ],
+    [ "open_chest", "rooms_8c.html#a98717d3ff0839e9ad83dc5868c538431", null ]
 ];

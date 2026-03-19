@@ -18,6 +18,8 @@ var annotated_dup =
     [ "GameOptions", "structGameOptions.html", "structGameOptions" ],
     [ "Gamestate", "structGamestate.html", "structGamestate" ],
     [ "Gui_Button", "structGui__Button.html", "structGui__Button" ],
+    [ "Gui_Button_Group", "structGui__Button__Group.html", "structGui__Button__Group" ],
+    [ "Gui_Button_Layout", "structGui__Button__Layout.html", "structGui__Button__Layout" ],
     [ "Gui_State", "structGui__State.html", "structGui__State" ],
     [ "Gui_Theme", "structGui__Theme.html", "structGui__Theme" ],
     [ "HLPD_DirectionalKeys", "structHLPD__DirectionalKeys.html", "structHLPD__DirectionalKeys" ],

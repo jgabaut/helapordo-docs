@@ -39,7 +39,7 @@ var NAVTREE =
       [ "Globals", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", "globals_func" ],
-        [ "Variables", "globals_vars.html", null ],
+        [ "Variables", "globals_vars.html", "globals_vars" ],
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Enumerator", "globals_eval.html", "globals_eval" ],
@@ -52,14 +52,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"game__core_8h.html#a2d7659947fb687bc7b44d11609a7dbc9",
-"game__core_8h.html#abc0ae742eb657b3657d27bc54585b160a978dea38dd239669422148b2a0356ba9",
-"game__fight_8c.html#aa0f69318c8e192046ea6f598d3995944",
-"game__utils_8c.html#aa2b72d12ebbaac68800fef034605a94f",
-"globals_eval.html",
-"ser__core_8h.html#a5a0be36205e2ecc10500f5d6d5e689a0",
-"structFighter.html#a6f12541e81a925d2443f800a80184578",
-"structSerFighter.html#a3b13d62fc4c9472272726cbdc6721b6d"
+"game__core_8h.html#a2ba03f4024e8f432f139d187c9ce3450",
+"game__core_8h.html#abc0ae742eb657b3657d27bc54585b160a75561ea53944ec96bac72b87edd9c109",
+"game__fight_8c.html#a70abb2104bddf135a794299fd0c432ca",
+"game__rl_8h.html#a8b83b7f494ffc5fd40f6071f6124d150",
+"game__utils_8h.html#a2071ec833ceeb26c51b9cabbc36a96ce",
+"helapordo__raylib_8c.html#ae95aa7f4af7318250b64799b62891e13",
+"sprites_8c.html",
+"structGamestate.html#ad02e2be15dff9315376f9ab0d76ab901",
+"structSerFoeParty.html#a6a8360b2c726c485b22397feb6896767"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
