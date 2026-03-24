@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.15</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.19</span>
    </div>
   </td>
  </tr>
@@ -266,6 +266,8 @@ Variables</h2></td></tr>
 <tr class="memitem:ac60199bc707f59fe62968c6e033a406c" id="r_ac60199bc707f59fe62968c6e033a406c"><td class="memItemLeft"><a class="el" href="structGui__Button__Layout.html">Gui_Button_Layout</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac60199bc707f59fe62968c6e033a406c">shop_buttons_layout</a></td></tr>
 <tr class="memitem:a6323dcf6743d02421d696400662c810d" id="r_a6323dcf6743d02421d696400662c810d"><td class="memItemLeft"><a class="el" href="structGui__Button.html">Gui_Button</a>&#160;</td><td class="memItemRight"><a class="el" href="#a6323dcf6743d02421d696400662c810d">treasure_buttons</a> [<a class="el" href="game__rl_8h.html#a9aef96b9b081c8a5be519184ea34158f">GUI_TREASURE_GROUP_BUTTONS_MAX</a>+1]</td></tr>
 <tr class="memitem:a7a71939463760de6e797b344f6a72550" id="r_a7a71939463760de6e797b344f6a72550"><td class="memItemLeft"><a class="el" href="structGui__Button__Group.html">Gui_Button_Group</a>&#160;</td><td class="memItemRight"><a class="el" href="#a7a71939463760de6e797b344f6a72550">treasure_buttons_group</a></td></tr>
+<tr class="memitem:a766ca2d5be761edccb9082ff3289365b" id="r_a766ca2d5be761edccb9082ff3289365b"><td class="memItemLeft"><a class="el" href="structGui__Button.html">Gui_Button</a>&#160;</td><td class="memItemRight"><a class="el" href="#a766ca2d5be761edccb9082ff3289365b">floor_buttons</a> [<a class="el" href="game__rl_8h.html#a823e675c5634049267ab9d432ac70f79">GUI_FLOOR_GROUP_BUTTONS_MAX</a>+1]</td></tr>
+<tr class="memitem:a4e191626d5fdc16d320b6e691a53c19b" id="r_a4e191626d5fdc16d320b6e691a53c19b"><td class="memItemLeft"><a class="el" href="structGui__Button__Group.html">Gui_Button_Group</a>&#160;</td><td class="memItemRight"><a class="el" href="#a4e191626d5fdc16d320b6e691a53c19b">floor_buttons_group</a></td></tr>
 <tr class="memitem:ac157ff690ed5bf01b18586f376c7e470" id="r_ac157ff690ed5bf01b18586f376c7e470"><td class="memItemLeft"><a class="el" href="structGui__Button.html">Gui_Button</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac157ff690ed5bf01b18586f376c7e470">debug_buttons</a> [<a class="el" href="game__rl_8h.html#af3454089d3fc6c13ad998e6500cfa5ac">GUI_DEBUG_GROUP_BUTTONS_MAX</a>+1]</td></tr>
 <tr class="memitem:a0e9c544f10957dabc8c39096cce0e093" id="r_a0e9c544f10957dabc8c39096cce0e093"><td class="memItemLeft"><a class="el" href="structGui__Button__Group.html">Gui_Button_Group</a>&#160;</td><td class="memItemRight"><a class="el" href="#a0e9c544f10957dabc8c39096cce0e093">debug_buttons_group</a></td></tr>
 <tr class="memitem:a639632df5039cd8a2ef1abc659c050eb" id="r_a639632df5039cd8a2ef1abc659c050eb"><td class="memItemLeft"><a class="el" href="structGui__Button.html">Gui_Button</a>&#160;</td><td class="memItemRight"><a class="el" href="#a639632df5039cd8a2ef1abc659c050eb">debug_fighter_specialslots_buttons</a> [<a class="el" href="game__core_8h.html#aad0e74b09f122b828a8b8606f45e2843">SPECIALSMAX</a>+1] = {0}</td></tr>
@@ -979,11 +981,20 @@ SpecialSlot </dd>
 <div class="line">        .box_color = <a class="code hl_define" href="game__rl_8h.html#a70ce04847fb487239dee41ceb825bbe4">GUI_DEBUG_GROUP_BOX_COLOR</a>,</div>
 <div class="line">        .text_color = <a class="code hl_define" href="game__rl_8h.html#a8b83b7f494ffc5fd40f6071f6124d150">GUI_DEBUG_GROUP_TEXT_COLOR</a>,</div>
 <div class="line">    },</div>
+<div class="line">    [<a class="code hl_enumvalue" href="game__rl_8h.html#a70b745630a02ea14235114d8e17cbd90a02898fef4f532bad50e12bc4fc2c7605">BUTTON_CYCLE_DEBUG_LAYOUT</a>] = {</div>
+<div class="line">        .on = <span class="keyword">false</span>,</div>
+<div class="line">        .state = <a class="code hl_enumvalue" href="game__rl_8h.html#a5078feb0662fac6669451e95600e7b68a06ffeb2163a93c4005a9391ec4dc1c0f">BUTTON_NORMAL</a>,</div>
+<div class="line">        .label = <span class="stringliteral">&quot;Cycle&quot;</span>,</div>
+<div class="line">        .label_len = <a class="code hl_define" href="game__core_8h.html#a25f003de16c08a4888b69f619d70f427">ARRAY_SIZE</a>(<span class="stringliteral">&quot;Cycle&quot;</span>)-1,</div>
+<div class="line">        .box_color = <a class="code hl_define" href="game__rl_8h.html#a70ce04847fb487239dee41ceb825bbe4">GUI_DEBUG_GROUP_BOX_COLOR</a>,</div>
+<div class="line">        .text_color = <a class="code hl_define" href="game__rl_8h.html#a8b83b7f494ffc5fd40f6071f6124d150">GUI_DEBUG_GROUP_TEXT_COLOR</a>,</div>
+<div class="line">    },</div>
 <div class="line">}</div>
 <div class="ttc" id="agame__rl_8h_html_a5078feb0662fac6669451e95600e7b68a06ffeb2163a93c4005a9391ec4dc1c0f"><div class="ttname"><a href="game__rl_8h.html#a5078feb0662fac6669451e95600e7b68a06ffeb2163a93c4005a9391ec4dc1c0f">BUTTON_NORMAL</a></div><div class="ttdeci">@ BUTTON_NORMAL</div><div class="ttdef"><b>Definition</b> game_rl.h:32</div></div>
-<div class="ttc" id="agame__rl_8h_html_a70b745630a02ea14235114d8e17cbd90ab7203e34e8bc96b703e6bf9861c74f2a"><div class="ttname"><a href="game__rl_8h.html#a70b745630a02ea14235114d8e17cbd90ab7203e34e8bc96b703e6bf9861c74f2a">BUTTON_DEBUG</a></div><div class="ttdeci">@ BUTTON_DEBUG</div><div class="ttdef"><b>Definition</b> game_rl.h:166</div></div>
-<div class="ttc" id="agame__rl_8h_html_a70ce04847fb487239dee41ceb825bbe4"><div class="ttname"><a href="game__rl_8h.html#a70ce04847fb487239dee41ceb825bbe4">GUI_DEBUG_GROUP_BOX_COLOR</a></div><div class="ttdeci">#define GUI_DEBUG_GROUP_BOX_COLOR</div><div class="ttdef"><b>Definition</b> game_rl.h:170</div></div>
-<div class="ttc" id="agame__rl_8h_html_a8b83b7f494ffc5fd40f6071f6124d150"><div class="ttname"><a href="game__rl_8h.html#a8b83b7f494ffc5fd40f6071f6124d150">GUI_DEBUG_GROUP_TEXT_COLOR</a></div><div class="ttdeci">#define GUI_DEBUG_GROUP_TEXT_COLOR</div><div class="ttdef"><b>Definition</b> game_rl.h:171</div></div>
+<div class="ttc" id="agame__rl_8h_html_a70b745630a02ea14235114d8e17cbd90a02898fef4f532bad50e12bc4fc2c7605"><div class="ttname"><a href="game__rl_8h.html#a70b745630a02ea14235114d8e17cbd90a02898fef4f532bad50e12bc4fc2c7605">BUTTON_CYCLE_DEBUG_LAYOUT</a></div><div class="ttdeci">@ BUTTON_CYCLE_DEBUG_LAYOUT</div><div class="ttdef"><b>Definition</b> game_rl.h:178</div></div>
+<div class="ttc" id="agame__rl_8h_html_a70b745630a02ea14235114d8e17cbd90ab7203e34e8bc96b703e6bf9861c74f2a"><div class="ttname"><a href="game__rl_8h.html#a70b745630a02ea14235114d8e17cbd90ab7203e34e8bc96b703e6bf9861c74f2a">BUTTON_DEBUG</a></div><div class="ttdeci">@ BUTTON_DEBUG</div><div class="ttdef"><b>Definition</b> game_rl.h:177</div></div>
+<div class="ttc" id="agame__rl_8h_html_a70ce04847fb487239dee41ceb825bbe4"><div class="ttname"><a href="game__rl_8h.html#a70ce04847fb487239dee41ceb825bbe4">GUI_DEBUG_GROUP_BOX_COLOR</a></div><div class="ttdeci">#define GUI_DEBUG_GROUP_BOX_COLOR</div><div class="ttdef"><b>Definition</b> game_rl.h:182</div></div>
+<div class="ttc" id="agame__rl_8h_html_a8b83b7f494ffc5fd40f6071f6124d150"><div class="ttname"><a href="game__rl_8h.html#a8b83b7f494ffc5fd40f6071f6124d150">GUI_DEBUG_GROUP_TEXT_COLOR</a></div><div class="ttdeci">#define GUI_DEBUG_GROUP_TEXT_COLOR</div><div class="ttdef"><b>Definition</b> game_rl.h:183</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1002,7 +1013,7 @@ SpecialSlot </dd>
 <div class="line">    .buttons = &amp;(<a class="code hl_variable" href="#ac157ff690ed5bf01b18586f376c7e470">debug_buttons</a>[0]),</div>
 <div class="line">    .len = <a class="code hl_define" href="game__core_8h.html#a25f003de16c08a4888b69f619d70f427">ARRAY_SIZE</a>(<a class="code hl_variable" href="#ac157ff690ed5bf01b18586f376c7e470">debug_buttons</a>),</div>
 <div class="line">}</div>
-<div class="ttc" id="agame__rl_8c_html_ac157ff690ed5bf01b18586f376c7e470"><div class="ttname"><a href="#ac157ff690ed5bf01b18586f376c7e470">debug_buttons</a></div><div class="ttdeci">Gui_Button debug_buttons[GUI_DEBUG_GROUP_BUTTONS_MAX+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:334</div></div>
+<div class="ttc" id="agame__rl_8c_html_ac157ff690ed5bf01b18586f376c7e470"><div class="ttname"><a href="#ac157ff690ed5bf01b18586f376c7e470">debug_buttons</a></div><div class="ttdeci">Gui_Button debug_buttons[GUI_DEBUG_GROUP_BUTTONS_MAX+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:373</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1035,7 +1046,7 @@ SpecialSlot </dd>
 <div class="line">    .buttons = &amp;(<a class="code hl_variable" href="#a2964c9ecd64e90d58bb1f204b4d47fe2">debug_fighter_artifactsbag_buttons</a>[0]),</div>
 <div class="line">    .len = <a class="code hl_define" href="game__core_8h.html#a25f003de16c08a4888b69f619d70f427">ARRAY_SIZE</a>(<a class="code hl_variable" href="#a2964c9ecd64e90d58bb1f204b4d47fe2">debug_fighter_artifactsbag_buttons</a>),</div>
 <div class="line">}</div>
-<div class="ttc" id="agame__rl_8c_html_a2964c9ecd64e90d58bb1f204b4d47fe2"><div class="ttname"><a href="#a2964c9ecd64e90d58bb1f204b4d47fe2">debug_fighter_artifactsbag_buttons</a></div><div class="ttdeci">Gui_Button debug_fighter_artifactsbag_buttons[ARTIFACTSMAX+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:356</div></div>
+<div class="ttc" id="agame__rl_8c_html_a2964c9ecd64e90d58bb1f204b4d47fe2"><div class="ttname"><a href="#a2964c9ecd64e90d58bb1f204b4d47fe2">debug_fighter_artifactsbag_buttons</a></div><div class="ttdeci">Gui_Button debug_fighter_artifactsbag_buttons[ARTIFACTSMAX+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:403</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1054,7 +1065,7 @@ SpecialSlot </dd>
 <div class="line">    .groups = &amp;(<a class="code hl_variable" href="#a9a4c36967556df42b264ca11eb4250fd">debug_fighter_groups</a>[0]),</div>
 <div class="line">    .len = <a class="code hl_define" href="game__core_8h.html#a25f003de16c08a4888b69f619d70f427">ARRAY_SIZE</a>(<a class="code hl_variable" href="#a9a4c36967556df42b264ca11eb4250fd">debug_fighter_groups</a>),</div>
 <div class="line">}</div>
-<div class="ttc" id="agame__rl_8c_html_a9a4c36967556df42b264ca11eb4250fd"><div class="ttname"><a href="#a9a4c36967556df42b264ca11eb4250fd">debug_fighter_groups</a></div><div class="ttdeci">Gui_Button_Group * debug_fighter_groups[GUI_DEBUG_FIGHTER_LAYOUT_GROUPS_MAX+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:389</div></div>
+<div class="ttc" id="agame__rl_8c_html_a9a4c36967556df42b264ca11eb4250fd"><div class="ttname"><a href="#a9a4c36967556df42b264ca11eb4250fd">debug_fighter_groups</a></div><div class="ttdeci">Gui_Button_Group * debug_fighter_groups[GUI_DEBUG_FIGHTER_LAYOUT_GROUPS_MAX+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:436</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1087,7 +1098,7 @@ SpecialSlot </dd>
 <div class="line">    .buttons = &amp;(<a class="code hl_variable" href="#a23d14ea05dbb88f9e8c7d7f52289aae0">debug_fighter_consumablesbag_buttons</a>[0]),</div>
 <div class="line">    .len = <a class="code hl_define" href="game__core_8h.html#a25f003de16c08a4888b69f619d70f427">ARRAY_SIZE</a>(<a class="code hl_variable" href="#a23d14ea05dbb88f9e8c7d7f52289aae0">debug_fighter_consumablesbag_buttons</a>),</div>
 <div class="line">}</div>
-<div class="ttc" id="agame__rl_8c_html_a23d14ea05dbb88f9e8c7d7f52289aae0"><div class="ttname"><a href="#a23d14ea05dbb88f9e8c7d7f52289aae0">debug_fighter_consumablesbag_buttons</a></div><div class="ttdeci">Gui_Button debug_fighter_consumablesbag_buttons[CONSUMABLESMAX+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:355</div></div>
+<div class="ttc" id="agame__rl_8c_html_a23d14ea05dbb88f9e8c7d7f52289aae0"><div class="ttname"><a href="#a23d14ea05dbb88f9e8c7d7f52289aae0">debug_fighter_consumablesbag_buttons</a></div><div class="ttdeci">Gui_Button debug_fighter_consumablesbag_buttons[CONSUMABLESMAX+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:402</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1120,7 +1131,7 @@ SpecialSlot </dd>
 <div class="line">    .buttons = &amp;(<a class="code hl_variable" href="#aa9ddab1583ce2aae642ee9c9b59b3451">debug_fighter_counters_buttons</a>[0]),</div>
 <div class="line">    .len = <a class="code hl_define" href="game__core_8h.html#a25f003de16c08a4888b69f619d70f427">ARRAY_SIZE</a>(<a class="code hl_variable" href="#aa9ddab1583ce2aae642ee9c9b59b3451">debug_fighter_counters_buttons</a>),</div>
 <div class="line">}</div>
-<div class="ttc" id="agame__rl_8c_html_aa9ddab1583ce2aae642ee9c9b59b3451"><div class="ttname"><a href="#aa9ddab1583ce2aae642ee9c9b59b3451">debug_fighter_counters_buttons</a></div><div class="ttdeci">Gui_Button debug_fighter_counters_buttons[COUNTERSMAX+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:351</div></div>
+<div class="ttc" id="agame__rl_8c_html_aa9ddab1583ce2aae642ee9c9b59b3451"><div class="ttname"><a href="#aa9ddab1583ce2aae642ee9c9b59b3451">debug_fighter_counters_buttons</a></div><div class="ttdeci">Gui_Button debug_fighter_counters_buttons[COUNTERSMAX+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:398</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1153,7 +1164,7 @@ SpecialSlot </dd>
 <div class="line">    .buttons = &amp;(<a class="code hl_variable" href="#adb92df37e67b70b6f5e3f1ee171e0d71">debug_fighter_equipsbag_buttons</a>[0]),</div>
 <div class="line">    .len = <a class="code hl_define" href="game__core_8h.html#a25f003de16c08a4888b69f619d70f427">ARRAY_SIZE</a>(<a class="code hl_variable" href="#adb92df37e67b70b6f5e3f1ee171e0d71">debug_fighter_equipsbag_buttons</a>),</div>
 <div class="line">}</div>
-<div class="ttc" id="agame__rl_8c_html_adb92df37e67b70b6f5e3f1ee171e0d71"><div class="ttname"><a href="#adb92df37e67b70b6f5e3f1ee171e0d71">debug_fighter_equipsbag_buttons</a></div><div class="ttdeci">Gui_Button debug_fighter_equipsbag_buttons[EQUIPSBAGSIZE+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:354</div></div>
+<div class="ttc" id="agame__rl_8c_html_adb92df37e67b70b6f5e3f1ee171e0d71"><div class="ttname"><a href="#adb92df37e67b70b6f5e3f1ee171e0d71">debug_fighter_equipsbag_buttons</a></div><div class="ttdeci">Gui_Button debug_fighter_equipsbag_buttons[EQUIPSBAGSIZE+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:401</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1186,7 +1197,7 @@ SpecialSlot </dd>
 <div class="line">    .buttons = &amp;(<a class="code hl_variable" href="#a5216445b3907bf6d34aa1df422cf880d">debug_fighter_equipslots_buttons</a>[0]),</div>
 <div class="line">    .len = <a class="code hl_define" href="game__core_8h.html#a25f003de16c08a4888b69f619d70f427">ARRAY_SIZE</a>(<a class="code hl_variable" href="#a5216445b3907bf6d34aa1df422cf880d">debug_fighter_equipslots_buttons</a>),</div>
 <div class="line">}</div>
-<div class="ttc" id="agame__rl_8c_html_a5216445b3907bf6d34aa1df422cf880d"><div class="ttname"><a href="#a5216445b3907bf6d34aa1df422cf880d">debug_fighter_equipslots_buttons</a></div><div class="ttdeci">Gui_Button debug_fighter_equipslots_buttons[EQUIPZONES+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:353</div></div>
+<div class="ttc" id="agame__rl_8c_html_a5216445b3907bf6d34aa1df422cf880d"><div class="ttname"><a href="#a5216445b3907bf6d34aa1df422cf880d">debug_fighter_equipslots_buttons</a></div><div class="ttdeci">Gui_Button debug_fighter_equipslots_buttons[EQUIPZONES+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:400</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1211,14 +1222,14 @@ SpecialSlot </dd>
 <div class="line">    &amp;<a class="code hl_variable" href="#a3134513ecfe6af1d17d954d353e78f7b">debug_fighter_consumablesbag_group</a>,</div>
 <div class="line">    &amp;<a class="code hl_variable" href="#a397bfcf2c7d129fac06f16c75431779c">debug_fighter_artifactsbag_group</a></div>
 <div class="line">}</div>
-<div class="ttc" id="agame__rl_8c_html_a3134513ecfe6af1d17d954d353e78f7b"><div class="ttname"><a href="#a3134513ecfe6af1d17d954d353e78f7b">debug_fighter_consumablesbag_group</a></div><div class="ttdeci">Gui_Button_Group debug_fighter_consumablesbag_group</div><div class="ttdef"><b>Definition</b> game_rl.c:381</div></div>
-<div class="ttc" id="agame__rl_8c_html_a397bfcf2c7d129fac06f16c75431779c"><div class="ttname"><a href="#a397bfcf2c7d129fac06f16c75431779c">debug_fighter_artifactsbag_group</a></div><div class="ttdeci">Gui_Button_Group debug_fighter_artifactsbag_group</div><div class="ttdef"><b>Definition</b> game_rl.c:385</div></div>
-<div class="ttc" id="agame__rl_8c_html_a4701b6ee7b3053f5929994d5d857dd56"><div class="ttname"><a href="#a4701b6ee7b3053f5929994d5d857dd56">debug_fighter_perks_group</a></div><div class="ttdeci">Gui_Button_Group debug_fighter_perks_group</div><div class="ttdef"><b>Definition</b> game_rl.c:369</div></div>
-<div class="ttc" id="agame__rl_8c_html_a8e4758e8eb642a114a5c0f83bf544660"><div class="ttname"><a href="#a8e4758e8eb642a114a5c0f83bf544660">debug_fighter_specialslots_group</a></div><div class="ttdeci">Gui_Button_Group debug_fighter_specialslots_group</div><div class="ttdef"><b>Definition</b> game_rl.c:357</div></div>
-<div class="ttc" id="agame__rl_8c_html_a91c2ad16a5389b6f9bad44d3647ef6f5"><div class="ttname"><a href="#a91c2ad16a5389b6f9bad44d3647ef6f5">debug_fighter_equipsbag_group</a></div><div class="ttdeci">Gui_Button_Group debug_fighter_equipsbag_group</div><div class="ttdef"><b>Definition</b> game_rl.c:377</div></div>
-<div class="ttc" id="agame__rl_8c_html_a974f56a37c859e3b8f72a3344fd502ce"><div class="ttname"><a href="#a974f56a37c859e3b8f72a3344fd502ce">debug_fighter_skillslots_group</a></div><div class="ttdeci">Gui_Button_Group debug_fighter_skillslots_group</div><div class="ttdef"><b>Definition</b> game_rl.c:361</div></div>
-<div class="ttc" id="agame__rl_8c_html_ac6e7a983e9fcc1643908b88e301de6d2"><div class="ttname"><a href="#ac6e7a983e9fcc1643908b88e301de6d2">debug_fighter_counters_group</a></div><div class="ttdeci">Gui_Button_Group debug_fighter_counters_group</div><div class="ttdef"><b>Definition</b> game_rl.c:365</div></div>
-<div class="ttc" id="agame__rl_8c_html_ad3c8894838be2761dca31ddf078cd907"><div class="ttname"><a href="#ad3c8894838be2761dca31ddf078cd907">debug_fighter_equipslots_group</a></div><div class="ttdeci">Gui_Button_Group debug_fighter_equipslots_group</div><div class="ttdef"><b>Definition</b> game_rl.c:373</div></div>
+<div class="ttc" id="agame__rl_8c_html_a3134513ecfe6af1d17d954d353e78f7b"><div class="ttname"><a href="#a3134513ecfe6af1d17d954d353e78f7b">debug_fighter_consumablesbag_group</a></div><div class="ttdeci">Gui_Button_Group debug_fighter_consumablesbag_group</div><div class="ttdef"><b>Definition</b> game_rl.c:428</div></div>
+<div class="ttc" id="agame__rl_8c_html_a397bfcf2c7d129fac06f16c75431779c"><div class="ttname"><a href="#a397bfcf2c7d129fac06f16c75431779c">debug_fighter_artifactsbag_group</a></div><div class="ttdeci">Gui_Button_Group debug_fighter_artifactsbag_group</div><div class="ttdef"><b>Definition</b> game_rl.c:432</div></div>
+<div class="ttc" id="agame__rl_8c_html_a4701b6ee7b3053f5929994d5d857dd56"><div class="ttname"><a href="#a4701b6ee7b3053f5929994d5d857dd56">debug_fighter_perks_group</a></div><div class="ttdeci">Gui_Button_Group debug_fighter_perks_group</div><div class="ttdef"><b>Definition</b> game_rl.c:416</div></div>
+<div class="ttc" id="agame__rl_8c_html_a8e4758e8eb642a114a5c0f83bf544660"><div class="ttname"><a href="#a8e4758e8eb642a114a5c0f83bf544660">debug_fighter_specialslots_group</a></div><div class="ttdeci">Gui_Button_Group debug_fighter_specialslots_group</div><div class="ttdef"><b>Definition</b> game_rl.c:404</div></div>
+<div class="ttc" id="agame__rl_8c_html_a91c2ad16a5389b6f9bad44d3647ef6f5"><div class="ttname"><a href="#a91c2ad16a5389b6f9bad44d3647ef6f5">debug_fighter_equipsbag_group</a></div><div class="ttdeci">Gui_Button_Group debug_fighter_equipsbag_group</div><div class="ttdef"><b>Definition</b> game_rl.c:424</div></div>
+<div class="ttc" id="agame__rl_8c_html_a974f56a37c859e3b8f72a3344fd502ce"><div class="ttname"><a href="#a974f56a37c859e3b8f72a3344fd502ce">debug_fighter_skillslots_group</a></div><div class="ttdeci">Gui_Button_Group debug_fighter_skillslots_group</div><div class="ttdef"><b>Definition</b> game_rl.c:408</div></div>
+<div class="ttc" id="agame__rl_8c_html_ac6e7a983e9fcc1643908b88e301de6d2"><div class="ttname"><a href="#ac6e7a983e9fcc1643908b88e301de6d2">debug_fighter_counters_group</a></div><div class="ttdeci">Gui_Button_Group debug_fighter_counters_group</div><div class="ttdef"><b>Definition</b> game_rl.c:412</div></div>
+<div class="ttc" id="agame__rl_8c_html_ad3c8894838be2761dca31ddf078cd907"><div class="ttname"><a href="#ad3c8894838be2761dca31ddf078cd907">debug_fighter_equipslots_group</a></div><div class="ttdeci">Gui_Button_Group debug_fighter_equipslots_group</div><div class="ttdef"><b>Definition</b> game_rl.c:420</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1251,7 +1262,7 @@ SpecialSlot </dd>
 <div class="line">    .buttons = &amp;(<a class="code hl_variable" href="#a5556f05ff75776d30b59f99245941b00">debug_fighter_perks_buttons</a>[0]),</div>
 <div class="line">    .len = <a class="code hl_define" href="game__core_8h.html#a25f003de16c08a4888b69f619d70f427">ARRAY_SIZE</a>(<a class="code hl_variable" href="#a5556f05ff75776d30b59f99245941b00">debug_fighter_perks_buttons</a>),</div>
 <div class="line">}</div>
-<div class="ttc" id="agame__rl_8c_html_a5556f05ff75776d30b59f99245941b00"><div class="ttname"><a href="#a5556f05ff75776d30b59f99245941b00">debug_fighter_perks_buttons</a></div><div class="ttdeci">Gui_Button debug_fighter_perks_buttons[PERKSMAX+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:352</div></div>
+<div class="ttc" id="agame__rl_8c_html_a5556f05ff75776d30b59f99245941b00"><div class="ttname"><a href="#a5556f05ff75776d30b59f99245941b00">debug_fighter_perks_buttons</a></div><div class="ttdeci">Gui_Button debug_fighter_perks_buttons[PERKSMAX+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:399</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1284,7 +1295,7 @@ SpecialSlot </dd>
 <div class="line">    .buttons = &amp;(<a class="code hl_variable" href="#a616739b2461434a36e63fca0b37e42bf">debug_fighter_skillslots_buttons</a>[0]),</div>
 <div class="line">    .len = <a class="code hl_define" href="game__core_8h.html#a25f003de16c08a4888b69f619d70f427">ARRAY_SIZE</a>(<a class="code hl_variable" href="#a616739b2461434a36e63fca0b37e42bf">debug_fighter_skillslots_buttons</a>),</div>
 <div class="line">}</div>
-<div class="ttc" id="agame__rl_8c_html_a616739b2461434a36e63fca0b37e42bf"><div class="ttname"><a href="#a616739b2461434a36e63fca0b37e42bf">debug_fighter_skillslots_buttons</a></div><div class="ttdeci">Gui_Button debug_fighter_skillslots_buttons[FIGHTER_SKILL_SLOTS+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:350</div></div>
+<div class="ttc" id="agame__rl_8c_html_a616739b2461434a36e63fca0b37e42bf"><div class="ttname"><a href="#a616739b2461434a36e63fca0b37e42bf">debug_fighter_skillslots_buttons</a></div><div class="ttdeci">Gui_Button debug_fighter_skillslots_buttons[FIGHTER_SKILL_SLOTS+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:397</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1317,7 +1328,7 @@ SpecialSlot </dd>
 <div class="line">    .buttons = &amp;(<a class="code hl_variable" href="#a639632df5039cd8a2ef1abc659c050eb">debug_fighter_specialslots_buttons</a>[0]),</div>
 <div class="line">    .len = <a class="code hl_define" href="game__core_8h.html#a25f003de16c08a4888b69f619d70f427">ARRAY_SIZE</a>(<a class="code hl_variable" href="#a639632df5039cd8a2ef1abc659c050eb">debug_fighter_specialslots_buttons</a>),</div>
 <div class="line">}</div>
-<div class="ttc" id="agame__rl_8c_html_a639632df5039cd8a2ef1abc659c050eb"><div class="ttname"><a href="#a639632df5039cd8a2ef1abc659c050eb">debug_fighter_specialslots_buttons</a></div><div class="ttdeci">Gui_Button debug_fighter_specialslots_buttons[SPECIALSMAX+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:349</div></div>
+<div class="ttc" id="agame__rl_8c_html_a639632df5039cd8a2ef1abc659c050eb"><div class="ttname"><a href="#a639632df5039cd8a2ef1abc659c050eb">debug_fighter_specialslots_buttons</a></div><div class="ttdeci">Gui_Button debug_fighter_specialslots_buttons[SPECIALSMAX+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:396</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1409,6 +1420,39 @@ SpecialSlot </dd>
 <div class="line">}</div>
 <div class="ttc" id="agame__rl_8c_html_a21c50cbf424af5b788f33db3eb938b70"><div class="ttname"><a href="#a21c50cbf424af5b788f33db3eb938b70">fight_buttons</a></div><div class="ttdeci">Gui_Button fight_buttons[GUI_FIGHT_GROUP_BUTTONS_MAX+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:151</div></div>
 <div class="ttc" id="agame__rl_8h_html_a61042283afaba6ee7a5c2e738e9a11ff"><div class="ttname"><a href="game__rl_8h.html#a61042283afaba6ee7a5c2e738e9a11ff">GUI_FIGHT_GROUP_BUTTONS_MAX</a></div><div class="ttdeci">#define GUI_FIGHT_GROUP_BUTTONS_MAX</div><div class="ttdef"><b>Definition</b> game_rl.h:131</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a766ca2d5be761edccb9082ff3289365b" name="a766ca2d5be761edccb9082ff3289365b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a766ca2d5be761edccb9082ff3289365b">&#9670;&#160;</a></span>floor_buttons</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structGui__Button.html">Gui_Button</a> floor_buttons[<a class="el" href="game__rl_8h.html#a823e675c5634049267ab9d432ac70f79">GUI_FLOOR_GROUP_BUTTONS_MAX</a>+1]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e191626d5fdc16d320b6e691a53c19b" name="a4e191626d5fdc16d320b6e691a53c19b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e191626d5fdc16d320b6e691a53c19b">&#9670;&#160;</a></span>floor_buttons_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structGui__Button__Group.html">Gui_Button_Group</a> floor_buttons_group</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">                                     = {</div>
+<div class="line">    .buttons = &amp;(<a class="code hl_variable" href="#a766ca2d5be761edccb9082ff3289365b">floor_buttons</a>[0]),</div>
+<div class="line">    .len = <a class="code hl_define" href="game__core_8h.html#a25f003de16c08a4888b69f619d70f427">ARRAY_SIZE</a>(<a class="code hl_variable" href="#a766ca2d5be761edccb9082ff3289365b">floor_buttons</a>),</div>
+<div class="line">}</div>
+<div class="ttc" id="agame__rl_8c_html_a766ca2d5be761edccb9082ff3289365b"><div class="ttname"><a href="#a766ca2d5be761edccb9082ff3289365b">floor_buttons</a></div><div class="ttdeci">Gui_Button floor_buttons[GUI_FLOOR_GROUP_BUTTONS_MAX+1]</div><div class="ttdef"><b>Definition</b> game_rl.c:333</div></div>
 </div><!-- fragment -->
 </div>
 </div>

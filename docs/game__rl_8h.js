@@ -12,12 +12,16 @@ var game__rl_8h =
     [ "GUI_DEBUG_GROUP_BOX_COLOR", "game__rl_8h.html#a70ce04847fb487239dee41ceb825bbe4", null ],
     [ "GUI_DEBUG_GROUP_BUTTONS_MAX", "game__rl_8h.html#af3454089d3fc6c13ad998e6500cfa5ac", null ],
     [ "GUI_DEBUG_GROUP_TEXT_COLOR", "game__rl_8h.html#a8b83b7f494ffc5fd40f6071f6124d150", null ],
+    [ "GUI_DEBUG_SELECTION_MAX", "game__rl_8h.html#a22bffddb600fc0dc05932b4db828cec4", null ],
     [ "GUI_EQUIPS_GROUP_BOX_COLOR", "game__rl_8h.html#ae0a5530d0b1bcd9d81fb30c08e9e4f06", null ],
     [ "GUI_EQUIPS_GROUP_BUTTONS_MAX", "game__rl_8h.html#a139a6ff0b2f851a24b2a72d3c15f4cbf", null ],
     [ "GUI_EQUIPS_GROUP_TEXT_COLOR", "game__rl_8h.html#a21f410d2824c71b0ea789dfb0ba871f5", null ],
     [ "GUI_FIGHT_GROUP_BOX_COLOR", "game__rl_8h.html#ad1d17ead8a43a05c5a94990ccb6721c1", null ],
     [ "GUI_FIGHT_GROUP_BUTTONS_MAX", "game__rl_8h.html#a61042283afaba6ee7a5c2e738e9a11ff", null ],
     [ "GUI_FIGHT_GROUP_TEXT_COLOR", "game__rl_8h.html#abb89a83d297d6922c56726f5cc406fb1", null ],
+    [ "GUI_FLOOR_GROUP_BOX_COLOR", "game__rl_8h.html#a4aafeef212f424791fb89787fffdbdd0", null ],
+    [ "GUI_FLOOR_GROUP_BUTTONS_MAX", "game__rl_8h.html#a823e675c5634049267ab9d432ac70f79", null ],
+    [ "GUI_FLOOR_GROUP_TEXT_COLOR", "game__rl_8h.html#a3587169071f18516861793c4f819343f", null ],
     [ "GUI_GAMEPICK_GROUP_BOX_COLOR", "game__rl_8h.html#aaad30e2229d588e235f07c7da03805c5", null ],
     [ "GUI_GAMEPICK_GROUP_BUTTONS_MAX", "game__rl_8h.html#a5f69118053523878a7ec4ccaa641a361", null ],
     [ "GUI_GAMEPICK_GROUP_TEXT_COLOR", "game__rl_8h.html#ad5365c0ffd71f0b461b625e582c64889", null ],
@@ -45,8 +49,10 @@ var game__rl_8h =
     [ "Gui_ClassPick_Group_Button_Index", "game__rl_8h.html#a72125a9c63041bce95dc5d27a33ad687", null ],
     [ "Gui_Debug_Fighter_Layout_Group_Index", "game__rl_8h.html#acaec3e9c2703c644ade3b3c7a6fbc263", null ],
     [ "Gui_Debug_Group_Button_Index", "game__rl_8h.html#a59adcceda25aa99c884ccf4ec5ca8284", null ],
+    [ "Gui_Debug_Selection_Index", "game__rl_8h.html#ab90b0c18a39449972c926eabdc11c621", null ],
     [ "Gui_Equips_Group_Button_Index", "game__rl_8h.html#af704039ecc83728d64d9efafeb177f27", null ],
     [ "Gui_Fight_Group_Button_Index", "game__rl_8h.html#a3cfb01e9b28c40c2360064a18851049d", null ],
+    [ "Gui_Floor_Group_Button_Index", "game__rl_8h.html#aa20cc39777a7aaf59c0ed4918186be75", null ],
     [ "Gui_GamePick_Group_Button_Index", "game__rl_8h.html#a498f9395debaed4f99e4f99ea6ae4f11", null ],
     [ "Gui_SaveSlotPick_Group_Button_Index", "game__rl_8h.html#a5e4a09e1ef13246cc35a41091f252811", null ],
     [ "Gui_Shop_Layout_Group_Index", "game__rl_8h.html#afe3adfd832eb0432dfb8324bcb25500a", null ],
@@ -78,7 +84,12 @@ var game__rl_8h =
       [ "DEBUG_FIGHTER_LAYOUT_ARTIFACTSBAG_GROUP", "game__rl_8h.html#a6950f6e8dc6d29f645b5adfb75f4fb3aaf081fca922478abaacc1d8ecb57b8e90", null ]
     ] ],
     [ "Gui_Debug_Group_Button_Index", "game__rl_8h.html#a70b745630a02ea14235114d8e17cbd90", [
-      [ "BUTTON_DEBUG", "game__rl_8h.html#a70b745630a02ea14235114d8e17cbd90ab7203e34e8bc96b703e6bf9861c74f2a", null ]
+      [ "BUTTON_DEBUG", "game__rl_8h.html#a70b745630a02ea14235114d8e17cbd90ab7203e34e8bc96b703e6bf9861c74f2a", null ],
+      [ "BUTTON_CYCLE_DEBUG_LAYOUT", "game__rl_8h.html#a70b745630a02ea14235114d8e17cbd90a02898fef4f532bad50e12bc4fc2c7605", null ]
+    ] ],
+    [ "Gui_Debug_Selection_Index", "game__rl_8h.html#a878a1ce146d8a01417421c3a38c12b81", [
+      [ "GUI_DEBUG_FIGHTER", "game__rl_8h.html#a878a1ce146d8a01417421c3a38c12b81aab1cbdf1ce45379c0228c83a074e1ef6", null ],
+      [ "GUI_DEBUG_FLOOR", "game__rl_8h.html#a878a1ce146d8a01417421c3a38c12b81ab68e738002cf9e74ed1df16f031d6ee1", null ]
     ] ],
     [ "Gui_Equips_Group_Button_Index", "game__rl_8h.html#a0b438e067ba89e05ce9eeaa93f333f39", [
       [ "BUTTON_OPEN_BAG", "game__rl_8h.html#a0b438e067ba89e05ce9eeaa93f333f39acd9ad9e7498741af27d166aa8b7884be", null ],
@@ -90,6 +101,12 @@ var game__rl_8h =
       [ "BUTTON_EQUIPS", "game__rl_8h.html#a8937056b552a02af5548bcf89d4c2a39a69bee9097c820c35d3c64cd2ab802112", null ],
       [ "BUTTON_CONSUMABLES", "game__rl_8h.html#a8937056b552a02af5548bcf89d4c2a39aa2d715f71bfbfd054fb454eea354f65a", null ],
       [ "BUTTON_STATS", "game__rl_8h.html#a8937056b552a02af5548bcf89d4c2a39ad875e818ffea881a0075c7ec283aa61d", null ]
+    ] ],
+    [ "Gui_Floor_Group_Button_Index", "game__rl_8h.html#a80a489c0af58db357bd6cc815c294505", [
+      [ "BUTTON_FLOOR_EQUIPS", "game__rl_8h.html#a80a489c0af58db357bd6cc815c294505a9d047bf87daf9e68219e3b3eb1a942a4", null ],
+      [ "BUTTON_ARTIFACTS", "game__rl_8h.html#a80a489c0af58db357bd6cc815c294505a16800b9513e9e83adf0fd044d500a181", null ],
+      [ "BUTTON_FLOOR_SAVE", "game__rl_8h.html#a80a489c0af58db357bd6cc815c294505a83cb8827fce9b591d198dc16bc7abf4f", null ],
+      [ "BUTTON_FLOOR_STATS", "game__rl_8h.html#a80a489c0af58db357bd6cc815c294505aaece9b94359520e0c1fd9b8d2f1a23f1", null ]
     ] ],
     [ "Gui_GamePick_Group_Button_Index", "game__rl_8h.html#ab8010a65fdd467c7fe29d75b2c9c1494", [
       [ "BUTTON_NEW_GAME", "game__rl_8h.html#ab8010a65fdd467c7fe29d75b2c9c1494a889f03264a131563fdb7e034ddc53f48", null ],
@@ -163,6 +180,8 @@ var game__rl_8h =
     [ "equips_buttons_group", "game__rl_8h.html#abcf9bce4380211312c7b9597dc1de214", null ],
     [ "fight_buttons", "game__rl_8h.html#a21c50cbf424af5b788f33db3eb938b70", null ],
     [ "fight_buttons_group", "game__rl_8h.html#a5dcf32eb7846945a48e8b8019ffed797", null ],
+    [ "floor_buttons", "game__rl_8h.html#a766ca2d5be761edccb9082ff3289365b", null ],
+    [ "floor_buttons_group", "game__rl_8h.html#a4e191626d5fdc16d320b6e691a53c19b", null ],
     [ "gamepick_buttons", "game__rl_8h.html#aecadc5e5c54359f0e15bbfb645aa8e71", null ],
     [ "gamepick_buttons_group", "game__rl_8h.html#aa706f92f45a8f9a7d8315c69f8afc13e", null ],
     [ "saveslotpick_buttons", "game__rl_8h.html#a684e3b8a1361a84a6d10dc9c05a74531", null ],

@@ -43,6 +43,8 @@ var game__rl_8c =
     [ "equips_buttons_group", "game__rl_8c.html#abcf9bce4380211312c7b9597dc1de214", null ],
     [ "fight_buttons", "game__rl_8c.html#a21c50cbf424af5b788f33db3eb938b70", null ],
     [ "fight_buttons_group", "game__rl_8c.html#a5dcf32eb7846945a48e8b8019ffed797", null ],
+    [ "floor_buttons", "game__rl_8c.html#a766ca2d5be761edccb9082ff3289365b", null ],
+    [ "floor_buttons_group", "game__rl_8c.html#a4e191626d5fdc16d320b6e691a53c19b", null ],
     [ "gamepick_buttons", "game__rl_8c.html#aecadc5e5c54359f0e15bbfb645aa8e71", null ],
     [ "gamepick_buttons_group", "game__rl_8c.html#aa706f92f45a8f9a7d8315c69f8afc13e", null ],
     [ "saveslotpick_buttons", "game__rl_8c.html#a684e3b8a1361a84a6d10dc9c05a74531", null ],
