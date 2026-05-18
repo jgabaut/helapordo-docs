@@ -2,7 +2,7 @@ var searchData=
 [
   ['t_5fkls_0',['t_kls',['../structturnOP__args.html#ab86f27dc4f6f719bf8bbc2e361aa2a0b',1,'turnOP_args']]],
   ['target_5fval_1',['target_val',['../structWincon.html#afab91c7acae1fe4cad4edfcab79057a8',1,'Wincon::target_val'],['../structSerWincon.html#a17fdd9f8088063a3ae1c89ce398a1f6f',1,'SerWincon::target_val']]],
-  ['temporary_5fkls_2',['temporary_kls',['../main_8c.html#ab09873664dfb1d459635b47b70cf4d45',1,'temporary_kls:&#160;main.c'],['../game__core_8h.html#ab09873664dfb1d459635b47b70cf4d45',1,'temporary_kls:&#160;main.c']]],
+  ['temporary_5fkls_2',['temporary_kls',['../game__core_8c.html#ab09873664dfb1d459635b47b70cf4d45',1,'temporary_kls:&#160;game_core.c'],['../game__core_8h.html#ab09873664dfb1d459635b47b70cf4d45',1,'temporary_kls:&#160;game_core.c']]],
   ['text_5fcolor_3',['text_color',['../structGui__Button.html#a55a8f26f407d4fd4de8943d34cc5c270',1,'Gui_Button']]],
   ['theme_4',['theme',['../structGui__State.html#adbce0893eb488b2b1570b16cad588778',1,'Gui_State']]],
   ['torso_5fchar_5ficon_5',['TORSO_CHAR_ICON',['../game__core_8c.html#a0072ef02d2ec66bb4482a78c2f332eae',1,'TORSO_CHAR_ICON:&#160;game_core.c'],['../game__core_8h.html#a0072ef02d2ec66bb4482a78c2f332eae',1,'TORSO_CHAR_ICON:&#160;game_core.c']]],

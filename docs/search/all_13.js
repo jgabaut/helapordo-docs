@@ -2,7 +2,7 @@ var searchData=
 [
   ['t_5fkls_0',['t_kls',['../structturnOP__args.html#ab86f27dc4f6f719bf8bbc2e361aa2a0b',1,'turnOP_args']]],
   ['target_5fval_1',['target_val',['../structWincon.html#afab91c7acae1fe4cad4edfcab79057a8',1,'Wincon::target_val'],['../structSerWincon.html#a17fdd9f8088063a3ae1c89ce398a1f6f',1,'SerWincon::target_val']]],
-  ['temporary_5fkls_2',['temporary_kls',['../main_8c.html#ab09873664dfb1d459635b47b70cf4d45',1,'temporary_kls:&#160;main.c'],['../game__core_8h.html#ab09873664dfb1d459635b47b70cf4d45',1,'temporary_kls:&#160;main.c']]],
+  ['temporary_5fkls_2',['temporary_kls',['../game__core_8c.html#ab09873664dfb1d459635b47b70cf4d45',1,'temporary_kls:&#160;game_core.c'],['../game__core_8h.html#ab09873664dfb1d459635b47b70cf4d45',1,'temporary_kls:&#160;game_core.c']]],
   ['test_5ffloors_3',['test_floors',['../floor__tester_8c.html#ae207a083ddac4bbe7d0b6157d935f4a1',1,'test_floors(void):&#160;floor_tester.c'],['../floor__tester_8h.html#ae207a083ddac4bbe7d0b6157d935f4a1',1,'test_floors(void):&#160;floor_tester.c']]],
   ['text_5fcolor_4',['text_color',['../structGui__Button.html#a55a8f26f407d4fd4de8943d34cc5c270',1,'Gui_Button']]],
   ['theme_5',['theme',['../structGui__State.html#adbce0893eb488b2b1570b16cad588778',1,'Gui_State']]],

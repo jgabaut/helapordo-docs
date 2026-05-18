@@ -1,7 +1,11 @@
 var game__fight_8h =
 [
+    [ "applyBStatus", "game__fight_8h.html#a3080ccf2351579aec1a6e7781c96b825", null ],
+    [ "applyEStatus", "game__fight_8h.html#ad13387d6e10508704a045e0e37b03b93", null ],
+    [ "applyStatus", "game__fight_8h.html#afea8981327f3e69af00fcf516c816593", null ],
     [ "boss_attack", "game__fight_8h.html#a504cf093b286285e9bc311a30a27a050", null ],
     [ "boss_fight", "game__fight_8h.html#af14958261c364c6da405bf07594c267a", null ],
+    [ "bossTurnPick", "game__fight_8h.html#a2728ab62c041317057375098a50d8591", null ],
     [ "defer_fight_boss", "game__fight_8h.html#a68ac7f034b059c9421ebc44a99c47c58", null ],
     [ "defer_fight_enemy", "game__fight_8h.html#aa0f69318c8e192046ea6f598d3995944", null ],
     [ "defer_skill_boss", "game__fight_8h.html#ab16d0ed5712d2558fa13a47331472aab", null ],
@@ -9,5 +13,14 @@ var game__fight_8h =
     [ "do_Skill", "game__fight_8h.html#a8b3f8a38648ff2f6604b81f635380ca9", null ],
     [ "do_Skill_boss", "game__fight_8h.html#a70abb2104bddf135a794299fd0c432ca", null ],
     [ "enemy_attack", "game__fight_8h.html#ac4f6c2e53c715fcaaac0e3142a1ae292", null ],
-    [ "fight", "game__fight_8h.html#a513bff8151fdfeaab88b8ba02d5ab8a2", null ]
+    [ "enemyTurnPick", "game__fight_8h.html#a1ef2e5431bd7019a32ad5b533df378bc", null ],
+    [ "fight", "game__fight_8h.html#a513bff8151fdfeaab88b8ba02d5ab8a2", null ],
+    [ "getBoost", "game__fight_8h.html#ad9882a410485a1c0f3cb908f632df73f", null ],
+    [ "getBossBoost", "game__fight_8h.html#aaffb8ce82f08d715c89f53c38e626ac8", null ],
+    [ "getEnemyBoost", "game__fight_8h.html#a4d246d5b15ff7742f0265c71a009fee3", null ],
+    [ "printStatusText", "game__fight_8h.html#a31e214b63fecfb3a96384c81cce48a54", null ],
+    [ "setCounter", "game__fight_8h.html#aa7e0c7d9d1f183cd86087f8127f00ad2", null ],
+    [ "statReset", "game__fight_8h.html#a5878d6db912ef82ed4d43c74a808ba7c", null ],
+    [ "statResetBoss", "game__fight_8h.html#a5788b5443bb338c4ce8fcae89fb60ee1", null ],
+    [ "statResetEnemy", "game__fight_8h.html#a896773eca0482957b1cabdca9c2a4100", null ]
 ];

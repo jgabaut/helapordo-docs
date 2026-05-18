@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>helapordo: src/utils/game_init.h File Reference</title>
+<title>helapordo: src/core/game_init.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.19</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.20</span>
    </div>
   </td>
  </tr>
@@ -91,82 +91,96 @@ $(function(){initNavTree('game__init_8h.html','',''); });
   <div class="headertitle"><div class="title">game_init.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="game__utils_8h_source.html">game_utils.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="sprites_8h_source.html">sprites.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="specials_8h_source.html">specials.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="game__rng_8h_source.html">game_rng.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="game__fight_8h_source.html">game_fight.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for game_init.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="game__init_8h__incl.png" border="0" usemap="#asrc_2utils_2game__init_8h" loading="lazy" alt=""/></div>
-<map name="asrc_2utils_2game__init_8h" id="asrc_2utils_2game__init_8h">
-<area shape="rect" title=" " alt="" coords="369,5,506,31"/>
-<area shape="rect" href="game__utils_8h.html" title=" " alt="" coords="390,153,485,178"/>
-<area shape="poly" title=" " alt="" coords="435,29,429,65,427,104,433,139,428,137,422,105,423,64,432,34"/>
-<area shape="rect" href="specials_8h.html" title=" " alt="" coords="437,79,516,105"/>
-<area shape="poly" title=" " alt="" coords="445,29,465,65,460,65,443,34"/>
-<area shape="rect" title=" " alt="" coords="5,234,65,260"/>
-<area shape="poly" title=" " alt="" coords="388,172,249,191,163,207,78,229,76,230,72,226,77,224,162,202,248,186,392,169"/>
-<area shape="rect" title=" " alt="" coords="89,234,152,260"/>
-<area shape="poly" title=" " alt="" coords="388,175,286,197,164,229,161,230,158,226,162,224,284,191,392,173"/>
-<area shape="rect" title=" " alt="" coords="175,234,242,260"/>
-<area shape="poly" title=" " alt="" coords="395,181,255,229,251,230,248,225,253,224,399,177"/>
-<area shape="rect" title=" " alt="" coords="266,234,329,260"/>
-<area shape="poly" title=" " alt="" coords="414,180,334,228,331,224,419,177"/>
-<area shape="rect" title=" " alt="" coords="354,234,431,260"/>
-<area shape="poly" title=" " alt="" coords="433,177,409,222,405,218,429,181"/>
-<area shape="rect" title=" " alt="" coords="455,234,511,260"/>
-<area shape="poly" title=" " alt="" coords="445,176,471,221,466,220,444,181"/>
-<area shape="rect" title=" " alt="" coords="536,234,612,260"/>
-<area shape="poly" title=" " alt="" coords="459,176,542,225,537,226,458,181"/>
-<area shape="rect" title=" " alt="" coords="636,234,701,260"/>
-<area shape="poly" title=" " alt="" coords="480,176,625,224,630,228,625,228,623,229,479,182"/>
-<area shape="rect" href="game__core_8h.html" title=" " alt="" coords="725,234,860,260"/>
-<area shape="poly" title=" " alt="" coords="485,174,714,224,731,230,726,230,713,229,485,179"/>
-<area shape="rect" title=" " alt="" coords="883,226,1035,267"/>
-<area shape="poly" title=" " alt="" coords="485,170,651,190,870,225,865,226,650,195,486,175"/>
-<area shape="rect" title=" " alt="" coords="596,315,706,356"/>
-<area shape="poly" title=" " alt="" coords="775,259,697,309,695,304,770,261"/>
-<area shape="rect" title=" " alt="" coords="730,315,855,356"/>
-<area shape="poly" title=" " alt="" coords="794,258,794,301,790,298,791,262"/>
-<area shape="rect" href="palette_8h.html" title=" " alt="" coords="879,322,959,348"/>
-<area shape="poly" title=" " alt="" coords="811,257,891,314,886,313,809,263"/>
-<area shape="rect" title=" " alt="" coords="850,404,988,444"/>
-<area shape="poly" title=" " alt="" coords="921,347,921,390,917,387,917,351"/>
-<area shape="poly" title=" " alt="" coords="472,103,454,141,449,137,468,107"/>
+<div class="center"><img src="game__init_8h__incl.png" border="0" usemap="#asrc_2core_2game__init_8h" loading="lazy" alt=""/></div>
+<map name="asrc_2core_2game__init_8h" id="asrc_2core_2game__init_8h">
+<area shape="rect" title=" " alt="" coords="322,5,460,31"/>
+<area shape="rect" href="sprites_8h.html" title=" " alt="" coords="17,234,87,260"/>
+<area shape="poly" title=" " alt="" coords="372,34,84,227,80,223,373,29"/>
+<area shape="rect" href="specials_8h.html" title=" " alt="" coords="440,79,520,105"/>
+<area shape="poly" title=" " alt="" coords="399,29,448,69,443,70,399,34"/>
+<area shape="rect" href="game__fight_8h.html" title=" " alt="" coords="260,153,354,178"/>
+<area shape="poly" title=" " alt="" coords="385,29,324,140,319,138,382,34"/>
+<area shape="rect" href="game__rng_8h.html" title=" " alt="" coords="322,234,449,260"/>
+<area shape="poly" title=" " alt="" coords="392,29,389,219,383,218,389,34"/>
+<area shape="rect" href="game__core_8h.html" title=" " alt="" coords="192,462,288,488"/>
+<area shape="poly" title=" " alt="" coords="56,257,72,296,94,339,123,379,158,412,210,453,205,454,154,416,119,382,90,342,67,298,56,263"/>
+<area shape="rect" href="game__log_8h.html" title=" " alt="" coords="104,315,192,341"/>
+<area shape="poly" title=" " alt="" coords="66,257,124,304,119,306,67,263"/>
+<area shape="rect" title=" " alt="" coords="5,536,115,577"/>
+<area shape="poly" title=" " alt="" coords="211,491,120,532,118,527,214,487"/>
+<area shape="rect" title=" " alt="" coords="139,544,216,569"/>
+<area shape="poly" title=" " alt="" coords="233,487,198,533,194,529,228,490"/>
+<area shape="rect" title=" " alt="" coords="240,536,365,577"/>
+<area shape="poly" title=" " alt="" coords="250,486,280,524,275,524,249,491"/>
+<area shape="rect" href="palette_8h.html" title=" " alt="" coords="389,544,470,569"/>
+<area shape="poly" title=" " alt="" coords="269,486,389,536,384,538,269,491"/>
+<area shape="rect" title=" " alt="" coords="360,625,498,665"/>
+<area shape="poly" title=" " alt="" coords="431,568,431,611,427,608,427,572"/>
+<area shape="poly" title=" " alt="" coords="150,338,159,375,176,413,192,433,212,452,207,453,188,437,171,416,154,376,149,344"/>
+<area shape="rect" href="game__strings_8h.html" title=" " alt="" coords="185,389,295,414"/>
+<area shape="poly" title=" " alt="" coords="163,339,215,378,210,380,164,344"/>
+<area shape="poly" title=" " alt="" coords="241,412,243,447,237,446,239,417"/>
+<area shape="poly" title=" " alt="" coords="469,79,425,43,425,38,475,78"/>
+<area shape="poly" title=" " alt="" coords="489,103,521,163,534,203,540,245,540,329,533,366,515,395,488,419,454,438,416,452,377,462,304,473,302,468,376,457,415,447,452,433,485,415,511,392,528,364,535,329,535,246,529,204,516,165,487,108"/>
+<area shape="poly" title=" " alt="" coords="484,103,494,148,498,211,496,246,489,280,477,313,458,343,434,359,398,372,311,392,309,387,396,367,432,354,454,339,472,311,484,279,490,245,493,211,488,149,482,108"/>
+<area shape="poly" title=" " alt="" coords="449,107,352,148,349,144,453,103"/>
+<area shape="rect" title=" " alt="" coords="575,153,641,178"/>
+<area shape="poly" title=" " alt="" coords="502,103,576,144,570,145,502,108"/>
+<area shape="poly" title=" " alt="" coords="257,173,231,180,201,190,173,206,152,228,144,245,140,263,143,300,138,300,135,263,139,243,147,225,170,201,199,185,229,174,261,169"/>
+<area shape="poly" title=" " alt="" coords="319,176,365,222,360,223,319,181"/>
+<area shape="rect" title=" " alt="" coords="161,226,298,267"/>
+<area shape="poly" title=" " alt="" coords="293,181,261,217,257,214,296,177"/>
+<area shape="poly" title=" " alt="" coords="382,258,348,341,309,416,271,454,267,450,305,413,343,339,379,262"/>
+<area shape="poly" title=" " alt="" coords="347,262,200,312,198,307,350,258"/>
+<area shape="rect" title=" " alt="" coords="370,315,443,341"/>
+<area shape="poly" title=" " alt="" coords="389,257,402,301,397,299,388,262"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="game__init_8h__dep__incl.png" border="0" usemap="#asrc_2utils_2game__init_8hdep" loading="lazy" alt=""/></div>
-<map name="asrc_2utils_2game__init_8hdep" id="asrc_2utils_2game__init_8hdep">
-<area shape="rect" title=" " alt="" coords="98,5,235,31"/>
-<area shape="rect" href="game__init_8c.html" title=" " alt="" coords="23,79,160,105"/>
-<area shape="poly" title=" " alt="" coords="141,44,106,80,102,77,144,39"/>
-<area shape="rect" href="saves_8h.html" title=" " alt="" coords="184,79,300,105"/>
-<area shape="poly" title=" " alt="" coords="190,39,232,78,227,79,190,45"/>
-<area shape="rect" href="saves_8c.html" title=" " alt="" coords="112,153,228,178"/>
-<area shape="poly" title=" " alt="" coords="218,118,184,154,180,151,221,113"/>
-<area shape="rect" href="turn__op_8h.html" title=" " alt="" coords="252,153,376,178"/>
-<area shape="poly" title=" " alt="" coords="265,113,305,152,299,153,265,118"/>
-<area shape="rect" href="game__curses_8h.html" title=" " alt="" coords="33,226,214,252"/>
-<area shape="poly" title=" " alt="" coords="266,186,157,228,155,223,269,182"/>
-<area shape="rect" href="game__rl_8h.html" title=" " alt="" coords="210,300,352,326"/>
-<area shape="poly" title=" " alt="" coords="304,191,294,227,287,267,284,301,279,299,282,266,289,226,301,195"/>
-<area shape="rect" href="rooms_8h.html" title=" " alt="" coords="304,226,421,252"/>
-<area shape="poly" title=" " alt="" coords="331,189,357,226,351,226,330,194"/>
-<area shape="rect" href="turn__op_8c.html" title=" " alt="" coords="445,226,570,252"/>
-<area shape="poly" title=" " alt="" coords="361,181,477,225,472,227,361,187"/>
-<area shape="rect" href="game__curses_8c.html" title=" " alt="" coords="5,300,186,326"/>
-<area shape="poly" title=" " alt="" coords="114,264,103,301,98,298,112,269"/>
-<area shape="rect" href="game__rl_8c.html" title=" " alt="" coords="128,381,269,407"/>
-<area shape="poly" title=" " alt="" coords="259,335,213,383,209,379,255,338"/>
-<area shape="rect" href="helapordo__raylib_8h.html" title=" " alt="" coords="293,374,434,414"/>
-<area shape="poly" title=" " alt="" coords="305,334,346,373,340,373,303,339"/>
-<area shape="rect" href="helapordo__raylib_8c.html" title=" " alt="" coords="293,462,434,503"/>
-<area shape="poly" title=" " alt="" coords="365,428,366,463,361,460,362,432"/>
-<area shape="poly" title=" " alt="" coords="339,261,296,302,293,298,335,264"/>
-<area shape="rect" href="rooms_8c.html" title=" " alt="" coords="376,300,493,326"/>
-<area shape="poly" title=" " alt="" coords="385,260,425,300,419,299,384,266"/>
+<div class="center"><img src="game__init_8h__dep__incl.png" border="0" usemap="#asrc_2core_2game__init_8hdep" loading="lazy" alt=""/></div>
+<map name="asrc_2core_2game__init_8hdep" id="asrc_2core_2game__init_8hdep">
+<area shape="rect" title=" " alt="" coords="164,5,302,31"/>
+<area shape="rect" href="game__init_8c.html" title=" " alt="" coords="5,79,144,105"/>
+<area shape="poly" title=" " alt="" coords="191,40,103,80,100,76,194,35"/>
+<area shape="rect" href="specials_8h.html" title=" " alt="" coords="168,79,298,105"/>
+<area shape="poly" title=" " alt="" coords="225,44,229,79,224,78,224,49"/>
+<area shape="rect" href="saves_8h.html" title=" " alt="" coords="323,79,439,105"/>
+<area shape="poly" title=" " alt="" coords="272,36,358,77,353,79,272,41"/>
+<area shape="poly" title=" " alt="" coords="239,63,239,34,241,29,245,64"/>
+<area shape="rect" href="specials_8c.html" title=" " alt="" coords="168,153,298,178"/>
+<area shape="poly" title=" " alt="" coords="234,118,236,153,231,152,232,123"/>
+<area shape="rect" href="saves_8c.html" title=" " alt="" coords="323,153,439,178"/>
+<area shape="poly" title=" " alt="" coords="382,118,384,153,379,151,380,123"/>
+<area shape="rect" href="turn__op_8h.html" title=" " alt="" coords="463,153,587,178"/>
+<area shape="poly" title=" " alt="" coords="419,109,503,151,498,153,419,114"/>
+<area shape="rect" href="game__curses_8h.html" title=" " alt="" coords="244,226,425,252"/>
+<area shape="poly" title=" " alt="" coords="477,186,368,228,366,223,481,183"/>
+<area shape="rect" href="game__rl_8h.html" title=" " alt="" coords="421,300,562,326"/>
+<area shape="poly" title=" " alt="" coords="515,191,505,227,498,267,495,301,490,298,493,266,500,226,512,195"/>
+<area shape="rect" href="rooms_8h.html" title=" " alt="" coords="514,226,632,252"/>
+<area shape="poly" title=" " alt="" coords="542,189,568,226,562,225,541,194"/>
+<area shape="rect" href="turn__op_8c.html" title=" " alt="" coords="656,226,781,252"/>
+<area shape="poly" title=" " alt="" coords="572,181,688,225,683,226,572,187"/>
+<area shape="rect" href="game__curses_8c.html" title=" " alt="" coords="216,300,397,326"/>
+<area shape="poly" title=" " alt="" coords="326,264,313,301,309,298,323,268"/>
+<area shape="rect" href="game__rl_8c.html" title=" " alt="" coords="338,381,480,407"/>
+<area shape="poly" title=" " alt="" coords="471,335,423,383,420,378,466,338"/>
+<area shape="rect" href="helapordo__raylib_8h.html" title=" " alt="" coords="504,374,645,414"/>
+<area shape="poly" title=" " alt="" coords="516,334,557,374,551,373,514,339"/>
+<area shape="rect" href="helapordo__raylib_8c.html" title=" " alt="" coords="504,462,645,503"/>
+<area shape="poly" title=" " alt="" coords="576,428,577,464,572,460,573,432"/>
+<area shape="poly" title=" " alt="" coords="550,261,507,302,504,297,546,264"/>
+<area shape="rect" href="rooms_8c.html" title=" " alt="" coords="586,300,704,326"/>
+<area shape="poly" title=" " alt="" coords="597,260,636,300,630,299,595,265"/>
 </map>
 </div>
 </div>
@@ -204,6 +218,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a5e2cf734de5ba083dbbfc0d5f2c7b8c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes one <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> and one <a class="el" href="structPath.html" title="Holds the state of game progression.">Path</a> pointers and initialises the fighter fields.  <br /></td></tr>
 <tr class="memitem:a65c559970baca41ce702e4106081e4e7" id="r_a65c559970baca41ce702e4106081e4e7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a65c559970baca41ce702e4106081e4e7">initEnemyStats</a> (<a class="el" href="structEnemy.html">Enemy</a> *e, Koliseo_Temp *t_kls)</td></tr>
 <tr class="memdesc:a65c559970baca41ce702e4106081e4e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes one <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer and initialises the enemy fields.  <br /></td></tr>
+<tr class="memitem:a2b9ac7a17b3fd7421cc5397953d8d8fe" id="r_a2b9ac7a17b3fd7421cc5397953d8d8fe"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2b9ac7a17b3fd7421cc5397953d8d8fe">setEquipPrices</a> (int size, int *equipPrices, <a class="el" href="structEquip.html">Equip</a> *<a class="el" href="game__core_8c.html#a87dc21da47e77e4cdcc4ce4fefa90039">equips</a>[])</td></tr>
+<tr class="memdesc:a2b9ac7a17b3fd7421cc5397953d8d8fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a size int and a pointer to integer array, initialises all the prices, depending on stats from the Equips array pointer.  <br /></td></tr>
+<tr class="memitem:ae484ae24ea12775796654faa9174adb4" id="r_ae484ae24ea12775796654faa9174adb4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae484ae24ea12775796654faa9174adb4">setConsumablePrices</a> (int size, int *consumablePrices, <a class="el" href="structConsumable.html">Consumable</a> **consumables)</td></tr>
+<tr class="memdesc:ae484ae24ea12775796654faa9174adb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a size int and a pointer to integer array, initialises all the prices.  <br /></td></tr>
 <tr class="memitem:a8f2fc1701bbbcecd45021abdced14e78" id="r_a8f2fc1701bbbcecd45021abdced14e78"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8f2fc1701bbbcecd45021abdced14e78">setSkills</a> (<a class="el" href="structFighter.html">Fighter</a> *f, Koliseo *kls)</td></tr>
 <tr class="memdesc:a8f2fc1701bbbcecd45021abdced14e78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and prepares its skillSlot fields by allocating FIGHTER_SKILL_SLOTS slots.  <br /></td></tr>
 <tr class="memitem:a60fef1df2365b73fc4bfa4ac7361200c" id="r_a60fef1df2365b73fc4bfa4ac7361200c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a60fef1df2365b73fc4bfa4ac7361200c">initChest</a> (<a class="el" href="structChest.html">Chest</a> *c, <a class="el" href="structFighter.html">Fighter</a> *f, Koliseo_Temp *t_kls)</td></tr>
@@ -224,8 +242,348 @@ Functions</h2></td></tr>
 <tr class="memdesc:a517140c042a6b59ceebf06e2b5071dbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer and prepares its skillSlot fields by allocating ENEMY_SKILL_SLOTS slots.  <br /></td></tr>
 <tr class="memitem:a19fc31c35f5e86a55bf9a5ab0245acc0" id="r_a19fc31c35f5e86a55bf9a5ab0245acc0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a19fc31c35f5e86a55bf9a5ab0245acc0">setBossSkills</a> (<a class="el" href="structBoss.html">Boss</a> *b, Koliseo_Temp *t_kls)</td></tr>
 <tr class="memdesc:a19fc31c35f5e86a55bf9a5ab0245acc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer and prepares its skillSlot fields by allocating BOSS_SKILL_SLOTS slots.  <br /></td></tr>
+<tr class="memitem:a1dfe49cf96cfa1321cd9bba44455264a" id="r_a1dfe49cf96cfa1321cd9bba44455264a"><td class="memItemLeft"><a class="el" href="game__core_8h.html#ae1275b3ed8d90f13154471f1cc45c967">effect_fun</a>&#160;</td><td class="memItemRight"><a class="el" href="#a1dfe49cf96cfa1321cd9bba44455264a">getStatusCounterFun</a> (<a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36">fighterStatus</a> status)</td></tr>
+<tr class="memdesc:a1dfe49cf96cfa1321cd9bba44455264a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36" title="The different kinds of fighterStatus.">fighterStatus</a> and returns the corresponding <a class="el" href="game__core_8h.html#ae1275b3ed8d90f13154471f1cc45c967" title="Defines a function pointer returning void and taking a Fighter pointer.">effect_fun</a> pointer for the function relating to the status.  <br /></td></tr>
+<tr class="memitem:a2886bb5757e3ae98cbc0f7517f09a661" id="r_a2886bb5757e3ae98cbc0f7517f09a661"><td class="memItemLeft"><a class="el" href="game__core_8h.html#a88bae399b7be08373b00a1a8e0396a2b">effect_e_fun</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2886bb5757e3ae98cbc0f7517f09a661">getStatusCounterEnemyFun</a> (<a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36">fighterStatus</a> status)</td></tr>
+<tr class="memdesc:a2886bb5757e3ae98cbc0f7517f09a661"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36" title="The different kinds of fighterStatus.">fighterStatus</a> and returns the corresponding <a class="el" href="game__core_8h.html#a88bae399b7be08373b00a1a8e0396a2b" title="Defines a function pointer returning void and taking a Enemy pointer.">effect_e_fun</a> pointer for the function relating to the status.  <br /></td></tr>
+<tr class="memitem:aea988f225575f9db3ac07c4546c88afe" id="r_aea988f225575f9db3ac07c4546c88afe"><td class="memItemLeft"><a class="el" href="game__core_8h.html#aaaa47aa9a8bd5494a7ad903ab9fc0eb4">effect_b_fun</a>&#160;</td><td class="memItemRight"><a class="el" href="#aea988f225575f9db3ac07c4546c88afe">getStatusCounterBossFun</a> (<a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36">fighterStatus</a> status)</td></tr>
+<tr class="memdesc:aea988f225575f9db3ac07c4546c88afe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36" title="The different kinds of fighterStatus.">fighterStatus</a> and returns the corresponding <a class="el" href="game__core_8h.html#a88bae399b7be08373b00a1a8e0396a2b" title="Defines a function pointer returning void and taking a Enemy pointer.">effect_e_fun</a> pointer for the function relating to the status.  <br /></td></tr>
+<tr class="memitem:af575de3e99729921d5715ed716a9acee" id="r_af575de3e99729921d5715ed716a9acee"><td class="memItemLeft"><a class="el" href="game__core_8h.html#a0e0ee838f28ff3fae470824b9f2dfd20">effect_fp_fun</a>&#160;</td><td class="memItemRight"><a class="el" href="#af575de3e99729921d5715ed716a9acee">get_StatusCounter_FoeParty_Fun</a> (<a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36">fighterStatus</a> status)</td></tr>
+<tr class="memitem:ab404146b3b6faaf00a59b881b109b3eb" id="r_ab404146b3b6faaf00a59b881b109b3eb"><td class="memItemLeft"><a class="el" href="game__core_8h.html#ae9d5641f5a9b91664cdac92048f67e85">boost_fun</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab404146b3b6faaf00a59b881b109b3eb">getStatBoostCounterFun</a> (<a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305">Stat</a> s)</td></tr>
+<tr class="memdesc:ab404146b3b6faaf00a59b881b109b3eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305" title="The different kinds of Stat.">Stat</a> and returns the corresponding <a class="el" href="game__core_8h.html#ae9d5641f5a9b91664cdac92048f67e85" title="Defines a function pointer returning void and taking a Fighter pointer and an integer.">boost_fun</a> pointer for the function relating to the stat.  <br /></td></tr>
+<tr class="memitem:aba243abfb6afbf0651a2548395a7f78d" id="r_aba243abfb6afbf0651a2548395a7f78d"><td class="memItemLeft"><a class="el" href="game__core_8h.html#acffef035b8937a663bdc63299c30abd6">boost_e_fun</a>&#160;</td><td class="memItemRight"><a class="el" href="#aba243abfb6afbf0651a2548395a7f78d">getStatBoostCounterEnemyFun</a> (<a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305">Stat</a> s)</td></tr>
+<tr class="memdesc:aba243abfb6afbf0651a2548395a7f78d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305" title="The different kinds of Stat.">Stat</a> and returns the corresponding <a class="el" href="game__core_8h.html#acffef035b8937a663bdc63299c30abd6" title="Defines a function pointer returning void and taking a Enemy pointer and an integer.">boost_e_fun</a> pointer for the function relating to the stat.  <br /></td></tr>
+<tr class="memitem:ad5d0585b8e69619b7e8e50b151fcbaad" id="r_ad5d0585b8e69619b7e8e50b151fcbaad"><td class="memItemLeft"><a class="el" href="game__core_8h.html#a86150103697e36e6596451948144d6a2">boost_b_fun</a>&#160;</td><td class="memItemRight"><a class="el" href="#ad5d0585b8e69619b7e8e50b151fcbaad">getStatBoostCounterBossFun</a> (<a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305">Stat</a> s)</td></tr>
+<tr class="memdesc:ad5d0585b8e69619b7e8e50b151fcbaad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305" title="The different kinds of Stat.">Stat</a> and returns the corresponding <a class="el" href="game__core_8h.html#a86150103697e36e6596451948144d6a2" title="Defines a function pointer returning void and taking a Boss pointer and an integer.">boost_b_fun</a> pointer for the function relating to the stat.  <br /></td></tr>
+<tr class="memitem:a2677b2ca10e80736be18633898833fcd" id="r_a2677b2ca10e80736be18633898833fcd"><td class="memItemLeft"><a class="el" href="game__core_8h.html#a1bccb32935e21adddb8461476fe4a46a">boost_fp_fun</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2677b2ca10e80736be18633898833fcd">get_StatBoostCounter_FoeParty_Fun</a> (<a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305">Stat</a> s)</td></tr>
+<tr class="memdesc:a2677b2ca10e80736be18633898833fcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305" title="The different kinds of Stat.">Stat</a> and returns the corresponding <a class="el" href="game__core_8h.html#a1bccb32935e21adddb8461476fe4a46a" title="Defines a function pointer returning void and taking a FoeParty pointer and an integer.">boost_fp_fun</a> pointer for the function relating to the stat.  <br /></td></tr>
+<tr class="memitem:aed878c5a6262a9252511215d77acc959" id="r_aed878c5a6262a9252511215d77acc959"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aed878c5a6262a9252511215d77acc959">set_turnboost_atk</a> (<a class="el" href="structFighter.html">Fighter</a> *f, int boost)</td></tr>
+<tr class="memdesc:aed878c5a6262a9252511215d77acc959"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and an integer, used to set the turnboost_atk value at the pointer.  <br /></td></tr>
+<tr class="memitem:abb9cca5dd50fe2dc2fbd318f8fd9a620" id="r_abb9cca5dd50fe2dc2fbd318f8fd9a620"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abb9cca5dd50fe2dc2fbd318f8fd9a620">set_turnboost_def</a> (<a class="el" href="structFighter.html">Fighter</a> *f, int boost)</td></tr>
+<tr class="memdesc:abb9cca5dd50fe2dc2fbd318f8fd9a620"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and an integer, used to set the turnboost_def value at the pointer.  <br /></td></tr>
+<tr class="memitem:a69e08d68eb0e28406d31193d3b5ddf90" id="r_a69e08d68eb0e28406d31193d3b5ddf90"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a69e08d68eb0e28406d31193d3b5ddf90">set_turnboost_vel</a> (<a class="el" href="structFighter.html">Fighter</a> *f, int boost)</td></tr>
+<tr class="memdesc:a69e08d68eb0e28406d31193d3b5ddf90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and an integer, used to set the turnboost_vel value at the pointer.  <br /></td></tr>
+<tr class="memitem:a89d549ba03566afd5940e9c9334b4c44" id="r_a89d549ba03566afd5940e9c9334b4c44"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a89d549ba03566afd5940e9c9334b4c44">set_turnboost_enr</a> (<a class="el" href="structFighter.html">Fighter</a> *f, int boost)</td></tr>
+<tr class="memdesc:a89d549ba03566afd5940e9c9334b4c44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and an integer, used to set the turnboost_enr value at the pointer.  <br /></td></tr>
+<tr class="memitem:a5b5093cffcc393dbebcb5df75b60e5fe" id="r_a5b5093cffcc393dbebcb5df75b60e5fe"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5b5093cffcc393dbebcb5df75b60e5fe">set_enemy_turnboost_atk</a> (<a class="el" href="structEnemy.html">Enemy</a> *e, int boost)</td></tr>
+<tr class="memdesc:a5b5093cffcc393dbebcb5df75b60e5fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer and an integer, used to set the turnboost_atk value at the pointer.  <br /></td></tr>
+<tr class="memitem:a302cd26d59a342661a94a2c4d6c0b220" id="r_a302cd26d59a342661a94a2c4d6c0b220"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a302cd26d59a342661a94a2c4d6c0b220">set_enemy_turnboost_def</a> (<a class="el" href="structEnemy.html">Enemy</a> *e, int boost)</td></tr>
+<tr class="memdesc:a302cd26d59a342661a94a2c4d6c0b220"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer and an integer, used to set the turnboost_def value at the pointer.  <br /></td></tr>
+<tr class="memitem:a3a8b01210c753a0adc5ac53fa6d13bd3" id="r_a3a8b01210c753a0adc5ac53fa6d13bd3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3a8b01210c753a0adc5ac53fa6d13bd3">set_enemy_turnboost_vel</a> (<a class="el" href="structEnemy.html">Enemy</a> *e, int boost)</td></tr>
+<tr class="memdesc:a3a8b01210c753a0adc5ac53fa6d13bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer and an integer, used to set the turnboost_vel value at the pointer.  <br /></td></tr>
+<tr class="memitem:a3bcfd5db4fe1f1587c4c4236a4c0d734" id="r_a3bcfd5db4fe1f1587c4c4236a4c0d734"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3bcfd5db4fe1f1587c4c4236a4c0d734">set_enemy_turnboost_enr</a> (<a class="el" href="structEnemy.html">Enemy</a> *e, int boost)</td></tr>
+<tr class="memdesc:a3bcfd5db4fe1f1587c4c4236a4c0d734"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer and an integer, used to set the turnboost_enr value at the pointer.  <br /></td></tr>
+<tr class="memitem:ad22badc942fee387997919731241b23a" id="r_ad22badc942fee387997919731241b23a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad22badc942fee387997919731241b23a">set_boss_turnboost_atk</a> (<a class="el" href="structBoss.html">Boss</a> *b, int boost)</td></tr>
+<tr class="memdesc:ad22badc942fee387997919731241b23a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer and an integer, used to set the turnboost_atk value at the pointer.  <br /></td></tr>
+<tr class="memitem:afea01c61153deeea76f7ac6a5db1b163" id="r_afea01c61153deeea76f7ac6a5db1b163"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afea01c61153deeea76f7ac6a5db1b163">set_boss_turnboost_def</a> (<a class="el" href="structBoss.html">Boss</a> *b, int boost)</td></tr>
+<tr class="memdesc:afea01c61153deeea76f7ac6a5db1b163"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer and an integer, used to set the turnboost_def value at the pointer.  <br /></td></tr>
+<tr class="memitem:af9576adbdd7045ba07ac29366876c10f" id="r_af9576adbdd7045ba07ac29366876c10f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af9576adbdd7045ba07ac29366876c10f">set_boss_turnboost_vel</a> (<a class="el" href="structBoss.html">Boss</a> *b, int boost)</td></tr>
+<tr class="memdesc:af9576adbdd7045ba07ac29366876c10f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer and an integer, used to set the turnboost_vel value at the pointer.  <br /></td></tr>
+<tr class="memitem:a11a0b622dd1251709dda43b37295eed7" id="r_a11a0b622dd1251709dda43b37295eed7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a11a0b622dd1251709dda43b37295eed7">set_boss_turnboost_enr</a> (<a class="el" href="structBoss.html">Boss</a> *b, int boost)</td></tr>
+<tr class="memdesc:a11a0b622dd1251709dda43b37295eed7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer and an integer, used to set the turnboost_enr value at the pointer.  <br /></td></tr>
+<tr class="memitem:aa3a02e4a5c86f6334403df6906b524dc" id="r_aa3a02e4a5c86f6334403df6906b524dc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa3a02e4a5c86f6334403df6906b524dc">set_foeparty_turnboost_atk</a> (<a class="el" href="structFoeParty.html">FoeParty</a> *fp, int boost)</td></tr>
+<tr class="memdesc:aa3a02e4a5c86f6334403df6906b524dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> pointer and an integer, used to set the turnboost_atk value at the pointer.  <br /></td></tr>
+<tr class="memitem:a454aab8e2a0dd08e2e3c6898dbd594b7" id="r_a454aab8e2a0dd08e2e3c6898dbd594b7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a454aab8e2a0dd08e2e3c6898dbd594b7">set_foeparty_turnboost_def</a> (<a class="el" href="structFoeParty.html">FoeParty</a> *fp, int boost)</td></tr>
+<tr class="memdesc:a454aab8e2a0dd08e2e3c6898dbd594b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> pointer and an integer, used to set the turnboost_def value at the pointer.  <br /></td></tr>
+<tr class="memitem:a027343d689cebde9750a62cb42bd47e8" id="r_a027343d689cebde9750a62cb42bd47e8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a027343d689cebde9750a62cb42bd47e8">set_foeparty_turnboost_vel</a> (<a class="el" href="structFoeParty.html">FoeParty</a> *fp, int boost)</td></tr>
+<tr class="memdesc:a027343d689cebde9750a62cb42bd47e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> pointer and an integer, used to set the turnboost_vel value at the pointer.  <br /></td></tr>
+<tr class="memitem:a218c43f163044e198f9a1d6d55e690de" id="r_a218c43f163044e198f9a1d6d55e690de"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a218c43f163044e198f9a1d6d55e690de">set_foeparty_turnboost_enr</a> (<a class="el" href="structFoeParty.html">FoeParty</a> *fp, int boost)</td></tr>
+<tr class="memdesc:a218c43f163044e198f9a1d6d55e690de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> pointer and an integer, used to set the turnboost_enr value at the pointer.  <br /></td></tr>
+<tr class="memitem:ac00d68dd1634d97d101d903e3668dfef" id="r_ac00d68dd1634d97d101d903e3668dfef"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac00d68dd1634d97d101d903e3668dfef">resetFighterStatus</a> (<a class="el" href="structFighter.html">Fighter</a> *f)</td></tr>
+<tr class="memdesc:ac00d68dd1634d97d101d903e3668dfef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and resets its status value to Normal.  <br /></td></tr>
+<tr class="memitem:a79e0c53b9b5473d86e32a7025d1328f1" id="r_a79e0c53b9b5473d86e32a7025d1328f1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a79e0c53b9b5473d86e32a7025d1328f1">resetEnemyStatus</a> (<a class="el" href="structEnemy.html">Enemy</a> *e)</td></tr>
+<tr class="memdesc:a79e0c53b9b5473d86e32a7025d1328f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer and resets its status value to Normal.  <br /></td></tr>
+<tr class="memitem:acb32f86897325ac1a363cccc1a7d0e5a" id="r_acb32f86897325ac1a363cccc1a7d0e5a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acb32f86897325ac1a363cccc1a7d0e5a">resetBossStatus</a> (<a class="el" href="structBoss.html">Boss</a> *b)</td></tr>
+<tr class="memdesc:acb32f86897325ac1a363cccc1a7d0e5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer and resets its status value to Normal.  <br /></td></tr>
+<tr class="memitem:adf9033db4f788ca4d0d625029b82b429" id="r_adf9033db4f788ca4d0d625029b82b429"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#adf9033db4f788ca4d0d625029b82b429">costFromSpecial</a> (<a class="el" href="game__core_8h.html#a8c50861d8f0fe242b6a84014376bf63a">fighterClass</a> class, <a class="el" href="game__core_8h.html#aadd913abb65c10636504bdb66fc47d69">specialMove</a> move)</td></tr>
+<tr class="memdesc:adf9033db4f788ca4d0d625029b82b429"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="game__core_8h.html#a8c50861d8f0fe242b6a84014376bf63a" title="The different kinds of Fighter.">fighterClass</a> and a <a class="el" href="game__core_8h.html#aadd913abb65c10636504bdb66fc47d69" title="The different kinds of special moves.">specialMove</a> and returns the corresponding cost by the inner array position, as an integer.  <br /></td></tr>
+<tr class="memitem:ac0458a116b828082e8e198d00e51c462" id="r_ac0458a116b828082e8e198d00e51c462"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ac0458a116b828082e8e198d00e51c462">costFromSkill</a> (<a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a> class)</td></tr>
+<tr class="memdesc:ac0458a116b828082e8e198d00e51c462"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a <a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a> and returns the corresponding cost by the inner array position, as an integer.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="ac0458a116b828082e8e198d00e51c462" name="ac0458a116b828082e8e198d00e51c462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0458a116b828082e8e198d00e51c462">&#9670;&#160;</a></span>costFromSkill()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int costFromSkill </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a></td>          <td class="paramname"><span class="paramname"><em>class</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a> and returns the corresponding cost by the inner array position, as an integer. </p>
+<p>Correct result is only possible by having the enum values in a consistent order with the integer array. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8h.html#a8c50861d8f0fe242b6a84014376bf63a" title="The different kinds of Fighter.">fighterClass</a> </dd>
+<dd>
+<a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">class</td><td>The <a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int Cost of the corresponding <a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7">skillType</a>. </dd></dl>
+
+</div>
+</div>
+<a id="adf9033db4f788ca4d0d625029b82b429" name="adf9033db4f788ca4d0d625029b82b429"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf9033db4f788ca4d0d625029b82b429">&#9670;&#160;</a></span>costFromSpecial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int costFromSpecial </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#a8c50861d8f0fe242b6a84014376bf63a">fighterClass</a></td>          <td class="paramname"><span class="paramname"><em>class</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#aadd913abb65c10636504bdb66fc47d69">specialMove</a></td>          <td class="paramname"><span class="paramname"><em>move</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="game__core_8h.html#a8c50861d8f0fe242b6a84014376bf63a" title="The different kinds of Fighter.">fighterClass</a> and a <a class="el" href="game__core_8h.html#aadd913abb65c10636504bdb66fc47d69" title="The different kinds of special moves.">specialMove</a> and returns the corresponding cost by the inner array position, as an integer. </p>
+<p>Correct result is only possible by having the enum values in a consistent order with the integer array. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8h.html#a8c50861d8f0fe242b6a84014376bf63a" title="The different kinds of Fighter.">fighterClass</a> </dd>
+<dd>
+<a class="el" href="game__core_8h.html#aadd913abb65c10636504bdb66fc47d69" title="The different kinds of special moves.">specialMove</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">class</td><td>The <a class="el" href="game__core_8h.html#a8c50861d8f0fe242b6a84014376bf63a" title="The different kinds of Fighter.">fighterClass</a>. </td></tr>
+    <tr><td class="paramname">move</td><td>The <a class="el" href="game__core_8h.html#aadd913abb65c10636504bdb66fc47d69" title="The different kinds of special moves.">specialMove</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int Cost of the corresponding special move. </dd></dl>
+
+</div>
+</div>
+<a id="a2677b2ca10e80736be18633898833fcd" name="a2677b2ca10e80736be18633898833fcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2677b2ca10e80736be18633898833fcd">&#9670;&#160;</a></span>get_StatBoostCounter_FoeParty_Fun()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="game__core_8h.html#a1bccb32935e21adddb8461476fe4a46a">boost_fp_fun</a> get_StatBoostCounter_FoeParty_Fun </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305">Stat</a></td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305" title="The different kinds of Stat.">Stat</a> and returns the corresponding <a class="el" href="game__core_8h.html#a1bccb32935e21adddb8461476fe4a46a" title="Defines a function pointer returning void and taking a FoeParty pointer and an integer.">boost_fp_fun</a> pointer for the function relating to the stat. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305" title="The different kinds of Stat.">Stat</a> </dd>
+<dd>
+<a class="el" href="game__core_8h.html#a1bccb32935e21adddb8461476fe4a46a" title="Defines a function pointer returning void and taking a FoeParty pointer and an integer.">boost_fp_fun</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The <a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305" title="The different kinds of Stat.">Stat</a> that the caller needs to match to a <a class="el" href="game__core_8h.html#a1bccb32935e21adddb8461476fe4a46a" title="Defines a function pointer returning void and taking a FoeParty pointer and an integer.">boost_fp_fun</a> pointer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="game__core_8h.html#a1bccb32935e21adddb8461476fe4a46a" title="Defines a function pointer returning void and taking a FoeParty pointer and an integer.">boost_fp_fun</a> pointer related to the stat. </dd></dl>
+
+</div>
+</div>
+<a id="af575de3e99729921d5715ed716a9acee" name="af575de3e99729921d5715ed716a9acee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af575de3e99729921d5715ed716a9acee">&#9670;&#160;</a></span>get_StatusCounter_FoeParty_Fun()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="game__core_8h.html#a0e0ee838f28ff3fae470824b9f2dfd20">effect_fp_fun</a> get_StatusCounter_FoeParty_Fun </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36">fighterStatus</a></td>          <td class="paramname"><span class="paramname"><em>status</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad5d0585b8e69619b7e8e50b151fcbaad" name="ad5d0585b8e69619b7e8e50b151fcbaad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5d0585b8e69619b7e8e50b151fcbaad">&#9670;&#160;</a></span>getStatBoostCounterBossFun()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="game__core_8h.html#a86150103697e36e6596451948144d6a2">boost_b_fun</a> getStatBoostCounterBossFun </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305">Stat</a></td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305" title="The different kinds of Stat.">Stat</a> and returns the corresponding <a class="el" href="game__core_8h.html#a86150103697e36e6596451948144d6a2" title="Defines a function pointer returning void and taking a Boss pointer and an integer.">boost_b_fun</a> pointer for the function relating to the stat. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305" title="The different kinds of Stat.">Stat</a> </dd>
+<dd>
+<a class="el" href="game__core_8h.html#a86150103697e36e6596451948144d6a2" title="Defines a function pointer returning void and taking a Boss pointer and an integer.">boost_b_fun</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The <a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305" title="The different kinds of Stat.">Stat</a> that the caller needs to match to a <a class="el" href="game__core_8h.html#a86150103697e36e6596451948144d6a2" title="Defines a function pointer returning void and taking a Boss pointer and an integer.">boost_b_fun</a> pointer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="game__core_8h.html#a86150103697e36e6596451948144d6a2" title="Defines a function pointer returning void and taking a Boss pointer and an integer.">boost_b_fun</a> pointer related to the stat. </dd></dl>
+
+</div>
+</div>
+<a id="aba243abfb6afbf0651a2548395a7f78d" name="aba243abfb6afbf0651a2548395a7f78d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba243abfb6afbf0651a2548395a7f78d">&#9670;&#160;</a></span>getStatBoostCounterEnemyFun()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="game__core_8h.html#acffef035b8937a663bdc63299c30abd6">boost_e_fun</a> getStatBoostCounterEnemyFun </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305">Stat</a></td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305" title="The different kinds of Stat.">Stat</a> and returns the corresponding <a class="el" href="game__core_8h.html#acffef035b8937a663bdc63299c30abd6" title="Defines a function pointer returning void and taking a Enemy pointer and an integer.">boost_e_fun</a> pointer for the function relating to the stat. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305" title="The different kinds of Stat.">Stat</a> </dd>
+<dd>
+<a class="el" href="game__core_8h.html#acffef035b8937a663bdc63299c30abd6" title="Defines a function pointer returning void and taking a Enemy pointer and an integer.">boost_e_fun</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The <a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305" title="The different kinds of Stat.">Stat</a> that the caller needs to match to a <a class="el" href="game__core_8h.html#acffef035b8937a663bdc63299c30abd6" title="Defines a function pointer returning void and taking a Enemy pointer and an integer.">boost_e_fun</a> pointer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="game__core_8h.html#acffef035b8937a663bdc63299c30abd6" title="Defines a function pointer returning void and taking a Enemy pointer and an integer.">boost_e_fun</a> pointer related to the stat. </dd></dl>
+
+</div>
+</div>
+<a id="ab404146b3b6faaf00a59b881b109b3eb" name="ab404146b3b6faaf00a59b881b109b3eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab404146b3b6faaf00a59b881b109b3eb">&#9670;&#160;</a></span>getStatBoostCounterFun()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="game__core_8h.html#ae9d5641f5a9b91664cdac92048f67e85">boost_fun</a> getStatBoostCounterFun </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305">Stat</a></td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305" title="The different kinds of Stat.">Stat</a> and returns the corresponding <a class="el" href="game__core_8h.html#ae9d5641f5a9b91664cdac92048f67e85" title="Defines a function pointer returning void and taking a Fighter pointer and an integer.">boost_fun</a> pointer for the function relating to the stat. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305" title="The different kinds of Stat.">Stat</a> </dd>
+<dd>
+<a class="el" href="game__core_8h.html#ae9d5641f5a9b91664cdac92048f67e85" title="Defines a function pointer returning void and taking a Fighter pointer and an integer.">boost_fun</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The <a class="el" href="game__core_8h.html#a8538fbca586b33d353cbe769bfa8e305" title="The different kinds of Stat.">Stat</a> that the caller needs to match to a <a class="el" href="game__core_8h.html#ae9d5641f5a9b91664cdac92048f67e85" title="Defines a function pointer returning void and taking a Fighter pointer and an integer.">boost_fun</a> pointer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="game__core_8h.html#ae9d5641f5a9b91664cdac92048f67e85" title="Defines a function pointer returning void and taking a Fighter pointer and an integer.">boost_fun</a> pointer related to the stat. </dd></dl>
+
+</div>
+</div>
+<a id="aea988f225575f9db3ac07c4546c88afe" name="aea988f225575f9db3ac07c4546c88afe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea988f225575f9db3ac07c4546c88afe">&#9670;&#160;</a></span>getStatusCounterBossFun()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="game__core_8h.html#aaaa47aa9a8bd5494a7ad903ab9fc0eb4">effect_b_fun</a> getStatusCounterBossFun </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36">fighterStatus</a></td>          <td class="paramname"><span class="paramname"><em>status</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36" title="The different kinds of fighterStatus.">fighterStatus</a> and returns the corresponding <a class="el" href="game__core_8h.html#a88bae399b7be08373b00a1a8e0396a2b" title="Defines a function pointer returning void and taking a Enemy pointer.">effect_e_fun</a> pointer for the function relating to the status. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36" title="The different kinds of fighterStatus.">fighterStatus</a> </dd>
+<dd>
+<a class="el" href="game__core_8h.html#a88bae399b7be08373b00a1a8e0396a2b" title="Defines a function pointer returning void and taking a Enemy pointer.">effect_e_fun</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">status</td><td>The <a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36" title="The different kinds of fighterStatus.">fighterStatus</a> that the caller needs to match to a <a class="el" href="game__core_8h.html#a88bae399b7be08373b00a1a8e0396a2b" title="Defines a function pointer returning void and taking a Enemy pointer.">effect_e_fun</a> pointer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="game__core_8h.html#a88bae399b7be08373b00a1a8e0396a2b" title="Defines a function pointer returning void and taking a Enemy pointer.">effect_e_fun</a> pointer related to the status. </dd></dl>
+
+</div>
+</div>
+<a id="a2886bb5757e3ae98cbc0f7517f09a661" name="a2886bb5757e3ae98cbc0f7517f09a661"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2886bb5757e3ae98cbc0f7517f09a661">&#9670;&#160;</a></span>getStatusCounterEnemyFun()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="game__core_8h.html#a88bae399b7be08373b00a1a8e0396a2b">effect_e_fun</a> getStatusCounterEnemyFun </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36">fighterStatus</a></td>          <td class="paramname"><span class="paramname"><em>status</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36" title="The different kinds of fighterStatus.">fighterStatus</a> and returns the corresponding <a class="el" href="game__core_8h.html#a88bae399b7be08373b00a1a8e0396a2b" title="Defines a function pointer returning void and taking a Enemy pointer.">effect_e_fun</a> pointer for the function relating to the status. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36" title="The different kinds of fighterStatus.">fighterStatus</a> </dd>
+<dd>
+<a class="el" href="game__core_8h.html#a88bae399b7be08373b00a1a8e0396a2b" title="Defines a function pointer returning void and taking a Enemy pointer.">effect_e_fun</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">status</td><td>The <a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36" title="The different kinds of fighterStatus.">fighterStatus</a> that the caller needs to match to a <a class="el" href="game__core_8h.html#a88bae399b7be08373b00a1a8e0396a2b" title="Defines a function pointer returning void and taking a Enemy pointer.">effect_e_fun</a> pointer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="game__core_8h.html#a88bae399b7be08373b00a1a8e0396a2b" title="Defines a function pointer returning void and taking a Enemy pointer.">effect_e_fun</a> pointer related to the status. </dd></dl>
+
+</div>
+</div>
+<a id="a1dfe49cf96cfa1321cd9bba44455264a" name="a1dfe49cf96cfa1321cd9bba44455264a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dfe49cf96cfa1321cd9bba44455264a">&#9670;&#160;</a></span>getStatusCounterFun()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="game__core_8h.html#ae1275b3ed8d90f13154471f1cc45c967">effect_fun</a> getStatusCounterFun </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36">fighterStatus</a></td>          <td class="paramname"><span class="paramname"><em>status</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36" title="The different kinds of fighterStatus.">fighterStatus</a> and returns the corresponding <a class="el" href="game__core_8h.html#ae1275b3ed8d90f13154471f1cc45c967" title="Defines a function pointer returning void and taking a Fighter pointer.">effect_fun</a> pointer for the function relating to the status. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36" title="The different kinds of fighterStatus.">fighterStatus</a> </dd>
+<dd>
+<a class="el" href="game__core_8h.html#ae1275b3ed8d90f13154471f1cc45c967" title="Defines a function pointer returning void and taking a Fighter pointer.">effect_fun</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">status</td><td>The <a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36" title="The different kinds of fighterStatus.">fighterStatus</a> that the caller needs to match to a <a class="el" href="game__core_8h.html#ae1275b3ed8d90f13154471f1cc45c967" title="Defines a function pointer returning void and taking a Fighter pointer.">effect_fun</a> pointer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="game__core_8h.html#ae1275b3ed8d90f13154471f1cc45c967" title="Defines a function pointer returning void and taking a Fighter pointer.">effect_fun</a> pointer related to the status. </dd></dl>
+
+</div>
+</div>
 <a id="a7a296b83209a5b801bbdf8f1dbf68a2b" name="a7a296b83209a5b801bbdf8f1dbf68a2b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7a296b83209a5b801bbdf8f1dbf68a2b">&#9670;&#160;</a></span>initArtifactsBag()</h2>
 
@@ -293,9 +651,9 @@ Functions</h2></td></tr>
 <dd>
 <a class="el" href="game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71" title="The different indexes for Fighter-&gt;counters.">counterIndexes</a> </dd>
 <dd>
-<a class="el" href="game__utils_8c.html#ad5d0585b8e69619b7e8e50b151fcbaad" title="Takes a Stat and returns the corresponding boost_b_fun pointer for the function relating to the stat.">getStatBoostCounterBossFun()</a> </dd>
+<a class="el" href="game__init_8c.html#ad5d0585b8e69619b7e8e50b151fcbaad" title="Takes a Stat and returns the corresponding boost_b_fun pointer for the function relating to the stat.">getStatBoostCounterBossFun()</a> </dd>
 <dd>
-<a class="el" href="game__utils_8c.html#aea988f225575f9db3ac07c4546c88afe" title="Takes a fighterStatus and returns the corresponding effect_e_fun pointer for the function relating to...">getStatusCounterBossFun()</a> </dd></dl>
+<a class="el" href="game__init_8c.html#aea988f225575f9db3ac07c4546c88afe" title="Takes a fighterStatus and returns the corresponding effect_e_fun pointer for the function relating to...">getStatusCounterBossFun()</a> </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">b</td><td>The <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer whose counters field will be initialised. </td></tr>
@@ -449,9 +807,9 @@ Functions</h2></td></tr>
 <dd>
 <a class="el" href="game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71" title="The different indexes for Fighter-&gt;counters.">counterIndexes</a> </dd>
 <dd>
-<a class="el" href="game__utils_8c.html#ab404146b3b6faaf00a59b881b109b3eb" title="Takes a Stat and returns the corresponding boost_fun pointer for the function relating to the stat.">getStatBoostCounterFun()</a> </dd>
+<a class="el" href="game__init_8c.html#ab404146b3b6faaf00a59b881b109b3eb" title="Takes a Stat and returns the corresponding boost_fun pointer for the function relating to the stat.">getStatBoostCounterFun()</a> </dd>
 <dd>
-<a class="el" href="game__utils_8c.html#a1dfe49cf96cfa1321cd9bba44455264a" title="Takes a fighterStatus and returns the corresponding effect_fun pointer for the function relating to t...">getStatusCounterFun()</a> </dd></dl>
+<a class="el" href="game__init_8c.html#a1dfe49cf96cfa1321cd9bba44455264a" title="Takes a fighterStatus and returns the corresponding effect_fun pointer for the function relating to t...">getStatusCounterFun()</a> </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">f</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer whose counters field will be initialised. </td></tr>
@@ -492,9 +850,9 @@ Functions</h2></td></tr>
 <dd>
 <a class="el" href="game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71" title="The different indexes for Fighter-&gt;counters.">counterIndexes</a> </dd>
 <dd>
-<a class="el" href="game__utils_8c.html#aba243abfb6afbf0651a2548395a7f78d" title="Takes a Stat and returns the corresponding boost_e_fun pointer for the function relating to the stat.">getStatBoostCounterEnemyFun()</a> </dd>
+<a class="el" href="game__init_8c.html#aba243abfb6afbf0651a2548395a7f78d" title="Takes a Stat and returns the corresponding boost_e_fun pointer for the function relating to the stat.">getStatBoostCounterEnemyFun()</a> </dd>
 <dd>
-<a class="el" href="game__utils_8c.html#a2886bb5757e3ae98cbc0f7517f09a661" title="Takes a fighterStatus and returns the corresponding effect_e_fun pointer for the function relating to...">getStatusCounterEnemyFun()</a> </dd></dl>
+<a class="el" href="game__init_8c.html#a2886bb5757e3ae98cbc0f7517f09a661" title="Takes a fighterStatus and returns the corresponding effect_e_fun pointer for the function relating to...">getStatusCounterEnemyFun()</a> </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">e</td><td>The <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer whose counters field will be initialised. </td></tr>
@@ -648,9 +1006,9 @@ Functions</h2></td></tr>
 <dd>
 <a class="el" href="game__core_8h.html#a404d2f109678e43be0e56cb1db31dd71" title="The different indexes for Fighter-&gt;counters.">counterIndexes</a> </dd>
 <dd>
-<a class="el" href="game__utils_8c.html#a2677b2ca10e80736be18633898833fcd" title="Takes a Stat and returns the corresponding boost_fp_fun pointer for the function relating to the stat...">get_StatBoostCounter_FoeParty_Fun()</a> </dd>
+<a class="el" href="game__init_8c.html#a2677b2ca10e80736be18633898833fcd" title="Takes a Stat and returns the corresponding boost_fp_fun pointer for the function relating to the stat...">get_StatBoostCounter_FoeParty_Fun()</a> </dd>
 <dd>
-<a class="el" href="game__utils_8h.html#af575de3e99729921d5715ed716a9acee">get_StatusCounter_FoeParty_Fun()</a> </dd></dl>
+<a class="el" href="#af575de3e99729921d5715ed716a9acee">get_StatusCounter_FoeParty_Fun()</a> </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fp</td><td>The <a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> pointer whose counters field will be initialised. </td></tr>
@@ -1052,7 +1410,7 @@ initRoadfork() </dd></dl>
 </div><div class="memdoc">
 
 <p>Takes a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> and three integers denoting current room index, how many enemies are in the room and current enemy index. </p>
-<p>The class field of the enemy is randomised according to ENEMYCLASSESMAX. If the room index is multiple of BEASTROOM and the enemy is the last one in he room, its beast field is set to 1. The <a class="el" href="structEnemyBaseStats.html" title="Holds the base stats for a enemyClass.">EnemyBaseStats</a> pointer for the enemy's <a class="el" href="game__core_8h.html#a11ed656be5525063588efc931101c732" title="The different kinds of Enemy.">enemyClass</a> is loaded and the level field for the enemy is set to base level, before increasing. <a class="el" href="game__init_8c.html#a65c559970baca41ce702e4106081e4e7" title="Takes one Enemy pointer and initialises the enemy fields.">initEnemyStats()</a> is called to set all stat fields and <a class="el" href="game__utils_8c.html#a896773eca0482957b1cabdca9c2a4100" title="Takes an Enemy pointer and an integer used to force execution.">statResetEnemy()</a> is called with force=true to apply the boosted stats to leveled enemies. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> </dd>
+<p>The class field of the enemy is randomised according to ENEMYCLASSESMAX. If the room index is multiple of BEASTROOM and the enemy is the last one in he room, its beast field is set to 1. The <a class="el" href="structEnemyBaseStats.html" title="Holds the base stats for a enemyClass.">EnemyBaseStats</a> pointer for the enemy's <a class="el" href="game__core_8h.html#a11ed656be5525063588efc931101c732" title="The different kinds of Enemy.">enemyClass</a> is loaded and the level field for the enemy is set to base level, before increasing. <a class="el" href="game__init_8c.html#a65c559970baca41ce702e4106081e4e7" title="Takes one Enemy pointer and initialises the enemy fields.">initEnemyStats()</a> is called to set all stat fields and <a class="el" href="game__fight_8c.html#a896773eca0482957b1cabdca9c2a4100" title="Takes an Enemy pointer and an integer used to force execution.">statResetEnemy()</a> is called with force=true to apply the boosted stats to leveled enemies. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> </dd>
 <dd>
 <a class="el" href="game__core_8h.html#a11ed656be5525063588efc931101c732" title="The different kinds of Enemy.">enemyClass</a> </dd>
 <dd>
@@ -1068,7 +1426,7 @@ initRoadfork() </dd></dl>
 <dd>
 <a class="el" href="game__init_8c.html#a65c559970baca41ce702e4106081e4e7" title="Takes one Enemy pointer and initialises the enemy fields.">initEnemyStats()</a> </dd>
 <dd>
-<a class="el" href="game__utils_8c.html#a896773eca0482957b1cabdca9c2a4100" title="Takes an Enemy pointer and an integer used to force execution.">statResetEnemy()</a> </dd></dl>
+<a class="el" href="game__fight_8c.html#a896773eca0482957b1cabdca9c2a4100" title="Takes an Enemy pointer and an integer used to force execution.">statResetEnemy()</a> </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">e</td><td>The <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer to prepare. </td></tr>
@@ -1121,6 +1479,618 @@ initRoadfork() </dd></dl>
 
 </div>
 </div>
+<a id="acb32f86897325ac1a363cccc1a7d0e5a" name="acb32f86897325ac1a363cccc1a7d0e5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb32f86897325ac1a363cccc1a7d0e5a">&#9670;&#160;</a></span>resetBossStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void resetBossStatus </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structBoss.html">Boss</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer and resets its status value to Normal. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> </dd>
+<dd>
+<a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36" title="The different kinds of fighterStatus.">fighterStatus</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td>The pointer whose status value will be reset. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a79e0c53b9b5473d86e32a7025d1328f1" name="a79e0c53b9b5473d86e32a7025d1328f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79e0c53b9b5473d86e32a7025d1328f1">&#9670;&#160;</a></span>resetEnemyStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void resetEnemyStatus </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEnemy.html">Enemy</a> *</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer and resets its status value to Normal. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> </dd>
+<dd>
+<a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36" title="The different kinds of fighterStatus.">fighterStatus</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>The pointer whose status value will be reset. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac00d68dd1634d97d101d903e3668dfef" name="ac00d68dd1634d97d101d903e3668dfef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac00d68dd1634d97d101d903e3668dfef">&#9670;&#160;</a></span>resetFighterStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void resetFighterStatus </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>f</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and resets its status value to Normal. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd>
+<dd>
+<a class="el" href="game__core_8h.html#aaeddacde1fba33d96646183ed28cff36" title="The different kinds of fighterStatus.">fighterStatus</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>The pointer whose status value will be reset. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad22badc942fee387997919731241b23a" name="ad22badc942fee387997919731241b23a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad22badc942fee387997919731241b23a">&#9670;&#160;</a></span>set_boss_turnboost_atk()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_boss_turnboost_atk </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structBoss.html">Boss</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>boost</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer and an integer, used to set the turnboost_atk value at the pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> </dd>
+<dd>
+<a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td>The <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer whose turnboost_atk value will be set. </td></tr>
+    <tr><td class="paramname">boost</td><td>The value that will be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afea01c61153deeea76f7ac6a5db1b163" name="afea01c61153deeea76f7ac6a5db1b163"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afea01c61153deeea76f7ac6a5db1b163">&#9670;&#160;</a></span>set_boss_turnboost_def()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_boss_turnboost_def </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structBoss.html">Boss</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>boost</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer and an integer, used to set the turnboost_def value at the pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> </dd>
+<dd>
+<a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td>The <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer whose turnboost_def value will be set. </td></tr>
+    <tr><td class="paramname">boost</td><td>The value that will be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a11a0b622dd1251709dda43b37295eed7" name="a11a0b622dd1251709dda43b37295eed7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11a0b622dd1251709dda43b37295eed7">&#9670;&#160;</a></span>set_boss_turnboost_enr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_boss_turnboost_enr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structBoss.html">Boss</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>boost</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer and an integer, used to set the turnboost_enr value at the pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> </dd>
+<dd>
+<a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td>The <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer whose turnboost_enr value will be set. </td></tr>
+    <tr><td class="paramname">boost</td><td>The value that will be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af9576adbdd7045ba07ac29366876c10f" name="af9576adbdd7045ba07ac29366876c10f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9576adbdd7045ba07ac29366876c10f">&#9670;&#160;</a></span>set_boss_turnboost_vel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_boss_turnboost_vel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structBoss.html">Boss</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>boost</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer and an integer, used to set the turnboost_vel value at the pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> </dd>
+<dd>
+<a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td>The <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer whose turnboost_vel value will be set. </td></tr>
+    <tr><td class="paramname">boost</td><td>The value that will be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5b5093cffcc393dbebcb5df75b60e5fe" name="a5b5093cffcc393dbebcb5df75b60e5fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b5093cffcc393dbebcb5df75b60e5fe">&#9670;&#160;</a></span>set_enemy_turnboost_atk()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_enemy_turnboost_atk </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEnemy.html">Enemy</a> *</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>boost</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer and an integer, used to set the turnboost_atk value at the pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> </dd>
+<dd>
+<a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>The <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer whose turnboost_atk value will be set. </td></tr>
+    <tr><td class="paramname">boost</td><td>The value that will be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a302cd26d59a342661a94a2c4d6c0b220" name="a302cd26d59a342661a94a2c4d6c0b220"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a302cd26d59a342661a94a2c4d6c0b220">&#9670;&#160;</a></span>set_enemy_turnboost_def()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_enemy_turnboost_def </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEnemy.html">Enemy</a> *</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>boost</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer and an integer, used to set the turnboost_def value at the pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> </dd>
+<dd>
+<a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>The <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer whose turnboost_def value will be set. </td></tr>
+    <tr><td class="paramname">boost</td><td>The value that will be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3bcfd5db4fe1f1587c4c4236a4c0d734" name="a3bcfd5db4fe1f1587c4c4236a4c0d734"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bcfd5db4fe1f1587c4c4236a4c0d734">&#9670;&#160;</a></span>set_enemy_turnboost_enr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_enemy_turnboost_enr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEnemy.html">Enemy</a> *</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>boost</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer and an integer, used to set the turnboost_enr value at the pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> </dd>
+<dd>
+<a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>The <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer whose turnboost_enr value will be set. </td></tr>
+    <tr><td class="paramname">boost</td><td>The value that will be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3a8b01210c753a0adc5ac53fa6d13bd3" name="a3a8b01210c753a0adc5ac53fa6d13bd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a8b01210c753a0adc5ac53fa6d13bd3">&#9670;&#160;</a></span>set_enemy_turnboost_vel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_enemy_turnboost_vel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEnemy.html">Enemy</a> *</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>boost</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer and an integer, used to set the turnboost_vel value at the pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> </dd>
+<dd>
+<a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>The <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer whose turnboost_vel value will be set. </td></tr>
+    <tr><td class="paramname">boost</td><td>The value that will be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa3a02e4a5c86f6334403df6906b524dc" name="aa3a02e4a5c86f6334403df6906b524dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3a02e4a5c86f6334403df6906b524dc">&#9670;&#160;</a></span>set_foeparty_turnboost_atk()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_foeparty_turnboost_atk </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFoeParty.html">FoeParty</a> *</td>          <td class="paramname"><span class="paramname"><em>fp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>boost</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> pointer and an integer, used to set the turnboost_atk value at the pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> </dd>
+<dd>
+<a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fp</td><td>The <a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> pointer whose turnboost_atk value will be set. </td></tr>
+    <tr><td class="paramname">boost</td><td>The value that will be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a454aab8e2a0dd08e2e3c6898dbd594b7" name="a454aab8e2a0dd08e2e3c6898dbd594b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a454aab8e2a0dd08e2e3c6898dbd594b7">&#9670;&#160;</a></span>set_foeparty_turnboost_def()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_foeparty_turnboost_def </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFoeParty.html">FoeParty</a> *</td>          <td class="paramname"><span class="paramname"><em>fp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>boost</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> pointer and an integer, used to set the turnboost_def value at the pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> </dd>
+<dd>
+<a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fp</td><td>The <a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> pointer whose turnboost_def value will be set. </td></tr>
+    <tr><td class="paramname">boost</td><td>The value that will be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a218c43f163044e198f9a1d6d55e690de" name="a218c43f163044e198f9a1d6d55e690de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a218c43f163044e198f9a1d6d55e690de">&#9670;&#160;</a></span>set_foeparty_turnboost_enr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_foeparty_turnboost_enr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFoeParty.html">FoeParty</a> *</td>          <td class="paramname"><span class="paramname"><em>fp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>boost</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> pointer and an integer, used to set the turnboost_enr value at the pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> </dd>
+<dd>
+<a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fp</td><td>The <a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> pointer whose turnboost_enr value will be set. </td></tr>
+    <tr><td class="paramname">boost</td><td>The value that will be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a027343d689cebde9750a62cb42bd47e8" name="a027343d689cebde9750a62cb42bd47e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a027343d689cebde9750a62cb42bd47e8">&#9670;&#160;</a></span>set_foeparty_turnboost_vel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_foeparty_turnboost_vel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFoeParty.html">FoeParty</a> *</td>          <td class="paramname"><span class="paramname"><em>fp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>boost</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> pointer and an integer, used to set the turnboost_vel value at the pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> </dd>
+<dd>
+<a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fp</td><td>The <a class="el" href="structFoeParty.html" title="Represents the entity initialised from a foePartyClass.">FoeParty</a> pointer whose turnboost_vel value will be set. </td></tr>
+    <tr><td class="paramname">boost</td><td>The value that will be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aed878c5a6262a9252511215d77acc959" name="aed878c5a6262a9252511215d77acc959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed878c5a6262a9252511215d77acc959">&#9670;&#160;</a></span>set_turnboost_atk()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_turnboost_atk </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>boost</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and an integer, used to set the turnboost_atk value at the pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd>
+<dd>
+<a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer whose turnboost_atk value will be set. </td></tr>
+    <tr><td class="paramname">boost</td><td>The value that will be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abb9cca5dd50fe2dc2fbd318f8fd9a620" name="abb9cca5dd50fe2dc2fbd318f8fd9a620"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb9cca5dd50fe2dc2fbd318f8fd9a620">&#9670;&#160;</a></span>set_turnboost_def()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_turnboost_def </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>boost</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and an integer, used to set the turnboost_def value at the pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd>
+<dd>
+<a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer whose turnboost_def value will be set. </td></tr>
+    <tr><td class="paramname">boost</td><td>The value that will be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a89d549ba03566afd5940e9c9334b4c44" name="a89d549ba03566afd5940e9c9334b4c44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89d549ba03566afd5940e9c9334b4c44">&#9670;&#160;</a></span>set_turnboost_enr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_turnboost_enr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>boost</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and an integer, used to set the turnboost_enr value at the pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd>
+<dd>
+<a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer whose turnboost_enr value will be set. </td></tr>
+    <tr><td class="paramname">boost</td><td>The value that will be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a69e08d68eb0e28406d31193d3b5ddf90" name="a69e08d68eb0e28406d31193d3b5ddf90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69e08d68eb0e28406d31193d3b5ddf90">&#9670;&#160;</a></span>set_turnboost_vel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_turnboost_vel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFighter.html">Fighter</a> *</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>boost</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer and an integer, used to set the turnboost_vel value at the pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> </dd>
+<dd>
+<a class="el" href="structTurncounter.html" title="Represents the entity initialised from a CounterType.">Turncounter</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>The <a class="el" href="structFighter.html" title="Represents the entity initialised from a fighterClass.">Fighter</a> pointer whose turnboost_vel value will be set. </td></tr>
+    <tr><td class="paramname">boost</td><td>The value that will be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a19fc31c35f5e86a55bf9a5ab0245acc0" name="a19fc31c35f5e86a55bf9a5ab0245acc0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a19fc31c35f5e86a55bf9a5ab0245acc0">&#9670;&#160;</a></span>setBossSkills()</h2>
 
@@ -1149,13 +2119,50 @@ Boss_SKILL_SLOTS </dd>
 <dd>
 <a class="el" href="game__core_8h.html#a76d1f093a2446314378dfdfa2010f417">SKILLSTOTAL</a> </dd>
 <dd>
-<a class="el" href="game__utils_8c.html#ac0458a116b828082e8e198d00e51c462" title="Takes a skillType and returns the corresponding cost by the inner array position, as an integer.">costFromSkill()</a> </dd>
+<a class="el" href="game__init_8c.html#ac0458a116b828082e8e198d00e51c462" title="Takes a skillType and returns the corresponding cost by the inner array position, as an integer.">costFromSkill()</a> </dd>
 <dd>
 stringFromSkill() </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">t_kls</td><td>The Koliseo_Temp used for allocations. </td></tr>
     <tr><td class="paramname">b</td><td>The <a class="el" href="structBoss.html" title="Represents the entity initialised from a bossClass.">Boss</a> pointer whose skill slots will be initialised. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae484ae24ea12775796654faa9174adb4" name="ae484ae24ea12775796654faa9174adb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae484ae24ea12775796654faa9174adb4">&#9670;&#160;</a></span>setConsumablePrices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setConsumablePrices </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>consumablePrices</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structConsumable.html">Consumable</a> **</td>          <td class="paramname"><span class="paramname"><em>consumables</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a size int and a pointer to integer array, initialises all the prices. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__init_8c.html#abc5b4d00f943980921c104d6fb0a6fe4" title="Takes one Shop pointer and initialises all the fields, depeding on stats from the Fighter pointer pas...">initShop()</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>Size of both arrays. </td></tr>
+    <tr><td class="paramname">consumablePrices</td><td>Pointer to integer array for prices. </td></tr>
+    <tr><td class="paramname">consumables</td><td>Pointer to <a class="el" href="structConsumable.html" title="Holds a certain qty of a consumableClass.">Consumable</a> pointer to influence pricing. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1190,13 +2197,52 @@ Skilllot </dd>
 <dd>
 <a class="el" href="game__core_8h.html#a76d1f093a2446314378dfdfa2010f417">SKILLSTOTAL</a> </dd>
 <dd>
-<a class="el" href="game__utils_8c.html#ac0458a116b828082e8e198d00e51c462" title="Takes a skillType and returns the corresponding cost by the inner array position, as an integer.">costFromSkill()</a> </dd>
+<a class="el" href="game__init_8c.html#ac0458a116b828082e8e198d00e51c462" title="Takes a skillType and returns the corresponding cost by the inner array position, as an integer.">costFromSkill()</a> </dd>
 <dd>
 stringFromSkill() </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">t_kls</td><td>The Koliseo_Temp used for allocations. </td></tr>
     <tr><td class="paramname">e</td><td>The <a class="el" href="structEnemy.html" title="Represents the entity initialised from a enemyClass.">Enemy</a> pointer whose skill slots will be initialised. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2b9ac7a17b3fd7421cc5397953d8d8fe" name="a2b9ac7a17b3fd7421cc5397953d8d8fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b9ac7a17b3fd7421cc5397953d8d8fe">&#9670;&#160;</a></span>setEquipPrices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setEquipPrices </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>equipPrices</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structEquip.html">Equip</a> *</td>          <td class="paramname"><span class="paramname"><em>equips</em></span>[]&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes a size int and a pointer to integer array, initialises all the prices, depending on stats from the Equips array pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="game__init_8c.html#abc5b4d00f943980921c104d6fb0a6fe4" title="Takes one Shop pointer and initialises all the fields, depeding on stats from the Fighter pointer pas...">initShop()</a> </dd>
+<dd>
+<a class="el" href="structEquip.html" title="Represents the entity initialised from a equipClass.">Equip</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>Size of both arrays. </td></tr>
+    <tr><td class="paramname">equipPrices</td><td>Pointer to integer array for prices. </td></tr>
+    <tr><td class="paramname"><a class="el" href="game__core_8c.html#a87dc21da47e77e4cdcc4ce4fefa90039" title="Array containing all Equip instances.">equips</a></td><td>Pointer to <a class="el" href="structEquip.html" title="Represents the entity initialised from a equipClass.">Equip</a> pointer to influence pricing. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1231,7 +2277,7 @@ Skilllot </dd>
 <dd>
 <a class="el" href="game__core_8h.html#ad51cf2250f7b5116df930ba81fa06bc7aaf9d4c63ad65856ae7923b23dead6573">SKILL_TYPE_LAST_UNLOCKABLE</a> </dd>
 <dd>
-<a class="el" href="game__utils_8c.html#ac0458a116b828082e8e198d00e51c462" title="Takes a skillType and returns the corresponding cost by the inner array position, as an integer.">costFromSkill()</a> </dd>
+<a class="el" href="game__init_8c.html#ac0458a116b828082e8e198d00e51c462" title="Takes a skillType and returns the corresponding cost by the inner array position, as an integer.">costFromSkill()</a> </dd>
 <dd>
 stringFromSkill() </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -1257,7 +2303,7 @@ stringFromSkill() </dd></dl>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a href="dir_313caf1132e152dd9b58bea13a4052ca.html">utils</a></li><li class="navelem"><a href="game__init_8h.html">game_init.h</a></li>
+    <li class="navelem"><a href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li><li class="navelem"><a href="game__init_8h.html">game_init.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

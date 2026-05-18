@@ -469,6 +469,7 @@ var game__core_8h =
     ] ],
     [ "foeTurnOP_from_foeTurnOption", "game__core_8h.html#ae9a42b4f1d8ed8506bb9c969645c4077", null ],
     [ "OP_res_from_fightResult", "game__core_8h.html#a8e585112e4ef34cd3893615154cadbb3", null ],
+    [ "resolve_staticPath", "game__core_8h.html#a1506cf13fce14807f2b178b71c6dc8e4", null ],
     [ "turnOP_from_turnOption", "game__core_8h.html#a4ae5a20a4aaf1e12c6e7d2e588e87d30", null ],
     [ "artifactsBase", "game__core_8h.html#a5377bcc4a9f1ad11f3fe6286a7bd8ad2", null ],
     [ "artifactstrings", "game__core_8h.html#aca00570c9830f21e65f7d8110fb7e547", null ],

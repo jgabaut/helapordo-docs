@@ -89,7 +89,8 @@ var game__rl_8h =
     ] ],
     [ "Gui_Debug_Selection_Index", "game__rl_8h.html#a878a1ce146d8a01417421c3a38c12b81", [
       [ "GUI_DEBUG_FIGHTER", "game__rl_8h.html#a878a1ce146d8a01417421c3a38c12b81aab1cbdf1ce45379c0228c83a074e1ef6", null ],
-      [ "GUI_DEBUG_FLOOR", "game__rl_8h.html#a878a1ce146d8a01417421c3a38c12b81ab68e738002cf9e74ed1df16f031d6ee1", null ]
+      [ "GUI_DEBUG_FLOOR", "game__rl_8h.html#a878a1ce146d8a01417421c3a38c12b81ab68e738002cf9e74ed1df16f031d6ee1", null ],
+      [ "GUI_DEBUG_ROOM", "game__rl_8h.html#a878a1ce146d8a01417421c3a38c12b81a9401d0956bb037a4c720137ebdbecc44", null ]
     ] ],
     [ "Gui_Equips_Group_Button_Index", "game__rl_8h.html#a0b438e067ba89e05ce9eeaa93f333f39", [
       [ "BUTTON_OPEN_BAG", "game__rl_8h.html#a0b438e067ba89e05ce9eeaa93f333f39acd9ad9e7498741af27d166aa8b7884be", null ],
@@ -144,14 +145,6 @@ var game__rl_8h =
     [ "fight_Special", "game__rl_8h.html#a1765b971f38e66be22cae46ca381fc2e", null ],
     [ "handleTutorial", "game__rl_8h.html#a5543d652daa003dfabf55e802c1e6202", null ],
     [ "hlpd_draw_notifications", "game__rl_8h.html#a4fd3202b29e7a14d95a1cd0e35be3b44", null ],
-    [ "setArtifactSprite", "game__rl_8h.html#aacdc495ee6ed789f7e58946715f0fd47", null ],
-    [ "setBossSprite", "game__rl_8h.html#ad530f610f7ff6ffc94e32725a29d73c3", null ],
-    [ "setChestSprite", "game__rl_8h.html#ad2eb3d555e01796d30695d8a236eb1e0", null ],
-    [ "setConsumableSprite", "game__rl_8h.html#a09abae87428cef0401abc6c75065305a", null ],
-    [ "setEnemySprite", "game__rl_8h.html#ac2c89ff0da8de202671445190de815d5", null ],
-    [ "setEquipslotSprite", "game__rl_8h.html#a0e9d758a4a725bf87202cd3bc7e9084e", null ],
-    [ "setEquipSprite", "game__rl_8h.html#a5b47d50eb711af1dc3d46af66b9f1493", null ],
-    [ "setFighterSprite", "game__rl_8h.html#a106ccc4d8b832662d79563c14ccf9dff", null ],
     [ "ToggleFullScreenWindow", "game__rl_8h.html#aee4566c007d871209b8ce1d217f64679", null ],
     [ "update_GameScreen", "game__rl_8h.html#a39d998acbb23754b89b66f33004da8e0", null ],
     [ "classpick_buttons", "game__rl_8h.html#a9416d9da6c53cdf5db38e5979ce31e67", null ],

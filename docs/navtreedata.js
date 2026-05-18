@@ -52,15 +52,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"game__core_8h.html#a2ba03f4024e8f432f139d187c9ce3450",
-"game__core_8h.html#abc0ae742eb657b3657d27bc54585b160a75561ea53944ec96bac72b87edd9c109",
-"game__fight_8c.html#a70abb2104bddf135a794299fd0c432ca",
-"game__rl_8h.html#a80a489c0af58db357bd6cc815c294505a16800b9513e9e83adf0fd044d500a181",
-"game__utils_8h.html#a0556f93e1d3257cd8bf0d6bf9e12ec64",
-"globals_vars_m.html",
-"ser__core_8h.html#ae2ff370a1a86cbda2fe032af5596de2e",
-"structFoeParty.html#aebf9317378fda85c75f3e29caae388a4",
-"structSerFighter.html#aefd37402421acc52e6a25ebdeb42e3c2"
+"game__core_8h.html#a2809d44319d7553e1846b35be4b953d8",
+"game__core_8h.html#abc0ae742eb657b3657d27bc54585b160a702dd86c091d5f6dc1cdf587ed85b04e",
+"game__fight_8c.html#a896773eca0482957b1cabdca9c2a4100",
+"game__rl_8h.html#a22bffddb600fc0dc05932b4db828cec4",
+"game__utils_8c.html#a45f4c255b40d24b4c4649730ae0e6052",
+"helapordo__raylib_8c.html",
+"sprites_8c.html#a9c18c0ae71d0524b9559b5686f34dc93",
+"structGamestate.html#a8911b8b512f3a8901c17de219706a752",
+"structSerFloor.html#acd2f4163f12993a148c60f820e099142"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
