@@ -7,7 +7,7 @@ var structEquip =
     [ "def", "structEquip.html#ab3433b604322d591cb0cbe99730fcb36", null ],
     [ "desc", "structEquip.html#ae5c6dd7308583ecf4dcb7a8fb2604e00", null ],
     [ "enr", "structEquip.html#a38e572e3d8e3abd44a6366ab95317bf9", null ],
-    [ "equip_fun", "structEquip.html#a0dfee7267de3865b42ce02b9dfb29d4f", null ],
+    [ "equip_fun", "structEquip.html#acbae41a6b5f0c0d31ad80a3de119f687", null ],
     [ "equipped", "structEquip.html#aee79278f5f60447de7d527bc7dff7a87", null ],
     [ "level", "structEquip.html#a29f20888cae262c778b86a8192eb4ff2", null ],
     [ "name", "structEquip.html#ab755692cdac97e44a7d553e212a9adc9", null ],

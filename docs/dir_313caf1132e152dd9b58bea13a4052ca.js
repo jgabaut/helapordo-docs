@@ -11,7 +11,5 @@ var dir_313caf1132e152dd9b58bea13a4052ca =
     [ "rooms.c", "rooms_8c.html", "rooms_8c" ],
     [ "rooms.h", "rooms_8h.html", "rooms_8h" ],
     [ "saves.c", "saves_8c.html", null ],
-    [ "saves.h", "saves_8h.html", "saves_8h" ],
-    [ "turn_op.c", "turn__op_8c.html", "turn__op_8c" ],
-    [ "turn_op.h", "turn__op_8h.html", "turn__op_8h" ]
+    [ "saves.h", "saves_8h.html", "saves_8h" ]
 ];

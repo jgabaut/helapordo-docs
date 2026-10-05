@@ -10,7 +10,9 @@ var structSerCountstats =
     [ "floorscompleted", "structSerCountstats.html#a07ad781d3f391888a92d5480739361ea", null ],
     [ "keysfound", "structSerCountstats.html#af915ac2ed65845e7d3b597f66ad14a52", null ],
     [ "killed_bosses", "structSerCountstats.html#aba992bd5aa24ea5d591b8d218615a09c", null ],
+    [ "killed_enemies", "structSerCountstats.html#a52d25851478c1f1835c481774aef0a7d", null ],
     [ "roomscompleted", "structSerCountstats.html#a6dd0d372bb5daa4515980a188d27e8f0", null ],
     [ "specialsunlocked", "structSerCountstats.html#a7d031fd7c92fd61849791a4a0cd48e75", null ],
-    [ "unique_bosseskilled", "structSerCountstats.html#a2d7d67bfee24c1bddccca456d3bfd543", null ]
+    [ "unique_bosseskilled", "structSerCountstats.html#a2d7d67bfee24c1bddccca456d3bfd543", null ],
+    [ "unique_enemieskilled", "structSerCountstats.html#aedb61960ce2d98f7f9939250cc37bf52", null ]
 ];

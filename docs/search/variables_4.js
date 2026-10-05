@@ -1,10 +1,10 @@
 var searchData=
 [
   ['earliestbagslot_0',['earliestBagSlot',['../structFighter.html#a52df0bd7ed6b1470f0eb347bc4668dcb',1,'Fighter::earliestBagSlot'],['../structSerFighter.html#af233c3337254a3403a5c167b4ae44ec7',1,'SerFighter::earliestBagSlot']]],
-  ['effect_5fb_5ffun_1',['effect_b_fun',['../structTurncounter.html#a827e8496ed8ce8e145aee7f61478964f',1,'Turncounter']]],
-  ['effect_5fe_5ffun_2',['effect_e_fun',['../structTurncounter.html#ad4839eec0e5eb8dac9464df7ca93167b',1,'Turncounter']]],
-  ['effect_5ffp_5ffun_3',['effect_fp_fun',['../structTurncounter.html#a60562c3cf0cddb9f57116a78e18f72d9',1,'Turncounter']]],
-  ['effect_5ffun_4',['effect_fun',['../structTurncounter.html#a3e4fe2fb0bb6dad7182a6d612401bf9d',1,'Turncounter']]],
+  ['effect_5fb_5ffun_1',['effect_b_fun',['../structTurncounter.html#af2b89b6ace3da7ee4fe9fd7cb35c1473',1,'Turncounter']]],
+  ['effect_5fe_5ffun_2',['effect_e_fun',['../structTurncounter.html#adbcaf868107f444ff0aa4dc86726ecdc',1,'Turncounter']]],
+  ['effect_5ffp_5ffun_3',['effect_fp_fun',['../structTurncounter.html#a51721067812bc48d078e27de3ee1bbaf',1,'Turncounter']]],
+  ['effect_5ffun_4',['effect_fun',['../structTurncounter.html#a413c2fbd68f175f1a83b8034748647f1',1,'Turncounter']]],
   ['enabled_5',['enabled',['../structSpecialslot.html#a6dab68ea16a8ef27a6a90fd8f7471c8e',1,'Specialslot::enabled'],['../structSkillslot.html#af32e9d89a12184054f67133dea747c72',1,'Skillslot::enabled'],['../structSerSkillslot.html#aa7ff67eddd381fc964d3099bfa8fcf67',1,'SerSkillslot::enabled'],['../structSerSpecialslot.html#aab0bfcc504d56f91ff805c1a0adf5fcb',1,'SerSpecialslot::enabled']]],
   ['enemies_6',['enemies',['../structRoom.html#a5b5581efb08aee83a6a29d5523793057',1,'Room::enemies'],['../structSerRoom.html#a8d47053d8e3769ae146f20fa1a7b1103',1,'SerRoom::enemies']]],
   ['enemies_5fsprites_7',['enemies_sprites',['../sprites_8c.html#a00a344aa5d555c897a60235eaef15c1a',1,'enemies_sprites:&#160;sprites.c'],['../sprites_8h.html#a00a344aa5d555c897a60235eaef15c1a',1,'enemies_sprites:&#160;sprites.c']]],
@@ -15,7 +15,7 @@ var searchData=
   ['enemytotal_12',['enemyTotal',['../structRoom.html#ab6cbd4ce74c35cb2a75b390c81c79077',1,'Room::enemyTotal'],['../structSerRoom.html#aa5bac2a365db6386e7f223c85bf2d1d9',1,'SerRoom::enemyTotal']]],
   ['energy_13',['energy',['../structFighter.html#a31497a3b20d9caf3bdb3ceef4fccf88f',1,'Fighter::energy'],['../structEnemy.html#a0c80f3ba0e445831cf389231f3e93bac',1,'Enemy::energy'],['../structBoss.html#a68f20c0fa829cf4ba6e388fab4b1cddf',1,'Boss::energy'],['../structSerEnemy.html#aa434bd3dd6c3e7fd3921372736395229',1,'SerEnemy::energy'],['../structSerBoss.html#a5c6188e9d23815ee614f01cfac24ac07',1,'SerBoss::energy'],['../structSerFighter.html#ad908baef92218fc22cb7df8260f968e3',1,'SerFighter::energy']]],
   ['enr_14',['enr',['../structEquip.html#a38e572e3d8e3abd44a6366ab95317bf9',1,'Equip::enr'],['../structSerEquip.html#a498b928c5ef9768c42290e58b5f7155d',1,'SerEquip::enr']]],
-  ['equip_5ffun_15',['equip_fun',['../structEquip.html#a0dfee7267de3865b42ce02b9dfb29d4f',1,'Equip']]],
+  ['equip_5ffun_15',['equip_fun',['../structEquip.html#acbae41a6b5f0c0d31ad80a3de119f687',1,'Equip']]],
   ['equipboost_5fatk_16',['equipboost_atk',['../structFighter.html#a014776cccd71307fa12eb44b7114b48a',1,'Fighter::equipboost_atk'],['../structSerFighter.html#ad686ddc1c36d624925d55e769edee46b',1,'SerFighter::equipboost_atk']]],
   ['equipboost_5fdef_17',['equipboost_def',['../structFighter.html#abee39ec77becae6d95e7da82c175e794',1,'Fighter::equipboost_def'],['../structSerFighter.html#aff855a30df7742e779e923c9b37068ee',1,'SerFighter::equipboost_def']]],
   ['equipboost_5fenr_18',['equipboost_enr',['../structFighter.html#a453806a3c27614475aa032032bc80923',1,'Fighter::equipboost_enr'],['../structSerFighter.html#a8544be2b24b2f06774d8989b3e717933',1,'SerFighter::equipboost_enr']]],

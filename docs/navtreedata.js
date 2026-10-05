@@ -52,17 +52,17 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"game__core_8h.html#a2809d44319d7553e1846b35be4b953d8",
-"game__core_8h.html#abc0ae742eb657b3657d27bc54585b160a702dd86c091d5f6dc1cdf587ed85b04e",
-"game__fight_8c.html#a896773eca0482957b1cabdca9c2a4100",
-"game__rl_8h.html#a22bffddb600fc0dc05932b4db828cec4",
-"game__utils_8c.html#a45f4c255b40d24b4c4649730ae0e6052",
-"helapordo__raylib_8c.html",
-"sprites_8c.html#a9c18c0ae71d0524b9559b5686f34dc93",
-"structGamestate.html#a8911b8b512f3a8901c17de219706a752",
-"structSerFloor.html#acd2f4163f12993a148c60f820e099142"
+"game__core_8h.html#a177a1c31998379b71523666b43614780",
+"game__core_8h.html#ab4da7dc7d81f7a0cd0826188fca9934a",
+"game__curses_8h_source.html",
+"game__rl_8h.html#a06e9668ba242a541bd40fb8c5a899a37",
+"game__utils_8c.html#a0fb3a78e484923dc90d29eb1d40aeb70",
+"globals_vars_l.html",
+"ser__core_8h.html#afcf7f996a5262033621ce0c6fdc182d2",
+"structFoeParty.html#ab8a9ee3952c8cd74de25c7d53c053011",
+"structSerFighter.html#ad0a4766bb7b60c0aca14729779327d58"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronization';
-var SYNCOFFMSG = 'click to enable panel synchronization';
-var LISTOFALLMEMBERS = 'List of all members';
+const SYNCONMSG = 'click to disable panel synchronization';
+const SYNCOFFMSG = 'click to enable panel synchronization';
+const LISTOFALLMEMBERS = 'List of all members';

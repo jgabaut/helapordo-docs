@@ -9,5 +9,6 @@ var structFloor =
     [ "from_bsp", "structFloor.html#ae00cb402299c65e56829a468ad02590d", null ],
     [ "index", "structFloor.html#aa1ff1f0cebf69a69093024dd2f0c9f62", null ],
     [ "roomclass_layout", "structFloor.html#aa67de97d1f53991c6dd6e2eab614d960", null ],
-    [ "rooms_matrix", "structFloor.html#a79ef2820ccddedb75d6dcb37a96ef671", null ]
+    [ "rooms_matrix", "structFloor.html#a79ef2820ccddedb75d6dcb37a96ef671", null ],
+    [ "visible_matrix", "structFloor.html#adc194d8ecf96de809cc26d88f7079cc8", null ]
 ];

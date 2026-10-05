@@ -4,32 +4,32 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,40,103,80,100,76,194,35"/>
 <area shape="rect" id="Node000003" href="$specials_8h.html" title=" " alt="" coords="168,79,298,105"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="225,44,229,79,224,78,224,49"/>
-<area shape="rect" id="Node000005" href="$saves_8h.html" title=" " alt="" coords="323,79,439,105"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="272,36,358,77,353,79,272,41"/>
+<area shape="rect" id="Node000005" href="$saves_8h.html" title=" " alt="" coords="330,79,446,105"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="273,35,364,77,359,79,273,40"/>
 <area shape="poly" id="edge3_Node000003_Node000001" title=" " alt="" coords="239,63,239,34,241,29,245,64"/>
-<area shape="rect" id="Node000004" href="$specials_8c.html" title=" " alt="" coords="168,153,298,178"/>
-<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="234,118,236,153,231,152,232,123"/>
-<area shape="rect" id="Node000006" href="$saves_8c.html" title=" " alt="" coords="323,153,439,178"/>
-<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="382,118,384,153,379,151,380,123"/>
-<area shape="rect" id="Node000007" href="$turn__op_8h.html" title=" " alt="" coords="463,153,587,178"/>
-<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="419,109,503,151,498,153,419,114"/>
-<area shape="rect" id="Node000008" href="$game__curses_8h.html" title=" " alt="" coords="244,226,425,252"/>
-<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="477,186,368,228,366,223,481,183"/>
-<area shape="rect" id="Node000010" href="$game__rl_8h.html" title=" " alt="" coords="421,300,562,326"/>
-<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="515,191,505,227,498,267,495,301,490,298,493,266,500,226,512,195"/>
-<area shape="rect" id="Node000014" href="$rooms_8h.html" title=" " alt="" coords="514,226,632,252"/>
-<area shape="poly" id="edge14_Node000007_Node000014" title=" " alt="" coords="542,189,568,226,562,225,541,194"/>
-<area shape="rect" id="Node000016" href="$turn__op_8c.html" title=" " alt="" coords="656,226,781,252"/>
-<area shape="poly" id="edge17_Node000007_Node000016" title=" " alt="" coords="572,181,688,225,683,226,572,187"/>
-<area shape="rect" id="Node000009" href="$game__curses_8c.html" title=" " alt="" coords="216,300,397,326"/>
-<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="326,264,313,301,309,298,323,268"/>
-<area shape="rect" id="Node000011" href="$game__rl_8c.html" title=" " alt="" coords="338,381,480,407"/>
-<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="471,335,423,383,420,378,466,338"/>
-<area shape="rect" id="Node000012" href="$helapordo__raylib_8h.html" title=" " alt="" coords="504,374,645,414"/>
-<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="516,334,557,374,551,373,514,339"/>
-<area shape="rect" id="Node000013" href="$helapordo__raylib_8c.html" title=" " alt="" coords="504,462,645,503"/>
-<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="576,428,577,464,572,460,573,432"/>
-<area shape="poly" id="edge15_Node000014_Node000010" title=" " alt="" coords="550,261,507,302,504,297,546,264"/>
-<area shape="rect" id="Node000015" href="$rooms_8c.html" title=" " alt="" coords="586,300,704,326"/>
-<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="597,260,636,300,630,299,595,265"/>
+<area shape="rect" id="Node000004" href="$specials_8c.html" title=" " alt="" coords="161,153,292,178"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="232,118,230,153,225,151,230,123"/>
+<area shape="rect" id="Node000006" href="$turn__op_8h.html" title=" " alt="" coords="316,153,460,178"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="389,118,390,153,385,151,387,123"/>
+<area shape="rect" id="Node000016" href="$saves_8c.html" title=" " alt="" coords="483,153,599,178"/>
+<area shape="poly" id="edge17_Node000005_Node000016" title=" " alt="" coords="428,109,518,151,512,153,428,114"/>
+<area shape="rect" id="Node000007" href="$game__curses_8h.html" title=" " alt="" coords="115,226,295,252"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="341,186,238,228,235,223,345,183"/>
+<area shape="rect" id="Node000009" href="$game__rl_8h.html" title=" " alt="" coords="346,300,488,326"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="372,189,360,221,358,236,361,251,379,278,402,300,397,300,375,281,356,253,353,237,355,220,368,193"/>
+<area shape="rect" id="Node000013" href="$turn__op_8c.html" title=" " alt="" coords="371,226,514,252"/>
+<area shape="poly" id="edge13_Node000006_Node000013" title=" " alt="" coords="407,188,436,226,431,226,405,193"/>
+<area shape="rect" id="Node000014" href="$rooms_8h.html" title=" " alt="" coords="538,226,656,252"/>
+<area shape="poly" id="edge14_Node000006_Node000014" title=" " alt="" coords="438,181,564,225,559,226,438,186"/>
+<area shape="rect" id="Node000008" href="$game__curses_8c.html" title=" " alt="" coords="115,300,295,326"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="206,265,208,300,203,299,204,270"/>
+<area shape="rect" id="Node000010" href="$game__rl_8c.html" title=" " alt="" coords="264,381,405,407"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="396,335,349,383,346,378,391,338"/>
+<area shape="rect" id="Node000011" href="$helapordo__raylib_8h.html" title=" " alt="" coords="429,374,570,414"/>
+<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="441,334,482,374,477,373,440,339"/>
+<area shape="rect" id="Node000012" href="$helapordo__raylib_8c.html" title=" " alt="" coords="429,462,570,503"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="502,428,502,464,498,460,498,432"/>
+<area shape="poly" id="edge15_Node000014_Node000009" title=" " alt="" coords="550,259,449,302,447,297,555,257"/>
+<area shape="rect" id="Node000015" href="$rooms_8c.html" title=" " alt="" coords="538,300,656,326"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="599,265,599,301,595,298,596,270"/>
 </map>
