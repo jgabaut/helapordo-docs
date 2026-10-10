@@ -1,15 +1,15 @@
 <map id="src/core/game_core.c" name="src/core/game_core.c">
-<area shape="rect" id="Node000001" title=" " alt="" coords="167,5,313,31"/>
-<area shape="rect" id="Node000002" href="$game__core_8h.html" title=" " alt="" coords="192,79,288,105"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="241,29,243,64,237,62,239,34"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,153,115,193"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="211,107,120,148,118,144,214,103"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="139,160,216,186"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="233,103,198,150,194,146,228,107"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="240,153,365,193"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="250,103,280,141,275,140,249,108"/>
-<area shape="rect" id="Node000006" href="$palette_8h.html" title=" " alt="" coords="389,160,470,186"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="269,103,389,153,384,155,269,108"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="360,241,498,282"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="431,184,431,228,427,225,427,188"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="159,5,305,31"/>
+<area shape="rect" id="Node000002" href="$game__core_8h.html" title=" " alt="" coords="184,79,280,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,29,235,64,229,62,231,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,160,83,186"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="202,108,88,156,85,152,204,103"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="107,153,232,193"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="224,103,196,142,192,139,221,107"/>
+<area shape="rect" id="Node000005" href="$palette_8h.html" title=" " alt="" coords="256,160,336,186"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="243,103,279,148,274,148,241,108"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="360,153,504,193"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="263,103,371,146,365,147,263,108"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="227,241,365,282"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="298,184,298,228,294,225,294,188"/>
 </map>

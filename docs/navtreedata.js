@@ -52,15 +52,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"game__core_8h.html#a177a1c31998379b71523666b43614780",
-"game__core_8h.html#ab4da7dc7d81f7a0cd0826188fca9934a",
-"game__curses_8h_source.html",
-"game__rl_8h.html#a06e9668ba242a541bd40fb8c5a899a37",
-"game__utils_8c.html#a0fb3a78e484923dc90d29eb1d40aeb70",
-"globals_vars_l.html",
-"ser__core_8h.html#afcf7f996a5262033621ce0c6fdc182d2",
-"structFoeParty.html#ab8a9ee3952c8cd74de25c7d53c053011",
-"structSerFighter.html#ad0a4766bb7b60c0aca14729779327d58"
+"game__core_8h.html#a1633bdf36a3d53020d3955aa2ea528a4ab9a53e3b6375b78166196467eeaf452d",
+"game__core_8h.html#ab4cbe7f069478941f19e450ae274ab17",
+"game__curses_8h.html#ad5b0206ff4281b39576f273b2bbade3e",
+"game__rl_8h.html#a014ffa13d9dab408e27bbfd1bdf1bbc6",
+"game__utils_8c.html",
+"globals_vars_d.html",
+"ser__core_8h.html#af2806c94392e789d30f2643a5739d5b5",
+"structFoeParty.html#a5ff436864f0247267197f29d39640e34",
+"structSerFighter.html#ab02d2f28e4a7304da4e36b85cdba9031"
 ];
 
 const SYNCONMSG = 'click to disable panel synchronization';

@@ -1,5 +1,10 @@
 var NAVTREEINDEX5 =
 {
+"game__utils_8c.html":[2,0,0,6,6],
+"game__utils_8c.html#a001c8c1557bea73e9273bb2c80844653":[2,0,0,6,6,67],
+"game__utils_8c.html#a0475267544bf5572a69ea1af95467cdb":[2,0,0,6,6,49],
+"game__utils_8c.html#a0db9230fe49b35e34367d98b3cbb71aa":[2,0,0,6,6,68],
+"game__utils_8c.html#a0e0386d380778bb7e228669d824d21e7":[2,0,0,6,6,61],
 "game__utils_8c.html#a0fb3a78e484923dc90d29eb1d40aeb70":[2,0,0,6,6,70],
 "game__utils_8c.html#a10bcbe0ba086a040b82acd82eca29e43":[2,0,0,6,6,36],
 "game__utils_8c.html#a110b686c21881ea9c71edc2228e5f476":[2,0,0,6,6,7],
@@ -244,10 +249,5 @@ var NAVTREEINDEX5 =
 "globals_vars.html":[2,1,2],
 "globals_vars.html":[2,1,2,0],
 "globals_vars_b.html":[2,1,2,1],
-"globals_vars_c.html":[2,1,2,2],
-"globals_vars_d.html":[2,1,2,3],
-"globals_vars_e.html":[2,1,2,4],
-"globals_vars_f.html":[2,1,2,5],
-"globals_vars_g.html":[2,1,2,6],
-"globals_vars_h.html":[2,1,2,7]
+"globals_vars_c.html":[2,1,2,2]
 };

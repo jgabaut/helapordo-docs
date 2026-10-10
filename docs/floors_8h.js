@@ -15,5 +15,6 @@ var floors_8h =
     [ "room_char", "floors_8h.html#a4149ef69d409b5a3e6da429c6e6b3b35", null ],
     [ "room_color", "floors_8h.html#ae339629192a46c4420311f7e7495066f", null ],
     [ "roomclass_chars", "floors_8h.html#a170b2c88febce165b2bb2d7c60848a83", null ],
-    [ "roomclass_colors", "floors_8h.html#a9ad2aca44e0030c817266074e2009bbe", null ]
+    [ "roomclass_colors", "floors_8h.html#a9ad2aca44e0030c817266074e2009bbe", null ],
+    [ "roomclass_colors_alt", "floors_8h.html#a1f1330c2726c050a83a279d21e5292f3", null ]
 ];

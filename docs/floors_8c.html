@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.21</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.23</span>
    </div>
   </td>
  </tr>
@@ -130,16 +130,16 @@ Include dependency graph for floors.c:</div>
 <area shape="poly" title=" " alt="" coords="705,429,512,545,509,541,700,431"/>
 <area shape="rect" href="game__strings_8h.html" title=" " alt="" coords="377,477,487,503"/>
 <area shape="poly" title=" " alt="" coords="671,431,497,476,495,471,676,429"/>
-<area shape="rect" title=" " alt="" coords="243,625,352,665"/>
-<area shape="poly" title=" " alt="" coords="452,576,357,620,355,616,447,578"/>
-<area shape="rect" title=" " alt="" coords="376,632,453,658"/>
-<area shape="poly" title=" " alt="" coords="470,576,435,622,432,618,466,579"/>
-<area shape="rect" title=" " alt="" coords="477,625,603,665"/>
-<area shape="poly" title=" " alt="" coords="488,575,518,613,512,612,486,580"/>
-<area shape="rect" href="palette_8h.html" title=" " alt="" coords="626,632,707,658"/>
-<area shape="poly" title=" " alt="" coords="507,575,627,626,621,626,506,580"/>
-<area shape="rect" title=" " alt="" coords="598,713,736,754"/>
-<area shape="poly" title=" " alt="" coords="669,656,669,700,665,696,665,660"/>
+<area shape="rect" title=" " alt="" coords="251,632,328,658"/>
+<area shape="poly" title=" " alt="" coords="451,576,333,628,331,623,446,578"/>
+<area shape="rect" title=" " alt="" coords="352,625,477,665"/>
+<area shape="poly" title=" " alt="" coords="470,576,441,615,438,610,466,579"/>
+<area shape="rect" href="palette_8h.html" title=" " alt="" coords="501,632,582,658"/>
+<area shape="poly" title=" " alt="" coords="488,575,524,620,519,619,486,580"/>
+<area shape="rect" title=" " alt="" coords="606,625,749,665"/>
+<area shape="poly" title=" " alt="" coords="508,575,616,618,611,619,508,580"/>
+<area shape="rect" title=" " alt="" coords="472,713,610,754"/>
+<area shape="poly" title=" " alt="" coords="543,656,543,700,539,697,539,660"/>
 <area shape="poly" title=" " alt="" coords="440,501,464,538,459,537,439,506"/>
 <area shape="poly" title=" " alt="" coords="524,163,621,164,736,172,792,180,842,190,883,205,910,224,931,257,938,290,930,323,910,357,888,380,861,396,832,407,802,413,800,408,830,402,859,391,885,375,906,354,925,321,932,290,926,259,906,228,880,210,841,195,791,185,736,177,621,170,526,168"/>
 <area shape="poly" title=" " alt="" coords="428,178,419,181,367,187,322,188,243,185,207,186,169,192,129,205,84,229,51,250,27,271,13,297,8,334,8,418,11,432,20,446,52,471,102,493,162,511,296,538,417,555,412,558,296,543,161,516,100,498,50,475,16,449,6,434,3,418,3,334,8,296,23,268,48,246,81,224,127,200,168,187,206,181,243,180,322,183,367,182,418,176,432,175"/>
@@ -204,6 +204,7 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a170b2c88febce165b2bb2d7c60848a83" id="r_a170b2c88febce165b2bb2d7c60848a83"><td class="memItemLeft">char&#160;</td><td class="memItemRight"><a class="el" href="#a170b2c88febce165b2bb2d7c60848a83">roomclass_chars</a> [<a class="el" href="game__core_8h.html#aae238a74e48932aeaace0d2a4819b551">ROOM_CLASS_MAX</a>+1]</td></tr>
 <tr class="memitem:a9ad2aca44e0030c817266074e2009bbe" id="r_a9ad2aca44e0030c817266074e2009bbe"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a9ad2aca44e0030c817266074e2009bbe">roomclass_colors</a> [<a class="el" href="game__core_8h.html#aae238a74e48932aeaace0d2a4819b551">ROOM_CLASS_MAX</a>+1]</td></tr>
+<tr class="memitem:a1f1330c2726c050a83a279d21e5292f3" id="r_a1f1330c2726c050a83a279d21e5292f3"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a1f1330c2726c050a83a279d21e5292f3">roomclass_colors_alt</a> [<a class="el" href="game__core_8h.html#aae238a74e48932aeaace0d2a4819b551">ROOM_CLASS_MAX</a>+1]</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a3e47835a50faffcaad9442d76ca40d71" name="a3e47835a50faffcaad9442d76ca40d71"></a>
@@ -640,14 +641,14 @@ Variables</h2></td></tr>
 <div class="line">    [<a class="code hl_enumvalue" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45afca2faad41310c7e71ec303ef789c53a">WALL</a>] = <span class="charliteral">&#39;#&#39;</span>,</div>
 <div class="line">    [<a class="code hl_enumvalue" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a13c45196813cb44e6e81e9c48a5ec1b4">BASIC</a>] = <span class="charliteral">&#39;.&#39;</span></div>
 <div class="line">}</div>
-<div class="ttc" id="agame__core_8h_html_ad06bf605bb3e128fcb7f84ceb5a32b45a13c45196813cb44e6e81e9c48a5ec1b4"><div class="ttname"><a href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a13c45196813cb44e6e81e9c48a5ec1b4">BASIC</a></div><div class="ttdeci">@ BASIC</div><div class="ttdef"><b>Definition</b> game_core.h:1672</div></div>
-<div class="ttc" id="agame__core_8h_html_ad06bf605bb3e128fcb7f84ceb5a32b45a34b0b186496be864abe64d22d95f7f22"><div class="ttname"><a href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a34b0b186496be864abe64d22d95f7f22">ENEMIES</a></div><div class="ttdeci">@ ENEMIES</div><div class="ttdef"><b>Definition</b> game_core.h:1665</div></div>
-<div class="ttc" id="agame__core_8h_html_ad06bf605bb3e128fcb7f84ceb5a32b45a54431df1a612294183edb849f04e271f"><div class="ttname"><a href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a54431df1a612294183edb849f04e271f">ROADFORK</a></div><div class="ttdeci">@ ROADFORK</div><div class="ttdef"><b>Definition</b> game_core.h:1669</div></div>
-<div class="ttc" id="agame__core_8h_html_ad06bf605bb3e128fcb7f84ceb5a32b45a5f3a97f0c8c3605b875c0d9c3e710e38"><div class="ttname"><a href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a5f3a97f0c8c3605b875c0d9c3e710e38">SHOP</a></div><div class="ttdeci">@ SHOP</div><div class="ttdef"><b>Definition</b> game_core.h:1666</div></div>
-<div class="ttc" id="agame__core_8h_html_ad06bf605bb3e128fcb7f84ceb5a32b45a8f280224da64e98f2d52d50ec43bc197"><div class="ttname"><a href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a8f280224da64e98f2d52d50ec43bc197">HOME</a></div><div class="ttdeci">@ HOME</div><div class="ttdef"><b>Definition</b> game_core.h:1670</div></div>
-<div class="ttc" id="agame__core_8h_html_ad06bf605bb3e128fcb7f84ceb5a32b45ab26df4373bb31a33c70ffa75477f9875"><div class="ttname"><a href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45ab26df4373bb31a33c70ffa75477f9875">BOSS</a></div><div class="ttdeci">@ BOSS</div><div class="ttdef"><b>Definition</b> game_core.h:1667</div></div>
-<div class="ttc" id="agame__core_8h_html_ad06bf605bb3e128fcb7f84ceb5a32b45af644794620b3ea115607f7551af2019b"><div class="ttname"><a href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45af644794620b3ea115607f7551af2019b">TREASURE</a></div><div class="ttdeci">@ TREASURE</div><div class="ttdef"><b>Definition</b> game_core.h:1668</div></div>
-<div class="ttc" id="agame__core_8h_html_ad06bf605bb3e128fcb7f84ceb5a32b45afca2faad41310c7e71ec303ef789c53a"><div class="ttname"><a href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45afca2faad41310c7e71ec303ef789c53a">WALL</a></div><div class="ttdeci">@ WALL</div><div class="ttdef"><b>Definition</b> game_core.h:1671</div></div>
+<div class="ttc" id="agame__core_8h_html_ad06bf605bb3e128fcb7f84ceb5a32b45a13c45196813cb44e6e81e9c48a5ec1b4"><div class="ttname"><a href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a13c45196813cb44e6e81e9c48a5ec1b4">BASIC</a></div><div class="ttdeci">@ BASIC</div><div class="ttdef"><b>Definition</b> game_core.h:1670</div></div>
+<div class="ttc" id="agame__core_8h_html_ad06bf605bb3e128fcb7f84ceb5a32b45a34b0b186496be864abe64d22d95f7f22"><div class="ttname"><a href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a34b0b186496be864abe64d22d95f7f22">ENEMIES</a></div><div class="ttdeci">@ ENEMIES</div><div class="ttdef"><b>Definition</b> game_core.h:1663</div></div>
+<div class="ttc" id="agame__core_8h_html_ad06bf605bb3e128fcb7f84ceb5a32b45a54431df1a612294183edb849f04e271f"><div class="ttname"><a href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a54431df1a612294183edb849f04e271f">ROADFORK</a></div><div class="ttdeci">@ ROADFORK</div><div class="ttdef"><b>Definition</b> game_core.h:1667</div></div>
+<div class="ttc" id="agame__core_8h_html_ad06bf605bb3e128fcb7f84ceb5a32b45a5f3a97f0c8c3605b875c0d9c3e710e38"><div class="ttname"><a href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a5f3a97f0c8c3605b875c0d9c3e710e38">SHOP</a></div><div class="ttdeci">@ SHOP</div><div class="ttdef"><b>Definition</b> game_core.h:1664</div></div>
+<div class="ttc" id="agame__core_8h_html_ad06bf605bb3e128fcb7f84ceb5a32b45a8f280224da64e98f2d52d50ec43bc197"><div class="ttname"><a href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a8f280224da64e98f2d52d50ec43bc197">HOME</a></div><div class="ttdeci">@ HOME</div><div class="ttdef"><b>Definition</b> game_core.h:1668</div></div>
+<div class="ttc" id="agame__core_8h_html_ad06bf605bb3e128fcb7f84ceb5a32b45ab26df4373bb31a33c70ffa75477f9875"><div class="ttname"><a href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45ab26df4373bb31a33c70ffa75477f9875">BOSS</a></div><div class="ttdeci">@ BOSS</div><div class="ttdef"><b>Definition</b> game_core.h:1665</div></div>
+<div class="ttc" id="agame__core_8h_html_ad06bf605bb3e128fcb7f84ceb5a32b45af644794620b3ea115607f7551af2019b"><div class="ttname"><a href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45af644794620b3ea115607f7551af2019b">TREASURE</a></div><div class="ttdeci">@ TREASURE</div><div class="ttdef"><b>Definition</b> game_core.h:1666</div></div>
+<div class="ttc" id="agame__core_8h_html_ad06bf605bb3e128fcb7f84ceb5a32b45afca2faad41310c7e71ec303ef789c53a"><div class="ttname"><a href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45afca2faad41310c7e71ec303ef789c53a">WALL</a></div><div class="ttdeci">@ WALL</div><div class="ttdef"><b>Definition</b> game_core.h:1669</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -671,6 +672,30 @@ Variables</h2></td></tr>
 <div class="line">    [<a class="code hl_enumvalue" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a8f280224da64e98f2d52d50ec43bc197">HOME</a>] = S4C_LIGHT_OLIVE,</div>
 <div class="line">    [<a class="code hl_enumvalue" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45afca2faad41310c7e71ec303ef789c53a">WALL</a>] = S4C_DARK_PURPLE,</div>
 <div class="line">    [<a class="code hl_enumvalue" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a13c45196813cb44e6e81e9c48a5ec1b4">BASIC</a>] = S4C_DARK_OLIVE,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1f1330c2726c050a83a279d21e5292f3" name="a1f1330c2726c050a83a279d21e5292f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f1330c2726c050a83a279d21e5292f3">&#9670;&#160;</a></span>roomclass_colors_alt</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int roomclass_colors_alt[<a class="el" href="game__core_8h.html#aae238a74e48932aeaace0d2a4819b551">ROOM_CLASS_MAX</a>+1]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line"> = {</div>
+<div class="line">    [<a class="code hl_enumvalue" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a34b0b186496be864abe64d22d95f7f22">ENEMIES</a>] = S4C_CYAN,</div>
+<div class="line">    [<a class="code hl_enumvalue" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a5f3a97f0c8c3605b875c0d9c3e710e38">SHOP</a>] = S4C_MAGENTA,</div>
+<div class="line">    [<a class="code hl_enumvalue" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45ab26df4373bb31a33c70ffa75477f9875">BOSS</a>] = S4C_RED,</div>
+<div class="line">    [<a class="code hl_enumvalue" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45af644794620b3ea115607f7551af2019b">TREASURE</a>] = S4C_ORANGE,</div>
+<div class="line">    [<a class="code hl_enumvalue" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a54431df1a612294183edb849f04e271f">ROADFORK</a>] = S4C_GREY,</div>
+<div class="line">    [<a class="code hl_enumvalue" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a8f280224da64e98f2d52d50ec43bc197">HOME</a>] = S4C_WHITE,</div>
+<div class="line">    [<a class="code hl_enumvalue" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45afca2faad41310c7e71ec303ef789c53a">WALL</a>] = S4C_PURPLE,</div>
+<div class="line">    [<a class="code hl_enumvalue" href="game__core_8h.html#ad06bf605bb3e128fcb7f84ceb5a32b45a13c45196813cb44e6e81e9c48a5ec1b4">BASIC</a>] = S4C_LIGHT_BROWN,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
 </div>

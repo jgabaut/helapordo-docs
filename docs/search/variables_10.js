@@ -9,8 +9,9 @@ var searchData=
   ['room_6',['room',['../structturnOP__args.html#ac190900c9949fbb8df4f91efa2cf5dff',1,'turnOP_args']]],
   ['roomclass_5fchars_7',['roomclass_chars',['../floors_8c.html#a170b2c88febce165b2bb2d7c60848a83',1,'roomclass_chars:&#160;floors.c'],['../floors_8h.html#a170b2c88febce165b2bb2d7c60848a83',1,'roomclass_chars:&#160;floors.c']]],
   ['roomclass_5fcolors_8',['roomclass_colors',['../floors_8c.html#a9ad2aca44e0030c817266074e2009bbe',1,'roomclass_colors:&#160;floors.c'],['../floors_8h.html#a9ad2aca44e0030c817266074e2009bbe',1,'roomclass_colors:&#160;floors.c']]],
-  ['roomclass_5flayout_9',['roomclass_layout',['../structFloor.html#aa67de97d1f53991c6dd6e2eab614d960',1,'Floor::roomclass_layout'],['../structSerFloor.html#acd2f4163f12993a148c60f820e099142',1,'SerFloor::roomclass_layout']]],
-  ['roomnamestrings_10',['roomnamestrings',['../game__core_8c.html#a4646a5c6512108c26142bed5300b65fd',1,'roomnamestrings:&#160;game_core.c'],['../game__core_8h.html#a4646a5c6512108c26142bed5300b65fd',1,'roomnamestrings:&#160;game_core.c']]],
-  ['rooms_5fmatrix_11',['rooms_matrix',['../structFloor.html#a79ef2820ccddedb75d6dcb37a96ef671',1,'Floor']]],
-  ['roomscompleted_12',['roomscompleted',['../structcountStats.html#a1f5af8e35d246d23c9857b09542e94c9',1,'countStats::roomscompleted'],['../structSerCountstats.html#a6dd0d372bb5daa4515980a188d27e8f0',1,'SerCountstats::roomscompleted']]]
+  ['roomclass_5fcolors_5falt_9',['roomclass_colors_alt',['../floors_8c.html#a1f1330c2726c050a83a279d21e5292f3',1,'roomclass_colors_alt:&#160;floors.c'],['../floors_8h.html#a1f1330c2726c050a83a279d21e5292f3',1,'roomclass_colors_alt:&#160;floors.c']]],
+  ['roomclass_5flayout_10',['roomclass_layout',['../structFloor.html#aa67de97d1f53991c6dd6e2eab614d960',1,'Floor::roomclass_layout'],['../structSerFloor.html#acd2f4163f12993a148c60f820e099142',1,'SerFloor::roomclass_layout']]],
+  ['roomnamestrings_11',['roomnamestrings',['../game__core_8c.html#a4646a5c6512108c26142bed5300b65fd',1,'roomnamestrings:&#160;game_core.c'],['../game__core_8h.html#a4646a5c6512108c26142bed5300b65fd',1,'roomnamestrings:&#160;game_core.c']]],
+  ['rooms_5fmatrix_12',['rooms_matrix',['../structFloor.html#a79ef2820ccddedb75d6dcb37a96ef671',1,'Floor']]],
+  ['roomscompleted_13',['roomscompleted',['../structcountStats.html#a1f5af8e35d246d23c9857b09542e94c9',1,'countStats::roomscompleted'],['../structSerCountstats.html#a6dd0d372bb5daa4515980a188d27e8f0',1,'SerCountstats::roomscompleted']]]
 ];

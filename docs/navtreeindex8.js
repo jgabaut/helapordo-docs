@@ -1,5 +1,10 @@
 var NAVTREEINDEX8 =
 {
+"structFoeParty.html#a5ff436864f0247267197f29d39640e34":[1,0,13,1],
+"structFoeParty.html#a6087aea5d617d761a64cfd436ba75429":[1,0,13,5],
+"structFoeParty.html#a61401e3f8c03fe3894b4774e5901d7fd":[1,0,13,11],
+"structFoeParty.html#aaf94ddeadfd735c326c69cc6144d058e":[1,0,13,10],
+"structFoeParty.html#ab7026bc506f9e0c5f66d837bf583a8e1":[1,0,13,6],
 "structFoeParty.html#ab8a9ee3952c8cd74de25c7d53c053011":[1,0,13,9],
 "structFoeParty.html#ab95865812de7601823af537f78628b54":[1,0,13,13],
 "structFoeParty.html#ac8c23fb38e00265b07c6836cd5b37ebf":[1,0,13,7],
@@ -244,10 +249,5 @@ var NAVTREEINDEX8 =
 "structSerFighter.html#a842a3d4957719ef93f1e55a962358d17":[1,0,40,29],
 "structSerFighter.html#a8544be2b24b2f06774d8989b3e717933":[1,0,40,12],
 "structSerFighter.html#aa787dc37f3007f6239a4dfa0795daff5":[1,0,40,20],
-"structSerFighter.html#aacc3e1404b1d55a97926810bc5688118":[1,0,40,14],
-"structSerFighter.html#ab02d2f28e4a7304da4e36b85cdba9031":[1,0,40,21],
-"structSerFighter.html#ab827825d6b520b7375e0c0201bbfa9be":[1,0,40,40],
-"structSerFighter.html#aba3a3aba7e66de868394f47321af28fa":[1,0,40,32],
-"structSerFighter.html#acbf56e899e64a0d8911ae5ef8acf1100":[1,0,40,19],
-"structSerFighter.html#acfe38e995e29b38863ec1173fae07f67":[1,0,40,41]
+"structSerFighter.html#aacc3e1404b1d55a97926810bc5688118":[1,0,40,14]
 };

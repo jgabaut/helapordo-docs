@@ -1,5 +1,10 @@
 var NAVTREEINDEX9 =
 {
+"structSerFighter.html#ab02d2f28e4a7304da4e36b85cdba9031":[1,0,40,21],
+"structSerFighter.html#ab827825d6b520b7375e0c0201bbfa9be":[1,0,40,40],
+"structSerFighter.html#aba3a3aba7e66de868394f47321af28fa":[1,0,40,32],
+"structSerFighter.html#acbf56e899e64a0d8911ae5ef8acf1100":[1,0,40,19],
+"structSerFighter.html#acfe38e995e29b38863ec1173fae07f67":[1,0,40,41],
 "structSerFighter.html#ad0a4766bb7b60c0aca14729779327d58":[1,0,40,4],
 "structSerFighter.html#ad686ddc1c36d624925d55e769edee46b":[1,0,40,10],
 "structSerFighter.html#ad908baef92218fc22cb7df8260f968e3":[1,0,40,9],

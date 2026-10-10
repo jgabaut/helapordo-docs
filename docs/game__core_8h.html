@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.21</span>
+   <div id="projectname">helapordo<span id="projectnumber">&#160;1.4.23</span>
    </div>
   </td>
  </tr>
@@ -111,26 +111,26 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('game__core_8h.
   <div class="headertitle"><div class="title">game_core.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;../../ringabuf/src/ringabuf.h&quot;</code><br />
-<code>#include &lt;sys/stat.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;sys/stat.h&gt;</code><br />
 <code>#include &quot;../../koliseo/src/kls_region.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="palette_8h_source.html">../palette.h</a>&quot;</code><br />
+<code>#include &quot;../../koliseo/templates/ringbuf.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for game_core.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="game__core_8h__incl.png" border="0" usemap="#asrc_2core_2game__core_8h" loading="lazy" alt=""/></div>
 <map name="asrc_2core_2game__core_8h" id="asrc_2core_2game__core_8h">
-<area shape="rect" title=" " alt="" coords="167,5,313,31"/>
-<area shape="rect" title=" " alt="" coords="5,79,115,120"/>
-<area shape="poly" title=" " alt="" coords="211,34,120,75,118,70,214,30"/>
-<area shape="rect" title=" " alt="" coords="139,86,216,112"/>
-<area shape="poly" title=" " alt="" coords="233,30,198,76,194,72,228,33"/>
-<area shape="rect" title=" " alt="" coords="240,79,365,120"/>
-<area shape="poly" title=" " alt="" coords="250,29,280,67,275,67,249,34"/>
-<area shape="rect" href="palette_8h.html" title=" " alt="" coords="389,86,470,112"/>
-<area shape="poly" title=" " alt="" coords="269,29,389,79,384,81,269,34"/>
-<area shape="rect" title=" " alt="" coords="360,168,498,208"/>
-<area shape="poly" title=" " alt="" coords="431,111,431,154,427,151,427,115"/>
+<area shape="rect" title=" " alt="" coords="159,5,305,31"/>
+<area shape="rect" title=" " alt="" coords="5,86,83,112"/>
+<area shape="poly" title=" " alt="" coords="202,34,88,83,85,78,204,29"/>
+<area shape="rect" title=" " alt="" coords="107,79,232,120"/>
+<area shape="poly" title=" " alt="" coords="224,30,196,69,192,65,221,33"/>
+<area shape="rect" href="palette_8h.html" title=" " alt="" coords="256,86,336,112"/>
+<area shape="poly" title=" " alt="" coords="243,29,279,74,274,74,241,34"/>
+<area shape="rect" title=" " alt="" coords="360,79,504,120"/>
+<area shape="poly" title=" " alt="" coords="263,29,371,72,365,74,263,34"/>
+<area shape="rect" title=" " alt="" coords="227,168,365,208"/>
+<area shape="poly" title=" " alt="" coords="298,111,298,154,294,151,294,115"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -313,10 +313,10 @@ Data Structures</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains loaded values to pass to <a class="el" href="rooms_8c.html#a815da0d9bd00dd28f2eaa74a8df629b9" title="Takes one Room pointer and calls the correct initialising function, after setting the room class valu...">initRoom()</a>.  <a href="structloadInfo.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Gamestate" id="r_Gamestate"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="structGamestate.html">Gamestate</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds arguments for a game.  <a href="structGamestate.html#details">More...</a><br /></td></tr>
-<tr class="memitem:turnOP_5Fargs" id="r_turnOP_5Fargs"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="structturnOP__args.html">turnOP_args</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds arguments for a <a class="el" href="#abc0ae742eb657b3657d27bc54585b160" title="The different kinds of turnOption_OP.">turnOption_OP</a>.  <a href="structturnOP__args.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Notification" id="r_Notification"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="structNotification.html">Notification</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds text for a notification.  <a href="structNotification.html#details">More...</a><br /></td></tr>
+<tr class="memitem:turnOP_5Fargs" id="r_turnOP_5Fargs"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="structturnOP__args.html">turnOP_args</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds arguments for a <a class="el" href="#abc0ae742eb657b3657d27bc54585b160" title="The different kinds of turnOption_OP.">turnOption_OP</a>.  <a href="structturnOP__args.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
@@ -333,9 +333,9 @@ Macros</h2></td></tr>
 <tr class="memdesc:afc82f6afe0870b6d97372e922263af23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current major release.  <br /></td></tr>
 <tr class="memitem:a1cb68a9343b29c3257266a562fbc26a9" id="r_a1cb68a9343b29c3257266a562fbc26a9"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a1cb68a9343b29c3257266a562fbc26a9">HELAPORDO_MINOR_VERSION</a>&#160;&#160;&#160;4</td></tr>
 <tr class="memdesc:a1cb68a9343b29c3257266a562fbc26a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current minor release.  <br /></td></tr>
-<tr class="memitem:a69f950e67bf21741e89f443bdd11c1fa" id="r_a69f950e67bf21741e89f443bdd11c1fa"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a69f950e67bf21741e89f443bdd11c1fa">HELAPORDO_PATCH_VERSION</a>&#160;&#160;&#160;22</td></tr>
+<tr class="memitem:a69f950e67bf21741e89f443bdd11c1fa" id="r_a69f950e67bf21741e89f443bdd11c1fa"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a69f950e67bf21741e89f443bdd11c1fa">HELAPORDO_PATCH_VERSION</a>&#160;&#160;&#160;23</td></tr>
 <tr class="memdesc:a69f950e67bf21741e89f443bdd11c1fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current patch release.  <br /></td></tr>
-<tr class="memitem:a1c6d5de492ac61ad29aec7aa9a436bbf" id="r_a1c6d5de492ac61ad29aec7aa9a436bbf"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a1c6d5de492ac61ad29aec7aa9a436bbf">VERSION</a>&#160;&#160;&#160;&quot;1.4.22&quot;</td></tr>
+<tr class="memitem:a1c6d5de492ac61ad29aec7aa9a436bbf" id="r_a1c6d5de492ac61ad29aec7aa9a436bbf"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a1c6d5de492ac61ad29aec7aa9a436bbf">VERSION</a>&#160;&#160;&#160;&quot;1.4.23&quot;</td></tr>
 <tr class="memdesc:a1c6d5de492ac61ad29aec7aa9a436bbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current version string identifier, with MAJOR.MINOR.PATCH format.  <br /></td></tr>
 <tr class="memitem:a65600b37f11b4930f0963618823d9687" id="r_a65600b37f11b4930f0963618823d9687"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a65600b37f11b4930f0963618823d9687">HELAPORDO_BINSAVEFILE_VERSION</a>&#160;&#160;&#160;&quot;0.0.8&quot;</td></tr>
 <tr class="memitem:a0df0c9b8187566e8c5c07a90df424a68" id="r_a0df0c9b8187566e8c5c07a90df424a68"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a0df0c9b8187566e8c5c07a90df424a68">EXPECTED_NCURSES_VERSION_MAJOR</a>&#160;&#160;&#160;6</td></tr>
@@ -438,6 +438,13 @@ Macros</h2></td></tr>
 <tr class="memdesc:a6adbe72467fc02cdecee4719943bdcb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of floors to beat in Rogue mode.  <br /></td></tr>
 <tr class="memitem:a220b0c8fd9ee30da953c0b041da236d2" id="r_a220b0c8fd9ee30da953c0b041da236d2"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a220b0c8fd9ee30da953c0b041da236d2">SAVETYPE_MAX</a>&#160;&#160;&#160;2</td></tr>
 <tr class="memdesc:a220b0c8fd9ee30da953c0b041da236d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum value of <a class="el" href="#a4bcff74473009e65583fe3707074fb91" title="The different kinds of saveType.">saveType</a> values.  <br /></td></tr>
+<tr class="memitem:a0b95002ea7976d04d66698265282bbcf" id="r_a0b95002ea7976d04d66698265282bbcf"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a0b95002ea7976d04d66698265282bbcf">NOTIFICATION_BUFFER_SIZE</a>&#160;&#160;&#160;200</td></tr>
+<tr class="memdesc:a0b95002ea7976d04d66698265282bbcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines message buffer size for <a class="el" href="structNotification.html" title="Holds text for a notification.">Notification</a>.  <br /></td></tr>
+<tr class="memitem:aa9f3a070cd55eb8d60a0114d312b3798" id="r_aa9f3a070cd55eb8d60a0114d312b3798"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#aa9f3a070cd55eb8d60a0114d312b3798">NOTIFICATIONS_RINGBUFFER_SIZE</a>&#160;&#160;&#160;7</td></tr>
+<tr class="memdesc:aa9f3a070cd55eb8d60a0114d312b3798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the size for notifications ringbuffer.  <br /></td></tr>
+<tr class="memitem:aab8794f19af1e7b3a88c484b99bb47fc" id="r_aab8794f19af1e7b3a88c484b99bb47fc"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#aab8794f19af1e7b3a88c484b99bb47fc">RINGBUF_T</a>&#160;&#160;&#160;<a class="el" href="structNotification.html">Notification</a></td></tr>
+<tr class="memitem:a9c2c7280a3c5a9b9fd6fce9539894ae9" id="r_a9c2c7280a3c5a9b9fd6fce9539894ae9"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a9c2c7280a3c5a9b9fd6fce9539894ae9">RINGBUF_NAME</a>&#160;&#160;&#160;RingaBuf</td></tr>
+<tr class="memitem:a0d6674d381beb7ee5cd217bfa389e7f7" id="r_a0d6674d381beb7ee5cd217bfa389e7f7"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a0d6674d381beb7ee5cd217bfa389e7f7">RINGBUF_PREFIX</a>&#160;&#160;&#160;rb_</td></tr>
 <tr class="memitem:aa23bd50323da2cae0596ec3e5b5bc7cb" id="r_aa23bd50323da2cae0596ec3e5b5bc7cb"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#aa23bd50323da2cae0596ec3e5b5bc7cb">TURNOP_MAX</a>&#160;&#160;&#160;17</td></tr>
 <tr class="memdesc:aa23bd50323da2cae0596ec3e5b5bc7cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum value for <a class="el" href="#abc0ae742eb657b3657d27bc54585b160" title="The different kinds of turnOption_OP.">turnOption_OP</a>.  <br /></td></tr>
 <tr class="memitem:a610ef9a7217cbc19b810b4b3e4c74af3" id="r_a610ef9a7217cbc19b810b4b3e4c74af3"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a610ef9a7217cbc19b810b4b3e4c74af3">FOETURNOP_MAX</a>&#160;&#160;&#160;3</td></tr>
@@ -484,10 +491,6 @@ Macros</h2></td></tr>
 <tr class="memdesc:ab5bb2154dacc057e9b7054940f8f605c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines file name used for game options binary save.  <br /></td></tr>
 <tr class="memitem:a0f6b1f15703b9fc575626c1b889ceebb" id="r_a0f6b1f15703b9fc575626c1b889ceebb"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a0f6b1f15703b9fc575626c1b889ceebb">RL_SETTINGS_SAVE_NAME</a>&#160;&#160;&#160;&quot;settings-rl.bin&quot;</td></tr>
 <tr class="memdesc:a0f6b1f15703b9fc575626c1b889ceebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines file name used for game options binary save.  <br /></td></tr>
-<tr class="memitem:a0b95002ea7976d04d66698265282bbcf" id="r_a0b95002ea7976d04d66698265282bbcf"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a0b95002ea7976d04d66698265282bbcf">NOTIFICATION_BUFFER_SIZE</a>&#160;&#160;&#160;200</td></tr>
-<tr class="memdesc:a0b95002ea7976d04d66698265282bbcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines message buffer size for <a class="el" href="structNotification.html" title="Holds text for a notification.">Notification</a>.  <br /></td></tr>
-<tr class="memitem:aa9f3a070cd55eb8d60a0114d312b3798" id="r_aa9f3a070cd55eb8d60a0114d312b3798"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#aa9f3a070cd55eb8d60a0114d312b3798">NOTIFICATIONS_RINGBUFFER_SIZE</a>&#160;&#160;&#160;7</td></tr>
-<tr class="memdesc:aa9f3a070cd55eb8d60a0114d312b3798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the size for notifications ringbuffer.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -573,6 +576,8 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:a948d4a95170c8878e0ae2ce67d79ec0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The different kinds of <a class="el" href="#a4bcff74473009e65583fe3707074fb91" title="The different kinds of saveType.">saveType</a>.  <br /></td></tr>
 <tr class="memitem:a62ada39ecbe3cd7472defbeb198a9747" id="r_a62ada39ecbe3cd7472defbeb198a9747"><td class="memItemLeft">typedef struct loadInfo&#160;</td><td class="memItemRight"><a class="el" href="#a62ada39ecbe3cd7472defbeb198a9747">loadInfo</a></td></tr>
 <tr class="memdesc:a62ada39ecbe3cd7472defbeb198a9747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains loaded values to pass to <a class="el" href="rooms_8c.html#a815da0d9bd00dd28f2eaa74a8df629b9" title="Takes one Room pointer and calls the correct initialising function, after setting the room class valu...">initRoom()</a>.  <br /></td></tr>
+<tr class="memitem:aefcdd5ee7826de38c7adf6627798e3a0" id="r_aefcdd5ee7826de38c7adf6627798e3a0"><td class="memItemLeft">typedef struct Notification&#160;</td><td class="memItemRight"><a class="el" href="#aefcdd5ee7826de38c7adf6627798e3a0">Notification</a></td></tr>
+<tr class="memdesc:aefcdd5ee7826de38c7adf6627798e3a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds text for a notification.  <br /></td></tr>
 <tr class="memitem:a0b9a78552cf30e5a51a7ad2abbb00bac" id="r_a0b9a78552cf30e5a51a7ad2abbb00bac"><td class="memItemLeft">typedef enum <a class="el" href="#a12a952e636763b477c873f21d458e4b7">turnOption</a>&#160;</td><td class="memItemRight"><a class="el" href="#a0b9a78552cf30e5a51a7ad2abbb00bac">turnOption</a></td></tr>
 <tr class="memdesc:a0b9a78552cf30e5a51a7ad2abbb00bac"><td class="mdescLeft">&#160;</td><td class="mdescRight">The different kinds of <a class="el" href="#a12a952e636763b477c873f21d458e4b7" title="The different kinds of turnOption.">turnOption</a>.  <br /></td></tr>
 <tr class="memitem:ab4da7dc7d81f7a0cd0826188fca9934a" id="r_ab4da7dc7d81f7a0cd0826188fca9934a"><td class="memItemLeft">typedef enum <a class="el" href="#abc0ae742eb657b3657d27bc54585b160">turnOption_OP</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab4da7dc7d81f7a0cd0826188fca9934a">turnOption_OP</a></td></tr>
@@ -583,8 +588,6 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:a6d71406ee8b87b816b699fbd2494f5cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The different kinds of <a class="el" href="#ab4cbe7f069478941f19e450ae274ab17" title="The different kinds of foeTurnOption_OP.">foeTurnOption_OP</a>.  <br /></td></tr>
 <tr class="memitem:a68ece6057447b53d824799da0a4a4658" id="r_a68ece6057447b53d824799da0a4a4658"><td class="memItemLeft">typedef enum <a class="el" href="#afe8e046bf5f260d1d9a60aa4d4dfab9c">OP_res</a>&#160;</td><td class="memItemRight"><a class="el" href="#a68ece6057447b53d824799da0a4a4658">OP_res</a></td></tr>
 <tr class="memdesc:a68ece6057447b53d824799da0a4a4658"><td class="mdescLeft">&#160;</td><td class="mdescRight">The different kinds of <a class="el" href="#afe8e046bf5f260d1d9a60aa4d4dfab9c" title="The different kinds of OP_res.">OP_res</a>.  <br /></td></tr>
-<tr class="memitem:aefcdd5ee7826de38c7adf6627798e3a0" id="r_aefcdd5ee7826de38c7adf6627798e3a0"><td class="memItemLeft">typedef struct Notification&#160;</td><td class="memItemRight"><a class="el" href="#aefcdd5ee7826de38c7adf6627798e3a0">Notification</a></td></tr>
-<tr class="memdesc:aefcdd5ee7826de38c7adf6627798e3a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds text for a notification.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -1973,7 +1976,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define HELAPORDO_PATCH_VERSION&#160;&#160;&#160;22</td>
+          <td class="memname">#define HELAPORDO_PATCH_VERSION&#160;&#160;&#160;23</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2302,6 +2305,48 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a9c2c7280a3c5a9b9fd6fce9539894ae9" name="a9c2c7280a3c5a9b9fd6fce9539894ae9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c2c7280a3c5a9b9fd6fce9539894ae9">&#9670;&#160;</a></span>RINGBUF_NAME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RINGBUF_NAME&#160;&#160;&#160;RingaBuf</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d6674d381beb7ee5cd217bfa389e7f7" name="a0d6674d381beb7ee5cd217bfa389e7f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d6674d381beb7ee5cd217bfa389e7f7">&#9670;&#160;</a></span>RINGBUF_PREFIX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RINGBUF_PREFIX&#160;&#160;&#160;rb_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab8794f19af1e7b3a88c484b99bb47fc" name="aab8794f19af1e7b3a88c484b99bb47fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab8794f19af1e7b3a88c484b99bb47fc">&#9670;&#160;</a></span>RINGBUF_T</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RINGBUF_T&#160;&#160;&#160;<a class="el" href="structNotification.html">Notification</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0a7bd34d3cb2e9fb80d732b2934bafaf" name="a0a7bd34d3cb2e9fb80d732b2934bafaf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0a7bd34d3cb2e9fb80d732b2934bafaf">&#9670;&#160;</a></span>RL_BINSAVE_NAME</h2>
 
@@ -2577,7 +2622,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define VERSION&#160;&#160;&#160;&quot;1.4.22&quot;</td>
+          <td class="memname">#define VERSION&#160;&#160;&#160;&quot;1.4.23&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
